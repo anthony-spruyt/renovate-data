@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:04:50Z",
+  "generatedAt": "2026-10-26T05:05:13Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -28,18 +28,18 @@
       "ghcr.io/berriai/litellm-non_root": {
         "pins": [
           {
-            "digest": "sha256:8e010d43ed744d5f6d188dfe087ea5a7b94de1e8c297b9f7c7ba57729eff22a2",
+            "digest": "sha256:ee5cb38e33c8be6d6774f7db922396b6b04d1cd962e77521b6c892b8f1c70fd8",
             "repo": "anthony-spruyt/litellm-middleware",
-            "tag": "v1.105.1"
+            "tag": "v1.106.4"
           },
           {
-            "digest": "sha256:8e010d43ed744d5f6d188dfe087ea5a7b94de1e8c297b9f7c7ba57729eff22a2",
+            "digest": "sha256:ee5cb38e33c8be6d6774f7db922396b6b04d1cd962e77521b6c892b8f1c70fd8",
             "repo": "anthony-spruyt/spruyt-labs",
-            "tag": "v1.105.1"
+            "tag": "v1.106.4"
           }
         ],
         "tags": [
-          "v1.105.1"
+          "v1.106.4"
         ]
       },
       "ghcr.io/bjw-s-labs/helm/app-template": {
@@ -255,13 +255,13 @@
       "ghcr.io/sirkirby/unifi-network-mcp": {
         "pins": [
           {
-            "digest": "sha256:3ad5b6fce2268b1a9063a1fa57e61ed3c517ac1f40a59a4eb0c677852a0e2040",
+            "digest": "sha256:27adaeb761beab74d78945db42fa3b7aadb62cac20c3c70ae00f4a4a12d3dbed",
             "repo": "anthony-spruyt/spruyt-labs",
-            "tag": "0.38.5"
+            "tag": "0.38.6"
           }
         ],
         "tags": [
-          "0.38.5"
+          "0.38.6"
         ]
       },
       "ghcr.io/spegel-org/helm-charts/spegel": {
@@ -7736,36 +7736,6 @@
         "digest": "sha256:5c672739a03353699814aceb7a0ffb162962e5f006e93735b5e1377ba1468505",
         "pushedAt": 1791908775,
         "tag": "sha-cadcbbb"
-      },
-      {
-        "digest": "sha256:95b2f0f79be66216078aa8ca74d2308c336b0ef1d4895b9d5ec3d770a429796c",
-        "pushedAt": 1791908349,
-        "tag": "sha-5c2bc2e"
-      },
-      {
-        "digest": "sha256:07a42219f615aa6c4456e909ca03f1dad62da355ae2d23280092e0dcdf0e29e3",
-        "pushedAt": 1791908201,
-        "tag": "0.38.1"
-      },
-      {
-        "digest": "sha256:c6f2c3818573aa1c2eac815bfbcb7444a70659172ef589f6c8c88074646c3381",
-        "pushedAt": 1791908171,
-        "tag": "sha-c2d15f4"
-      },
-      {
-        "digest": "sha256:5e39f64a44e85388fb603259e61c439eb4ff12ca84d21544f2ff66c123fa034a",
-        "pushedAt": 1791908138,
-        "tag": "sha-0145023"
-      },
-      {
-        "digest": "sha256:005e5f4783ea04e1360b2cf208fafbff9db0d815dfb3fb699ab46e44b70b98b9",
-        "pushedAt": 1791908002,
-        "tag": "sha-ff39092"
-      },
-      {
-        "digest": "sha256:e260b8df52dcfcb1711c8df47106f9f8823fefac1bf30d251727b26b9b42d3b3",
-        "pushedAt": 1791897802,
-        "tag": "sha-f0b3dac"
       }
     ],
     "ghcr.io/spegel-org/helm-charts/spegel": [
@@ -9338,6 +9308,411 @@
     ],
     "mcr.microsoft.com/dotnet/aspnet": [
       {
+        "digest": "sha256:b37270186ba8cbef9fea238c9377ec57384cf3af5ecc2c13eb2ac8a82fbde115",
+        "pushedAt": 1792978534,
+        "tag": "11.0-azurelinux4.0-distroless-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:b2cd6e0f1eca07c60f5594e7f4142413fdd0db788ac3d3f2be825f8d18ce9633",
+        "pushedAt": 1792978533,
+        "tag": "9.0-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:de0ee358cdd672f7017a003bed21e9ac9ed48a27c922a59b18175b6e82fa7fee",
+        "pushedAt": 1792978530,
+        "tag": "10.0"
+      },
+      {
+        "digest": "sha256:692d0a276b0f2bbfab755a6b79aa9215a2b8ed61667268a82f5d38ce7435c02a",
+        "pushedAt": 1792978529,
+        "tag": "11.0.0-rc.3-azurelinux4.0-amd64"
+      },
+      {
+        "digest": "sha256:ae56002e3869a9ae7ade43a595e3645d3d808f6d193d5400ba10ed78db4137cc",
+        "pushedAt": 1792978529,
+        "tag": "11.0.0-rc.3-resolute-amd64"
+      },
+      {
+        "digest": "sha256:c4709352a104af8877cd7c3b43640f3d5e0c76d4463e3382802e9b842ccab8c0",
+        "pushedAt": 1792978529,
+        "tag": "8.0.33-noble-amd64"
+      },
+      {
+        "digest": "sha256:692d0a276b0f2bbfab755a6b79aa9215a2b8ed61667268a82f5d38ce7435c02a",
+        "pushedAt": 1792978527,
+        "tag": "11.0-azurelinux4.0-amd64"
+      },
+      {
+        "digest": "sha256:e24cb8fbae6db3be348962b00f38b3b608fdc4c13e6352db2fe17fe118878a1f",
+        "pushedAt": 1792978526,
+        "tag": "11.0-azurelinux4.0-distroless-extra-amd64"
+      },
+      {
+        "digest": "sha256:c4709352a104af8877cd7c3b43640f3d5e0c76d4463e3382802e9b842ccab8c0",
+        "pushedAt": 1792978526,
+        "tag": "8.0-noble-amd64"
+      },
+      {
+        "digest": "sha256:bfdb8a0389d3f274f8f5fe95b9b8fc2249084047a07e7d927b91fbcc6e46b68c",
+        "pushedAt": 1792978525,
+        "tag": "10.0.14-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:cfc5976faaecb1502a38e840ff2c82c51e9b7255a84cbb8ac0b892adb098138b",
+        "pushedAt": 1792978525,
+        "tag": "8.0.33-jammy-arm32v7"
+      },
+      {
+        "digest": "sha256:b7459513d45fa48ac9a1ca2a191c720aa15b8a6a1b961a1ab2c6965816afe7d3",
+        "pushedAt": 1792978525,
+        "tag": "9.0.22-noble"
+      },
+      {
+        "digest": "sha256:ae56002e3869a9ae7ade43a595e3645d3d808f6d193d5400ba10ed78db4137cc",
+        "pushedAt": 1792978524,
+        "tag": "11.0-resolute-amd64"
+      },
+      {
+        "digest": "sha256:35d3e7200b3ccce0d7ad63021767e404fb1e7d7778652dd8456efeb2b62ebd52",
+        "pushedAt": 1792978524,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-amd64"
+      },
+      {
+        "digest": "sha256:3197f427d1ccf6fb9249f86a70acd4b8530c9a72d28bbc5f870bec9a524b350e",
+        "pushedAt": 1792978524,
+        "tag": "8.0.33-jammy"
+      },
+      {
+        "digest": "sha256:b7459513d45fa48ac9a1ca2a191c720aa15b8a6a1b961a1ab2c6965816afe7d3",
+        "pushedAt": 1792978524,
+        "tag": "9.0-noble"
+      },
+      {
+        "digest": "sha256:e9567e76be500d9639a699ffd959f318ae07dd4856bda6ec9e3059ec8aa2c33b",
+        "pushedAt": 1792978523,
+        "tag": "11.0.0-rc.3-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:3197f427d1ccf6fb9249f86a70acd4b8530c9a72d28bbc5f870bec9a524b350e",
+        "pushedAt": 1792978523,
+        "tag": "8.0-jammy"
+      },
+      {
+        "digest": "sha256:76383bc2150de411212238b0fb3cd83239ce4060f5a64d07be88624d8441d1e8",
+        "pushedAt": 1792978522,
+        "tag": "10.0.14-resolute"
+      },
+      {
+        "digest": "sha256:c80730050f8b99cc9631f2026fc934522aae048f22e65758d9600639694180b3",
+        "pushedAt": 1792978521,
+        "tag": "9.0.22-noble-arm32v7"
+      },
+      {
+        "digest": "sha256:d2e0c8fd08951fd00ff55e282697511ce538482dc326c1f43587113ecd776ba6",
+        "pushedAt": 1792978520,
+        "tag": "10.0-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:9272667203c3b6f48f802278428d751a5baf37e345379bea076d4259d0880149",
+        "pushedAt": 1792978520,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:e24cb8fbae6db3be348962b00f38b3b608fdc4c13e6352db2fe17fe118878a1f",
+        "pushedAt": 1792978517,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-extra-amd64"
+      },
+      {
+        "digest": "sha256:5d92ea5e2573944c0fe3b3a0f1220a1226469c24941164dfec165620df1ae100",
+        "pushedAt": 1792978514,
+        "tag": "10.0-noble-arm32v7"
+      },
+      {
+        "digest": "sha256:633955c40c9eba060b5b395ff83bee2631e1f5aba1d6b80d6568e569806bdd94",
+        "pushedAt": 1792978514,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless"
+      },
+      {
+        "digest": "sha256:de0ee358cdd672f7017a003bed21e9ac9ed48a27c922a59b18175b6e82fa7fee",
+        "pushedAt": 1792978513,
+        "tag": "10.0.14-noble"
+      },
+      {
+        "digest": "sha256:193cab5ce6ead107feffdc36706158a66df513bf82d3c2e14c9eae5f9dfd6684",
+        "pushedAt": 1792978512,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite"
+      },
+      {
+        "digest": "sha256:cfc5976faaecb1502a38e840ff2c82c51e9b7255a84cbb8ac0b892adb098138b",
+        "pushedAt": 1792978512,
+        "tag": "8.0-jammy-arm32v7"
+      },
+      {
+        "digest": "sha256:2c3fb4bf7cee08ad0b7ea5bebaf1d0798b36b9f1aa1f88f4d0236aada85de87f",
+        "pushedAt": 1792978511,
+        "tag": "11.0-azurelinux4.0-distroless-extra"
+      },
+      {
+        "digest": "sha256:0842bee6219ec90dc9a6b96070edd38502a488723084242580dac716ef36fdb0",
+        "pushedAt": 1792978510,
+        "tag": "8.0.33-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:b4aee14d0e402b91a262566e6dcb74853ca75f03ad7ed2fc67a055f5ba1360f7",
+        "pushedAt": 1792978509,
+        "tag": "11.0-azurelinux4.0-arm64v8"
+      },
+      {
+        "digest": "sha256:6d54a6dc418df0668f6cc173c7e38e64ee1f9718bb25b0e82f60625fe1f4a4c8",
+        "pushedAt": 1792978506,
+        "tag": "10.0-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:6d54a6dc418df0668f6cc173c7e38e64ee1f9718bb25b0e82f60625fe1f4a4c8",
+        "pushedAt": 1792978506,
+        "tag": "10.0.14-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:556bb46355acec4b2ede209ee12af802ada19b4fe65f07266fd87c80e10c0e0c",
+        "pushedAt": 1792978506,
+        "tag": "11.0-azurelinux4.0-distroless-arm64v8"
+      },
+      {
+        "digest": "sha256:bee49296eef45a8115907a261f23d53dbb393cc6653e11a9be4b2a9530c902e3",
+        "pushedAt": 1792978506,
+        "tag": "9.0.22-noble-amd64"
+      },
+      {
+        "digest": "sha256:76383bc2150de411212238b0fb3cd83239ce4060f5a64d07be88624d8441d1e8",
+        "pushedAt": 1792978505,
+        "tag": "10.0-resolute"
+      },
+      {
+        "digest": "sha256:95690e413820fd1fd27d7c517c87328c3d21e352efaa297c3198d177ebb8672b",
+        "pushedAt": 1792978505,
+        "tag": "11.0-azurelinux4.0-distroless-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:a6b841c114bc23d0f2f7bfc619945cff8fa51563ab4ac901e558a5080c864cd0",
+        "pushedAt": 1792978504,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-amd64"
+      },
+      {
+        "digest": "sha256:93ba05b90ba0247b2b901606d8dfe53c6d741ad5635ba2fa7f2be744537acade",
+        "pushedAt": 1792978504,
+        "tag": "8.0-jammy-amd64"
+      },
+      {
+        "digest": "sha256:bae0269049d5061ab7f49995cc1acebf54b75471c096c4a1f874e27661d44045",
+        "pushedAt": 1792978503,
+        "tag": "11.0.0-rc.3-resolute"
+      },
+      {
+        "digest": "sha256:bfdb8a0389d3f274f8f5fe95b9b8fc2249084047a07e7d927b91fbcc6e46b68c",
+        "pushedAt": 1792978502,
+        "tag": "10.0-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:51c9b2f250a5c2bf6af3321841ef63d372a813849ed4f27224c93f285aa852f5",
+        "pushedAt": 1792978502,
+        "tag": "11.0.0-rc.3-azurelinux4.0"
+      },
+      {
+        "digest": "sha256:795bb063940eea64c60cc3fdbb362bc4d6fe2cecc398602a92296e9d0a3f7cca",
+        "pushedAt": 1792978493,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-extra"
+      },
+      {
+        "digest": "sha256:95690e413820fd1fd27d7c517c87328c3d21e352efaa297c3198d177ebb8672b",
+        "pushedAt": 1792978491,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:0842bee6219ec90dc9a6b96070edd38502a488723084242580dac716ef36fdb0",
+        "pushedAt": 1792978480,
+        "tag": "8.0-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:d2e0c8fd08951fd00ff55e282697511ce538482dc326c1f43587113ecd776ba6",
+        "pushedAt": 1792978459,
+        "tag": "10.0.14-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:a6b841c114bc23d0f2f7bfc619945cff8fa51563ab4ac901e558a5080c864cd0",
+        "pushedAt": 1792978459,
+        "tag": "11.0-azurelinux4.0-distroless-amd64"
+      },
+      {
+        "digest": "sha256:209a34bda9a5a7c4092e2b0d95b903397e60e8bee0da601b07dc6e9144bdfddb",
+        "pushedAt": 1792978459,
+        "tag": "11.0-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:556bb46355acec4b2ede209ee12af802ada19b4fe65f07266fd87c80e10c0e0c",
+        "pushedAt": 1792978459,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-arm64v8"
+      },
+      {
+        "digest": "sha256:5e67787ed72c551e7d5986a5e583a7e80c6e705822c33deb5db6c0710b985779",
+        "pushedAt": 1792978458,
+        "tag": "10.0-resolute-amd64"
+      },
+      {
+        "digest": "sha256:35d3e7200b3ccce0d7ad63021767e404fb1e7d7778652dd8456efeb2b62ebd52",
+        "pushedAt": 1792978458,
+        "tag": "11.0-azurelinux4.0-distroless-composite-amd64"
+      },
+      {
+        "digest": "sha256:aab18f5aa0ab5dd7236845da49944da870bf55c3c37437d416de95ba1acda1c6",
+        "pushedAt": 1792978458,
+        "tag": "8.0.33-jammy-arm64v8"
+      },
+      {
+        "digest": "sha256:d0a0fa004862a9cca83208800f706dcc2523c4db29f09d501395f80969e03070",
+        "pushedAt": 1792978458,
+        "tag": "8.0.33-noble"
+      },
+      {
+        "digest": "sha256:de0ee358cdd672f7017a003bed21e9ac9ed48a27c922a59b18175b6e82fa7fee",
+        "pushedAt": 1792978457,
+        "tag": "10.0-noble"
+      },
+      {
+        "digest": "sha256:43cbcf11fd6f88c0375c9c0f7fe59af619abeb323befe5f57dc1502b5a05d8c3",
+        "pushedAt": 1792978457,
+        "tag": "10.0-noble-amd64"
+      },
+      {
+        "digest": "sha256:43cbcf11fd6f88c0375c9c0f7fe59af619abeb323befe5f57dc1502b5a05d8c3",
+        "pushedAt": 1792978457,
+        "tag": "10.0.14-noble-amd64"
+      },
+      {
+        "digest": "sha256:9272667203c3b6f48f802278428d751a5baf37e345379bea076d4259d0880149",
+        "pushedAt": 1792978457,
+        "tag": "11.0-azurelinux4.0-distroless-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:bae0269049d5061ab7f49995cc1acebf54b75471c096c4a1f874e27661d44045",
+        "pushedAt": 1792978457,
+        "tag": "11.0.0-rc.3"
+      },
+      {
+        "digest": "sha256:d0a0fa004862a9cca83208800f706dcc2523c4db29f09d501395f80969e03070",
+        "pushedAt": 1792978457,
+        "tag": "8.0-noble"
+      },
+      {
+        "digest": "sha256:5e67787ed72c551e7d5986a5e583a7e80c6e705822c33deb5db6c0710b985779",
+        "pushedAt": 1792978456,
+        "tag": "10.0.14-resolute-amd64"
+      },
+      {
+        "digest": "sha256:51c9b2f250a5c2bf6af3321841ef63d372a813849ed4f27224c93f285aa852f5",
+        "pushedAt": 1792978456,
+        "tag": "11.0-azurelinux4.0"
+      },
+      {
+        "digest": "sha256:633955c40c9eba060b5b395ff83bee2631e1f5aba1d6b80d6568e569806bdd94",
+        "pushedAt": 1792978455,
+        "tag": "11.0-azurelinux4.0-distroless"
+      },
+      {
+        "digest": "sha256:bae0269049d5061ab7f49995cc1acebf54b75471c096c4a1f874e27661d44045",
+        "pushedAt": 1792978455,
+        "tag": "11.0-resolute"
+      },
+      {
+        "digest": "sha256:2c3fb4bf7cee08ad0b7ea5bebaf1d0798b36b9f1aa1f88f4d0236aada85de87f",
+        "pushedAt": 1792978455,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-extra"
+      },
+      {
+        "digest": "sha256:5d92ea5e2573944c0fe3b3a0f1220a1226469c24941164dfec165620df1ae100",
+        "pushedAt": 1792978454,
+        "tag": "10.0.14-noble-arm32v7"
+      },
+      {
+        "digest": "sha256:209a34bda9a5a7c4092e2b0d95b903397e60e8bee0da601b07dc6e9144bdfddb",
+        "pushedAt": 1792978454,
+        "tag": "11.0.0-rc.3-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:93ba05b90ba0247b2b901606d8dfe53c6d741ad5635ba2fa7f2be744537acade",
+        "pushedAt": 1792978454,
+        "tag": "8.0.33-jammy-amd64"
+      },
+      {
+        "digest": "sha256:b2cd6e0f1eca07c60f5594e7f4142413fdd0db788ac3d3f2be825f8d18ce9633",
+        "pushedAt": 1792978454,
+        "tag": "9.0.22-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:de0ee358cdd672f7017a003bed21e9ac9ed48a27c922a59b18175b6e82fa7fee",
+        "pushedAt": 1792978454,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:de0ee358cdd672f7017a003bed21e9ac9ed48a27c922a59b18175b6e82fa7fee",
+        "pushedAt": 1792978453,
+        "tag": "10.0.14"
+      },
+      {
+        "digest": "sha256:22984c1cad8a2baef2c243fd8a07142d78e4bdc88f9872f4b19124d83082b371",
+        "pushedAt": 1792978453,
+        "tag": "11.0-azurelinux4.0-distroless-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:22984c1cad8a2baef2c243fd8a07142d78e4bdc88f9872f4b19124d83082b371",
+        "pushedAt": 1792978452,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:bae0269049d5061ab7f49995cc1acebf54b75471c096c4a1f874e27661d44045",
+        "pushedAt": 1792978451,
+        "tag": "11.0"
+      },
+      {
+        "digest": "sha256:aab18f5aa0ab5dd7236845da49944da870bf55c3c37437d416de95ba1acda1c6",
+        "pushedAt": 1792978451,
+        "tag": "8.0-jammy-arm64v8"
+      },
+      {
+        "digest": "sha256:b37270186ba8cbef9fea238c9377ec57384cf3af5ecc2c13eb2ac8a82fbde115",
+        "pushedAt": 1792978449,
+        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:795bb063940eea64c60cc3fdbb362bc4d6fe2cecc398602a92296e9d0a3f7cca",
+        "pushedAt": 1792978448,
+        "tag": "11.0-azurelinux4.0-distroless-composite-extra"
+      },
+      {
+        "digest": "sha256:b4aee14d0e402b91a262566e6dcb74853ca75f03ad7ed2fc67a055f5ba1360f7",
+        "pushedAt": 1792978447,
+        "tag": "11.0.0-rc.3-azurelinux4.0-arm64v8"
+      },
+      {
+        "digest": "sha256:bee49296eef45a8115907a261f23d53dbb393cc6653e11a9be4b2a9530c902e3",
+        "pushedAt": 1792978447,
+        "tag": "9.0-noble-amd64"
+      },
+      {
+        "digest": "sha256:e9567e76be500d9639a699ffd959f318ae07dd4856bda6ec9e3059ec8aa2c33b",
+        "pushedAt": 1792978446,
+        "tag": "11.0-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:193cab5ce6ead107feffdc36706158a66df513bf82d3c2e14c9eae5f9dfd6684",
+        "pushedAt": 1792978444,
+        "tag": "11.0-azurelinux4.0-distroless-composite"
+      },
+      {
+        "digest": "sha256:c80730050f8b99cc9631f2026fc934522aae048f22e65758d9600639694180b3",
+        "pushedAt": 1792978443,
+        "tag": "9.0-noble-arm32v7"
+      },
+      {
         "digest": "sha256:3c9e90355c9f28d65b5ee5707f1785223233e4288494274f97b0d95fee309fdc",
         "pushedAt": 1792955279,
         "tag": "8.0.33-jammy-chiseled-composite"
@@ -9368,11 +9743,6 @@
         "tag": "8.0.33-jammy-chiseled"
       },
       {
-        "digest": "sha256:23e38591773d8554c96ae9dae1318e79ff6e57a1c5124db1e55e9719e8e204b0",
-        "pushedAt": 1792955272,
-        "tag": "11.0.0-rc.3-resolute"
-      },
-      {
         "digest": "sha256:63a1e42746a20795273c219f1577a8826644f12f67d829e818d8ccec92915493",
         "pushedAt": 1792955272,
         "tag": "8.0-bookworm-slim"
@@ -9383,11 +9753,6 @@
         "tag": "9.0.22-alpine3.24-composite"
       },
       {
-        "digest": "sha256:2109c659d62807b57c0517f9b3679b62b179f5998fb6bab93c4643c63b760411",
-        "pushedAt": 1792955271,
-        "tag": "8.0-noble"
-      },
-      {
         "digest": "sha256:686f9c03a3ebd77e417d68d0a6024f4bf23d8d80014be4ca87c05d2c6e27abb6",
         "pushedAt": 1792955271,
         "tag": "9.0-noble-chiseled"
@@ -9396,11 +9761,6 @@
         "digest": "sha256:87aa997b56b373789b70d60fcb11b3dc0fd9fd054f4f93fb39a369ec8c0c9c26",
         "pushedAt": 1792955271,
         "tag": "9.0.22-azurelinux3.0-distroless-extra"
-      },
-      {
-        "digest": "sha256:23e38591773d8554c96ae9dae1318e79ff6e57a1c5124db1e55e9719e8e204b0",
-        "pushedAt": 1792955270,
-        "tag": "11.0"
       },
       {
         "digest": "sha256:18b40c2317af8d0ddb8bf0f82a095cd5d3a3d0eb5b97e07188c5f282455fb119",
@@ -9503,11 +9863,6 @@
         "tag": "8.0-alpine3.24-extra"
       },
       {
-        "digest": "sha256:b7dfc9106f540072d57df313f7b4d98acf919fde217dee88825aab39704c6aa2",
-        "pushedAt": 1792955260,
-        "tag": "9.0.22-noble"
-      },
-      {
         "digest": "sha256:1431d55bf5bd5708450c10664f3d4c4603d7e60cc059e64397787de3978f3e8c",
         "pushedAt": 1792955259,
         "tag": "11.0-resolute-chiseled"
@@ -9536,16 +9891,6 @@
         "digest": "sha256:63a1e42746a20795273c219f1577a8826644f12f67d829e818d8ccec92915493",
         "pushedAt": 1792955251,
         "tag": "8.0.33"
-      },
-      {
-        "digest": "sha256:4739686cd84b470c3b8264b508b201bde20902ef061743f4cdd376c9ab0c340e",
-        "pushedAt": 1792955249,
-        "tag": "8.0-jammy"
-      },
-      {
-        "digest": "sha256:2109c659d62807b57c0517f9b3679b62b179f5998fb6bab93c4643c63b760411",
-        "pushedAt": 1792955248,
-        "tag": "8.0.33-noble"
       },
       {
         "digest": "sha256:87aa997b56b373789b70d60fcb11b3dc0fd9fd054f4f93fb39a369ec8c0c9c26",
@@ -9598,19 +9943,9 @@
         "tag": "10.0-noble-chiseled-composite-extra"
       },
       {
-        "digest": "sha256:7a2fb876db368cfba291512b5a107e93c481969870b63c70d7684f35e0e0d8cb",
-        "pushedAt": 1792955225,
-        "tag": "11.0.0-rc.3-azurelinux4.0"
-      },
-      {
         "digest": "sha256:8a4cd72ad4e48cea0db848ec573f3ae89dbe9e7d962ddb98fe3f291be320551c",
         "pushedAt": 1792955225,
         "tag": "9.0-alpine-extra"
-      },
-      {
-        "digest": "sha256:23e38591773d8554c96ae9dae1318e79ff6e57a1c5124db1e55e9719e8e204b0",
-        "pushedAt": 1792955224,
-        "tag": "11.0.0-rc.3"
       },
       {
         "digest": "sha256:0f8e7ecc059a3b77339d09834574f4047a12e0fdce5cf6fa117c95152ed51e62",
@@ -9641,11 +9976,6 @@
         "digest": "sha256:c8e9a3262af499a08fd3911542af57a35c7a11819ba5db2a0a1658e47417d11b",
         "pushedAt": 1792955218,
         "tag": "9.0-alpine"
-      },
-      {
-        "digest": "sha256:dc631501875612d3110d2930d19191768b4e976b7992b40d07b65ed77d514273",
-        "pushedAt": 1792955215,
-        "tag": "11.0-azurelinux4.0-distroless"
       },
       {
         "digest": "sha256:2907287d6f0c0ff70180a5de58cc356ac96f4e242ca9ffbfe29f709f546c550e",
@@ -9693,11 +10023,6 @@
         "tag": "11.0-azurelinux3.0-distroless-extra"
       },
       {
-        "digest": "sha256:7a2fb876db368cfba291512b5a107e93c481969870b63c70d7684f35e0e0d8cb",
-        "pushedAt": 1792955201,
-        "tag": "11.0-azurelinux4.0"
-      },
-      {
         "digest": "sha256:5eb35372c5f2b0295bddbd39758cac802178a2858945138e770e3bbdc75e61fa",
         "pushedAt": 1792955201,
         "tag": "9.0.22-bookworm-slim"
@@ -9706,16 +10031,6 @@
         "digest": "sha256:15a0b1cbca4449128fe3a2598379c125de79a255837508fb6e98f9781858184b",
         "pushedAt": 1792955200,
         "tag": "8.0.33-jammy-chiseled-composite-extra"
-      },
-      {
-        "digest": "sha256:b7dfc9106f540072d57df313f7b4d98acf919fde217dee88825aab39704c6aa2",
-        "pushedAt": 1792955200,
-        "tag": "9.0-noble"
-      },
-      {
-        "digest": "sha256:23e38591773d8554c96ae9dae1318e79ff6e57a1c5124db1e55e9719e8e204b0",
-        "pushedAt": 1792955196,
-        "tag": "11.0-resolute"
       },
       {
         "digest": "sha256:94fecc9121ff1cc383ad83f4db8a96cff82edc964430786b7b3a3b315492ad7b",
@@ -9763,11 +10078,6 @@
         "tag": "8.0-noble-chiseled"
       },
       {
-        "digest": "sha256:4739686cd84b470c3b8264b508b201bde20902ef061743f4cdd376c9ab0c340e",
-        "pushedAt": 1792955182,
-        "tag": "8.0.33-jammy"
-      },
-      {
         "digest": "sha256:fc9d161eefc515dd65749a45189ac9691cf9954a044fef23ac278e039c6e2ac4",
         "pushedAt": 1792955181,
         "tag": "8.0-alpine3.24"
@@ -9813,11 +10123,6 @@
         "tag": "9.0-azurelinux3.0"
       },
       {
-        "digest": "sha256:d247d17dd429d96580eeb96cfce220c1089d860dbbf9f94d599ca64cf3604fe4",
-        "pushedAt": 1792955171,
-        "tag": "10.0.14"
-      },
-      {
         "digest": "sha256:feb214742d304d646148b895a4baab811cbda20b6dc95b7b4f06aaeccb07da85",
         "pushedAt": 1792955170,
         "tag": "8.0-alpine3.24-composite-extra"
@@ -9836,11 +10141,6 @@
         "digest": "sha256:39eb485dda3c0cdf5a4187180240270c95b4dd803262a807fcfe092e013382ca",
         "pushedAt": 1792955168,
         "tag": "9.0-alpine3.24-composite-extra"
-      },
-      {
-        "digest": "sha256:6df0f32353bdb3c79ff349e4e2457973ea531e566f8924ad94e972a9490f022e",
-        "pushedAt": 1792955167,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-extra"
       },
       {
         "digest": "sha256:92ff0da3e3de81ed5121a4371c50c645d69b19072813a94a5098183f2119bb80",
@@ -9883,11 +10183,6 @@
         "tag": "11.0-alpine3.24-composite-extra"
       },
       {
-        "digest": "sha256:d247d17dd429d96580eeb96cfce220c1089d860dbbf9f94d599ca64cf3604fe4",
-        "pushedAt": 1792955130,
-        "tag": "10.0-noble"
-      },
-      {
         "digest": "sha256:7aa7b3d9980d3686f4e332a80258efabe4fb435368ceb7597b5da36bb8364555",
         "pushedAt": 1792955129,
         "tag": "11.0-alpine-composite"
@@ -9911,11 +10206,6 @@
         "digest": "sha256:aeaaa54f4ac7b39d0cca0a843191c729544b3ea2ed233df18f778b5960b15b82",
         "pushedAt": 1792955110,
         "tag": "10.0.14-noble-chiseled-composite-extra"
-      },
-      {
-        "digest": "sha256:b9735b9182c67754945297026a0f57c1d0f5e6706bb3f20f2c11259513437c15",
-        "pushedAt": 1792955110,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-extra"
       },
       {
         "digest": "sha256:b574e23aab323a18deb73e6dd68af6128175a9725ca0b301392cf459be9f5e78",
@@ -9968,11 +10258,6 @@
         "tag": "11.0-azurelinux3.0-distroless-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:6df0f32353bdb3c79ff349e4e2457973ea531e566f8924ad94e972a9490f022e",
-        "pushedAt": 1792955091,
-        "tag": "11.0-azurelinux4.0-distroless-extra"
-      },
-      {
         "digest": "sha256:1e1861797aafa5ed3a84e79b9e5e41f70db1b542d59ae65fe3d90ef459534578",
         "pushedAt": 1792955090,
         "tag": "10.0-azurelinux3.0-distroless-extra"
@@ -10008,19 +10293,9 @@
         "tag": "10.0.14-resolute-chiseled-composite"
       },
       {
-        "digest": "sha256:dc631501875612d3110d2930d19191768b4e976b7992b40d07b65ed77d514273",
-        "pushedAt": 1792955071,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless"
-      },
-      {
         "digest": "sha256:78bec9181ad577eff1f78e738d19603ece6f3170819c7f268eae6a7566c9f600",
         "pushedAt": 1792955069,
         "tag": "10.0.14-alpine3.24-extra"
-      },
-      {
-        "digest": "sha256:d247d17dd429d96580eeb96cfce220c1089d860dbbf9f94d599ca64cf3604fe4",
-        "pushedAt": 1792955069,
-        "tag": "10.0.14-noble"
       },
       {
         "digest": "sha256:65e68d7e197cb787377f9cec553e6731014a1b198a41cf20f08f873d1dc26185",
@@ -10031,16 +10306,6 @@
         "digest": "sha256:77256017a4f675e1cf66a4e910e115608a73a044b50ee07c3d042c8a71132da5",
         "pushedAt": 1792955066,
         "tag": "11.0-alpine"
-      },
-      {
-        "digest": "sha256:b9735b9182c67754945297026a0f57c1d0f5e6706bb3f20f2c11259513437c15",
-        "pushedAt": 1792955066,
-        "tag": "11.0-azurelinux4.0-distroless-composite-extra"
-      },
-      {
-        "digest": "sha256:fae2e0e2e664dc1e13630d1c4ef6443eab423f4faf4d20dd89dac266128328af",
-        "pushedAt": 1792955065,
-        "tag": "10.0-resolute"
       },
       {
         "digest": "sha256:77d31134c2a76d49f1846092094d2aa70cd90c35bd6b158cdcba28929fa92070",
@@ -10068,19 +10333,9 @@
         "tag": "11.0.0-rc.3-alpine3.24-composite"
       },
       {
-        "digest": "sha256:12251f03e9b288d6c4406b60b104d9a73ed7e558063b230e1baf31bde639a455",
-        "pushedAt": 1792955053,
-        "tag": "11.0-azurelinux4.0-distroless-composite"
-      },
-      {
         "digest": "sha256:d973f45bcaf1bf501821e5367dd236924a573e0b324be5e1203edd8468f8fc81",
         "pushedAt": 1792955052,
         "tag": "11.0-azurelinux3.0"
-      },
-      {
-        "digest": "sha256:12251f03e9b288d6c4406b60b104d9a73ed7e558063b230e1baf31bde639a455",
-        "pushedAt": 1792955052,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite"
       },
       {
         "digest": "sha256:c1603709585ece456c84422295f61252c017ed682e4c85eaf46ad6ae9527dc9d",
@@ -10128,24 +10383,9 @@
         "tag": "8.0.33-alpine3.24-extra"
       },
       {
-        "digest": "sha256:d247d17dd429d96580eeb96cfce220c1089d860dbbf9f94d599ca64cf3604fe4",
-        "pushedAt": 1792955041,
-        "tag": "10.0"
-      },
-      {
-        "digest": "sha256:fae2e0e2e664dc1e13630d1c4ef6443eab423f4faf4d20dd89dac266128328af",
-        "pushedAt": 1792955038,
-        "tag": "10.0.14-resolute"
-      },
-      {
         "digest": "sha256:010953434b43edda7f42426bbfeb7a2d2b52ce37fc9ebda6ddb4a7393a79bcc8",
         "pushedAt": 1792955036,
         "tag": "10.0.14-azurelinux3.0-distroless-composite-extra"
-      },
-      {
-        "digest": "sha256:d247d17dd429d96580eeb96cfce220c1089d860dbbf9f94d599ca64cf3604fe4",
-        "pushedAt": 1792955036,
-        "tag": "latest"
       },
       {
         "digest": "sha256:45908708ba217e57515ab3ba03bfb1eeb5de75cf22a9e196f809a18fdfa13a01",
@@ -10183,19 +10423,9 @@
         "tag": "10.0-noble-chiseled-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:ac4072cd03a7cdf67138b4202e863c6b091aef7ad606e28611bd1fe0c6e6dd47",
-        "pushedAt": 1792955004,
-        "tag": "11.0-azurelinux4.0-distroless-extra-arm64v8"
-      },
-      {
         "digest": "sha256:6be713c9f170f05c840b426e059afa4d894434145ba35ae2d12ceb527d54d014",
         "pushedAt": 1792955002,
         "tag": "11.0-alpine-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:d43d3c47e113dd87696be7094ad55476e7481347d55ba2c372a14faa23acb343",
-        "pushedAt": 1792954992,
-        "tag": "11.0-azurelinux4.0-distroless-composite-arm64v8"
       },
       {
         "digest": "sha256:c4cbe890c777c443097fd82f707240c324b91f5102f31801ff8580a10a9bc802",
@@ -10308,11 +10538,6 @@
         "tag": "10.0-resolute-chiseled-extra-arm64v8"
       },
       {
-        "digest": "sha256:ecb663f2ed9c94e2f760295cc7dd57fe86a00006569b8244f15bad6779978e7d",
-        "pushedAt": 1792954972,
-        "tag": "11.0-azurelinux4.0-distroless-composite-extra-amd64"
-      },
-      {
         "digest": "sha256:0dfcf050a27a3d888715e0dc82affeb24419a74274fc4a6f0f88aed7e63b1682",
         "pushedAt": 1792954972,
         "tag": "11.0.0-rc.3-azurelinux3.0-distroless-arm64v8"
@@ -10398,11 +10623,6 @@
         "tag": "10.0-resolute-chiseled-arm64v8"
       },
       {
-        "digest": "sha256:972e1bd1fedef3f078d26e22b377233ed57e456f30eb4fb87a0eb3e17c8e7e3e",
-        "pushedAt": 1792954947,
-        "tag": "11.0-azurelinux4.0-distroless-composite-extra-arm64v8"
-      },
-      {
         "digest": "sha256:311b954c0f0b86aba6e897e7cd210d12581114eed38a14ea9a6d51f3d51b8a82",
         "pushedAt": 1792954943,
         "tag": "10.0-resolute-chiseled-composite-extra-arm32v7"
@@ -10416,11 +10636,6 @@
         "digest": "sha256:5b858d72ee6b6fe41be3dfcc01827a673ece40bd49679bb8a17af251bc65cf0e",
         "pushedAt": 1792954942,
         "tag": "10.0.14-resolute-chiseled-composite-arm32v7"
-      },
-      {
-        "digest": "sha256:972e1bd1fedef3f078d26e22b377233ed57e456f30eb4fb87a0eb3e17c8e7e3e",
-        "pushedAt": 1792954941,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-extra-arm64v8"
       },
       {
         "digest": "sha256:8cf946e5153497aae755c867b8970dce598c079c3ce34ffdd9e22f94510a7243",
@@ -10478,11 +10693,6 @@
         "tag": "8.0-alpine3.24-composite-extra-amd64"
       },
       {
-        "digest": "sha256:db0bd483bc498129d9fc5f9144c5dfaa7a31878bbe2eb75386a0f1fd73fdf701",
-        "pushedAt": 1792954936,
-        "tag": "8.0-noble-amd64"
-      },
-      {
         "digest": "sha256:b0681892237c95a50a9a11f9156b53ea3a0265135ae68444dc9bdc24e4ddf92d",
         "pushedAt": 1792954934,
         "tag": "10.0.14-alpine3.24-composite-arm32v7"
@@ -10496,11 +10706,6 @@
         "digest": "sha256:eef20d243a0be3053b262eb2906695c74a7124ec3676761583c23d6cfcf2f588",
         "pushedAt": 1792954934,
         "tag": "11.0-azurelinux3.0-distroless-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:a6c00246ed92fdbbc661d5ebfbd03770c3bd63977f877715e424f1225d0c0111",
-        "pushedAt": 1792954934,
-        "tag": "11.0-azurelinux4.0-distroless-amd64"
       },
       {
         "digest": "sha256:43caefac407e57dc01a31cd838e48cca7ea16104bcecbe02c3ce34195fe4cb75",
@@ -10528,19 +10733,9 @@
         "tag": "9.0-noble-chiseled-composite-extra-amd64"
       },
       {
-        "digest": "sha256:ac4072cd03a7cdf67138b4202e863c6b091aef7ad606e28611bd1fe0c6e6dd47",
-        "pushedAt": 1792954932,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-extra-arm64v8"
-      },
-      {
         "digest": "sha256:372894d097ebeecff9e8e12b0e6b559951775fd312748a771a8c20f8d1ec1f3b",
         "pushedAt": 1792954931,
         "tag": "8.0-jammy-chiseled-extra-arm32v7"
-      },
-      {
-        "digest": "sha256:db9b94f5b6a8e8016ef9ea3e089d189977bf17aeda7ef998f7369f69d342c160",
-        "pushedAt": 1792954930,
-        "tag": "11.0-resolute-arm64v8"
       },
       {
         "digest": "sha256:21b40d980b36b773d5ceab3348b4f52b203715c8599cee922350c1ed7f9e29f5",
@@ -10568,11 +10763,6 @@
         "tag": "11.0.0-rc.3-resolute-chiseled-extra-amd64"
       },
       {
-        "digest": "sha256:aac33d2b5b616c1df52b9d40de7557cf07c5181dd2c83d3929793de72dd8d640",
-        "pushedAt": 1792954927,
-        "tag": "10.0.14-resolute-arm64v8"
-      },
-      {
         "digest": "sha256:b61f2b7c217c5cc3e4564bf525a25f7db5d5769a0f665ff559ebbf7650467bbe",
         "pushedAt": 1792954927,
         "tag": "10.0.14-resolute-chiseled-arm32v7"
@@ -10591,11 +10781,6 @@
         "digest": "sha256:fb1ac997139a84f5eea50d8262b5876a77614e2cd96a5a6e2a6c79950faed52d",
         "pushedAt": 1792954924,
         "tag": "10.0-alpine3.24-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:a900908d077cd7cbf72548e7c896670151a1249249d6e63be2b7c153f6e4063f",
-        "pushedAt": 1792954924,
-        "tag": "10.0.14-resolute-amd64"
       },
       {
         "digest": "sha256:a22c25e863c43bab6b493124397ac4600e3860bade35804381977508cf8699f7",
@@ -10698,11 +10883,6 @@
         "tag": "11.0-azurelinux3.0-distroless-extra-amd64"
       },
       {
-        "digest": "sha256:6ec2ed7122334c04ffd3c82e3886953857af7f00e2e92b9acfca02f3a858b7ef",
-        "pushedAt": 1792954916,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-extra-amd64"
-      },
-      {
         "digest": "sha256:7e3205ef1189ab2b63a02040e02638a62bd70c67ac3a3a70a5a908be8e5da96c",
         "pushedAt": 1792954915,
         "tag": "10.0-alpine3.24-amd64"
@@ -10716,11 +10896,6 @@
         "digest": "sha256:ff9caf786f4ff67c75115f975ec77699cce67049623aafe67bab63c8e7075a3b",
         "pushedAt": 1792954915,
         "tag": "11.0-resolute-chiseled-arm64v8"
-      },
-      {
-        "digest": "sha256:344b56789556b5e3bf5138e3286af246803b670f1437d4cc2d7363680991c2a0",
-        "pushedAt": 1792954915,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-amd64"
       },
       {
         "digest": "sha256:23dafef05dc6abf074b53983c35689002a8ee30618bbc98213736ec92ead116e",
@@ -10763,11 +10938,6 @@
         "tag": "10.0.14-azurelinux3.0-distroless-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:88853ad319f8149bfe6e3892fd9c085501631b6c7de583917d822f779f98df32",
-        "pushedAt": 1792954910,
-        "tag": "9.0.22-noble-arm64v8"
-      },
-      {
         "digest": "sha256:3c7c8c8cbcc8524cf4578e3e6878abf8a3bc7e4bdd3a194ad3eb2dee4c37105b",
         "pushedAt": 1792954909,
         "tag": "10.0-azurelinux3.0-distroless-composite-arm64v8"
@@ -10783,11 +10953,6 @@
         "tag": "10.0.14-noble-chiseled-arm64v8"
       },
       {
-        "digest": "sha256:7c30a1f1998d421e0671f2aa9a53f3571763cf80b3d17cb6b71d6620599ff1d0",
-        "pushedAt": 1792954909,
-        "tag": "9.0.22-noble-arm32v7"
-      },
-      {
         "digest": "sha256:b0681892237c95a50a9a11f9156b53ea3a0265135ae68444dc9bdc24e4ddf92d",
         "pushedAt": 1792954908,
         "tag": "10.0-alpine3.24-composite-arm32v7"
@@ -10801,11 +10966,6 @@
         "digest": "sha256:af228aa2f5368a16542e512f5c3247c8954c5e782a6136a01cf748059aca4bad",
         "pushedAt": 1792954908,
         "tag": "9.0-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:c49878221b17ad3222c30b56c50ea238fbff3d1e20dbe25121c6fccb9abd2caf",
-        "pushedAt": 1792954906,
-        "tag": "11.0-resolute-amd64"
       },
       {
         "digest": "sha256:51c1056e69e203dfa42ea1d68796f263207d138d2fb15e3bfdff737fc1f8dadb",
@@ -10843,11 +11003,6 @@
         "tag": "10.0.14-azurelinux3.0-distroless-composite-arm64v8"
       },
       {
-        "digest": "sha256:4adc1323706cdf862de68907565e27bbd7e2a87b8ee922769e7c3e4b4010bb2f",
-        "pushedAt": 1792954898,
-        "tag": "10.0.14-noble-arm32v7"
-      },
-      {
         "digest": "sha256:bee12986d781f9aaac3b0554f9060fd06047e3e2b1e90eab40ab8e571b170451",
         "pushedAt": 1792954898,
         "tag": "8.0.33-jammy-chiseled-composite-extra-amd64"
@@ -10858,21 +11013,6 @@
         "tag": "10.0-resolute-chiseled-composite-extra-amd64"
       },
       {
-        "digest": "sha256:d7f0f25228c6669e1baedc6a925dddb39ddbf315f7cc40bc893dc56537fd38f8",
-        "pushedAt": 1792954892,
-        "tag": "10.0-noble-arm64v8"
-      },
-      {
-        "digest": "sha256:c9a3b6c82ba22e30fa2c7724bbf192ccbbf7cad615f1ca528f34c759ebd58a12",
-        "pushedAt": 1792954892,
-        "tag": "11.0-azurelinux4.0-distroless-arm64v8"
-      },
-      {
-        "digest": "sha256:ecb663f2ed9c94e2f760295cc7dd57fe86a00006569b8244f15bad6779978e7d",
-        "pushedAt": 1792954892,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-extra-amd64"
-      },
-      {
         "digest": "sha256:4349b506d5fee3d9843196b135c17884950b5d3f3ce194e1a8c7df73096e8cbf",
         "pushedAt": 1792954890,
         "tag": "10.0-noble-chiseled-arm64v8"
@@ -10881,11 +11021,6 @@
         "digest": "sha256:7d57bda9715aba8d1851965926c46e3ace0f1bb47e8f5ca9b49c63d9736b2064",
         "pushedAt": 1792954890,
         "tag": "9.0-windowsservercore-ltsc2022"
-      },
-      {
-        "digest": "sha256:a6c00246ed92fdbbc661d5ebfbd03770c3bd63977f877715e424f1225d0c0111",
-        "pushedAt": 1792954889,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-amd64"
       },
       {
         "digest": "sha256:842ac82eca19a7bc31464e1fafbc2d991ac93102bbd211716d2cae70a1ab9525",
@@ -10933,11 +11068,6 @@
         "tag": "9.0.22-azurelinux3.0-distroless-extra-amd64"
       },
       {
-        "digest": "sha256:c49878221b17ad3222c30b56c50ea238fbff3d1e20dbe25121c6fccb9abd2caf",
-        "pushedAt": 1792954877,
-        "tag": "11.0.0-rc.3-resolute-amd64"
-      },
-      {
         "digest": "sha256:6595502ccd97d4247ee20ad8e115708799fcbbf36b625034831d11a930308f43",
         "pushedAt": 1792954877,
         "tag": "9.0-windowsservercore-ltsc2025"
@@ -10976,11 +11106,6 @@
         "digest": "sha256:d5a19811b392e39ca0dcbb598127fa9c3299618dfc863d0d931417df92714604",
         "pushedAt": 1792954875,
         "tag": "11.0-alpine3.24-composite-amd64"
-      },
-      {
-        "digest": "sha256:c9a3b6c82ba22e30fa2c7724bbf192ccbbf7cad615f1ca528f34c759ebd58a12",
-        "pushedAt": 1792954875,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-arm64v8"
       },
       {
         "digest": "sha256:58f6028ae58c00e2816f3bf5057dc11b0bb54c9bc5b15183280b0a2639b3540e",
@@ -11043,11 +11168,6 @@
         "tag": "11.0-resolute-chiseled-composite-extra-amd64"
       },
       {
-        "digest": "sha256:a80057687633b21f1d3e1a7de77da7eb3e32929985388247610f27faa89905bb",
-        "pushedAt": 1792954873,
-        "tag": "11.0.0-rc.3-azurelinux4.0-amd64"
-      },
-      {
         "digest": "sha256:2ed09353750374ffc56127b3f0f17313b67db773d841aab19e02474ba4b2cda0",
         "pushedAt": 1792954873,
         "tag": "9.0.22-azurelinux3.0-distroless-extra-arm64v8"
@@ -11058,11 +11178,6 @@
         "tag": "10.0-noble-chiseled-extra-amd64"
       },
       {
-        "digest": "sha256:344b56789556b5e3bf5138e3286af246803b670f1437d4cc2d7363680991c2a0",
-        "pushedAt": 1792954872,
-        "tag": "11.0-azurelinux4.0-distroless-composite-amd64"
-      },
-      {
         "digest": "sha256:15cdb15dd7c00a028b6555cfe0583ccb995ecc56de741ffa29061d417c3f6fda",
         "pushedAt": 1792954871,
         "tag": "10.0-noble-chiseled-extra-arm32v7"
@@ -11071,16 +11186,6 @@
         "digest": "sha256:4c63b14a689f847de35233726aaba35f504c4e55e29e4ddec311625338b55dbe",
         "pushedAt": 1792954871,
         "tag": "10.0.14-noble-chiseled-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:a80057687633b21f1d3e1a7de77da7eb3e32929985388247610f27faa89905bb",
-        "pushedAt": 1792954871,
-        "tag": "11.0-azurelinux4.0-amd64"
-      },
-      {
-        "digest": "sha256:adc110ebc271cfd382056e21bd54b30ff689c96aebad6592767856278d32ec3a",
-        "pushedAt": 1792954871,
-        "tag": "11.0-azurelinux4.0-arm64v8"
       },
       {
         "digest": "sha256:0e1130bddf7fb4b6eae9511a23f07812b455ad5121e2ee049557a7241b783c18",
@@ -11108,11 +11213,6 @@
         "tag": "10.0.14-azurelinux3.0-distroless-amd64"
       },
       {
-        "digest": "sha256:adc110ebc271cfd382056e21bd54b30ff689c96aebad6592767856278d32ec3a",
-        "pushedAt": 1792954870,
-        "tag": "11.0.0-rc.3-azurelinux4.0-arm64v8"
-      },
-      {
         "digest": "sha256:eb64a09a78775dac419803e09434c1caaca7cd05a0d4a7f30d8666613a3d56f5",
         "pushedAt": 1792954870,
         "tag": "8.0-alpine3.24-composite-extra-arm64v8"
@@ -11121,11 +11221,6 @@
         "digest": "sha256:73fd2b7727f5528b80c6f8b4439f013926e9d3355d0a52f95bee22645caf4b5b",
         "pushedAt": 1792954870,
         "tag": "8.0.33-alpine3.24-composite-amd64"
-      },
-      {
-        "digest": "sha256:6ec2ed7122334c04ffd3c82e3886953857af7f00e2e92b9acfca02f3a858b7ef",
-        "pushedAt": 1792954869,
-        "tag": "11.0-azurelinux4.0-distroless-extra-amd64"
       },
       {
         "digest": "sha256:16a78beada78ef79630d2d8313dbd4daa04ec696362941125031e21f74bf4f58",
@@ -11173,11 +11268,6 @@
         "tag": "11.0-resolute-chiseled-arm32v7"
       },
       {
-        "digest": "sha256:db9b94f5b6a8e8016ef9ea3e089d189977bf17aeda7ef998f7369f69d342c160",
-        "pushedAt": 1792954868,
-        "tag": "11.0.0-rc.3-resolute-arm64v8"
-      },
-      {
         "digest": "sha256:cedd710f60d419a39e4229400db2c9f0ba1f37c7e0f8a2d4515db825a88bed5a",
         "pushedAt": 1792954867,
         "tag": "10.0-alpine-extra-amd64"
@@ -11213,11 +11303,6 @@
         "tag": "10.0-alpine3.24-extra-arm64v8"
       },
       {
-        "digest": "sha256:28d144d231a742ab50beee85d901446b03f67819f596c5f6e2084fb1983750e5",
-        "pushedAt": 1792954866,
-        "tag": "10.0-noble-amd64"
-      },
-      {
         "digest": "sha256:7104a402906ea04051b890e6dc45cb16107ec00cc55e0e9f68182900e44a0038",
         "pushedAt": 1792954866,
         "tag": "9.0.22-windowsservercore-ltsc2019"
@@ -11238,29 +11323,14 @@
         "tag": "11.0.0-rc.3-azurelinux3.0-arm64v8"
       },
       {
-        "digest": "sha256:d43d3c47e113dd87696be7094ad55476e7481347d55ba2c372a14faa23acb343",
-        "pushedAt": 1792954864,
-        "tag": "11.0.0-rc.3-azurelinux4.0-distroless-composite-arm64v8"
-      },
-      {
         "digest": "sha256:af228aa2f5368a16542e512f5c3247c8954c5e782a6136a01cf748059aca4bad",
         "pushedAt": 1792954864,
         "tag": "9.0.22-nanoserver-ltsc2022"
       },
       {
-        "digest": "sha256:aac33d2b5b616c1df52b9d40de7557cf07c5181dd2c83d3929793de72dd8d640",
-        "pushedAt": 1792954863,
-        "tag": "10.0-resolute-arm64v8"
-      },
-      {
         "digest": "sha256:ee6f0fcffe0797e80a52fde1f1d32be4f60ddb16ad1e75fc73bf907d1af53a8e",
         "pushedAt": 1792954863,
         "tag": "10.0.14-noble-chiseled-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:22083e4dc1a7f11228840921d30fcc7dbc6dd6f835d65e81822308a9047850df",
-        "pushedAt": 1792954863,
-        "tag": "11.0-resolute-arm32v7"
       },
       {
         "digest": "sha256:d2e1a20df6b632f0687e7f9c900608c4a7e6a823e1d1d34dfbc9013ddfcdd464",
@@ -11318,11 +11388,6 @@
         "tag": "10.0-resolute-chiseled-arm32v7"
       },
       {
-        "digest": "sha256:d7f0f25228c6669e1baedc6a925dddb39ddbf315f7cc40bc893dc56537fd38f8",
-        "pushedAt": 1792954860,
-        "tag": "10.0.14-noble-arm64v8"
-      },
-      {
         "digest": "sha256:d2e1a20df6b632f0687e7f9c900608c4a7e6a823e1d1d34dfbc9013ddfcdd464",
         "pushedAt": 1792954860,
         "tag": "11.0-alpine-extra-amd64"
@@ -11368,24 +11433,9 @@
         "tag": "10.0-alpine-extra-arm64v8"
       },
       {
-        "digest": "sha256:28d144d231a742ab50beee85d901446b03f67819f596c5f6e2084fb1983750e5",
-        "pushedAt": 1792954858,
-        "tag": "10.0.14-noble-amd64"
-      },
-      {
         "digest": "sha256:e59dc675a366ebde227d1693e6f1bde29c0b6ca84bc8ff70a4aa83103af55c88",
         "pushedAt": 1792954858,
         "tag": "11.0.0-rc.3-alpine3.24-arm32v7"
-      },
-      {
-        "digest": "sha256:22083e4dc1a7f11228840921d30fcc7dbc6dd6f835d65e81822308a9047850df",
-        "pushedAt": 1792954858,
-        "tag": "11.0.0-rc.3-resolute-arm32v7"
-      },
-      {
-        "digest": "sha256:5a7544ba83c5bc9b4e988cc9ccc5f501f6ac97abebaf0e1b11bd1396fc30641a",
-        "pushedAt": 1792954858,
-        "tag": "8.0.33-jammy-arm32v7"
       },
       {
         "digest": "sha256:53608c856319a53a5b9ba14ed88a0373c8cace3eaece6ce710d79307c1f25654",
@@ -11493,11 +11543,6 @@
         "tag": "10.0-azurelinux3.0-distroless-extra-amd64"
       },
       {
-        "digest": "sha256:73072e6f56c4b41684355b90ec7470c1d19f1f628f513a63ebeb241181c42863",
-        "pushedAt": 1792954852,
-        "tag": "10.0-resolute-arm32v7"
-      },
-      {
         "digest": "sha256:b8fde7f37bcdc8383d60e4cdc91aa244003dc5daac836536596262e96780aa7e",
         "pushedAt": 1792954852,
         "tag": "8.0-alpine3.24-arm32v7"
@@ -11531,11 +11576,6 @@
         "digest": "sha256:4358a513c94b751c67931e0f80bce31b7aecb3d5bdb1364d9ce832367a3425d5",
         "pushedAt": 1792954851,
         "tag": "10.0.14-alpine3.24-arm32v7"
-      },
-      {
-        "digest": "sha256:5a7544ba83c5bc9b4e988cc9ccc5f501f6ac97abebaf0e1b11bd1396fc30641a",
-        "pushedAt": 1792954851,
-        "tag": "8.0-jammy-arm32v7"
       },
       {
         "digest": "sha256:4c4a70cc1b0b7a56e8153bbb87bcd19a0bdd11a4d8818a6520b86e134a382b22",
@@ -11603,11 +11643,6 @@
         "tag": "10.0-alpine3.24-arm32v7"
       },
       {
-        "digest": "sha256:2742c5236c97029438a9c28320bcb7ffcc8ce3a167f90116037af4ea3e0e8733",
-        "pushedAt": 1792954846,
-        "tag": "8.0.33-noble-arm64v8"
-      },
-      {
         "digest": "sha256:062a1eb6cd89c983eabe84e218f27565e7e164e65fe39db7d40fcaed34402cd6",
         "pushedAt": 1792954845,
         "tag": "10.0-azurelinux3.0-distroless-composite-amd64"
@@ -11621,11 +11656,6 @@
         "digest": "sha256:2b767d6857e1d80ee96746683e93f1f66c85c463e0a933f9306d7c94b44df6c4",
         "pushedAt": 1792954845,
         "tag": "8.0.33-azurelinux3.0-arm64v8"
-      },
-      {
-        "digest": "sha256:66196fde18b041183398849e6ab789471375a124c0b6f2a566602954bd7cebaa",
-        "pushedAt": 1792954845,
-        "tag": "8.0.33-jammy-amd64"
       },
       {
         "digest": "sha256:4f9e1b8ea127085a6a550bd98a3bf89574bb4f7531e0e8805b144880b8acfa81",
@@ -11646,16 +11676,6 @@
         "digest": "sha256:484d0a0cec19bfa00dd6019064591bf69f68a92dd641b36a1e07f5d669154ba1",
         "pushedAt": 1792954845,
         "tag": "9.0.22-noble-chiseled-amd64"
-      },
-      {
-        "digest": "sha256:4adc1323706cdf862de68907565e27bbd7e2a87b8ee922769e7c3e4b4010bb2f",
-        "pushedAt": 1792954844,
-        "tag": "10.0-noble-arm32v7"
-      },
-      {
-        "digest": "sha256:a900908d077cd7cbf72548e7c896670151a1249249d6e63be2b7c153f6e4063f",
-        "pushedAt": 1792954844,
-        "tag": "10.0-resolute-amd64"
       },
       {
         "digest": "sha256:47acbe0b1efa05fcb7aa6bdb72a7181661f47b905f303fc8e28e1633809cad34",
@@ -11703,11 +11723,6 @@
         "tag": "8.0.33-noble-chiseled-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:7c30a1f1998d421e0671f2aa9a53f3571763cf80b3d17cb6b71d6620599ff1d0",
-        "pushedAt": 1792954843,
-        "tag": "9.0-noble-arm32v7"
-      },
-      {
         "digest": "sha256:7104a402906ea04051b890e6dc45cb16107ec00cc55e0e9f68182900e44a0038",
         "pushedAt": 1792954843,
         "tag": "9.0-windowsservercore-ltsc2019"
@@ -11746,11 +11761,6 @@
         "digest": "sha256:d29fbd33cb600c203dd8b1c669e355a5f92f77177c755907e19a010a16f564f4",
         "pushedAt": 1792954841,
         "tag": "8.0-bookworm-slim-amd64"
-      },
-      {
-        "digest": "sha256:2742c5236c97029438a9c28320bcb7ffcc8ce3a167f90116037af4ea3e0e8733",
-        "pushedAt": 1792954840,
-        "tag": "8.0-noble-arm64v8"
       },
       {
         "digest": "sha256:d2e1bb63b8bb3f6488034aea33d4c6d85508a6b18e4a5d543cbbb95d0808a51f",
@@ -11913,11 +11923,6 @@
         "tag": "8.0.33-azurelinux3.0-distroless-amd64"
       },
       {
-        "digest": "sha256:db0bd483bc498129d9fc5f9144c5dfaa7a31878bbe2eb75386a0f1fd73fdf701",
-        "pushedAt": 1792954811,
-        "tag": "8.0.33-noble-amd64"
-      },
-      {
         "digest": "sha256:e6b1dc856f748675acd6197a70ae885f4951e0e3e2654875661b0cc5da9ad2d9",
         "pushedAt": 1792954810,
         "tag": "8.0-bookworm-slim-arm64v8"
@@ -12048,19 +12053,9 @@
         "tag": "9.0-alpine3.24-composite-amd64"
       },
       {
-        "digest": "sha256:88853ad319f8149bfe6e3892fd9c085501631b6c7de583917d822f779f98df32",
-        "pushedAt": 1792954783,
-        "tag": "9.0-noble-arm64v8"
-      },
-      {
         "digest": "sha256:cedd710f60d419a39e4229400db2c9f0ba1f37c7e0f8a2d4515db825a88bed5a",
         "pushedAt": 1792954782,
         "tag": "10.0-alpine3.24-extra-amd64"
-      },
-      {
-        "digest": "sha256:b5a8c9e21a927ac833753cd0e51a6ddbd8ef0bdf17149a9fd82c103aa9947479",
-        "pushedAt": 1792954782,
-        "tag": "8.0-jammy-arm64v8"
       },
       {
         "digest": "sha256:edf272cf528ba23e3c3d875116ccb894c747b29d372b0e6f5c93da99de729a1c",
@@ -12111,11 +12106,6 @@
         "digest": "sha256:484d0a0cec19bfa00dd6019064591bf69f68a92dd641b36a1e07f5d669154ba1",
         "pushedAt": 1792954779,
         "tag": "9.0-noble-chiseled-amd64"
-      },
-      {
-        "digest": "sha256:73072e6f56c4b41684355b90ec7470c1d19f1f628f513a63ebeb241181c42863",
-        "pushedAt": 1792954778,
-        "tag": "10.0.14-resolute-arm32v7"
       },
       {
         "digest": "sha256:a8cff0038d4ab790637a7ad80d51b10a4c44802462ab38de5cb6dd6c3bd90de9",
@@ -12223,11 +12213,6 @@
         "tag": "8.0.33-windowsservercore-ltsc2025"
       },
       {
-        "digest": "sha256:23dd6e498aefe035baa5a2aa0736be5fa4940beb2f931978ff865469475f743c",
-        "pushedAt": 1792954774,
-        "tag": "9.0-noble-amd64"
-      },
-      {
         "digest": "sha256:a29b746f79b4cfeb8672fdc9b63f2466443317eedf186b0ef8dbd3ea29ba23bb",
         "pushedAt": 1792954774,
         "tag": "9.0-noble-chiseled-composite-amd64"
@@ -12256,11 +12241,6 @@
         "digest": "sha256:26c6cff268f647b33c69497c12aebde4f9d3af3c7ee60f2e4f7def2a34dab316",
         "pushedAt": 1792954773,
         "tag": "9.0-alpine3.24-arm32v7"
-      },
-      {
-        "digest": "sha256:23dd6e498aefe035baa5a2aa0736be5fa4940beb2f931978ff865469475f743c",
-        "pushedAt": 1792954773,
-        "tag": "9.0.22-noble-amd64"
       },
       {
         "digest": "sha256:d7c93027155f61fcae8d7031b974e41fb869d19a57093f74c9165943debea3bf",
@@ -12296,11 +12276,6 @@
         "digest": "sha256:9af9efec686e283faded41668ab1ef90106f6b4aa51b1db641fd273959a55536",
         "pushedAt": 1792954770,
         "tag": "9.0.22-noble-chiseled-arm64v8"
-      },
-      {
-        "digest": "sha256:b5a8c9e21a927ac833753cd0e51a6ddbd8ef0bdf17149a9fd82c103aa9947479",
-        "pushedAt": 1792954769,
-        "tag": "8.0.33-jammy-arm64v8"
       },
       {
         "digest": "sha256:b8fde7f37bcdc8383d60e4cdc91aa244003dc5daac836536596262e96780aa7e",
@@ -12356,11 +12331,6 @@
         "digest": "sha256:367361960828e604019285110369686c3f94365de2399c1a57168294f7012010",
         "pushedAt": 1792954689,
         "tag": "8.0-alpine3.24-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:66196fde18b041183398849e6ab789471375a124c0b6f2a566602954bd7cebaa",
-        "pushedAt": 1792954689,
-        "tag": "8.0-jammy-amd64"
       },
       {
         "digest": "sha256:621fd26ffc92301da83654be81d0a18b709d5399a0070a330edf331f1897904b",
@@ -13975,19 +13945,434 @@
     ],
     "mcr.microsoft.com/dotnet/sdk": [
       {
-        "digest": "sha256:b836e4de74db276d6d808223a62bc4c2f5c405538876b951ad1d8b10c243fb9c",
-        "pushedAt": 1792955259,
+        "digest": "sha256:11122a6e67b587afb3f6969b2e1e72eb71f36eba974da78b10eec6e2d0706057",
+        "pushedAt": 1792978583,
+        "tag": "11.0-resolute-aot"
+      },
+      {
+        "digest": "sha256:fa001e880cf61a41ac213da3ea4d0c8b04f95ce5f1cd2f49a5af045342d1f324",
+        "pushedAt": 1792978555,
+        "tag": "11.0.100-rc.3-resolute-aot-amd64"
+      },
+      {
+        "digest": "sha256:b37ab9ff76d6095a4f3ede1d2eed72256d1a974bd6bf882232a3d826f14a46e9",
+        "pushedAt": 1792978553,
+        "tag": "11.0-resolute-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:3d35ed4b0ef429c19bd272559d88f4fb25b0cdf42cbaf0c6156bf9d424ed5ef8",
+        "pushedAt": 1792978552,
+        "tag": "9.0.320-noble-arm32v7"
+      },
+      {
+        "digest": "sha256:667f3cee6f24afb202d3e32c7941e3800bbac57dd70bb68f89e52a6245aff88f",
+        "pushedAt": 1792978547,
         "tag": "10.0.403-resolute"
+      },
+      {
+        "digest": "sha256:0fbe5d22b6f17fe91f6d9d137f4e9546b49f447bd9432dc85a91ac841399d9eb",
+        "pushedAt": 1792978544,
+        "tag": "10.0-resolute-amd64"
+      },
+      {
+        "digest": "sha256:b37ab9ff76d6095a4f3ede1d2eed72256d1a974bd6bf882232a3d826f14a46e9",
+        "pushedAt": 1792978543,
+        "tag": "11.0.100-rc.3-resolute-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:a6efdb4eeba25dd04f439056d237f0e4f0d6d6ca6cbc05dfad34880157744241",
+        "pushedAt": 1792978540,
+        "tag": "10.0.403-resolute-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:4649aadf54dbf9bd4b8f83b4369ae0e2971f01bba824cf5f1c52a4705c75e55e",
+        "pushedAt": 1792978539,
+        "tag": "10.0.403-noble-arm32v7"
+      },
+      {
+        "digest": "sha256:655aa5c4bcf7e280e669373dc6c139734d66b585ace88281e029e00017ced213",
+        "pushedAt": 1792978539,
+        "tag": "11.0-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:11122a6e67b587afb3f6969b2e1e72eb71f36eba974da78b10eec6e2d0706057",
+        "pushedAt": 1792978539,
+        "tag": "11.0.100-rc.3-aot"
+      },
+      {
+        "digest": "sha256:11122a6e67b587afb3f6969b2e1e72eb71f36eba974da78b10eec6e2d0706057",
+        "pushedAt": 1792978538,
+        "tag": "11.0.100-rc.3-resolute-aot"
+      },
+      {
+        "digest": "sha256:28a31a8c624affe9502255cdc86f8517e8eb2cbe738afe2c18dadf3ca562fde2",
+        "pushedAt": 1792978538,
+        "tag": "9.0-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:3d132e9d4a56e300b83e3b2b957cc3536b985ad2c0a469294c043aea5772d8f1",
+        "pushedAt": 1792978537,
+        "tag": "10.0-noble-aot-amd64"
+      },
+      {
+        "digest": "sha256:a6efdb4eeba25dd04f439056d237f0e4f0d6d6ca6cbc05dfad34880157744241",
+        "pushedAt": 1792978537,
+        "tag": "10.0-resolute-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:9fcdbe5b4ab8546fc3427d952c4275d5ced5161211e9c5f1d360ecc4ecd9a230",
+        "pushedAt": 1792978537,
+        "tag": "10.0.403-resolute-aot-amd64"
+      },
+      {
+        "digest": "sha256:11122a6e67b587afb3f6969b2e1e72eb71f36eba974da78b10eec6e2d0706057",
+        "pushedAt": 1792978537,
+        "tag": "11.0-aot"
+      },
+      {
+        "digest": "sha256:b785ee74da0c5963f50f80f4e960313e327134928b889d3a40ec8be68c7dbe8f",
+        "pushedAt": 1792978537,
+        "tag": "8.0-jammy"
+      },
+      {
+        "digest": "sha256:45f047e924042b9bbb77ee71dc8be59bd284eba08ea7dfc646e49196741f8c1f",
+        "pushedAt": 1792978536,
+        "tag": "10.0-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:2ef6afe0b2155f6deb2861b33f376288dd84399baa86691671b84ba7a56d7eaf",
+        "pushedAt": 1792978536,
+        "tag": "11.0-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:5e434b17f56d1d21f1fa9919914a0b451adc01b58e26d6e4b68e4a9d46c69a37",
+        "pushedAt": 1792978536,
+        "tag": "9.0.320-noble-amd64"
+      },
+      {
+        "digest": "sha256:9c7b6b263d9d4c2e4718e16dae6d75cd8f4b5ccf206f1e7d48a98eb429981b03",
+        "pushedAt": 1792978535,
+        "tag": "10.0-noble-amd64"
+      },
+      {
+        "digest": "sha256:a66703b1c786b77dad068cd0de51b5538b406f3febb16e8920ec9e73aee181ae",
+        "pushedAt": 1792978535,
+        "tag": "10.0-resolute-aot"
+      },
+      {
+        "digest": "sha256:3d132e9d4a56e300b83e3b2b957cc3536b985ad2c0a469294c043aea5772d8f1",
+        "pushedAt": 1792978535,
+        "tag": "10.0.403-noble-aot-amd64"
+      },
+      {
+        "digest": "sha256:0fbe5d22b6f17fe91f6d9d137f4e9546b49f447bd9432dc85a91ac841399d9eb",
+        "pushedAt": 1792978535,
+        "tag": "10.0.403-resolute-amd64"
+      },
+      {
+        "digest": "sha256:f94b7049b6c78450da9367d9c25056d3d5cf7b8c436d7109a03d985b2011912a",
+        "pushedAt": 1792978535,
+        "tag": "11.0-azurelinux4.0-arm64v8"
+      },
+      {
+        "digest": "sha256:27021e9c683510d6511e9cf08d2b4f02cf352eec560f5b1ff27587ff5a76964a",
+        "pushedAt": 1792978534,
+        "tag": "10.0.403-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:28be29308171a53eadd790082d8c2498fbf61b329c700a054981237dd63e5cfb",
+        "pushedAt": 1792978534,
+        "tag": "11.0-azurelinux4.0"
+      },
+      {
+        "digest": "sha256:d858c6826fd67ff1122123685a721b0b85a8fb9dbb6174802d2563a51f6e5ea9",
+        "pushedAt": 1792978534,
+        "tag": "11.0-azurelinux4.0-aot-amd64"
+      },
+      {
+        "digest": "sha256:320928f8d5bf44c7d3478db302ef8a2f96a28a1556402f8218d2b8f4418513cc",
+        "pushedAt": 1792978534,
+        "tag": "11.0.100-rc.3-azurelinux4.0-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:f94b7049b6c78450da9367d9c25056d3d5cf7b8c436d7109a03d985b2011912a",
+        "pushedAt": 1792978533,
+        "tag": "11.0.100-rc.3-azurelinux4.0-arm64v8"
+      },
+      {
+        "digest": "sha256:7b9db32092d4baca1771fa2f3c8fea25b7516386810994a18f9794def54b1a6a",
+        "pushedAt": 1792978533,
+        "tag": "8.0.427-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:28a31a8c624affe9502255cdc86f8517e8eb2cbe738afe2c18dadf3ca562fde2",
+        "pushedAt": 1792978533,
+        "tag": "9.0.320-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:519786a80b3bf36bcf8e25258bc6bbc227072b1fe86faf1f2ab616d903d9c3f0",
+        "pushedAt": 1792978532,
+        "tag": "11.0.100-rc.3-azurelinux4.0-amd64"
+      },
+      {
+        "digest": "sha256:de4fe90a98845d75910b9769662465c84de1a934665c431279d1382b2bddc02b",
+        "pushedAt": 1792978531,
+        "tag": "10.0"
+      },
+      {
+        "digest": "sha256:f34803987e201bd321984712d40a4bed1f797d4756b9b21eb5b6ddd2b178d2ef",
+        "pushedAt": 1792978531,
+        "tag": "10.0.403-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:a66703b1c786b77dad068cd0de51b5538b406f3febb16e8920ec9e73aee181ae",
+        "pushedAt": 1792978530,
+        "tag": "10.0.403-resolute-aot"
+      },
+      {
+        "digest": "sha256:667f3cee6f24afb202d3e32c7941e3800bbac57dd70bb68f89e52a6245aff88f",
+        "pushedAt": 1792978529,
+        "tag": "10.0-resolute"
+      },
+      {
+        "digest": "sha256:d858c6826fd67ff1122123685a721b0b85a8fb9dbb6174802d2563a51f6e5ea9",
+        "pushedAt": 1792978529,
+        "tag": "11.0.100-rc.3-azurelinux4.0-aot-amd64"
+      },
+      {
+        "digest": "sha256:b785ee74da0c5963f50f80f4e960313e327134928b889d3a40ec8be68c7dbe8f",
+        "pushedAt": 1792978529,
+        "tag": "8.0.427-jammy"
+      },
+      {
+        "digest": "sha256:3a9175b6c54b2f076817af1360f691c9994447b192faa48a1a1f112a516844c7",
+        "pushedAt": 1792978527,
+        "tag": "11.0.100-rc.3"
+      },
+      {
+        "digest": "sha256:9fc2f44fba54c579b9b650f6feea29beff050fb030d797eac697de85a94ad77f",
+        "pushedAt": 1792978527,
+        "tag": "11.0.100-rc.3-resolute-amd64"
+      },
+      {
+        "digest": "sha256:27021e9c683510d6511e9cf08d2b4f02cf352eec560f5b1ff27587ff5a76964a",
+        "pushedAt": 1792978526,
+        "tag": "10.0-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:9fc2f44fba54c579b9b650f6feea29beff050fb030d797eac697de85a94ad77f",
+        "pushedAt": 1792978523,
+        "tag": "11.0-resolute-amd64"
+      },
+      {
+        "digest": "sha256:28be29308171a53eadd790082d8c2498fbf61b329c700a054981237dd63e5cfb",
+        "pushedAt": 1792978523,
+        "tag": "11.0.100-rc.3-azurelinux4.0"
+      },
+      {
+        "digest": "sha256:96b06160e7cd11a879fb7e293f7d18d4d79417e7f7227320bf3ab18cca94badb",
+        "pushedAt": 1792978522,
+        "tag": "8.0.427-jammy-arm32v7"
+      },
+      {
+        "digest": "sha256:9c7b6b263d9d4c2e4718e16dae6d75cd8f4b5ccf206f1e7d48a98eb429981b03",
+        "pushedAt": 1792978520,
+        "tag": "10.0.403-noble-amd64"
+      },
+      {
+        "digest": "sha256:4649aadf54dbf9bd4b8f83b4369ae0e2971f01bba824cf5f1c52a4705c75e55e",
+        "pushedAt": 1792978517,
+        "tag": "10.0-noble-arm32v7"
+      },
+      {
+        "digest": "sha256:c2df7c4e7791c8e23bf864c8e2f16a89513e96f46a8b43d2aab5e874db8edc28",
+        "pushedAt": 1792978514,
+        "tag": "8.0.427-jammy-arm64v8"
+      },
+      {
+        "digest": "sha256:9fcdbe5b4ab8546fc3427d952c4275d5ced5161211e9c5f1d360ecc4ecd9a230",
+        "pushedAt": 1792978513,
+        "tag": "10.0-resolute-aot-amd64"
+      },
+      {
+        "digest": "sha256:5e434b17f56d1d21f1fa9919914a0b451adc01b58e26d6e4b68e4a9d46c69a37",
+        "pushedAt": 1792978512,
+        "tag": "9.0-noble-amd64"
+      },
+      {
+        "digest": "sha256:972c958c5cfe8570e0a7600186486dc3c9ff81916393295f4938c0ad726ec781",
+        "pushedAt": 1792978511,
+        "tag": "10.0-noble-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:3a9175b6c54b2f076817af1360f691c9994447b192faa48a1a1f112a516844c7",
+        "pushedAt": 1792978509,
+        "tag": "11.0-resolute"
+      },
+      {
+        "digest": "sha256:3a9175b6c54b2f076817af1360f691c9994447b192faa48a1a1f112a516844c7",
+        "pushedAt": 1792978508,
+        "tag": "11.0.100-rc.3-resolute"
+      },
+      {
+        "digest": "sha256:c45158dabdcffc8409ef46c9431c16b36d9419405b51fd29261fa8a6af3f516f",
+        "pushedAt": 1792978507,
+        "tag": "10.0-aot"
+      },
+      {
+        "digest": "sha256:3a9175b6c54b2f076817af1360f691c9994447b192faa48a1a1f112a516844c7",
+        "pushedAt": 1792978506,
+        "tag": "11.0"
+      },
+      {
+        "digest": "sha256:42eb9e70b190d0cca893d93724e67fb89e7570e4309c4b1c20b7f6016a90202d",
+        "pushedAt": 1792978506,
+        "tag": "8.0-noble"
+      },
+      {
+        "digest": "sha256:8b8c4ab366b85fdf4d57d5c43834b258d46359568eb3267f5e655dbb6a74adce",
+        "pushedAt": 1792978504,
+        "tag": "8.0-jammy-amd64"
+      },
+      {
+        "digest": "sha256:de4fe90a98845d75910b9769662465c84de1a934665c431279d1382b2bddc02b",
+        "pushedAt": 1792978503,
+        "tag": "10.0-noble"
+      },
+      {
+        "digest": "sha256:42eb9e70b190d0cca893d93724e67fb89e7570e4309c4b1c20b7f6016a90202d",
+        "pushedAt": 1792978503,
+        "tag": "8.0.427-noble"
+      },
+      {
+        "digest": "sha256:ca844a2be11f8614bf27a425fc8d709f3d753e2e857a596395674f05a2d0853a",
+        "pushedAt": 1792978503,
+        "tag": "8.0.427-noble-amd64"
+      },
+      {
+        "digest": "sha256:ca844a2be11f8614bf27a425fc8d709f3d753e2e857a596395674f05a2d0853a",
+        "pushedAt": 1792978501,
+        "tag": "8.0-noble-amd64"
+      },
+      {
+        "digest": "sha256:7b9db32092d4baca1771fa2f3c8fea25b7516386810994a18f9794def54b1a6a",
+        "pushedAt": 1792978500,
+        "tag": "8.0-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:8b8c4ab366b85fdf4d57d5c43834b258d46359568eb3267f5e655dbb6a74adce",
+        "pushedAt": 1792978497,
+        "tag": "8.0.427-jammy-amd64"
+      },
+      {
+        "digest": "sha256:fa001e880cf61a41ac213da3ea4d0c8b04f95ce5f1cd2f49a5af045342d1f324",
+        "pushedAt": 1792978496,
+        "tag": "11.0-resolute-aot-amd64"
+      },
+      {
+        "digest": "sha256:655aa5c4bcf7e280e669373dc6c139734d66b585ace88281e029e00017ced213",
+        "pushedAt": 1792978495,
+        "tag": "11.0.100-rc.3-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:272cd3761b974fd50eb76d5d0acb35d560424230139af1376371fbc6bcce2efd",
+        "pushedAt": 1792978492,
+        "tag": "11.0.100-rc.3-azurelinux4.0-aot"
+      },
+      {
+        "digest": "sha256:272cd3761b974fd50eb76d5d0acb35d560424230139af1376371fbc6bcce2efd",
+        "pushedAt": 1792978482,
+        "tag": "11.0-azurelinux4.0-aot"
+      },
+      {
+        "digest": "sha256:519786a80b3bf36bcf8e25258bc6bbc227072b1fe86faf1f2ab616d903d9c3f0",
+        "pushedAt": 1792978470,
+        "tag": "11.0-azurelinux4.0-amd64"
+      },
+      {
+        "digest": "sha256:de4fe90a98845d75910b9769662465c84de1a934665c431279d1382b2bddc02b",
+        "pushedAt": 1792978469,
+        "tag": "10.0.403-noble"
+      },
+      {
+        "digest": "sha256:45f047e924042b9bbb77ee71dc8be59bd284eba08ea7dfc646e49196741f8c1f",
+        "pushedAt": 1792978464,
+        "tag": "10.0.403-resolute-arm32v7"
+      },
+      {
+        "digest": "sha256:96b06160e7cd11a879fb7e293f7d18d4d79417e7f7227320bf3ab18cca94badb",
+        "pushedAt": 1792978464,
+        "tag": "8.0-jammy-arm32v7"
+      },
+      {
+        "digest": "sha256:2ef6afe0b2155f6deb2861b33f376288dd84399baa86691671b84ba7a56d7eaf",
+        "pushedAt": 1792978463,
+        "tag": "11.0.100-rc.3-resolute-arm64v8"
+      },
+      {
+        "digest": "sha256:3d35ed4b0ef429c19bd272559d88f4fb25b0cdf42cbaf0c6156bf9d424ed5ef8",
+        "pushedAt": 1792978462,
+        "tag": "9.0-noble-arm32v7"
+      },
+      {
+        "digest": "sha256:320928f8d5bf44c7d3478db302ef8a2f96a28a1556402f8218d2b8f4418513cc",
+        "pushedAt": 1792978458,
+        "tag": "11.0-azurelinux4.0-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:9a905addac4d4d3bfdd28185030f874251614559b3a038200849619710b3136b",
+        "pushedAt": 1792978458,
+        "tag": "9.0-noble"
+      },
+      {
+        "digest": "sha256:9a905addac4d4d3bfdd28185030f874251614559b3a038200849619710b3136b",
+        "pushedAt": 1792978458,
+        "tag": "9.0.320-noble"
+      },
+      {
+        "digest": "sha256:c45158dabdcffc8409ef46c9431c16b36d9419405b51fd29261fa8a6af3f516f",
+        "pushedAt": 1792978457,
+        "tag": "10.0-noble-aot"
+      },
+      {
+        "digest": "sha256:c45158dabdcffc8409ef46c9431c16b36d9419405b51fd29261fa8a6af3f516f",
+        "pushedAt": 1792978457,
+        "tag": "10.0.403-aot"
+      },
+      {
+        "digest": "sha256:972c958c5cfe8570e0a7600186486dc3c9ff81916393295f4938c0ad726ec781",
+        "pushedAt": 1792978457,
+        "tag": "10.0.403-noble-aot-arm64v8"
+      },
+      {
+        "digest": "sha256:f34803987e201bd321984712d40a4bed1f797d4756b9b21eb5b6ddd2b178d2ef",
+        "pushedAt": 1792978456,
+        "tag": "10.0-noble-arm64v8"
+      },
+      {
+        "digest": "sha256:c2df7c4e7791c8e23bf864c8e2f16a89513e96f46a8b43d2aab5e874db8edc28",
+        "pushedAt": 1792978456,
+        "tag": "8.0-jammy-arm64v8"
+      },
+      {
+        "digest": "sha256:c45158dabdcffc8409ef46c9431c16b36d9419405b51fd29261fa8a6af3f516f",
+        "pushedAt": 1792978455,
+        "tag": "10.0.403-noble-aot"
+      },
+      {
+        "digest": "sha256:de4fe90a98845d75910b9769662465c84de1a934665c431279d1382b2bddc02b",
+        "pushedAt": 1792978455,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:de4fe90a98845d75910b9769662465c84de1a934665c431279d1382b2bddc02b",
+        "pushedAt": 1792978452,
+        "tag": "10.0.403"
       },
       {
         "digest": "sha256:d7cfd59385751fc87897a138ba173fb1bbc2bf946ea78aecc91a119993676997",
         "pushedAt": 1792955258,
         "tag": "9.0.320"
-      },
-      {
-        "digest": "sha256:f751c52195d98fed563d36a92d3c9a91e3d210f26f15d5ae30d6115a9f831381",
-        "pushedAt": 1792955253,
-        "tag": "9.0.320-noble"
       },
       {
         "digest": "sha256:af4d90c51b6d4efd3d565deb4da2eaaf8246ebf146a239e493df7c2f2d26a1f5",
@@ -14010,26 +14395,6 @@
         "tag": "8.0-bookworm-slim"
       },
       {
-        "digest": "sha256:5b024ff8607de9901ef206c2eede4e8f7d8e119b42db5ab44e61d104ad8bdbc7",
-        "pushedAt": 1792955235,
-        "tag": "8.0-noble"
-      },
-      {
-        "digest": "sha256:fc801dbbb6ceaf6a7cffeca90e1d1c68d4e8b1e1c27f9898f1b5550446531ecd",
-        "pushedAt": 1792955232,
-        "tag": "11.0.100-rc.3-azurelinux4.0-aot"
-      },
-      {
-        "digest": "sha256:3428fc2125ad5045b3223392a2a33de7f1f241641e20610f542c7fb648225335",
-        "pushedAt": 1792955231,
-        "tag": "11.0"
-      },
-      {
-        "digest": "sha256:afd0ccff9d306812a69ef0f47458376b6acb544ae866cfc4b8d28ff0eef35ea7",
-        "pushedAt": 1792955230,
-        "tag": "latest"
-      },
-      {
         "digest": "sha256:3763c3691c726fb90d60feaec899af309e4035705bec6b84f34a9cad6d8f8d59",
         "pushedAt": 1792955229,
         "tag": "8.0-azurelinux3.0"
@@ -14048,11 +14413,6 @@
         "digest": "sha256:a3dbd5ad15c12d58ad6c7aa939194e949e5a0bb36b44fa1415ad6da3eaae6bdb",
         "pushedAt": 1792955225,
         "tag": "10.0.403-windowsservercore-ltsc2022"
-      },
-      {
-        "digest": "sha256:3428fc2125ad5045b3223392a2a33de7f1f241641e20610f542c7fb648225335",
-        "pushedAt": 1792955224,
-        "tag": "11.0.100-rc.3-resolute"
       },
       {
         "digest": "sha256:5c27d494a591387d9613551a2b4f8f54873cfb5469a4d667bfe092a845b0baf0",
@@ -14090,44 +14450,14 @@
         "tag": "8.0.427"
       },
       {
-        "digest": "sha256:b836e4de74db276d6d808223a62bc4c2f5c405538876b951ad1d8b10c243fb9c",
-        "pushedAt": 1792955217,
-        "tag": "10.0-resolute"
-      },
-      {
-        "digest": "sha256:f6e8e71cdc570a640a4a93e50a0cb65da947d7afa615cb5c570df94ce42af9ae",
-        "pushedAt": 1792955217,
-        "tag": "11.0.100-rc.3-aot"
-      },
-      {
         "digest": "sha256:d7cfd59385751fc87897a138ba173fb1bbc2bf946ea78aecc91a119993676997",
         "pushedAt": 1792955217,
         "tag": "9.0"
       },
       {
-        "digest": "sha256:29ddac850677f60acc889ad9558c9a8990c63de50800c5e72265e75c04659025",
-        "pushedAt": 1792955216,
-        "tag": "11.0.100-rc.3-azurelinux4.0"
-      },
-      {
-        "digest": "sha256:f6e8e71cdc570a640a4a93e50a0cb65da947d7afa615cb5c570df94ce42af9ae",
-        "pushedAt": 1792955216,
-        "tag": "11.0.100-rc.3-resolute-aot"
-      },
-      {
-        "digest": "sha256:59cab495dbf9d79f72c2c4d5c51dbf89f496ad29f203f08c58c2df00032f55d2",
-        "pushedAt": 1792955214,
-        "tag": "10.0.403-resolute-aot"
-      },
-      {
         "digest": "sha256:e5662d136e388a160bbca53c2c5ba22991d0d37533e2b8d68ace89a4a52d32ca",
         "pushedAt": 1792955212,
         "tag": "11.0-alpine3.24-aot"
-      },
-      {
-        "digest": "sha256:afd0ccff9d306812a69ef0f47458376b6acb544ae866cfc4b8d28ff0eef35ea7",
-        "pushedAt": 1792955207,
-        "tag": "10.0.403-noble"
       },
       {
         "digest": "sha256:3763c3691c726fb90d60feaec899af309e4035705bec6b84f34a9cad6d8f8d59",
@@ -14138,26 +14468,6 @@
         "digest": "sha256:04cd57e8de6ae244bee8ff2da5657f918adeedda574124415ff70e2176a60103",
         "pushedAt": 1792955203,
         "tag": "11.0-azurelinux3.0"
-      },
-      {
-        "digest": "sha256:29ddac850677f60acc889ad9558c9a8990c63de50800c5e72265e75c04659025",
-        "pushedAt": 1792955202,
-        "tag": "11.0-azurelinux4.0"
-      },
-      {
-        "digest": "sha256:f751c52195d98fed563d36a92d3c9a91e3d210f26f15d5ae30d6115a9f831381",
-        "pushedAt": 1792955200,
-        "tag": "9.0-noble"
-      },
-      {
-        "digest": "sha256:fc801dbbb6ceaf6a7cffeca90e1d1c68d4e8b1e1c27f9898f1b5550446531ecd",
-        "pushedAt": 1792955198,
-        "tag": "11.0-azurelinux4.0-aot"
-      },
-      {
-        "digest": "sha256:3ab92307d66ec73ff74909a9d440b1bcb34e30b29e2b640e46cd9da3a71c6ddb",
-        "pushedAt": 1792955196,
-        "tag": "8.0.427-jammy"
       },
       {
         "digest": "sha256:d7cfd59385751fc87897a138ba173fb1bbc2bf946ea78aecc91a119993676997",
@@ -14195,29 +14505,14 @@
         "tag": "10.0-azurelinux3.0"
       },
       {
-        "digest": "sha256:59cab495dbf9d79f72c2c4d5c51dbf89f496ad29f203f08c58c2df00032f55d2",
-        "pushedAt": 1792955185,
-        "tag": "10.0-resolute-aot"
-      },
-      {
         "digest": "sha256:e5662d136e388a160bbca53c2c5ba22991d0d37533e2b8d68ace89a4a52d32ca",
         "pushedAt": 1792955185,
         "tag": "11.0-alpine-aot"
       },
       {
-        "digest": "sha256:3428fc2125ad5045b3223392a2a33de7f1f241641e20610f542c7fb648225335",
-        "pushedAt": 1792955183,
-        "tag": "11.0-resolute"
-      },
-      {
         "digest": "sha256:96a932f1623d70929c769fafcec11d8c538c511e1524491b1af352f0451f6a3f",
         "pushedAt": 1792955182,
         "tag": "8.0-alpine3.24"
-      },
-      {
-        "digest": "sha256:db24de72e2f4272c9e5a542f03a782bda059da7f2075409ba1e81c438bb05079",
-        "pushedAt": 1792955180,
-        "tag": "10.0-noble-aot"
       },
       {
         "digest": "sha256:5c27d494a591387d9613551a2b4f8f54873cfb5469a4d667bfe092a845b0baf0",
@@ -14235,16 +14530,6 @@
         "tag": "10.0.403-azurelinux3.0"
       },
       {
-        "digest": "sha256:f6e8e71cdc570a640a4a93e50a0cb65da947d7afa615cb5c570df94ce42af9ae",
-        "pushedAt": 1792955177,
-        "tag": "11.0-aot"
-      },
-      {
-        "digest": "sha256:3428fc2125ad5045b3223392a2a33de7f1f241641e20610f542c7fb648225335",
-        "pushedAt": 1792955172,
-        "tag": "11.0.100-rc.3"
-      },
-      {
         "digest": "sha256:a3dbd5ad15c12d58ad6c7aa939194e949e5a0bb36b44fa1415ad6da3eaae6bdb",
         "pushedAt": 1792955171,
         "tag": "10.0-windowsservercore-ltsc2022"
@@ -14255,16 +14540,6 @@
         "tag": "10.0-alpine3.24-aot"
       },
       {
-        "digest": "sha256:db24de72e2f4272c9e5a542f03a782bda059da7f2075409ba1e81c438bb05079",
-        "pushedAt": 1792955168,
-        "tag": "10.0.403-aot"
-      },
-      {
-        "digest": "sha256:f6e8e71cdc570a640a4a93e50a0cb65da947d7afa615cb5c570df94ce42af9ae",
-        "pushedAt": 1792955168,
-        "tag": "11.0-resolute-aot"
-      },
-      {
         "digest": "sha256:cc02b814237a76c4735fb6eeee87181597b5e56f2ce458a435e527674d91f4d7",
         "pushedAt": 1792955167,
         "tag": "10.0-alpine"
@@ -14273,26 +14548,6 @@
         "digest": "sha256:cc02b814237a76c4735fb6eeee87181597b5e56f2ce458a435e527674d91f4d7",
         "pushedAt": 1792955167,
         "tag": "10.0-alpine3.24"
-      },
-      {
-        "digest": "sha256:db24de72e2f4272c9e5a542f03a782bda059da7f2075409ba1e81c438bb05079",
-        "pushedAt": 1792955166,
-        "tag": "10.0.403-noble-aot"
-      },
-      {
-        "digest": "sha256:85879f722e4e7ac8975395c2a6bb4e6852876297c3add8786f746dadc630c472",
-        "pushedAt": 1792955164,
-        "tag": "8.0.427-noble-arm64v8"
-      },
-      {
-        "digest": "sha256:523372ad7e306e5e44d619058283faab2bdf96c78555fc284868b62a6b2b9b62",
-        "pushedAt": 1792955162,
-        "tag": "10.0.403-resolute-aot-arm64v8"
-      },
-      {
-        "digest": "sha256:175a01540cdbf48f5f9c082116dd9854aa61102aadaf5f5c7b964441306b919b",
-        "pushedAt": 1792955158,
-        "tag": "8.0-jammy-arm32v7"
       },
       {
         "digest": "sha256:261634a9200dfc414748e6e922e78c759bea4653f7bd1df4c295fc43f8d57cfb",
@@ -14310,16 +14565,6 @@
         "tag": "9.0-windowsservercore-ltsc2019"
       },
       {
-        "digest": "sha256:ea8a15a659eea1e00ef9a79a6596737a6369104341660fb783e9f90f9a8faf00",
-        "pushedAt": 1792955151,
-        "tag": "10.0.403-noble-arm64v8"
-      },
-      {
-        "digest": "sha256:24623f99938a6fece631e10cf988210fd9d50bc142acd20ae828bc80c4f29787",
-        "pushedAt": 1792955150,
-        "tag": "9.0-noble-arm32v7"
-      },
-      {
         "digest": "sha256:0bf68729df7782afa61c4d0ad08100d5500045dd8e94d01054821e318de9d51a",
         "pushedAt": 1792955143,
         "tag": "8.0.427-nanoserver-ltsc2025"
@@ -14335,19 +14580,9 @@
         "tag": "9.0-windowsservercore-ltsc2025"
       },
       {
-        "digest": "sha256:0cd3ce8b658976cbf3c3b8fb1b775031eb77ca56aa0ee5ac502b6f91532f351a",
-        "pushedAt": 1792955139,
-        "tag": "10.0-resolute-arm32v7"
-      },
-      {
         "digest": "sha256:f91469d15f58a25123a48e5d6d30b201e36bd96aec4b24f7c8575ad903e36b33",
         "pushedAt": 1792955138,
         "tag": "8.0.427-bookworm-slim-arm32v7"
-      },
-      {
-        "digest": "sha256:64d09b4cffdb07fd8681b1e87536a1ed8240f2ca115751519562028d1a351941",
-        "pushedAt": 1792955138,
-        "tag": "8.0.427-noble-amd64"
       },
       {
         "digest": "sha256:c222783cb4f109a9b9297613effdb9ec2e39a1fbd9f36c02327a0e19b46fdb7d",
@@ -14375,11 +14610,6 @@
         "tag": "10.0-alpine-aot-amd64"
       },
       {
-        "digest": "sha256:85ead4211b95fac186c0d4176ee88e4d35055ff5df9bb9b6dd8b3ffbf935cc89",
-        "pushedAt": 1792955130,
-        "tag": "10.0.403-noble-amd64"
-      },
-      {
         "digest": "sha256:8027d226ad0c835053f8630ff93e2d3753948b195e2fba2dd18eba2de41b9d2c",
         "pushedAt": 1792955130,
         "tag": "11.0.100-rc.3-azurelinux3.0-aot-amd64"
@@ -14400,16 +14630,6 @@
         "tag": "10.0-windowsservercore-ltsc2025"
       },
       {
-        "digest": "sha256:48d7af77a6c2f7793e7235a352bc42d8c87c3f5f969d9359a3fe8e9eeedbf081",
-        "pushedAt": 1792955128,
-        "tag": "11.0.100-rc.3-resolute-aot-amd64"
-      },
-      {
-        "digest": "sha256:6c0bb2c896ad47a23db159a94009bb9ba5d102bb731a17e4015baefa2b8b6b89",
-        "pushedAt": 1792955126,
-        "tag": "10.0.403-noble-aot-amd64"
-      },
-      {
         "digest": "sha256:1ab92e837f1f5dbb9dda4bfea332b88074a72bdb00cc05c0d875d72d68845901",
         "pushedAt": 1792955126,
         "tag": "8.0-azurelinux3.0-amd64"
@@ -14420,24 +14640,9 @@
         "tag": "9.0.320-azurelinux3.0-amd64"
       },
       {
-        "digest": "sha256:3bcba64300f3ed60116b8099ae5cadd2c93d77518d693d47b77786ac44d7d277",
-        "pushedAt": 1792955123,
-        "tag": "9.0.320-noble-arm64v8"
-      },
-      {
         "digest": "sha256:506d0c604b4dc90601d54f97d885837ff92c2abdca8101d75590c3d5a6e8f792",
         "pushedAt": 1792955118,
         "tag": "10.0-azurelinux3.0-aot-amd64"
-      },
-      {
-        "digest": "sha256:60dd8b44b0a6a6063bf5f83364f278bb058fff577be15af2d918d2cde58ff2e4",
-        "pushedAt": 1792955106,
-        "tag": "11.0-azurelinux4.0-arm64v8"
-      },
-      {
-        "digest": "sha256:48d7af77a6c2f7793e7235a352bc42d8c87c3f5f969d9359a3fe8e9eeedbf081",
-        "pushedAt": 1792955104,
-        "tag": "11.0-resolute-aot-amd64"
       },
       {
         "digest": "sha256:ea01b858ee841f1804e9578a00f3b3f5da0df1fc175b27cac15f4dc846aa99c0",
@@ -14448,11 +14653,6 @@
         "digest": "sha256:209434015cba046bf2672cc134c68ca0b1015e9bca621d32e51ec794beb63a33",
         "pushedAt": 1792955102,
         "tag": "11.0.100-rc.3-azurelinux3.0-arm64v8"
-      },
-      {
-        "digest": "sha256:91f480a8ac35fea69f886c7e3354b6c9ddbc9022dee26cb306eac9b18df3cd6a",
-        "pushedAt": 1792955100,
-        "tag": "11.0-azurelinux4.0-aot-arm64v8"
       },
       {
         "digest": "sha256:6e605df4e1c1d305cb736257216d71a0be1af3f9cc9c27110be347936328a5fd",
@@ -14475,34 +14675,14 @@
         "tag": "9.0-nanoserver-ltsc2022"
       },
       {
-        "digest": "sha256:7b2e14c76d7b0e0ce2da58f951ce8b1020317acfbe0104b49eb6517d8f80783f",
-        "pushedAt": 1792955095,
-        "tag": "8.0-jammy-arm64v8"
-      },
-      {
         "digest": "sha256:e4d9bb7b378aa20d276eb3df5d217cd825f17e01fb2e8cadb95997e663119aef",
         "pushedAt": 1792955094,
         "tag": "10.0-alpine3.24-aot-amd64"
       },
       {
-        "digest": "sha256:6edd2d18152ad18fca58342d0fe76cdeef125323a707cfddd18ac4e1419213c3",
-        "pushedAt": 1792955094,
-        "tag": "11.0.100-rc.3-resolute-amd64"
-      },
-      {
-        "digest": "sha256:aac4a9a0eb0d33d3739ccf978688363e021914e397743a44b67383fad82e9d74",
-        "pushedAt": 1792955093,
-        "tag": "11.0-azurelinux4.0-aot-amd64"
-      },
-      {
         "digest": "sha256:3cf924e7a7cca277f2bd1e481657cde3272fde476437ecf35e92e65dd6587589",
         "pushedAt": 1792955093,
         "tag": "11.0.100-rc.3-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:6c0bb2c896ad47a23db159a94009bb9ba5d102bb731a17e4015baefa2b8b6b89",
-        "pushedAt": 1792955092,
-        "tag": "10.0-noble-aot-amd64"
       },
       {
         "digest": "sha256:a263ca79ab217a21c1b7648086705d1c4c932a9f39e48929d3b78a3126ea1260",
@@ -14513,11 +14693,6 @@
         "digest": "sha256:8e3a082410c926d968071774ecf59b986cd037a1f5da9c0274ecae03e1273038",
         "pushedAt": 1792955091,
         "tag": "10.0-azurelinux3.0-aot-arm64v8"
-      },
-      {
-        "digest": "sha256:2b25d8fb133c5229a1ad0bdaf1a23defd2c0085e89ba8b3a7c301c9a31748b0f",
-        "pushedAt": 1792955088,
-        "tag": "10.0.403-noble-aot-arm64v8"
       },
       {
         "digest": "sha256:0bcd2615fe39229219363c0e1164c4d6126c6580221db83e7aa29f940e7ba627",
@@ -14535,39 +14710,9 @@
         "tag": "10.0.403-alpine3.24-aot-arm64v8"
       },
       {
-        "digest": "sha256:afd0ccff9d306812a69ef0f47458376b6acb544ae866cfc4b8d28ff0eef35ea7",
-        "pushedAt": 1792955059,
-        "tag": "10.0"
-      },
-      {
-        "digest": "sha256:91f480a8ac35fea69f886c7e3354b6c9ddbc9022dee26cb306eac9b18df3cd6a",
-        "pushedAt": 1792955052,
-        "tag": "11.0.100-rc.3-azurelinux4.0-aot-arm64v8"
-      },
-      {
-        "digest": "sha256:5b024ff8607de9901ef206c2eede4e8f7d8e119b42db5ab44e61d104ad8bdbc7",
-        "pushedAt": 1792955050,
-        "tag": "8.0.427-noble"
-      },
-      {
-        "digest": "sha256:db24de72e2f4272c9e5a542f03a782bda059da7f2075409ba1e81c438bb05079",
-        "pushedAt": 1792955048,
-        "tag": "10.0-aot"
-      },
-      {
-        "digest": "sha256:2b25d8fb133c5229a1ad0bdaf1a23defd2c0085e89ba8b3a7c301c9a31748b0f",
-        "pushedAt": 1792955048,
-        "tag": "10.0-noble-aot-arm64v8"
-      },
-      {
         "digest": "sha256:c68a5359aae875b11e3777b0d092fcb9e91e0a778b22b2dda92e23086a11bf3f",
         "pushedAt": 1792955046,
         "tag": "11.0.100-rc.3-azurelinux3.0-aot"
-      },
-      {
-        "digest": "sha256:afd0ccff9d306812a69ef0f47458376b6acb544ae866cfc4b8d28ff0eef35ea7",
-        "pushedAt": 1792955044,
-        "tag": "10.0-noble"
       },
       {
         "digest": "sha256:96a932f1623d70929c769fafcec11d8c538c511e1524491b1af352f0451f6a3f",
@@ -14580,24 +14725,9 @@
         "tag": "11.0-windowsservercore-ltsc2025"
       },
       {
-        "digest": "sha256:afd0ccff9d306812a69ef0f47458376b6acb544ae866cfc4b8d28ff0eef35ea7",
-        "pushedAt": 1792955036,
-        "tag": "10.0.403"
-      },
-      {
-        "digest": "sha256:646b289295f3834b15199efdea62533a4f28cbd03be86945a8b93a68644769e6",
-        "pushedAt": 1792955036,
-        "tag": "11.0.100-rc.3-azurelinux4.0-amd64"
-      },
-      {
         "digest": "sha256:0bf68729df7782afa61c4d0ad08100d5500045dd8e94d01054821e318de9d51a",
         "pushedAt": 1792955031,
         "tag": "8.0-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:646b289295f3834b15199efdea62533a4f28cbd03be86945a8b93a68644769e6",
-        "pushedAt": 1792955029,
-        "tag": "11.0-azurelinux4.0-amd64"
       },
       {
         "digest": "sha256:a263ca79ab217a21c1b7648086705d1c4c932a9f39e48929d3b78a3126ea1260",
@@ -14610,29 +14740,14 @@
         "tag": "10.0.403-windowsservercore-ltsc2025"
       },
       {
-        "digest": "sha256:3ab92307d66ec73ff74909a9d440b1bcb34e30b29e2b640e46cd9da3a71c6ddb",
-        "pushedAt": 1792955026,
-        "tag": "8.0-jammy"
-      },
-      {
         "digest": "sha256:1ab92e837f1f5dbb9dda4bfea332b88074a72bdb00cc05c0d875d72d68845901",
         "pushedAt": 1792955026,
         "tag": "8.0.427-azurelinux3.0-amd64"
       },
       {
-        "digest": "sha256:887b259bc4e0d1990555dcdd68a9937ad5c2b130b68ea281e7ab7c3bb3ff1c60",
-        "pushedAt": 1792955023,
-        "tag": "11.0.100-rc.3-resolute-arm64v8"
-      },
-      {
         "digest": "sha256:a8401ca7a97d996c1cca7007940877873d61936a17c8df15443b85aa90f365f3",
         "pushedAt": 1792955023,
         "tag": "9.0.320-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:369d3a368eda9d52c75e298d7217a07d4c3260ec53fc3261a32f8723c87eb23b",
-        "pushedAt": 1792955022,
-        "tag": "10.0-resolute-arm64v8"
       },
       {
         "digest": "sha256:43e7f2ebe461cc37979db41d63e6aa1db581e9a93f120e78c5a1998796556c44",
@@ -14650,11 +14765,6 @@
         "tag": "8.0-nanoserver-ltsc2022"
       },
       {
-        "digest": "sha256:85879f722e4e7ac8975395c2a6bb4e6852876297c3add8786f746dadc630c472",
-        "pushedAt": 1792955020,
-        "tag": "8.0-noble-arm64v8"
-      },
-      {
         "digest": "sha256:80c4d05af51158795e54f4ada389eabedc94892d710938ad0881b26904688edc",
         "pushedAt": 1792955017,
         "tag": "9.0.320-windowsservercore-ltsc2025"
@@ -14668,16 +14778,6 @@
         "digest": "sha256:9ec92a49994039ca5887f8f4efa66fb8308d487fabe975a42b271be61a5be6bc",
         "pushedAt": 1792955016,
         "tag": "9.0-azurelinux3.0-amd64"
-      },
-      {
-        "digest": "sha256:175a01540cdbf48f5f9c082116dd9854aa61102aadaf5f5c7b964441306b919b",
-        "pushedAt": 1792955015,
-        "tag": "8.0.427-jammy-arm32v7"
-      },
-      {
-        "digest": "sha256:64d09b4cffdb07fd8681b1e87536a1ed8240f2ca115751519562028d1a351941",
-        "pushedAt": 1792955014,
-        "tag": "8.0-noble-amd64"
       },
       {
         "digest": "sha256:6e605df4e1c1d305cb736257216d71a0be1af3f9cc9c27110be347936328a5fd",
@@ -14725,26 +14825,6 @@
         "tag": "9.0-nanoserver-1809"
       },
       {
-        "digest": "sha256:85ead4211b95fac186c0d4176ee88e4d35055ff5df9bb9b6dd8b3ffbf935cc89",
-        "pushedAt": 1792955004,
-        "tag": "10.0-noble-amd64"
-      },
-      {
-        "digest": "sha256:a1d68dc8118e7a26598012d90ef9dfebdc274597bc47982f7f4c40096a0455d0",
-        "pushedAt": 1792955003,
-        "tag": "11.0-resolute-aot-arm64v8"
-      },
-      {
-        "digest": "sha256:369d3a368eda9d52c75e298d7217a07d4c3260ec53fc3261a32f8723c87eb23b",
-        "pushedAt": 1792955001,
-        "tag": "10.0.403-resolute-arm64v8"
-      },
-      {
-        "digest": "sha256:3bcba64300f3ed60116b8099ae5cadd2c93d77518d693d47b77786ac44d7d277",
-        "pushedAt": 1792955001,
-        "tag": "9.0-noble-arm64v8"
-      },
-      {
         "digest": "sha256:20c8f51f9525753eafdf71ad8d077d45d23ad28c5730be127443df23df64cdac",
         "pushedAt": 1792955000,
         "tag": "10.0.403-azurelinux3.0-amd64"
@@ -14775,16 +14855,6 @@
         "tag": "11.0-alpine-arm64v8"
       },
       {
-        "digest": "sha256:ea8a15a659eea1e00ef9a79a6596737a6369104341660fb783e9f90f9a8faf00",
-        "pushedAt": 1792954987,
-        "tag": "10.0-noble-arm64v8"
-      },
-      {
-        "digest": "sha256:523372ad7e306e5e44d619058283faab2bdf96c78555fc284868b62a6b2b9b62",
-        "pushedAt": 1792954986,
-        "tag": "10.0-resolute-aot-arm64v8"
-      },
-      {
         "digest": "sha256:a6802aa16dd234e0181a2c52fa211db12152f840c3deb141b57c9707dbd166f0",
         "pushedAt": 1792954986,
         "tag": "8.0-azurelinux3.0-arm64v8"
@@ -14810,11 +14880,6 @@
         "tag": "10.0-nanoserver-ltsc2025"
       },
       {
-        "digest": "sha256:60dd8b44b0a6a6063bf5f83364f278bb058fff577be15af2d918d2cde58ff2e4",
-        "pushedAt": 1792954983,
-        "tag": "11.0.100-rc.3-azurelinux4.0-arm64v8"
-      },
-      {
         "digest": "sha256:9ce04846f5cb9813f4bd816788c6adfa03dd038dfa1cb5d25683fe29014a93a1",
         "pushedAt": 1792954983,
         "tag": "8.0-alpine-amd64"
@@ -14830,11 +14895,6 @@
         "tag": "10.0.403-alpine3.24-aot-amd64"
       },
       {
-        "digest": "sha256:7b2e14c76d7b0e0ce2da58f951ce8b1020317acfbe0104b49eb6517d8f80783f",
-        "pushedAt": 1792954981,
-        "tag": "8.0.427-jammy-arm64v8"
-      },
-      {
         "digest": "sha256:492a53da45ba166040228deffa4ec403d16cfdba2a982c283fbdf55979900872",
         "pushedAt": 1792954980,
         "tag": "8.0-alpine-arm64v8"
@@ -14848,16 +14908,6 @@
         "digest": "sha256:3309f129a2227c1cfc1d606740f6aac0502bd079fed3ad5c99b2c2232d6df37c",
         "pushedAt": 1792954978,
         "tag": "8.0.427-windowsservercore-ltsc2022"
-      },
-      {
-        "digest": "sha256:76a55f2146a802904b7e7907b2124df881244ef5616f5704ace961b53e16c2d0",
-        "pushedAt": 1792954977,
-        "tag": "10.0-noble-arm32v7"
-      },
-      {
-        "digest": "sha256:54cf057fcee3cbdc98b6e9ec5bc01cac7afc3d07b4528f3aba966f4c2e8d79c4",
-        "pushedAt": 1792954977,
-        "tag": "11.0.100-rc.3-resolute-arm32v7"
       },
       {
         "digest": "sha256:6bd136ddea9d51bfb7742ec708251df322b3145186f1efed8132db3a0cbad08f",
@@ -14878,11 +14928,6 @@
         "digest": "sha256:bf500481e8dac63987f2b1e617938f72a77bcfb9b310a234f39483abf35c9bff",
         "pushedAt": 1792954974,
         "tag": "10.0-alpine-arm64v8"
-      },
-      {
-        "digest": "sha256:6edd2d18152ad18fca58342d0fe76cdeef125323a707cfddd18ac4e1419213c3",
-        "pushedAt": 1792954974,
-        "tag": "11.0-resolute-amd64"
       },
       {
         "digest": "sha256:bf500481e8dac63987f2b1e617938f72a77bcfb9b310a234f39483abf35c9bff",
@@ -14925,24 +14970,9 @@
         "tag": "9.0-alpine-arm32v7"
       },
       {
-        "digest": "sha256:54cf057fcee3cbdc98b6e9ec5bc01cac7afc3d07b4528f3aba966f4c2e8d79c4",
-        "pushedAt": 1792954970,
-        "tag": "11.0-resolute-arm32v7"
-      },
-      {
-        "digest": "sha256:24623f99938a6fece631e10cf988210fd9d50bc142acd20ae828bc80c4f29787",
-        "pushedAt": 1792954970,
-        "tag": "9.0.320-noble-arm32v7"
-      },
-      {
         "digest": "sha256:d0487b39cabebb00b8620312215df5328883e4db3c583e2d0f52056542eff080",
         "pushedAt": 1792954969,
         "tag": "8.0-alpine-arm32v7"
-      },
-      {
-        "digest": "sha256:0cd3ce8b658976cbf3c3b8fb1b775031eb77ca56aa0ee5ac502b6f91532f351a",
-        "pushedAt": 1792954966,
-        "tag": "10.0.403-resolute-arm32v7"
       },
       {
         "digest": "sha256:60a079c9d3ffc98b2968c3153b995ede679f7d6504e3ae7d2b68225a7fd84f5a",
@@ -14950,19 +14980,9 @@
         "tag": "10.0.403-alpine3.24-amd64"
       },
       {
-        "digest": "sha256:35a6f1f5167241b391cdef722427adf17ff2b1b06ccdf3032dc992d03215711f",
-        "pushedAt": 1792954964,
-        "tag": "9.0.320-noble-amd64"
-      },
-      {
         "digest": "sha256:931786f627869697eed975360494c2933707585efd1792678b6695ac563522be",
         "pushedAt": 1792954963,
         "tag": "11.0-alpine-amd64"
-      },
-      {
-        "digest": "sha256:aac4a9a0eb0d33d3739ccf978688363e021914e397743a44b67383fad82e9d74",
-        "pushedAt": 1792954963,
-        "tag": "11.0.100-rc.3-azurelinux4.0-aot-amd64"
       },
       {
         "digest": "sha256:f636714fc95419d88745e7bb9183ae113c0f4688046c0dc71c023cbdd6d30932",
@@ -14973,11 +14993,6 @@
         "digest": "sha256:2dca866891474f9629c349ef189dad74d3bd8a6fb497635dccb0c982baddf3bc",
         "pushedAt": 1792954963,
         "tag": "9.0.320-bookworm-slim-arm32v7"
-      },
-      {
-        "digest": "sha256:35a6f1f5167241b391cdef722427adf17ff2b1b06ccdf3032dc992d03215711f",
-        "pushedAt": 1792954961,
-        "tag": "9.0-noble-amd64"
       },
       {
         "digest": "sha256:8bdcd6e50246de773092756b6bafe42aec364ae363251e6381230d97e8a4eca8",
@@ -15020,24 +15035,9 @@
         "tag": "11.0-alpine-arm32v7"
       },
       {
-        "digest": "sha256:d96041ef085ec0b3b64ff9af4b30588ee3a02d87958df0106b8bf669e3a1e595",
-        "pushedAt": 1792954945,
-        "tag": "10.0.403-resolute-amd64"
-      },
-      {
-        "digest": "sha256:d96041ef085ec0b3b64ff9af4b30588ee3a02d87958df0106b8bf669e3a1e595",
-        "pushedAt": 1792954940,
-        "tag": "10.0-resolute-amd64"
-      },
-      {
         "digest": "sha256:931786f627869697eed975360494c2933707585efd1792678b6695ac563522be",
         "pushedAt": 1792954940,
         "tag": "11.0.100-rc.3-alpine3.24-amd64"
-      },
-      {
-        "digest": "sha256:887b259bc4e0d1990555dcdd68a9937ad5c2b130b68ea281e7ab7c3bb3ff1c60",
-        "pushedAt": 1792954938,
-        "tag": "11.0-resolute-arm64v8"
       },
       {
         "digest": "sha256:60a079c9d3ffc98b2968c3153b995ede679f7d6504e3ae7d2b68225a7fd84f5a",
@@ -15060,16 +15060,6 @@
         "tag": "9.0.320-bookworm-slim-amd64"
       },
       {
-        "digest": "sha256:508b04a0f89e9d79eefb00e76281e166cde5331e40075e736acca9894851a8c4",
-        "pushedAt": 1792954935,
-        "tag": "10.0.403-resolute-aot-amd64"
-      },
-      {
-        "digest": "sha256:6af178da9062348fdfa96516e5db96d430bc0bc91bcea345664f3d0ce758a611",
-        "pushedAt": 1792954935,
-        "tag": "8.0-jammy-amd64"
-      },
-      {
         "digest": "sha256:5b000f030962c7ed95675a64f07ed9892b6156603bdacbad760b6cfaab3a69c4",
         "pushedAt": 1792954935,
         "tag": "9.0-alpine3.24-arm64v8"
@@ -15090,11 +15080,6 @@
         "tag": "11.0.100-rc.3-alpine3.24-arm32v7"
       },
       {
-        "digest": "sha256:6af178da9062348fdfa96516e5db96d430bc0bc91bcea345664f3d0ce758a611",
-        "pushedAt": 1792954878,
-        "tag": "8.0.427-jammy-amd64"
-      },
-      {
         "digest": "sha256:3c439035c6dd8087f43a034da64271af7e41e552b059cacc33ad23a164988b60",
         "pushedAt": 1792954873,
         "tag": "8.0-windowsservercore-ltsc2019"
@@ -15103,11 +15088,6 @@
         "digest": "sha256:492a53da45ba166040228deffa4ec403d16cfdba2a982c283fbdf55979900872",
         "pushedAt": 1792954872,
         "tag": "8.0-alpine3.24-arm64v8"
-      },
-      {
-        "digest": "sha256:508b04a0f89e9d79eefb00e76281e166cde5331e40075e736acca9894851a8c4",
-        "pushedAt": 1792954871,
-        "tag": "10.0-resolute-aot-amd64"
       },
       {
         "digest": "sha256:da430d0cc20ef413292fac06bc6c8789e079dbd98d6a79735b6e23400152bac4",
@@ -15178,16 +15158,6 @@
         "digest": "sha256:538381bc3d02843676058838133a0e547b4c83ce4dd340dd1e15c86b2fc28124",
         "pushedAt": 1792954863,
         "tag": "9.0.320-azurelinux3.0-arm64v8"
-      },
-      {
-        "digest": "sha256:76a55f2146a802904b7e7907b2124df881244ef5616f5704ace961b53e16c2d0",
-        "pushedAt": 1792954862,
-        "tag": "10.0.403-noble-arm32v7"
-      },
-      {
-        "digest": "sha256:a1d68dc8118e7a26598012d90ef9dfebdc274597bc47982f7f4c40096a0455d0",
-        "pushedAt": 1792954861,
-        "tag": "11.0.100-rc.3-resolute-aot-arm64v8"
       },
       {
         "digest": "sha256:d586831fedfd24de3eac9dd0c83f510ee4309d001abefb85f8b0d1edf95774eb",
@@ -16843,470 +16813,470 @@
     "registry.k8s.io/sig-storage/csi-snapshotter": [
       {
         "digest": "sha256:b03d3334f8035fa42660b166f6eb819a659a14774da020eb1b6c52cd422eaadb",
-        "pushedAt": 1791969171,
+        "pushedAt": 1791969121,
         "tag": "v8.7.0"
       },
       {
         "digest": "sha256:42af0929bcd60a43499825c078a60ff0534e08af8fbeb283aa391be40feb9f3e",
-        "pushedAt": 1780934654,
+        "pushedAt": 1780934782,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:da081c27e8a6d91f36042c1942362d0515ced8d06e18c11b8f893e58c4d6d797",
-        "pushedAt": 1770993550,
+        "pushedAt": 1770993644,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:c7e0a3718832b6197ce8b29fefb3fed3d84f4fbcdf08f4606140dbec2566501d",
-        "pushedAt": 1761601044,
+        "pushedAt": 1761600954,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:bc7be893ecc3ad524194aa6573b2f5c06cd469bdf21a500ab6c99c2ba1c4d64d",
-        "pushedAt": 1750321720,
+        "pushedAt": 1750321695,
         "tag": "v8.3.0"
       },
       {
         "digest": "sha256:5f4bb469fec51147ce157329dab598c758da1b018bad6dad26f0ff469326d769",
-        "pushedAt": 1740731739,
+        "pushedAt": 1740731830,
         "tag": "v8.2.1"
       },
       {
         "digest": "sha256:68d76ee2618d63de1bf9697850a32cb581e3df4c54f677320ccf900dec378b2f",
-        "pushedAt": 1734473193,
+        "pushedAt": 1734473165,
         "tag": "v8.1.1"
       },
       {
-        "digest": "sha256:dd788d79cf4c1b8edee6d9b80b8a1ebfc51a38a365c5be656986b129be9ac784",
-        "pushedAt": 1733851244,
-        "tag": "v8.2.0"
-      },
-      {
         "digest": "sha256:5f051159c95fd13b0b518436cb20808862d2f7f95f45e036da4242f3416befe4",
-        "pushedAt": 1733851138,
+        "pushedAt": 1733851127,
         "tag": "v8.0.2"
       },
       {
+        "digest": "sha256:dd788d79cf4c1b8edee6d9b80b8a1ebfc51a38a365c5be656986b129be9ac784",
+        "pushedAt": 1733851090,
+        "tag": "v8.2.0"
+      },
+      {
         "digest": "sha256:b3e90b33781670ac050c22c9e88b9e876493dca248966b9da6f7a90cc412ab86",
-        "pushedAt": 1725048789,
+        "pushedAt": 1725048923,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:2e04046334baf9be425bb0fa1d04c2d1720d770825eedbdbcdb10d430da4ad8c",
-        "pushedAt": 1717520385,
+        "pushedAt": 1717520232,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:6d4a90d6e164db684684295e28ad4b012d7c8a29ee4103cfb7611ce2e9c884bb",
-        "pushedAt": 1716574348,
+        "pushedAt": 1716574231,
         "tag": "v8.0.0"
       },
       {
-        "digest": "sha256:bb66be8355958e600e32026e6a1742c86d0cc54401ca53b98a0234bf32636e36",
-        "pushedAt": 1711041675,
-        "tag": "v6.3.4"
-      },
-      {
         "digest": "sha256:c4b6b02737bc24906fcce57fe6626d1a36cb2b91baa971af2a5e5a919093c34e",
-        "pushedAt": 1711041521,
+        "pushedAt": 1711041620,
         "tag": "v7.0.2"
       },
       {
+        "digest": "sha256:bb66be8355958e600e32026e6a1742c86d0cc54401ca53b98a0234bf32636e36",
+        "pushedAt": 1711041467,
+        "tag": "v6.3.4"
+      },
+      {
         "digest": "sha256:1a29ab1e4ecdc33a84062cec757620d9787c28b28793202c5b78ae097c3dee27",
-        "pushedAt": 1707839317,
+        "pushedAt": 1707839316,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:682d5015146de0f922def125a3be1e2a29c43a3eb45700600e4e0733ec3f5752",
-        "pushedAt": 1706742857,
+        "pushedAt": 1706742836,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:f1bd6ee18c4021c1c94f29edfab89b49b6a4d1b800936c19dbef2d75f8202f2d",
-        "pushedAt": 1703632870,
+        "pushedAt": 1703633136,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:4c5a1b57e685b2631909b958487f65af7746361346fcd82a8635bea3ef14509d",
-        "pushedAt": 1699578122,
+        "pushedAt": 1699578190,
         "tag": "v6.3.2"
       },
       {
         "digest": "sha256:65c5ffde8fe6f68a2f19310cfd789befe7bdd16eedda219d9a0024f8fc68b802",
-        "pushedAt": 1697819453,
+        "pushedAt": 1697819448,
         "tag": "v6.3.1"
       },
       {
         "digest": "sha256:5ff5392cb762a41ee9bc4767e3a693249ae08b46a4322f623f24ad6b63dd06b5",
-        "pushedAt": 1697730481,
+        "pushedAt": 1697730681,
         "tag": "v6.2.3"
       },
       {
         "digest": "sha256:93fbf54dd67f586428ea339743160e1a5110c058afde3c2e824f11fbc6efae53",
-        "pushedAt": 1694719055,
+        "pushedAt": 1694719012,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:becc53e25b96573f61f7469923a92fb3e9d3a3781732159954ce0d9da07233a2",
-        "pushedAt": 1685328624,
+        "pushedAt": 1685328595,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:714aa06ccdd3781f1a76487e2dc7592ece9a12ae9e0b726e4f93d1639129b771",
-        "pushedAt": 1672944878,
+        "pushedAt": 1672944813,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:0d8d81948af4897bd07b86046424f022f79634ee0315e9f1d4cdb5c1c8d51c90",
-        "pushedAt": 1672209454,
+        "pushedAt": 1672209509,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:291334908ddf71a4661fd7f6d9d97274de8a5378a2b6fdfeb2ce73414a34f82f",
-        "pushedAt": 1664282974,
+        "pushedAt": 1664282899,
         "tag": "v6.1.0"
       },
       {
         "digest": "sha256:ad16874e2140256a809cada2b4ac3d931d5b73b0bee23ed0f8d60bdd778cfec2",
-        "pushedAt": 1660998492,
+        "pushedAt": 1660851747,
         "tag": "v6.0.1"
       },
       {
-        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
-        "pushedAt": 1660998491,
-        "tag": "v4.0.1"
-      },
-      {
-        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
-        "pushedAt": 1660998491,
-        "tag": "v1.2.2"
-      },
-      {
-        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
-        "pushedAt": 1660998491,
-        "tag": "v6.0.0"
-      },
-      {
-        "digest": "sha256:7f93019f399454598370aab2cc1a652a3b8ff722ab92ec4ca9db0eed53acc4b4",
-        "pushedAt": 1660998491,
-        "tag": "v1.1.0"
-      },
-      {
-        "digest": "sha256:9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7",
-        "pushedAt": 1660998491,
-        "tag": "v3.0.3"
-      },
-      {
-        "digest": "sha256:2d719cc8f5f1d3794ee6ae9bc2f93820e78ff34908ab05ed94293e5b7ddebfb0",
-        "pushedAt": 1660998489,
-        "tag": "v2.1.4"
-      },
-      {
         "digest": "sha256:74e5a1c97b0c558fb0c59ea002b6ddc98a236676221030306355ed1423df667e",
-        "pushedAt": 1660998489,
+        "pushedAt": 1660851745,
         "tag": "v2.1.5"
       },
       {
-        "digest": "sha256:ac845016480ce5eb18a04c1e4e7a4613900e662367dd1771db1e4ccfcedda5e2",
-        "pushedAt": 1660998489,
-        "tag": "v5.0.0"
-      },
-      {
-        "digest": "sha256:26e327b018c21a49523b759d7787e99553181ae9ef90b6bdc13abe362a43ced0",
-        "pushedAt": 1660998488,
-        "tag": "v3.0.2"
-      },
-      {
-        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
-        "pushedAt": 1660998488,
-        "tag": "v3.0.1"
-      },
-      {
-        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
-        "pushedAt": 1660998488,
-        "tag": "v4.1.1"
-      },
-      {
-        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
-        "pushedAt": 1660998487,
-        "tag": "v4.2.0"
-      },
-      {
-        "digest": "sha256:89e900a160a986a1a7a4eba7f5259e510398fa87ca9b8a729e7dec59e04c7709",
-        "pushedAt": 1660998487,
-        "tag": "v5.0.1"
-      },
-      {
-        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
-        "pushedAt": 1660998485,
-        "tag": "v4.2.1"
-      },
-      {
-        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
-        "pushedAt": 1660998485,
-        "tag": "v2.1.3"
-      },
-      {
-        "digest": "sha256:e27ad21f007bae28eef68934a4834ca0a5c669e4c246c4900378e7ed1680c37e",
-        "pushedAt": 1660998483,
-        "tag": "v4.1.0"
-      },
-      {
-        "digest": "sha256:ece29e2217e0faf87973565c062c8508c2b78039169e855032bb357acefa3c98",
-        "pushedAt": 1660998480,
-        "tag": "v3.0.0"
-      },
-      {
-        "digest": "sha256:f0673197110ba3c38a94b42fc0037d0c209b9d17c0b796072d26df72195a7ecd",
-        "pushedAt": 1660998480,
-        "tag": "v2.1.2"
-      },
-      {
-        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
-        "pushedAt": 1660998479,
-        "tag": "v1.2.0"
-      },
-      {
-        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
-        "pushedAt": 1660998479,
-        "tag": "v4.0.0"
-      },
-      {
-        "digest": "sha256:de94e695fc27ee421da8b9932c3d42699fe7b848bc34717f67f4350946bc46c9",
-        "pushedAt": 1660998479,
-        "tag": "v2.1.1"
+        "digest": "sha256:35ead85dd09aa8cc612fdb598d4e0e2f048bef816f1b74df5eeab67cd21b10aa",
+        "pushedAt": 1660851744,
+        "tag": "v2.1.0"
       },
       {
         "digest": "sha256:1530db9fd380ecee86b48a7b3540568c46adb5a64b7fe718c51d9260c4834fd8",
-        "pushedAt": 1660998476,
+        "pushedAt": 1660851743,
         "tag": "v2.0.1"
       },
       {
-        "digest": "sha256:35ead85dd09aa8cc612fdb598d4e0e2f048bef816f1b74df5eeab67cd21b10aa",
-        "pushedAt": 1660998472,
-        "tag": "v2.1.0"
+        "digest": "sha256:2d719cc8f5f1d3794ee6ae9bc2f93820e78ff34908ab05ed94293e5b7ddebfb0",
+        "pushedAt": 1660851743,
+        "tag": "v2.1.4"
+      },
+      {
+        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
+        "pushedAt": 1660851743,
+        "tag": "v4.1.1"
+      },
+      {
+        "digest": "sha256:89e900a160a986a1a7a4eba7f5259e510398fa87ca9b8a729e7dec59e04c7709",
+        "pushedAt": 1660851742,
+        "tag": "v5.0.1"
+      },
+      {
+        "digest": "sha256:9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7",
+        "pushedAt": 1660851742,
+        "tag": "v3.0.3"
+      },
+      {
+        "digest": "sha256:ece29e2217e0faf87973565c062c8508c2b78039169e855032bb357acefa3c98",
+        "pushedAt": 1660851742,
+        "tag": "v3.0.0"
+      },
+      {
+        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
+        "pushedAt": 1660851741,
+        "tag": "v1.2.0"
+      },
+      {
+        "digest": "sha256:e27ad21f007bae28eef68934a4834ca0a5c669e4c246c4900378e7ed1680c37e",
+        "pushedAt": 1660851741,
+        "tag": "v4.1.0"
+      },
+      {
+        "digest": "sha256:26e327b018c21a49523b759d7787e99553181ae9ef90b6bdc13abe362a43ced0",
+        "pushedAt": 1660851740,
+        "tag": "v3.0.2"
+      },
+      {
+        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
+        "pushedAt": 1660851737,
+        "tag": "v4.0.1"
+      },
+      {
+        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
+        "pushedAt": 1660851736,
+        "tag": "v3.0.1"
+      },
+      {
+        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
+        "pushedAt": 1660851735,
+        "tag": "v1.2.2"
+      },
+      {
+        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
+        "pushedAt": 1660851735,
+        "tag": "v4.2.1"
+      },
+      {
+        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
+        "pushedAt": 1660851733,
+        "tag": "v6.0.0"
+      },
+      {
+        "digest": "sha256:ac845016480ce5eb18a04c1e4e7a4613900e662367dd1771db1e4ccfcedda5e2",
+        "pushedAt": 1660851732,
+        "tag": "v5.0.0"
+      },
+      {
+        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
+        "pushedAt": 1660851731,
+        "tag": "v4.2.0"
+      },
+      {
+        "digest": "sha256:7f93019f399454598370aab2cc1a652a3b8ff722ab92ec4ca9db0eed53acc4b4",
+        "pushedAt": 1660851731,
+        "tag": "v1.1.0"
+      },
+      {
+        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
+        "pushedAt": 1660851728,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
+        "pushedAt": 1660851728,
+        "tag": "v2.1.3"
+      },
+      {
+        "digest": "sha256:de94e695fc27ee421da8b9932c3d42699fe7b848bc34717f67f4350946bc46c9",
+        "pushedAt": 1660851724,
+        "tag": "v2.1.1"
+      },
+      {
+        "digest": "sha256:f0673197110ba3c38a94b42fc0037d0c209b9d17c0b796072d26df72195a7ecd",
+        "pushedAt": 1660851724,
+        "tag": "v2.1.2"
       }
     ],
     "registry.k8s.io/sig-storage/snapshot-controller": [
       {
         "digest": "sha256:8511f417d0072efcd937aedd7cc79a937d5066e64ee17beb6097301c92742f19",
-        "pushedAt": 1791969121,
+        "pushedAt": 1791969167,
         "tag": "v8.7.0"
       },
       {
         "digest": "sha256:81e79f205083f105e573ba2ebfe5964ede7f69a154e8627f53ebbbccd3ed9f70",
-        "pushedAt": 1780934615,
+        "pushedAt": 1780934501,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:74ca61ab13e978f03cf0f336a607281d15f04cda0a38a881306365473b28a3d8",
-        "pushedAt": 1770993614,
+        "pushedAt": 1770993594,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:b845f4bbc34d70bd84e92f8021f47704df1de3dbabbd8289969651360b39d605",
-        "pushedAt": 1761601024,
+        "pushedAt": 1761600965,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:12c2da094b02ffa8fa249e17b943b755b464604880cc2cfd85977088c1a2c458",
-        "pushedAt": 1750321663,
+        "pushedAt": 1750321651,
         "tag": "v8.3.0"
       },
       {
         "digest": "sha256:472fa35a89dadb5a715454fad576ec11aa6f2e8378fc09ae26473d139b77c437",
-        "pushedAt": 1740731741,
+        "pushedAt": 1740731699,
         "tag": "v8.2.1"
       },
       {
         "digest": "sha256:0b7c1b2937151dde2eb31eba1ddbd8b59bae0e268f2e1d1f2b4ee5313e45f26d",
-        "pushedAt": 1734473218,
+        "pushedAt": 1734473137,
         "tag": "v8.1.1"
       },
       {
-        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
-        "pushedAt": 1733851233,
-        "tag": "v8.2.0"
-      },
-      {
         "digest": "sha256:bb68b81c708f1ab07e3fde2ea5fe19719ec8343956f74971146020418193b42e",
-        "pushedAt": 1733851182,
+        "pushedAt": 1733851238,
         "tag": "v8.0.2"
       },
       {
+        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
+        "pushedAt": 1733851217,
+        "tag": "v8.2.0"
+      },
+      {
         "digest": "sha256:a8a6749641849a6d7e560d26647e88dbd605a75cbff1823568ab90287ea29038",
-        "pushedAt": 1725048883,
+        "pushedAt": 1725048811,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:32b8e4254751c9935c796e6e5c07fe804250bd5032ab78f7133a00f75d504596",
-        "pushedAt": 1717520390,
+        "pushedAt": 1717520562,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:d60a4f302a80f7effa0c9c3f6da7de6a49afede590abc39e30e959e844e46a41",
-        "pushedAt": 1716574293,
+        "pushedAt": 1716574433,
         "tag": "v8.0.0"
       },
       {
-        "digest": "sha256:8f12551e3eca417490cfab20945394fc65a0a0de85c36f3012bc872b96d5e1b0",
-        "pushedAt": 1711041655,
-        "tag": "v6.3.4"
-      },
-      {
         "digest": "sha256:a03550d7b25d0d24c6c313a27fcade0065f0cee159805ed0b0083700dcb52b76",
-        "pushedAt": 1711041543,
+        "pushedAt": 1711041842,
         "tag": "v7.0.2"
       },
       {
+        "digest": "sha256:8f12551e3eca417490cfab20945394fc65a0a0de85c36f3012bc872b96d5e1b0",
+        "pushedAt": 1711041822,
+        "tag": "v6.3.4"
+      },
+      {
         "digest": "sha256:87a44fa28a10d00968be71deec75883ed6d48132779f798572f2fb49d3b30d95",
-        "pushedAt": 1707839298,
+        "pushedAt": 1707839286,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:2084f69694f0fae24d1a3039e02102beaef3ae912c10e59094449196a63ffb7e",
-        "pushedAt": 1706742763,
+        "pushedAt": 1706742839,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:00c36f9f73152a878802abef04d52a836ad1f2c1b3bff24ddb470f7a82ba1587",
-        "pushedAt": 1703632909,
+        "pushedAt": 1703633128,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:73b4160cb0154c0acbafe7ae6acd4091a4289e8f300867e84522b0ae66660876",
-        "pushedAt": 1700488321,
+        "pushedAt": 1700488266,
         "tag": "v6.3.2"
       },
       {
         "digest": "sha256:c6f972cf23fd437237fdc0e0beb97755d62a9ad4a21564766e2e125952acbc24",
-        "pushedAt": 1698075363,
+        "pushedAt": 1698075323,
         "tag": "v6.2.3"
       },
       {
         "digest": "sha256:ce6ca3c0e30b19477896dafff55f9f4b18ea59dfb683da85c62700e215e8107b",
-        "pushedAt": 1698075354,
+        "pushedAt": 1698075242,
         "tag": "v6.3.1"
       },
       {
         "digest": "sha256:0576eac2184b2bca88f30ada56dfec1e98fa8045e27ecb6aedff23c48534a3ca",
-        "pushedAt": 1694719023,
+        "pushedAt": 1694718968,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:fb95b65bb88f319f0f7d5397c401a654164f11a191f466b4026fa36085c7141b",
-        "pushedAt": 1685328585,
+        "pushedAt": 1685328606,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:98bab4eaf23c5bf75ada9deb7f8c55bd5fc13a48fbb3e658079fc37693375957",
-        "pushedAt": 1672944819,
+        "pushedAt": 1672944816,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:2fdd2e646bdda56c9e728d4758c037088f69275815ee10d0b45ae3f4e3cac314",
-        "pushedAt": 1672209361,
+        "pushedAt": 1672209413,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:823c75d0c45d1427f6d850070956d9ca657140a7bbf828381541d1d808475280",
-        "pushedAt": 1664282981,
+        "pushedAt": 1664282905,
         "tag": "v6.1.0"
       },
       {
-        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
-        "pushedAt": 1660998587,
-        "tag": "v5.0.0"
-      },
-      {
-        "digest": "sha256:c39d470f04a167f2e84e5b21b730e2c0bc7865da3a717448814fffbed541d858",
-        "pushedAt": 1660998587,
-        "tag": "v4.0.1"
-      },
-      {
-        "digest": "sha256:d5d49bede340a36d29397b8941f26852a08a3d81c5d3bea72d9677774085032c",
-        "pushedAt": 1660998587,
-        "tag": "v3.0.1"
-      },
-      {
-        "digest": "sha256:e879ec46a9ba2a99c7e352b8ec8ac63ec0bc7f8dcfab27e92fba5474ab9e8cb4",
-        "pushedAt": 1660998587,
-        "tag": "v2.1.3"
-      },
-      {
-        "digest": "sha256:253283746365bbd183151b21b1c0b54d0d9f838ca11cda3e9a86780fb01db994",
-        "pushedAt": 1660998586,
-        "tag": "v2.1.2"
-      },
-      {
         "digest": "sha256:c20dd675dea1160a7b71bd568fa699220dccaaac5f75e70fc291ea9434bf24dc",
-        "pushedAt": 1660998586,
+        "pushedAt": 1660851862,
         "tag": "v6.0.0"
       },
       {
-        "digest": "sha256:36ca32433c069246ea8988a7b3dbdf0aabf8345be9122b8a25426e6c487878de",
-        "pushedAt": 1660998584,
-        "tag": "v3.0.0"
+        "digest": "sha256:cc9f25f394a50acd54df580458e0470b1b804dfc8ada59924d51667da9efb165",
+        "pushedAt": 1660851861,
+        "tag": "v5.0.1"
+      },
+      {
+        "digest": "sha256:a49993c3325b4bb010e52b8e661ebc62b9d45ebceae6e432d3ee637a4833bae7",
+        "pushedAt": 1660851860,
+        "tag": "v6.0.1"
+      },
+      {
+        "digest": "sha256:247fa8ea236de54e387da3185fadc2bab5e6b3a9ce5a1b6efc93db508e426827",
+        "pushedAt": 1660851857,
+        "tag": "v2.1.5"
       },
       {
         "digest": "sha256:83a49df295ec243d14302509d5b8a9b7522aaf754cbc5fa4fb3701ca60fca65d",
-        "pushedAt": 1660998584,
+        "pushedAt": 1660851857,
         "tag": "v2.1.4"
       },
       {
         "digest": "sha256:a494ff6ec10e05a454458fbf44247d93c9b3a0d983a00b538e442f353b7030c8",
-        "pushedAt": 1660998584,
+        "pushedAt": 1660851857,
         "tag": "v3.0.2"
       },
       {
-        "digest": "sha256:cc9f25f394a50acd54df580458e0470b1b804dfc8ada59924d51667da9efb165",
-        "pushedAt": 1660998584,
-        "tag": "v5.0.1"
+        "digest": "sha256:c39d470f04a167f2e84e5b21b730e2c0bc7865da3a717448814fffbed541d858",
+        "pushedAt": 1660851857,
+        "tag": "v4.0.1"
       },
       {
-        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
-        "pushedAt": 1660998583,
-        "tag": "v4.1.1"
+        "digest": "sha256:36ca32433c069246ea8988a7b3dbdf0aabf8345be9122b8a25426e6c487878de",
+        "pushedAt": 1660851854,
+        "tag": "v3.0.0"
       },
       {
-        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
-        "pushedAt": 1660998580,
-        "tag": "v4.0.0"
+        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
+        "pushedAt": 1660851854,
+        "tag": "v5.0.0"
       },
       {
-        "digest": "sha256:ae335399175b47a47f04db0317d5c0ce4b4e073ab61f5b784326625278009107",
-        "pushedAt": 1660998580,
-        "tag": "v4.1.0"
+        "digest": "sha256:253283746365bbd183151b21b1c0b54d0d9f838ca11cda3e9a86780fb01db994",
+        "pushedAt": 1660851853,
+        "tag": "v2.1.2"
       },
       {
         "digest": "sha256:283803ac94cca42eeb89d2a5264bde14505e0a4fc98f75274cff7c026ba471ab",
-        "pushedAt": 1660998579,
+        "pushedAt": 1660851853,
         "tag": "v4.2.0"
       },
       {
-        "digest": "sha256:95587f8777d77612788f751da79f34f1e2c003f05320d8ffb005baa06bd8a676",
-        "pushedAt": 1660998579,
-        "tag": "v4.2.1"
-      },
-      {
         "digest": "sha256:7092470172782a926e819a75344aff15cfbdb603f7ec75c117ba499dd93c2cd8",
-        "pushedAt": 1660998577,
+        "pushedAt": 1660851853,
         "tag": "v3.0.3"
       },
       {
-        "digest": "sha256:a49993c3325b4bb010e52b8e661ebc62b9d45ebceae6e432d3ee637a4833bae7",
-        "pushedAt": 1660998575,
-        "tag": "v6.0.1"
+        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
+        "pushedAt": 1660851852,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
+        "pushedAt": 1660851847,
+        "tag": "v4.1.1"
+      },
+      {
+        "digest": "sha256:ae335399175b47a47f04db0317d5c0ce4b4e073ab61f5b784326625278009107",
+        "pushedAt": 1660851845,
+        "tag": "v4.1.0"
       },
       {
         "digest": "sha256:2bde7d7f9d73c4309d67e9d7f94df52110295ef06c9488ca76c40da32b65f05e",
-        "pushedAt": 1660998573,
+        "pushedAt": 1660851844,
         "tag": "v2.1.1"
       },
       {
-        "digest": "sha256:247fa8ea236de54e387da3185fadc2bab5e6b3a9ce5a1b6efc93db508e426827",
-        "pushedAt": 1660998572,
-        "tag": "v2.1.5"
+        "digest": "sha256:95587f8777d77612788f751da79f34f1e2c003f05320d8ffb005baa06bd8a676",
+        "pushedAt": 1660851844,
+        "tag": "v4.2.1"
+      },
+      {
+        "digest": "sha256:d5d49bede340a36d29397b8941f26852a08a3d81c5d3bea72d9677774085032c",
+        "pushedAt": 1660851844,
+        "tag": "v3.0.1"
+      },
+      {
+        "digest": "sha256:e879ec46a9ba2a99c7e352b8ec8ac63ec0bc7f8dcfab27e92fba5474ab9e8cb4",
+        "pushedAt": 1660851844,
+        "tag": "v2.1.3"
       }
     ]
   },
