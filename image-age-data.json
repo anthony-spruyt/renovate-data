@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T22:51:11Z",
+  "generatedAt": "2026-10-27T05:22:19Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -3098,31 +3098,6 @@
         "digest": "sha256:9b45df14b48292a6f4dc2811798efc5ce88ff01c585ea79e014641c1cf46b397",
         "pushedAt": 1791401243,
         "tag": "1.103.4"
-      },
-      {
-        "digest": "sha256:a887d6c3a28eec52930769c0ad515adbfd4644f456ab914bc71d2afe11761550",
-        "pushedAt": 1791398724,
-        "tag": "v1.102.3"
-      },
-      {
-        "digest": "sha256:a887d6c3a28eec52930769c0ad515adbfd4644f456ab914bc71d2afe11761550",
-        "pushedAt": 1791398724,
-        "tag": "1.102.3"
-      },
-      {
-        "digest": "sha256:91f33890949def69c063a991d7776f5cc545e950782264fae5a6c14ded571549",
-        "pushedAt": 1791398573,
-        "tag": "v1.100.5"
-      },
-      {
-        "digest": "sha256:91f33890949def69c063a991d7776f5cc545e950782264fae5a6c14ded571549",
-        "pushedAt": 1791398573,
-        "tag": "1.100.5"
-      },
-      {
-        "digest": "sha256:90acc2499cc44b2557792dc92be3bf495a2d754229ae9ebae2f9ffe786d60a8e",
-        "pushedAt": 1791398533,
-        "tag": "v1.101.5"
       }
     ],
     "ghcr.io/bjw-s-labs/helm/app-template": [
@@ -6508,8 +6483,8 @@
     ],
     "ghcr.io/oxsecurity/megalinter-ci_light": [
       {
-        "digest": "sha256:b810e19a5ed4952eba22759003eb05e6e3d7bc39e0faa3285b1f42bc5175591b",
-        "pushedAt": 1792365872,
+        "digest": "sha256:ca8feb2973e29e18566d3efeb86416e243e7258793be1958a8b3c56fcffad4ab",
+        "pushedAt": 1793076925,
         "tag": "beta"
       },
       {
@@ -6590,8 +6565,8 @@
     ],
     "ghcr.io/oxsecurity/megalinter-go": [
       {
-        "digest": "sha256:7f45a8f319b60ef7a51f26ead64e92c984cbee4c93d358100abf6d98102f9296",
-        "pushedAt": 1792365766,
+        "digest": "sha256:837b4bc968d94f29b58fa133b5f75165779340f0a143c2dc0d17ff1398846f5c",
+        "pushedAt": 1793077988,
         "tag": "beta"
       },
       {
@@ -7846,31 +7821,6 @@
         "digest": "sha256:d52c03490c32599319a2dd30deecafa6660f56d674fb4905a138c10d48660b55",
         "pushedAt": 1791993357,
         "tag": "sha-afca4d6"
-      },
-      {
-        "digest": "sha256:1d782f4e35648991f62fdd4d156cb19a04c0be1ccb7f43a636b5f414389e762f",
-        "pushedAt": 1791924122,
-        "tag": "sha-a88dc2e"
-      },
-      {
-        "digest": "sha256:8b300e6e0e2ac0f492916fbe67d5309c8b76551a9f6f0b2f36411a61bda9f3c6",
-        "pushedAt": 1791922100,
-        "tag": "sha-6d7589a"
-      },
-      {
-        "digest": "sha256:bfb3fbd409b98bd2d19ae3d4b1b4cd4ac4fc230d37d94fa843f4de9831637f90",
-        "pushedAt": 1791917081,
-        "tag": "sha-6fda809"
-      },
-      {
-        "digest": "sha256:2821c866ac20d9c03ca2f64860a2a5cab915060cf7e7cc7a6b3a633e766ebb75",
-        "pushedAt": 1791915123,
-        "tag": "sha-2a5b7b3"
-      },
-      {
-        "digest": "sha256:5c672739a03353699814aceb7a0ffb162962e5f006e93735b5e1377ba1468505",
-        "pushedAt": 1791908775,
-        "tag": "sha-cadcbbb"
       }
     ],
     "ghcr.io/spegel-org/helm-charts/spegel": [
@@ -9448,6 +9398,186 @@
     ],
     "mcr.microsoft.com/dotnet/aspnet": [
       {
+        "digest": "sha256:68755779900ad242eabc11a16d3142ca656510951f360a262f143d7f718c9361",
+        "pushedAt": 1793062771,
+        "tag": "8.0.33-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:184ae979b640a8ceb83325991d5eeb2554dafab39c50c94c5e3f1bbf259ed99b",
+        "pushedAt": 1793062720,
+        "tag": "10.0-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:e8bb3d8ef58d611f54f682ecfb4f47d20e5b56ba5971267c587d75c44484612b",
+        "pushedAt": 1793062720,
+        "tag": "11.0.0-rc.3-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:69c9bad444a1f5e88f7254fe568d477ae23edc15b1f1a18a25cc0e1801bffdc8",
+        "pushedAt": 1793062720,
+        "tag": "9.0.22-nanoserver-1809"
+      },
+      {
+        "digest": "sha256:614707d363dad3e2abb6f42be99e254e7bcd81df503dca16948c3edd4bfc23e8",
+        "pushedAt": 1793062720,
+        "tag": "9.0.22-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:6122006204987fc9f03c52e9ed1b83e1efdbd2520ecd7bc86ab4a1b59b34c6da",
+        "pushedAt": 1793062714,
+        "tag": "9.0-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:184ae979b640a8ceb83325991d5eeb2554dafab39c50c94c5e3f1bbf259ed99b",
+        "pushedAt": 1793062713,
+        "tag": "10.0.14-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:e188d15df93a9779cb7e27b637d381efc318082260df780b0ae2e3018e972edf",
+        "pushedAt": 1793062713,
+        "tag": "8.0-nanoserver-1809"
+      },
+      {
+        "digest": "sha256:bbc929c09d1fd773ede9bb2a82660582f926e92a5e2c6c29193c9664350b437f",
+        "pushedAt": 1793062713,
+        "tag": "8.0.33-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:c58a90637e27680212b55ee0ac14661ec5ecb2901c55f159fd386849bc391779",
+        "pushedAt": 1793062712,
+        "tag": "10.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:d93c321699f31c1c48a50f90718aaa478f80902fe532bf6fba8af2b04881226c",
+        "pushedAt": 1793062712,
+        "tag": "11.0.0-rc.3-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:e6fc1920f8e81886db6dc8c693b04c0c05f4c8354e5a0843f093ce552025d681",
+        "pushedAt": 1793062712,
+        "tag": "8.0.33-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:a0465a65a8e1841eb88f586d9fa2365a0f1b19280a6998d6bd085cb66aec6bed",
+        "pushedAt": 1793062711,
+        "tag": "10.0.14-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:f76de3d75b95549ee69ffff7097a30ed1548576e5a8c6738be7f5f7b90692a99",
+        "pushedAt": 1793062711,
+        "tag": "9.0.22-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:68755779900ad242eabc11a16d3142ca656510951f360a262f143d7f718c9361",
+        "pushedAt": 1793062710,
+        "tag": "8.0-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:614707d363dad3e2abb6f42be99e254e7bcd81df503dca16948c3edd4bfc23e8",
+        "pushedAt": 1793062668,
+        "tag": "9.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:b81825f9337bef5ba87949ceb1c36ecd6e0c9f0497c4cd5e6e35e6c0deb7617c",
+        "pushedAt": 1793062667,
+        "tag": "10.0.14-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:e8bb3d8ef58d611f54f682ecfb4f47d20e5b56ba5971267c587d75c44484612b",
+        "pushedAt": 1793062666,
+        "tag": "11.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:b81825f9337bef5ba87949ceb1c36ecd6e0c9f0497c4cd5e6e35e6c0deb7617c",
+        "pushedAt": 1793062665,
+        "tag": "10.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:6122006204987fc9f03c52e9ed1b83e1efdbd2520ecd7bc86ab4a1b59b34c6da",
+        "pushedAt": 1793062664,
+        "tag": "9.0.22-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:69c9bad444a1f5e88f7254fe568d477ae23edc15b1f1a18a25cc0e1801bffdc8",
+        "pushedAt": 1793062663,
+        "tag": "9.0-nanoserver-1809"
+      },
+      {
+        "digest": "sha256:f136be16e2d9fe68ec3026a211eca8aee8eaa0b8cf1d90a678857708853ce76e",
+        "pushedAt": 1793062663,
+        "tag": "9.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:e6fc1920f8e81886db6dc8c693b04c0c05f4c8354e5a0843f093ce552025d681",
+        "pushedAt": 1793062662,
+        "tag": "8.0-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:f82ebdba2f00ce94529c8bce041ce3451940bb191400d4416942b4c35234f01a",
+        "pushedAt": 1793062662,
+        "tag": "8.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:f4f6148a29ddbaf3c450256b6ae927deb7b9f58c3caf76ce885599f97d1e9842",
+        "pushedAt": 1793062662,
+        "tag": "9.0-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:f4f6148a29ddbaf3c450256b6ae927deb7b9f58c3caf76ce885599f97d1e9842",
+        "pushedAt": 1793062662,
+        "tag": "9.0.22-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:f82ebdba2f00ce94529c8bce041ce3451940bb191400d4416942b4c35234f01a",
+        "pushedAt": 1793062661,
+        "tag": "8.0.33-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:f76de3d75b95549ee69ffff7097a30ed1548576e5a8c6738be7f5f7b90692a99",
+        "pushedAt": 1793062661,
+        "tag": "9.0-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:c58a90637e27680212b55ee0ac14661ec5ecb2901c55f159fd386849bc391779",
+        "pushedAt": 1793062660,
+        "tag": "10.0.14-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:2efe5118054a23a37acb20f6bccd1a3ccb131e24e924a4398c7e1583d51142d6",
+        "pushedAt": 1793062660,
+        "tag": "8.0-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:bbc929c09d1fd773ede9bb2a82660582f926e92a5e2c6c29193c9664350b437f",
+        "pushedAt": 1793062660,
+        "tag": "8.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:a0465a65a8e1841eb88f586d9fa2365a0f1b19280a6998d6bd085cb66aec6bed",
+        "pushedAt": 1793062659,
+        "tag": "10.0-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:d93c321699f31c1c48a50f90718aaa478f80902fe532bf6fba8af2b04881226c",
+        "pushedAt": 1793062659,
+        "tag": "11.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:f136be16e2d9fe68ec3026a211eca8aee8eaa0b8cf1d90a678857708853ce76e",
+        "pushedAt": 1793062659,
+        "tag": "9.0.22-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:2efe5118054a23a37acb20f6bccd1a3ccb131e24e924a4398c7e1583d51142d6",
+        "pushedAt": 1793062658,
+        "tag": "8.0.33-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:e188d15df93a9779cb7e27b637d381efc318082260df780b0ae2e3018e972edf",
+        "pushedAt": 1793062657,
+        "tag": "8.0.33-nanoserver-1809"
+      },
+      {
         "digest": "sha256:b37270186ba8cbef9fea238c9377ec57384cf3af5ecc2c13eb2ac8a82fbde115",
         "pushedAt": 1792978534,
         "tag": "11.0-azurelinux4.0-distroless-extra-arm64v8"
@@ -10363,11 +10493,6 @@
         "tag": "10.0-alpine3.24-extra"
       },
       {
-        "digest": "sha256:0b6ffd20f954e0b17d7e39b761c8c7030f17ad9835cb7eaabed5352f93eb428f",
-        "pushedAt": 1792955103,
-        "tag": "11.0-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:65e68d7e197cb787377f9cec553e6731014a1b198a41cf20f08f873d1dc26185",
         "pushedAt": 1792955102,
         "tag": "11.0-alpine-extra"
@@ -10593,11 +10718,6 @@
         "tag": "11.0.0-rc.3-azurelinux3.0-distroless-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:2b7350cbb1dc3ef98a57abfe64cb1ebc6ffade4b15d811ec201bbe1114ef2bad",
-        "pushedAt": 1792954985,
-        "tag": "10.0-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:fb1ac997139a84f5eea50d8262b5876a77614e2cd96a5a6e2a6c79950faed52d",
         "pushedAt": 1792954982,
         "tag": "10.0.14-alpine3.24-composite-arm64v8"
@@ -10616,16 +10736,6 @@
         "digest": "sha256:8c8fe13ae775c460330a859f31462fa09c496e2c5fc10f308a4cd63f20c39331",
         "pushedAt": 1792954978,
         "tag": "11.0.0-rc.3-alpine3.24-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:c20ed356834eb5e2dc93997514ac19bc03c7401033c2d3c47790a26472bb4e4e",
-        "pushedAt": 1792954978,
-        "tag": "9.0.22-nanoserver-1809"
-      },
-      {
-        "digest": "sha256:6595502ccd97d4247ee20ad8e115708799fcbbf36b625034831d11a930308f43",
-        "pushedAt": 1792954978,
-        "tag": "9.0.22-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:08e39a4e4d6ea6d177892dba1b163822915ac06e63a0c5dc8c6156e0ceb1f2ed",
@@ -10698,11 +10808,6 @@
         "tag": "11.0-alpine3.24-arm64v8"
       },
       {
-        "digest": "sha256:07ed4a16056016cbfe20e63bf268b4a972b57238c67adba3ea94a0ed272b6500",
-        "pushedAt": 1792954971,
-        "tag": "11.0.0-rc.3-windowsservercore-ltsc2025"
-      },
-      {
         "digest": "sha256:3983c22c38735137e61de99e4aab6e5739e22a5e07806ea393086faea380e610",
         "pushedAt": 1792954970,
         "tag": "10.0.14-alpine3.24-composite-extra-amd64"
@@ -10736,16 +10841,6 @@
         "digest": "sha256:49765b80b464f663f09e6080842375563063652192100ca0475a93af2e7d8f45",
         "pushedAt": 1792954964,
         "tag": "10.0-noble-chiseled-composite-extra-arm32v7"
-      },
-      {
-        "digest": "sha256:0b6ffd20f954e0b17d7e39b761c8c7030f17ad9835cb7eaabed5352f93eb428f",
-        "pushedAt": 1792954964,
-        "tag": "11.0.0-rc.3-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:07ed4a16056016cbfe20e63bf268b4a972b57238c67adba3ea94a0ed272b6500",
-        "pushedAt": 1792954957,
-        "tag": "11.0-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:5b858d72ee6b6fe41be3dfcc01827a673ece40bd49679bb8a17af251bc65cf0e",
@@ -10858,11 +10953,6 @@
         "tag": "10.0-resolute-chiseled-composite-arm64v8"
       },
       {
-        "digest": "sha256:2b7350cbb1dc3ef98a57abfe64cb1ebc6ffade4b15d811ec201bbe1114ef2bad",
-        "pushedAt": 1792954933,
-        "tag": "10.0.14-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:a40365c8bbb67de923e62e37723787e71687b9075c40011325d4fce178547306",
         "pushedAt": 1792954933,
         "tag": "11.0-alpine-composite-extra-arm64v8"
@@ -10928,11 +11018,6 @@
         "tag": "9.0.22-azurelinux3.0-distroless-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:f83e70876ec46eeefa4fbca109e9c96cbd0081e3d32074766798a3ed8389a648",
-        "pushedAt": 1792954923,
-        "tag": "10.0-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:560871c91c8b3be4453ca066d9b0c33d9ccb825da6e2af99582e9b8957c4718c",
         "pushedAt": 1792954923,
         "tag": "11.0-alpine3.24-composite-extra-arm32v7"
@@ -10978,11 +11063,6 @@
         "tag": "11.0.0-rc.3-resolute-chiseled-composite-arm64v8"
       },
       {
-        "digest": "sha256:850424749345eb5f7c32e6052418be695b97767cb2dc20be3930ba95568bf01a",
-        "pushedAt": 1792954920,
-        "tag": "8.0-nanoserver-ltsc2022"
-      },
-      {
         "digest": "sha256:d462dd417d4f5d631350c071d80b4aa1795061e62c65b3b773284241b69f8cb7",
         "pushedAt": 1792954919,
         "tag": "11.0.0-rc.3-resolute-chiseled-composite-extra-arm64v8"
@@ -11026,11 +11106,6 @@
         "digest": "sha256:7e3205ef1189ab2b63a02040e02638a62bd70c67ac3a3a70a5a908be8e5da96c",
         "pushedAt": 1792954915,
         "tag": "10.0-alpine3.24-amd64"
-      },
-      {
-        "digest": "sha256:f4a10731b5d0dfe92b88d891dcaf373c68afbaa8636b53b6b3a6e916480da500",
-        "pushedAt": 1792954915,
-        "tag": "10.0.14-nanoserver-ltsc2022"
       },
       {
         "digest": "sha256:ff9caf786f4ff67c75115f975ec77699cce67049623aafe67bab63c8e7075a3b",
@@ -11103,11 +11178,6 @@
         "tag": "8.0-jammy-chiseled-arm32v7"
       },
       {
-        "digest": "sha256:af228aa2f5368a16542e512f5c3247c8954c5e782a6136a01cf748059aca4bad",
-        "pushedAt": 1792954908,
-        "tag": "9.0-nanoserver-ltsc2022"
-      },
-      {
         "digest": "sha256:51c1056e69e203dfa42ea1d68796f263207d138d2fb15e3bfdff737fc1f8dadb",
         "pushedAt": 1792954905,
         "tag": "11.0.0-rc.3-alpine3.24-composite-arm32v7"
@@ -11158,11 +11228,6 @@
         "tag": "10.0-noble-chiseled-arm64v8"
       },
       {
-        "digest": "sha256:7d57bda9715aba8d1851965926c46e3ace0f1bb47e8f5ca9b49c63d9736b2064",
-        "pushedAt": 1792954890,
-        "tag": "9.0-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:842ac82eca19a7bc31464e1fafbc2d991ac93102bbd211716d2cae70a1ab9525",
         "pushedAt": 1792954889,
         "tag": "11.0.0-rc.3-resolute-chiseled-arm32v7"
@@ -11193,11 +11258,6 @@
         "tag": "11.0.0-rc.3-alpine3.24-composite-amd64"
       },
       {
-        "digest": "sha256:fa1972655822021de5f30aa16068ffc5abb44e08963ff622cbf567dd376309b9",
-        "pushedAt": 1792954879,
-        "tag": "8.0-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:c0c778fbea61ebc4c555c579b3e79fd50558ad0f095e8981bfcdfabac779cdf0",
         "pushedAt": 1792954878,
         "tag": "11.0.0-rc.3-resolute-chiseled-composite-arm32v7"
@@ -11206,11 +11266,6 @@
         "digest": "sha256:aa56cb9c2e3058ee844d76c4be265a07a9758ef37a3b4701ce11a182b65f9ba4",
         "pushedAt": 1792954878,
         "tag": "9.0.22-azurelinux3.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:6595502ccd97d4247ee20ad8e115708799fcbbf36b625034831d11a930308f43",
-        "pushedAt": 1792954877,
-        "tag": "9.0-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:e59dc675a366ebde227d1693e6f1bde29c0b6ca84bc8ff70a4aa83103af55c88",
@@ -11443,11 +11498,6 @@
         "tag": "10.0-alpine3.24-extra-arm64v8"
       },
       {
-        "digest": "sha256:7104a402906ea04051b890e6dc45cb16107ec00cc55e0e9f68182900e44a0038",
-        "pushedAt": 1792954866,
-        "tag": "9.0.22-windowsservercore-ltsc2019"
-      },
-      {
         "digest": "sha256:675fa298e918b26a9587ab88dc50b2af02652b1c7d39f24d2295a42597cd9eda",
         "pushedAt": 1792954865,
         "tag": "10.0.14-azurelinux3.0-distroless-extra-amd64"
@@ -11461,11 +11511,6 @@
         "digest": "sha256:25f5d1577338a1d316186de4aec3179d024d02c6a4bc88e1d7bb216af833233f",
         "pushedAt": 1792954864,
         "tag": "11.0.0-rc.3-azurelinux3.0-arm64v8"
-      },
-      {
-        "digest": "sha256:af228aa2f5368a16542e512f5c3247c8954c5e782a6136a01cf748059aca4bad",
-        "pushedAt": 1792954864,
-        "tag": "9.0.22-nanoserver-ltsc2022"
       },
       {
         "digest": "sha256:ee6f0fcffe0797e80a52fde1f1d32be4f60ddb16ad1e75fc73bf907d1af53a8e",
@@ -11511,16 +11556,6 @@
         "digest": "sha256:a561985d4a81147d197c80c8d8518034639ca8d1b65ec22eb7c91ef4033e3013",
         "pushedAt": 1792954861,
         "tag": "8.0.33-alpine3.24-extra-amd64"
-      },
-      {
-        "digest": "sha256:7d57bda9715aba8d1851965926c46e3ace0f1bb47e8f5ca9b49c63d9736b2064",
-        "pushedAt": 1792954861,
-        "tag": "9.0.22-windowsservercore-ltsc2022"
-      },
-      {
-        "digest": "sha256:f4a10731b5d0dfe92b88d891dcaf373c68afbaa8636b53b6b3a6e916480da500",
-        "pushedAt": 1792954860,
-        "tag": "10.0-nanoserver-ltsc2022"
       },
       {
         "digest": "sha256:b61f2b7c217c5cc3e4564bf525a25f7db5d5769a0f665ff559ebbf7650467bbe",
@@ -11578,11 +11613,6 @@
         "tag": "11.0.0-rc.3-alpine3.24-arm32v7"
       },
       {
-        "digest": "sha256:53608c856319a53a5b9ba14ed88a0373c8cace3eaece6ce710d79307c1f25654",
-        "pushedAt": 1792954858,
-        "tag": "9.0.22-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:d2e1a20df6b632f0687e7f9c900608c4a7e6a823e1d1d34dfbc9013ddfcdd464",
         "pushedAt": 1792954857,
         "tag": "11.0-alpine3.24-extra-amd64"
@@ -11621,11 +11651,6 @@
         "digest": "sha256:f404f0c9bcfeeaa7aef8f4f012d25a6b8d1750188d82142ad2331197eb186db7",
         "pushedAt": 1792954856,
         "tag": "8.0-noble-chiseled-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:af544e1cf37c05050164986ae290d946552f566ef5cd3d5c19be0c8b6c8c38fd",
-        "pushedAt": 1792954856,
-        "tag": "8.0-windowsservercore-ltsc2019"
       },
       {
         "digest": "sha256:868bb0126ee12870a8b339adde95c8f8f1fb8e5eea3d31775d96353bea47d5c4",
@@ -11673,11 +11698,6 @@
         "tag": "8.0.33-jammy-chiseled-amd64"
       },
       {
-        "digest": "sha256:c20ed356834eb5e2dc93997514ac19bc03c7401033c2d3c47790a26472bb4e4e",
-        "pushedAt": 1792954853,
-        "tag": "9.0-nanoserver-1809"
-      },
-      {
         "digest": "sha256:675fa298e918b26a9587ab88dc50b2af02652b1c7d39f24d2295a42597cd9eda",
         "pushedAt": 1792954852,
         "tag": "10.0-azurelinux3.0-distroless-extra-amd64"
@@ -11723,16 +11743,6 @@
         "tag": "10.0-alpine-arm64v8"
       },
       {
-        "digest": "sha256:f83e70876ec46eeefa4fbca109e9c96cbd0081e3d32074766798a3ed8389a648",
-        "pushedAt": 1792954850,
-        "tag": "10.0.14-windowsservercore-ltsc2022"
-      },
-      {
-        "digest": "sha256:ff7737b8dda2efc23cf0332c557e91722b8b92c26124887a5354ae0b4374110a",
-        "pushedAt": 1792954850,
-        "tag": "10.0.14-windowsservercore-ltsc2025"
-      },
-      {
         "digest": "sha256:753bba09654c232f8576ce5be87b9749e68597620498f30df592c586d2c8d55d",
         "pushedAt": 1792954850,
         "tag": "8.0.33-azurelinux3.0-distroless-composite-amd64"
@@ -11746,11 +11756,6 @@
         "digest": "sha256:062a1eb6cd89c983eabe84e218f27565e7e164e65fe39db7d40fcaed34402cd6",
         "pushedAt": 1792954849,
         "tag": "10.0.14-azurelinux3.0-distroless-composite-amd64"
-      },
-      {
-        "digest": "sha256:0ea83a7c88451de45fd0a68a317994c8fa2a0b34a8a84e697e7c1e3b21f0981b",
-        "pushedAt": 1792954849,
-        "tag": "8.0-nanoserver-1809"
       },
       {
         "digest": "sha256:3e0fd5ee2ec8eea09160c5ca4361d517ff52deb199d3abf27b63483873cda15c",
@@ -11863,11 +11868,6 @@
         "tag": "8.0.33-noble-chiseled-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:7104a402906ea04051b890e6dc45cb16107ec00cc55e0e9f68182900e44a0038",
-        "pushedAt": 1792954843,
-        "tag": "9.0-windowsservercore-ltsc2019"
-      },
-      {
         "digest": "sha256:f0538fa884751520e2dffa306eac24e2fdeef2673ebe04a73aae93726e1f4ae7",
         "pushedAt": 1792954842,
         "tag": "8.0-azurelinux3.0-distroless-composite-arm64v8"
@@ -11881,11 +11881,6 @@
         "digest": "sha256:aa56cb9c2e3058ee844d76c4be265a07a9758ef37a3b4701ce11a182b65f9ba4",
         "pushedAt": 1792954842,
         "tag": "9.0-azurelinux3.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:53608c856319a53a5b9ba14ed88a0373c8cace3eaece6ce710d79307c1f25654",
-        "pushedAt": 1792954842,
-        "tag": "9.0-nanoserver-ltsc2025"
       },
       {
         "digest": "sha256:b81e2f34413e9594708839834db9d7e9108c1084376adfdaf68bf022fb4f24d5",
@@ -11943,11 +11938,6 @@
         "tag": "9.0.22-azurelinux3.0-distroless-composite-amd64"
       },
       {
-        "digest": "sha256:4284a953cd535225add3fabb0c87d4b9407713ac37886adc13abb5ce92282d5f",
-        "pushedAt": 1792954837,
-        "tag": "8.0.33-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:f1564e63b7fb9ddb0af56ae51c1770fb3cd19cce951cd94a882574a96f0db0dc",
         "pushedAt": 1792954837,
         "tag": "9.0-noble-chiseled-composite-arm64v8"
@@ -11971,11 +11961,6 @@
         "digest": "sha256:dbeee804ab0d746cb83cc5d3dd6717a2f00ce2d6e79da5e4247be54f83466c83",
         "pushedAt": 1792954834,
         "tag": "8.0-jammy-chiseled-composite-extra-arm32v7"
-      },
-      {
-        "digest": "sha256:850424749345eb5f7c32e6052418be695b97767cb2dc20be3930ba95568bf01a",
-        "pushedAt": 1792954834,
-        "tag": "8.0.33-nanoserver-ltsc2022"
       },
       {
         "digest": "sha256:8bd60ba87046bea2484ebe553b0b53c1010d89b85f780ee24f6aa6c1303bc9cc",
@@ -12213,11 +12198,6 @@
         "tag": "8.0.33-jammy-chiseled-extra-arm32v7"
       },
       {
-        "digest": "sha256:fa1972655822021de5f30aa16068ffc5abb44e08963ff622cbf567dd376309b9",
-        "pushedAt": 1792954781,
-        "tag": "8.0.33-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:f5a85a68733437c98ba9233c7af30b2ff660c9a87d87fcb334a6b1a0983da6b7",
         "pushedAt": 1792954781,
         "tag": "9.0-alpine-arm64v8"
@@ -12236,11 +12216,6 @@
         "digest": "sha256:e3a66a1d8e7c6430ab47c0f9093920433bbdc80767aa48c218cdd097f7c5acb0",
         "pushedAt": 1792954779,
         "tag": "8.0-noble-chiseled-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:0ea83a7c88451de45fd0a68a317994c8fa2a0b34a8a84e697e7c1e3b21f0981b",
-        "pushedAt": 1792954779,
-        "tag": "8.0.33-nanoserver-1809"
       },
       {
         "digest": "sha256:484d0a0cec19bfa00dd6019064591bf69f68a92dd641b36a1e07f5d669154ba1",
@@ -12268,29 +12243,14 @@
         "tag": "9.0.22-alpine3.24-composite-extra-arm64v8"
       },
       {
-        "digest": "sha256:ff7737b8dda2efc23cf0332c557e91722b8b92c26124887a5354ae0b4374110a",
-        "pushedAt": 1792954777,
-        "tag": "10.0-windowsservercore-ltsc2025"
-      },
-      {
         "digest": "sha256:bade642849424dc15ab8b1534a2ad3c403a3d5876741cea86115054e58966556",
         "pushedAt": 1792954777,
         "tag": "8.0-azurelinux3.0-distroless-extra-arm64v8"
       },
       {
-        "digest": "sha256:4284a953cd535225add3fabb0c87d4b9407713ac37886adc13abb5ce92282d5f",
-        "pushedAt": 1792954777,
-        "tag": "8.0-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:eb64a09a78775dac419803e09434c1caaca7cd05a0d4a7f30d8666613a3d56f5",
         "pushedAt": 1792954777,
         "tag": "8.0.33-alpine3.24-composite-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:af544e1cf37c05050164986ae290d946552f566ef5cd3d5c19be0c8b6c8c38fd",
-        "pushedAt": 1792954777,
-        "tag": "8.0.33-windowsservercore-ltsc2019"
       },
       {
         "digest": "sha256:a3391ffd2be287da035ec99d5e69e62f8a1a3dcdfea5c0ca2009c3ace35be1be",
@@ -12301,11 +12261,6 @@
         "digest": "sha256:a29b746f79b4cfeb8672fdc9b63f2466443317eedf186b0ef8dbd3ea29ba23bb",
         "pushedAt": 1792954777,
         "tag": "9.0.22-noble-chiseled-composite-amd64"
-      },
-      {
-        "digest": "sha256:d83d9eb7e6b97520e617852a45525d9e404b3fd55609605b25955957d1471944",
-        "pushedAt": 1792954776,
-        "tag": "8.0-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:e63f975f1b5e25cbae9d8326c05fc374a490e6ff52d3361b6a49e63b028536e9",
@@ -12346,11 +12301,6 @@
         "digest": "sha256:35797ce9bf947b190c7bbcb3488c6566742f3fbb76414d68a23860523782617f",
         "pushedAt": 1792954774,
         "tag": "8.0.33-alpine3.24-extra-arm32v7"
-      },
-      {
-        "digest": "sha256:d83d9eb7e6b97520e617852a45525d9e404b3fd55609605b25955957d1471944",
-        "pushedAt": 1792954774,
-        "tag": "8.0.33-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:a29b746f79b4cfeb8672fdc9b63f2466443317eedf186b0ef8dbd3ea29ba23bb",
@@ -14085,6 +14035,186 @@
     ],
     "mcr.microsoft.com/dotnet/sdk": [
       {
+        "digest": "sha256:41bdfc07caa768d3ae4d90860de4871f800ad086c23c9ebd17dec86b951d9d44",
+        "pushedAt": 1793062779,
+        "tag": "10.0.403-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:09622d91148b5c914ca99c212d2a575930757a835b8c788344eb4c9c13512d3f",
+        "pushedAt": 1793062778,
+        "tag": "9.0.320-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:2e9e9eefab95ff9fd2f95ca677dc6742881434e9428d5a0ea7b6e60eb5f992e6",
+        "pushedAt": 1793062778,
+        "tag": "9.0.320-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:ac903cf6c6418db5955a9427c10db7622aa7bc09fde450f896c5086d8c89a869",
+        "pushedAt": 1793062777,
+        "tag": "8.0.427-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:26d7e8548b19bbf1cfe15a48d868e85ca5458b4f60c916f356bd50d490b61872",
+        "pushedAt": 1793062776,
+        "tag": "8.0-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:9df0988c5ae0c548f2f1c954e7069b4b2fb6081c5a501f3e0dcc142f0d1a844e",
+        "pushedAt": 1793062775,
+        "tag": "8.0.427-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:c6bc6614fa9b526f2f450897caff8eba46f0ae7cd429b92770835efd0c513baa",
+        "pushedAt": 1793062767,
+        "tag": "8.0-nanoserver-1809"
+      },
+      {
+        "digest": "sha256:4448cbdb99f98b425f00793390a13eabbb901c6740fabf08aa0b54d3aa4f09ad",
+        "pushedAt": 1793062757,
+        "tag": "10.0-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:41bdfc07caa768d3ae4d90860de4871f800ad086c23c9ebd17dec86b951d9d44",
+        "pushedAt": 1793062723,
+        "tag": "10.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:2e9e9eefab95ff9fd2f95ca677dc6742881434e9428d5a0ea7b6e60eb5f992e6",
+        "pushedAt": 1793062720,
+        "tag": "9.0-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:c6bc6614fa9b526f2f450897caff8eba46f0ae7cd429b92770835efd0c513baa",
+        "pushedAt": 1793062719,
+        "tag": "8.0.427-nanoserver-1809"
+      },
+      {
+        "digest": "sha256:09622d91148b5c914ca99c212d2a575930757a835b8c788344eb4c9c13512d3f",
+        "pushedAt": 1793062719,
+        "tag": "9.0-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:2b4600777bcef9209c18ae1c284bbdbf92edfbfba64728887ccf8eb61051bc25",
+        "pushedAt": 1793062718,
+        "tag": "10.0.403-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:e16b6bc894cd80884a1edf3e0bb7c9a1e40acd1e18ba57b49e6190e53b8ee597",
+        "pushedAt": 1793062718,
+        "tag": "11.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:82ba0d04ef26d3abc2739ec9120fff760d0a2eab899efb9b1a1f7f3b3079b014",
+        "pushedAt": 1793062718,
+        "tag": "11.0.100-rc.3-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:ac903cf6c6418db5955a9427c10db7622aa7bc09fde450f896c5086d8c89a869",
+        "pushedAt": 1793062718,
+        "tag": "8.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:26d7e8548b19bbf1cfe15a48d868e85ca5458b4f60c916f356bd50d490b61872",
+        "pushedAt": 1793062718,
+        "tag": "8.0.427-windowsservercore-ltsc2022"
+      },
+      {
+        "digest": "sha256:e16b6bc894cd80884a1edf3e0bb7c9a1e40acd1e18ba57b49e6190e53b8ee597",
+        "pushedAt": 1793062717,
+        "tag": "11.0.100-rc.3-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:9df0988c5ae0c548f2f1c954e7069b4b2fb6081c5a501f3e0dcc142f0d1a844e",
+        "pushedAt": 1793062717,
+        "tag": "8.0-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:792521792925990b3dc45189f2f548840212dfe36d7e5265f786996807cc7bfe",
+        "pushedAt": 1793062715,
+        "tag": "10.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:ee7ba6a202ed44c6b06d4633752c719c63ef354997923a47cea5b21b32bb2d1a",
+        "pushedAt": 1793062715,
+        "tag": "8.0.427-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:1b98888d6dc3e84e8581bd2ce34a73c390260ca3d8bca58881aff1dfa92a73a7",
+        "pushedAt": 1793062715,
+        "tag": "9.0-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:498e01df324e3a2f96196d6aa4fda551146e518b66752e0994201af5190d0af9",
+        "pushedAt": 1793062715,
+        "tag": "9.0.320-nanoserver-1809"
+      },
+      {
+        "digest": "sha256:32417b1879d36cd61884326b8381d1c54ed5b6fac6fdb3c9b54fe17366efcf4b",
+        "pushedAt": 1793062715,
+        "tag": "9.0.320-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:e23ba7f98abe979bcb1af047fec9ad89ab039ff144a6150b8259c570b84e6445",
+        "pushedAt": 1793062713,
+        "tag": "8.0-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:989856dbca539fcddb3d7bf08291f87b60a3b0e9c86c3e986d74f428d7b5c78d",
+        "pushedAt": 1793062710,
+        "tag": "9.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:e23ba7f98abe979bcb1af047fec9ad89ab039ff144a6150b8259c570b84e6445",
+        "pushedAt": 1793062675,
+        "tag": "8.0.427-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:989856dbca539fcddb3d7bf08291f87b60a3b0e9c86c3e986d74f428d7b5c78d",
+        "pushedAt": 1793062675,
+        "tag": "9.0.320-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:82ba0d04ef26d3abc2739ec9120fff760d0a2eab899efb9b1a1f7f3b3079b014",
+        "pushedAt": 1793062670,
+        "tag": "11.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:498e01df324e3a2f96196d6aa4fda551146e518b66752e0994201af5190d0af9",
+        "pushedAt": 1793062670,
+        "tag": "9.0-nanoserver-1809"
+      },
+      {
+        "digest": "sha256:1b98888d6dc3e84e8581bd2ce34a73c390260ca3d8bca58881aff1dfa92a73a7",
+        "pushedAt": 1793062669,
+        "tag": "9.0.320-windowsservercore-ltsc2019"
+      },
+      {
+        "digest": "sha256:792521792925990b3dc45189f2f548840212dfe36d7e5265f786996807cc7bfe",
+        "pushedAt": 1793062668,
+        "tag": "10.0.403-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:32417b1879d36cd61884326b8381d1c54ed5b6fac6fdb3c9b54fe17366efcf4b",
+        "pushedAt": 1793062668,
+        "tag": "9.0-windowsservercore-ltsc2025"
+      },
+      {
+        "digest": "sha256:4448cbdb99f98b425f00793390a13eabbb901c6740fabf08aa0b54d3aa4f09ad",
+        "pushedAt": 1793062667,
+        "tag": "10.0.403-nanoserver-ltsc2022"
+      },
+      {
+        "digest": "sha256:ee7ba6a202ed44c6b06d4633752c719c63ef354997923a47cea5b21b32bb2d1a",
+        "pushedAt": 1793062667,
+        "tag": "8.0-nanoserver-ltsc2025"
+      },
+      {
+        "digest": "sha256:2b4600777bcef9209c18ae1c284bbdbf92edfbfba64728887ccf8eb61051bc25",
+        "pushedAt": 1793062666,
+        "tag": "10.0-windowsservercore-ltsc2022"
+      },
+      {
         "digest": "sha256:11122a6e67b587afb3f6969b2e1e72eb71f36eba974da78b10eec6e2d0706057",
         "pushedAt": 1792978583,
         "tag": "11.0-resolute-aot"
@@ -14550,11 +14680,6 @@
         "tag": "11.0-alpine3.24"
       },
       {
-        "digest": "sha256:a3dbd5ad15c12d58ad6c7aa939194e949e5a0bb36b44fa1415ad6da3eaae6bdb",
-        "pushedAt": 1792955225,
-        "tag": "10.0.403-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:5c27d494a591387d9613551a2b4f8f54873cfb5469a4d667bfe092a845b0baf0",
         "pushedAt": 1792955223,
         "tag": "9.0.320-alpine3.24"
@@ -14670,11 +14795,6 @@
         "tag": "10.0.403-azurelinux3.0"
       },
       {
-        "digest": "sha256:a3dbd5ad15c12d58ad6c7aa939194e949e5a0bb36b44fa1415ad6da3eaae6bdb",
-        "pushedAt": 1792955171,
-        "tag": "10.0-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:8a339f2175a99aad64cd618450303b8361d565eebbdf8aad95cdf8e6b54ab9d3",
         "pushedAt": 1792955170,
         "tag": "10.0-alpine3.24-aot"
@@ -14695,39 +14815,14 @@
         "tag": "11.0.100-rc.3-azurelinux3.0-aot-arm64v8"
       },
       {
-        "digest": "sha256:15561d09494904d7ba02749866946985d703a5f11b63545215d358dbea33e271",
-        "pushedAt": 1792955154,
-        "tag": "9.0-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:43e7f2ebe461cc37979db41d63e6aa1db581e9a93f120e78c5a1998796556c44",
-        "pushedAt": 1792955153,
-        "tag": "9.0-windowsservercore-ltsc2019"
-      },
-      {
-        "digest": "sha256:0bf68729df7782afa61c4d0ad08100d5500045dd8e94d01054821e318de9d51a",
-        "pushedAt": 1792955143,
-        "tag": "8.0.427-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:8a339f2175a99aad64cd618450303b8361d565eebbdf8aad95cdf8e6b54ab9d3",
         "pushedAt": 1792955141,
         "tag": "10.0.403-alpine3.24-aot"
       },
       {
-        "digest": "sha256:80c4d05af51158795e54f4ada389eabedc94892d710938ad0881b26904688edc",
-        "pushedAt": 1792955141,
-        "tag": "9.0-windowsservercore-ltsc2025"
-      },
-      {
         "digest": "sha256:f91469d15f58a25123a48e5d6d30b201e36bd96aec4b24f7c8575ad903e36b33",
         "pushedAt": 1792955138,
         "tag": "8.0.427-bookworm-slim-arm32v7"
-      },
-      {
-        "digest": "sha256:c222783cb4f109a9b9297613effdb9ec2e39a1fbd9f36c02327a0e19b46fdb7d",
-        "pushedAt": 1792955137,
-        "tag": "8.0.427-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:e465b51e993036a5ac0a1f0a41245b1f807df74ad16cfd9eb2a5756818885e5b",
@@ -14765,11 +14860,6 @@
         "tag": "11.0-alpine-aot-arm64v8"
       },
       {
-        "digest": "sha256:d559db0320c02f38733643b1b2ec8fce665e2cba69229203ceeddd9c65c40aa8",
-        "pushedAt": 1792955128,
-        "tag": "10.0-windowsservercore-ltsc2025"
-      },
-      {
         "digest": "sha256:1ab92e837f1f5dbb9dda4bfea332b88074a72bdb00cc05c0d875d72d68845901",
         "pushedAt": 1792955126,
         "tag": "8.0-azurelinux3.0-amd64"
@@ -14783,11 +14873,6 @@
         "digest": "sha256:506d0c604b4dc90601d54f97d885837ff92c2abdca8101d75590c3d5a6e8f792",
         "pushedAt": 1792955118,
         "tag": "10.0-azurelinux3.0-aot-amd64"
-      },
-      {
-        "digest": "sha256:ea01b858ee841f1804e9578a00f3b3f5da0df1fc175b27cac15f4dc846aa99c0",
-        "pushedAt": 1792955103,
-        "tag": "10.0.403-nanoserver-ltsc2025"
       },
       {
         "digest": "sha256:209434015cba046bf2672cc134c68ca0b1015e9bca621d32e51ec794beb63a33",
@@ -14810,24 +14895,9 @@
         "tag": "11.0.100-rc.3-alpine3.24-aot-arm64v8"
       },
       {
-        "digest": "sha256:a8401ca7a97d996c1cca7007940877873d61936a17c8df15443b85aa90f365f3",
-        "pushedAt": 1792955096,
-        "tag": "9.0-nanoserver-ltsc2022"
-      },
-      {
         "digest": "sha256:e4d9bb7b378aa20d276eb3df5d217cd825f17e01fb2e8cadb95997e663119aef",
         "pushedAt": 1792955094,
         "tag": "10.0-alpine3.24-aot-amd64"
-      },
-      {
-        "digest": "sha256:3cf924e7a7cca277f2bd1e481657cde3272fde476437ecf35e92e65dd6587589",
-        "pushedAt": 1792955093,
-        "tag": "11.0.100-rc.3-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:a263ca79ab217a21c1b7648086705d1c4c932a9f39e48929d3b78a3126ea1260",
-        "pushedAt": 1792955092,
-        "tag": "9.0-windowsservercore-ltsc2022"
       },
       {
         "digest": "sha256:8e3a082410c926d968071774ecf59b986cd037a1f5da9c0274ecae03e1273038",
@@ -14860,54 +14930,9 @@
         "tag": "8.0.427-alpine3.24"
       },
       {
-        "digest": "sha256:2e207720a8ea00cb3bf92b7e3e11677f62952e7d39919dc47d273b460ac95ab5",
-        "pushedAt": 1792955041,
-        "tag": "11.0-windowsservercore-ltsc2025"
-      },
-      {
-        "digest": "sha256:0bf68729df7782afa61c4d0ad08100d5500045dd8e94d01054821e318de9d51a",
-        "pushedAt": 1792955031,
-        "tag": "8.0-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:a263ca79ab217a21c1b7648086705d1c4c932a9f39e48929d3b78a3126ea1260",
-        "pushedAt": 1792955028,
-        "tag": "9.0.320-windowsservercore-ltsc2022"
-      },
-      {
-        "digest": "sha256:d559db0320c02f38733643b1b2ec8fce665e2cba69229203ceeddd9c65c40aa8",
-        "pushedAt": 1792955026,
-        "tag": "10.0.403-windowsservercore-ltsc2025"
-      },
-      {
         "digest": "sha256:1ab92e837f1f5dbb9dda4bfea332b88074a72bdb00cc05c0d875d72d68845901",
         "pushedAt": 1792955026,
         "tag": "8.0.427-azurelinux3.0-amd64"
-      },
-      {
-        "digest": "sha256:a8401ca7a97d996c1cca7007940877873d61936a17c8df15443b85aa90f365f3",
-        "pushedAt": 1792955023,
-        "tag": "9.0.320-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:43e7f2ebe461cc37979db41d63e6aa1db581e9a93f120e78c5a1998796556c44",
-        "pushedAt": 1792955022,
-        "tag": "9.0.320-windowsservercore-ltsc2019"
-      },
-      {
-        "digest": "sha256:3cf924e7a7cca277f2bd1e481657cde3272fde476437ecf35e92e65dd6587589",
-        "pushedAt": 1792955021,
-        "tag": "11.0-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:e7ef8c177b234dbd6753abd28c1515ed9d9c7a119eb538e37836e48f5212dbac",
-        "pushedAt": 1792955021,
-        "tag": "8.0-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:80c4d05af51158795e54f4ada389eabedc94892d710938ad0881b26904688edc",
-        "pushedAt": 1792955017,
-        "tag": "9.0.320-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:04e2446eaa3f42f1181082faf3ac36620a0efac1316431f2731f8d496d48ac82",
@@ -14945,11 +14970,6 @@
         "tag": "8.0-alpine3.24-amd64"
       },
       {
-        "digest": "sha256:b7feefaa34e098ac93cb20a58bf711bea73edcdc34d6bf58e63d1043ff329e58",
-        "pushedAt": 1792955011,
-        "tag": "9.0.320-nanoserver-1809"
-      },
-      {
         "digest": "sha256:0bcd2615fe39229219363c0e1164c4d6126c6580221db83e7aa29f940e7ba627",
         "pushedAt": 1792955010,
         "tag": "8.0.427-bookworm-slim-arm64v8"
@@ -14958,11 +14978,6 @@
         "digest": "sha256:745ea789ff7147bf5a1ad39416c947483bd246fa83908f7f412f3d89b73874ff",
         "pushedAt": 1792955008,
         "tag": "10.0-alpine3.24-arm32v7"
-      },
-      {
-        "digest": "sha256:b7feefaa34e098ac93cb20a58bf711bea73edcdc34d6bf58e63d1043ff329e58",
-        "pushedAt": 1792955005,
-        "tag": "9.0-nanoserver-1809"
       },
       {
         "digest": "sha256:20c8f51f9525753eafdf71ad8d077d45d23ad28c5730be127443df23df64cdac",
@@ -15005,21 +15020,6 @@
         "tag": "11.0-azurelinux3.0-aot-amd64"
       },
       {
-        "digest": "sha256:15561d09494904d7ba02749866946985d703a5f11b63545215d358dbea33e271",
-        "pushedAt": 1792954985,
-        "tag": "9.0.320-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:2e207720a8ea00cb3bf92b7e3e11677f62952e7d39919dc47d273b460ac95ab5",
-        "pushedAt": 1792954984,
-        "tag": "11.0.100-rc.3-windowsservercore-ltsc2025"
-      },
-      {
-        "digest": "sha256:ea01b858ee841f1804e9578a00f3b3f5da0df1fc175b27cac15f4dc846aa99c0",
-        "pushedAt": 1792954983,
-        "tag": "10.0-nanoserver-ltsc2025"
-      },
-      {
         "digest": "sha256:9ce04846f5cb9813f4bd816788c6adfa03dd038dfa1cb5d25683fe29014a93a1",
         "pushedAt": 1792954983,
         "tag": "8.0-alpine-amd64"
@@ -15045,11 +15045,6 @@
         "tag": "8.0.427-alpine3.24-arm32v7"
       },
       {
-        "digest": "sha256:3309f129a2227c1cfc1d606740f6aac0502bd079fed3ad5c99b2c2232d6df37c",
-        "pushedAt": 1792954978,
-        "tag": "8.0.427-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:6bd136ddea9d51bfb7742ec708251df322b3145186f1efed8132db3a0cbad08f",
         "pushedAt": 1792954977,
         "tag": "9.0-alpine3.24-arm32v7"
@@ -15060,11 +15055,6 @@
         "tag": "10.0-azurelinux3.0-amd64"
       },
       {
-        "digest": "sha256:e7ef8c177b234dbd6753abd28c1515ed9d9c7a119eb538e37836e48f5212dbac",
-        "pushedAt": 1792954975,
-        "tag": "8.0.427-nanoserver-ltsc2022"
-      },
-      {
         "digest": "sha256:bf500481e8dac63987f2b1e617938f72a77bcfb9b310a234f39483abf35c9bff",
         "pushedAt": 1792954974,
         "tag": "10.0-alpine-arm64v8"
@@ -15073,11 +15063,6 @@
         "digest": "sha256:bf500481e8dac63987f2b1e617938f72a77bcfb9b310a234f39483abf35c9bff",
         "pushedAt": 1792954973,
         "tag": "10.0-alpine3.24-arm64v8"
-      },
-      {
-        "digest": "sha256:c222783cb4f109a9b9297613effdb9ec2e39a1fbd9f36c02327a0e19b46fdb7d",
-        "pushedAt": 1792954973,
-        "tag": "8.0-windowsservercore-ltsc2025"
       },
       {
         "digest": "sha256:538381bc3d02843676058838133a0e547b4c83ce4dd340dd1e15c86b2fc28124",
@@ -15100,11 +15085,6 @@
         "tag": "10.0.403-azurelinux3.0-aot-amd64"
       },
       {
-        "digest": "sha256:f636714fc95419d88745e7bb9183ae113c0f4688046c0dc71c023cbdd6d30932",
-        "pushedAt": 1792954972,
-        "tag": "8.0-nanoserver-1809"
-      },
-      {
         "digest": "sha256:6bd136ddea9d51bfb7742ec708251df322b3145186f1efed8132db3a0cbad08f",
         "pushedAt": 1792954971,
         "tag": "9.0-alpine-arm32v7"
@@ -15125,19 +15105,9 @@
         "tag": "11.0-alpine-amd64"
       },
       {
-        "digest": "sha256:f636714fc95419d88745e7bb9183ae113c0f4688046c0dc71c023cbdd6d30932",
-        "pushedAt": 1792954963,
-        "tag": "8.0.427-nanoserver-1809"
-      },
-      {
         "digest": "sha256:2dca866891474f9629c349ef189dad74d3bd8a6fb497635dccb0c982baddf3bc",
         "pushedAt": 1792954963,
         "tag": "9.0.320-bookworm-slim-arm32v7"
-      },
-      {
-        "digest": "sha256:8bdcd6e50246de773092756b6bafe42aec364ae363251e6381230d97e8a4eca8",
-        "pushedAt": 1792954959,
-        "tag": "10.0-nanoserver-ltsc2022"
       },
       {
         "digest": "sha256:a6802aa16dd234e0181a2c52fa211db12152f840c3deb141b57c9707dbd166f0",
@@ -15220,11 +15190,6 @@
         "tag": "11.0.100-rc.3-alpine3.24-arm32v7"
       },
       {
-        "digest": "sha256:3c439035c6dd8087f43a034da64271af7e41e552b059cacc33ad23a164988b60",
-        "pushedAt": 1792954873,
-        "tag": "8.0-windowsservercore-ltsc2019"
-      },
-      {
         "digest": "sha256:492a53da45ba166040228deffa4ec403d16cfdba2a982c283fbdf55979900872",
         "pushedAt": 1792954872,
         "tag": "8.0-alpine3.24-arm64v8"
@@ -15260,16 +15225,6 @@
         "tag": "9.0.320-alpine3.24-arm64v8"
       },
       {
-        "digest": "sha256:8bdcd6e50246de773092756b6bafe42aec364ae363251e6381230d97e8a4eca8",
-        "pushedAt": 1792954867,
-        "tag": "10.0.403-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:3309f129a2227c1cfc1d606740f6aac0502bd079fed3ad5c99b2c2232d6df37c",
-        "pushedAt": 1792954867,
-        "tag": "8.0-windowsservercore-ltsc2022"
-      },
-      {
         "digest": "sha256:af2cb743259b40de426a7ea13315be5014df9de8a828dab3632cc9b806d4ae55",
         "pushedAt": 1792954867,
         "tag": "9.0-bookworm-slim-amd64"
@@ -15283,11 +15238,6 @@
         "digest": "sha256:d0487b39cabebb00b8620312215df5328883e4db3c583e2d0f52056542eff080",
         "pushedAt": 1792954866,
         "tag": "8.0-alpine3.24-arm32v7"
-      },
-      {
-        "digest": "sha256:3c439035c6dd8087f43a034da64271af7e41e552b059cacc33ad23a164988b60",
-        "pushedAt": 1792954864,
-        "tag": "8.0.427-windowsservercore-ltsc2019"
       },
       {
         "digest": "sha256:6bd136ddea9d51bfb7742ec708251df322b3145186f1efed8132db3a0cbad08f",
@@ -16953,274 +16903,274 @@
     "registry.k8s.io/sig-storage/csi-snapshotter": [
       {
         "digest": "sha256:b03d3334f8035fa42660b166f6eb819a659a14774da020eb1b6c52cd422eaadb",
-        "pushedAt": 1791969122,
+        "pushedAt": 1791969212,
         "tag": "v8.7.0"
       },
       {
         "digest": "sha256:42af0929bcd60a43499825c078a60ff0534e08af8fbeb283aa391be40feb9f3e",
-        "pushedAt": 1780934786,
+        "pushedAt": 1780934622,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:da081c27e8a6d91f36042c1942362d0515ced8d06e18c11b8f893e58c4d6d797",
-        "pushedAt": 1770993503,
+        "pushedAt": 1770993611,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:c7e0a3718832b6197ce8b29fefb3fed3d84f4fbcdf08f4606140dbec2566501d",
-        "pushedAt": 1761600957,
+        "pushedAt": 1761600982,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:bc7be893ecc3ad524194aa6573b2f5c06cd469bdf21a500ab6c99c2ba1c4d64d",
-        "pushedAt": 1750321721,
+        "pushedAt": 1750321660,
         "tag": "v8.3.0"
       },
       {
         "digest": "sha256:5f4bb469fec51147ce157329dab598c758da1b018bad6dad26f0ff469326d769",
-        "pushedAt": 1740731829,
+        "pushedAt": 1740731801,
         "tag": "v8.2.1"
       },
       {
         "digest": "sha256:68d76ee2618d63de1bf9697850a32cb581e3df4c54f677320ccf900dec378b2f",
-        "pushedAt": 1734473190,
+        "pushedAt": 1734473176,
         "tag": "v8.1.1"
       },
       {
         "digest": "sha256:5f051159c95fd13b0b518436cb20808862d2f7f95f45e036da4242f3416befe4",
-        "pushedAt": 1733851223,
+        "pushedAt": 1733851129,
         "tag": "v8.0.2"
       },
       {
         "digest": "sha256:dd788d79cf4c1b8edee6d9b80b8a1ebfc51a38a365c5be656986b129be9ac784",
-        "pushedAt": 1733851102,
+        "pushedAt": 1733851105,
         "tag": "v8.2.0"
       },
       {
         "digest": "sha256:b3e90b33781670ac050c22c9e88b9e876493dca248966b9da6f7a90cc412ab86",
-        "pushedAt": 1725048880,
+        "pushedAt": 1725048778,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:2e04046334baf9be425bb0fa1d04c2d1720d770825eedbdbcdb10d430da4ad8c",
-        "pushedAt": 1717520559,
+        "pushedAt": 1717520366,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:6d4a90d6e164db684684295e28ad4b012d7c8a29ee4103cfb7611ce2e9c884bb",
-        "pushedAt": 1716574211,
+        "pushedAt": 1716574252,
         "tag": "v8.0.0"
       },
       {
         "digest": "sha256:bb66be8355958e600e32026e6a1742c86d0cc54401ca53b98a0234bf32636e36",
-        "pushedAt": 1711041646,
+        "pushedAt": 1711041597,
         "tag": "v6.3.4"
       },
       {
         "digest": "sha256:c4b6b02737bc24906fcce57fe6626d1a36cb2b91baa971af2a5e5a919093c34e",
-        "pushedAt": 1711041450,
+        "pushedAt": 1711041398,
         "tag": "v7.0.2"
       },
       {
         "digest": "sha256:1a29ab1e4ecdc33a84062cec757620d9787c28b28793202c5b78ae097c3dee27",
-        "pushedAt": 1707839258,
+        "pushedAt": 1707839273,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:682d5015146de0f922def125a3be1e2a29c43a3eb45700600e4e0733ec3f5752",
-        "pushedAt": 1706742784,
+        "pushedAt": 1706742767,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:f1bd6ee18c4021c1c94f29edfab89b49b6a4d1b800936c19dbef2d75f8202f2d",
-        "pushedAt": 1703633125,
+        "pushedAt": 1703632841,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:4c5a1b57e685b2631909b958487f65af7746361346fcd82a8635bea3ef14509d",
-        "pushedAt": 1699578122,
+        "pushedAt": 1699578179,
         "tag": "v6.3.2"
       },
       {
         "digest": "sha256:65c5ffde8fe6f68a2f19310cfd789befe7bdd16eedda219d9a0024f8fc68b802",
-        "pushedAt": 1697819429,
+        "pushedAt": 1697819435,
         "tag": "v6.3.1"
       },
       {
         "digest": "sha256:5ff5392cb762a41ee9bc4767e3a693249ae08b46a4322f623f24ad6b63dd06b5",
-        "pushedAt": 1697730633,
+        "pushedAt": 1697730604,
         "tag": "v6.2.3"
       },
       {
         "digest": "sha256:93fbf54dd67f586428ea339743160e1a5110c058afde3c2e824f11fbc6efae53",
-        "pushedAt": 1694719016,
+        "pushedAt": 1694719015,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:becc53e25b96573f61f7469923a92fb3e9d3a3781732159954ce0d9da07233a2",
-        "pushedAt": 1685328606,
+        "pushedAt": 1685328644,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:714aa06ccdd3781f1a76487e2dc7592ece9a12ae9e0b726e4f93d1639129b771",
-        "pushedAt": 1672944883,
+        "pushedAt": 1672944778,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:0d8d81948af4897bd07b86046424f022f79634ee0315e9f1d4cdb5c1c8d51c90",
-        "pushedAt": 1672209340,
+        "pushedAt": 1672209451,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:291334908ddf71a4661fd7f6d9d97274de8a5378a2b6fdfeb2ce73414a34f82f",
-        "pushedAt": 1664282860,
+        "pushedAt": 1664282905,
         "tag": "v6.1.0"
       },
       {
-        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
-        "pushedAt": 1660837092,
-        "tag": "v6.0.0"
-      },
-      {
-        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
-        "pushedAt": 1660837092,
-        "tag": "v3.0.1"
-      },
-      {
-        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
-        "pushedAt": 1660837091,
-        "tag": "v4.0.0"
+        "digest": "sha256:26e327b018c21a49523b759d7787e99553181ae9ef90b6bdc13abe362a43ced0",
+        "pushedAt": 1660946049,
+        "tag": "v3.0.2"
       },
       {
         "digest": "sha256:7f93019f399454598370aab2cc1a652a3b8ff722ab92ec4ca9db0eed53acc4b4",
-        "pushedAt": 1660837091,
+        "pushedAt": 1660946049,
         "tag": "v1.1.0"
       },
       {
-        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
-        "pushedAt": 1660837089,
-        "tag": "v1.2.0"
+        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
+        "pushedAt": 1660946048,
+        "tag": "v1.2.2"
+      },
+      {
+        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
+        "pushedAt": 1660946048,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:1530db9fd380ecee86b48a7b3540568c46adb5a64b7fe718c51d9260c4834fd8",
+        "pushedAt": 1660946047,
+        "tag": "v2.0.1"
+      },
+      {
+        "digest": "sha256:35ead85dd09aa8cc612fdb598d4e0e2f048bef816f1b74df5eeab67cd21b10aa",
+        "pushedAt": 1660946047,
+        "tag": "v2.1.0"
       },
       {
         "digest": "sha256:89e900a160a986a1a7a4eba7f5259e510398fa87ca9b8a729e7dec59e04c7709",
-        "pushedAt": 1660837089,
+        "pushedAt": 1660946047,
         "tag": "v5.0.1"
       },
       {
-        "digest": "sha256:de94e695fc27ee421da8b9932c3d42699fe7b848bc34717f67f4350946bc46c9",
-        "pushedAt": 1660837089,
-        "tag": "v2.1.1"
-      },
-      {
-        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
-        "pushedAt": 1660837086,
-        "tag": "v4.2.1"
-      },
-      {
-        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
-        "pushedAt": 1660837086,
-        "tag": "v2.1.3"
-      },
-      {
-        "digest": "sha256:74e5a1c97b0c558fb0c59ea002b6ddc98a236676221030306355ed1423df667e",
-        "pushedAt": 1660837085,
-        "tag": "v2.1.5"
-      },
-      {
         "digest": "sha256:ac845016480ce5eb18a04c1e4e7a4613900e662367dd1771db1e4ccfcedda5e2",
-        "pushedAt": 1660837085,
+        "pushedAt": 1660946047,
         "tag": "v5.0.0"
       },
       {
+        "digest": "sha256:ece29e2217e0faf87973565c062c8508c2b78039169e855032bb357acefa3c98",
+        "pushedAt": 1660946047,
+        "tag": "v3.0.0"
+      },
+      {
+        "digest": "sha256:e27ad21f007bae28eef68934a4834ca0a5c669e4c246c4900378e7ed1680c37e",
+        "pushedAt": 1660946046,
+        "tag": "v4.1.0"
+      },
+      {
+        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
+        "pushedAt": 1660946046,
+        "tag": "v4.1.1"
+      },
+      {
+        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
+        "pushedAt": 1660946045,
+        "tag": "v2.1.3"
+      },
+      {
+        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
+        "pushedAt": 1660946044,
+        "tag": "v4.2.0"
+      },
+      {
+        "digest": "sha256:74e5a1c97b0c558fb0c59ea002b6ddc98a236676221030306355ed1423df667e",
+        "pushedAt": 1660946044,
+        "tag": "v2.1.5"
+      },
+      {
+        "digest": "sha256:de94e695fc27ee421da8b9932c3d42699fe7b848bc34717f67f4350946bc46c9",
+        "pushedAt": 1660946044,
+        "tag": "v2.1.1"
+      },
+      {
+        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
+        "pushedAt": 1660946044,
+        "tag": "v3.0.1"
+      },
+      {
+        "digest": "sha256:ad16874e2140256a809cada2b4ac3d931d5b73b0bee23ed0f8d60bdd778cfec2",
+        "pushedAt": 1660946043,
+        "tag": "v6.0.1"
+      },
+      {
+        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
+        "pushedAt": 1660946042,
+        "tag": "v6.0.0"
+      },
+      {
+        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
+        "pushedAt": 1660946042,
+        "tag": "v4.2.1"
+      },
+      {
+        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
+        "pushedAt": 1660946039,
+        "tag": "v4.0.1"
+      },
+      {
         "digest": "sha256:9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7",
-        "pushedAt": 1660837083,
+        "pushedAt": 1660946038,
         "tag": "v3.0.3"
       },
       {
         "digest": "sha256:2d719cc8f5f1d3794ee6ae9bc2f93820e78ff34908ab05ed94293e5b7ddebfb0",
-        "pushedAt": 1660837082,
+        "pushedAt": 1660946035,
         "tag": "v2.1.4"
       },
       {
-        "digest": "sha256:ad16874e2140256a809cada2b4ac3d931d5b73b0bee23ed0f8d60bdd778cfec2",
-        "pushedAt": 1660837082,
-        "tag": "v6.0.1"
-      },
-      {
-        "digest": "sha256:35ead85dd09aa8cc612fdb598d4e0e2f048bef816f1b74df5eeab67cd21b10aa",
-        "pushedAt": 1660837081,
-        "tag": "v2.1.0"
-      },
-      {
-        "digest": "sha256:26e327b018c21a49523b759d7787e99553181ae9ef90b6bdc13abe362a43ced0",
-        "pushedAt": 1660837080,
-        "tag": "v3.0.2"
-      },
-      {
-        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
-        "pushedAt": 1660837079,
-        "tag": "v4.0.1"
-      },
-      {
-        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
-        "pushedAt": 1660837078,
-        "tag": "v4.2.0"
-      },
-      {
-        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
-        "pushedAt": 1660837078,
-        "tag": "v4.1.1"
-      },
-      {
-        "digest": "sha256:e27ad21f007bae28eef68934a4834ca0a5c669e4c246c4900378e7ed1680c37e",
-        "pushedAt": 1660837071,
-        "tag": "v4.1.0"
-      },
-      {
-        "digest": "sha256:ece29e2217e0faf87973565c062c8508c2b78039169e855032bb357acefa3c98",
-        "pushedAt": 1660837071,
-        "tag": "v3.0.0"
+        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
+        "pushedAt": 1660946035,
+        "tag": "v1.2.0"
       },
       {
         "digest": "sha256:f0673197110ba3c38a94b42fc0037d0c209b9d17c0b796072d26df72195a7ecd",
-        "pushedAt": 1660837067,
+        "pushedAt": 1660946034,
         "tag": "v2.1.2"
-      },
-      {
-        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
-        "pushedAt": 1660837065,
-        "tag": "v1.2.2"
-      },
-      {
-        "digest": "sha256:1530db9fd380ecee86b48a7b3540568c46adb5a64b7fe718c51d9260c4834fd8",
-        "pushedAt": 1660837063,
-        "tag": "v2.0.1"
       }
     ],
     "registry.k8s.io/sig-storage/snapshot-controller": [
       {
         "digest": "sha256:8511f417d0072efcd937aedd7cc79a937d5066e64ee17beb6097301c92742f19",
-        "pushedAt": 1791969165,
+        "pushedAt": 1791969167,
         "tag": "v8.7.0"
       },
       {
         "digest": "sha256:81e79f205083f105e573ba2ebfe5964ede7f69a154e8627f53ebbbccd3ed9f70",
-        "pushedAt": 1780934626,
+        "pushedAt": 1780934501,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:74ca61ab13e978f03cf0f336a607281d15f04cda0a38a881306365473b28a3d8",
-        "pushedAt": 1770993504,
+        "pushedAt": 1770993594,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:b845f4bbc34d70bd84e92f8021f47704df1de3dbabbd8289969651360b39d605",
-        "pushedAt": 1761600987,
+        "pushedAt": 1761600965,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:12c2da094b02ffa8fa249e17b943b755b464604880cc2cfd85977088c1a2c458",
-        "pushedAt": 1750321673,
+        "pushedAt": 1750321651,
         "tag": "v8.3.0"
       },
       {
@@ -17230,193 +17180,193 @@
       },
       {
         "digest": "sha256:0b7c1b2937151dde2eb31eba1ddbd8b59bae0e268f2e1d1f2b4ee5313e45f26d",
-        "pushedAt": 1734473239,
+        "pushedAt": 1734473137,
         "tag": "v8.1.1"
       },
       {
-        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
-        "pushedAt": 1733851203,
-        "tag": "v8.2.0"
-      },
-      {
         "digest": "sha256:bb68b81c708f1ab07e3fde2ea5fe19719ec8343956f74971146020418193b42e",
-        "pushedAt": 1733851115,
+        "pushedAt": 1733851238,
         "tag": "v8.0.2"
       },
       {
+        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
+        "pushedAt": 1733851217,
+        "tag": "v8.2.0"
+      },
+      {
         "digest": "sha256:a8a6749641849a6d7e560d26647e88dbd605a75cbff1823568ab90287ea29038",
-        "pushedAt": 1725048839,
+        "pushedAt": 1725048811,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:32b8e4254751c9935c796e6e5c07fe804250bd5032ab78f7133a00f75d504596",
-        "pushedAt": 1717520250,
+        "pushedAt": 1717520562,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:d60a4f302a80f7effa0c9c3f6da7de6a49afede590abc39e30e959e844e46a41",
-        "pushedAt": 1716574436,
+        "pushedAt": 1716574433,
         "tag": "v8.0.0"
       },
       {
-        "digest": "sha256:8f12551e3eca417490cfab20945394fc65a0a0de85c36f3012bc872b96d5e1b0",
-        "pushedAt": 1711041804,
-        "tag": "v6.3.4"
-      },
-      {
         "digest": "sha256:a03550d7b25d0d24c6c313a27fcade0065f0cee159805ed0b0083700dcb52b76",
-        "pushedAt": 1711041531,
+        "pushedAt": 1711041842,
         "tag": "v7.0.2"
       },
       {
+        "digest": "sha256:8f12551e3eca417490cfab20945394fc65a0a0de85c36f3012bc872b96d5e1b0",
+        "pushedAt": 1711041822,
+        "tag": "v6.3.4"
+      },
+      {
         "digest": "sha256:87a44fa28a10d00968be71deec75883ed6d48132779f798572f2fb49d3b30d95",
-        "pushedAt": 1707839278,
+        "pushedAt": 1707839286,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:2084f69694f0fae24d1a3039e02102beaef3ae912c10e59094449196a63ffb7e",
-        "pushedAt": 1706742781,
+        "pushedAt": 1706742839,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:00c36f9f73152a878802abef04d52a836ad1f2c1b3bff24ddb470f7a82ba1587",
-        "pushedAt": 1703633015,
+        "pushedAt": 1703633128,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:73b4160cb0154c0acbafe7ae6acd4091a4289e8f300867e84522b0ae66660876",
-        "pushedAt": 1700488276,
+        "pushedAt": 1700488266,
         "tag": "v6.3.2"
       },
       {
         "digest": "sha256:c6f972cf23fd437237fdc0e0beb97755d62a9ad4a21564766e2e125952acbc24",
-        "pushedAt": 1698075361,
+        "pushedAt": 1698075323,
         "tag": "v6.2.3"
       },
       {
         "digest": "sha256:ce6ca3c0e30b19477896dafff55f9f4b18ea59dfb683da85c62700e215e8107b",
-        "pushedAt": 1698075248,
+        "pushedAt": 1698075242,
         "tag": "v6.3.1"
       },
       {
         "digest": "sha256:0576eac2184b2bca88f30ada56dfec1e98fa8045e27ecb6aedff23c48534a3ca",
-        "pushedAt": 1694719059,
+        "pushedAt": 1694718968,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:fb95b65bb88f319f0f7d5397c401a654164f11a191f466b4026fa36085c7141b",
-        "pushedAt": 1685328558,
+        "pushedAt": 1685328606,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:98bab4eaf23c5bf75ada9deb7f8c55bd5fc13a48fbb3e658079fc37693375957",
-        "pushedAt": 1672944853,
+        "pushedAt": 1672944816,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:2fdd2e646bdda56c9e728d4758c037088f69275815ee10d0b45ae3f4e3cac314",
-        "pushedAt": 1672209217,
+        "pushedAt": 1672209413,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:823c75d0c45d1427f6d850070956d9ca657140a7bbf828381541d1d808475280",
-        "pushedAt": 1664282861,
+        "pushedAt": 1664282905,
         "tag": "v6.1.0"
       },
       {
         "digest": "sha256:c20dd675dea1160a7b71bd568fa699220dccaaac5f75e70fc291ea9434bf24dc",
-        "pushedAt": 1660837332,
+        "pushedAt": 1660851862,
         "tag": "v6.0.0"
       },
       {
-        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
-        "pushedAt": 1660837331,
-        "tag": "v4.1.1"
-      },
-      {
-        "digest": "sha256:253283746365bbd183151b21b1c0b54d0d9f838ca11cda3e9a86780fb01db994",
-        "pushedAt": 1660837328,
-        "tag": "v2.1.2"
+        "digest": "sha256:cc9f25f394a50acd54df580458e0470b1b804dfc8ada59924d51667da9efb165",
+        "pushedAt": 1660851861,
+        "tag": "v5.0.1"
       },
       {
         "digest": "sha256:a49993c3325b4bb010e52b8e661ebc62b9d45ebceae6e432d3ee637a4833bae7",
-        "pushedAt": 1660837328,
+        "pushedAt": 1660851860,
         "tag": "v6.0.1"
       },
       {
         "digest": "sha256:247fa8ea236de54e387da3185fadc2bab5e6b3a9ce5a1b6efc93db508e426827",
-        "pushedAt": 1660837326,
+        "pushedAt": 1660851857,
         "tag": "v2.1.5"
       },
       {
-        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
-        "pushedAt": 1660837326,
-        "tag": "v5.0.0"
-      },
-      {
-        "digest": "sha256:e879ec46a9ba2a99c7e352b8ec8ac63ec0bc7f8dcfab27e92fba5474ab9e8cb4",
-        "pushedAt": 1660837325,
-        "tag": "v2.1.3"
-      },
-      {
-        "digest": "sha256:2bde7d7f9d73c4309d67e9d7f94df52110295ef06c9488ca76c40da32b65f05e",
-        "pushedAt": 1660837321,
-        "tag": "v2.1.1"
+        "digest": "sha256:83a49df295ec243d14302509d5b8a9b7522aaf754cbc5fa4fb3701ca60fca65d",
+        "pushedAt": 1660851857,
+        "tag": "v2.1.4"
       },
       {
         "digest": "sha256:a494ff6ec10e05a454458fbf44247d93c9b3a0d983a00b538e442f353b7030c8",
-        "pushedAt": 1660837321,
+        "pushedAt": 1660851857,
         "tag": "v3.0.2"
       },
       {
-        "digest": "sha256:ae335399175b47a47f04db0317d5c0ce4b4e073ab61f5b784326625278009107",
-        "pushedAt": 1660837321,
-        "tag": "v4.1.0"
-      },
-      {
-        "digest": "sha256:d5d49bede340a36d29397b8941f26852a08a3d81c5d3bea72d9677774085032c",
-        "pushedAt": 1660837318,
-        "tag": "v3.0.1"
-      },
-      {
-        "digest": "sha256:7092470172782a926e819a75344aff15cfbdb603f7ec75c117ba499dd93c2cd8",
-        "pushedAt": 1660837314,
-        "tag": "v3.0.3"
-      },
-      {
-        "digest": "sha256:283803ac94cca42eeb89d2a5264bde14505e0a4fc98f75274cff7c026ba471ab",
-        "pushedAt": 1660837312,
-        "tag": "v4.2.0"
-      },
-      {
-        "digest": "sha256:cc9f25f394a50acd54df580458e0470b1b804dfc8ada59924d51667da9efb165",
-        "pushedAt": 1660837311,
-        "tag": "v5.0.1"
-      },
-      {
-        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
-        "pushedAt": 1660837310,
-        "tag": "v4.0.0"
-      },
-      {
-        "digest": "sha256:95587f8777d77612788f751da79f34f1e2c003f05320d8ffb005baa06bd8a676",
-        "pushedAt": 1660837309,
-        "tag": "v4.2.1"
-      },
-      {
         "digest": "sha256:c39d470f04a167f2e84e5b21b730e2c0bc7865da3a717448814fffbed541d858",
-        "pushedAt": 1660837309,
+        "pushedAt": 1660851857,
         "tag": "v4.0.1"
       },
       {
         "digest": "sha256:36ca32433c069246ea8988a7b3dbdf0aabf8345be9122b8a25426e6c487878de",
-        "pushedAt": 1660837307,
+        "pushedAt": 1660851854,
         "tag": "v3.0.0"
       },
       {
-        "digest": "sha256:83a49df295ec243d14302509d5b8a9b7522aaf754cbc5fa4fb3701ca60fca65d",
-        "pushedAt": 1660837301,
-        "tag": "v2.1.4"
+        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
+        "pushedAt": 1660851854,
+        "tag": "v5.0.0"
+      },
+      {
+        "digest": "sha256:253283746365bbd183151b21b1c0b54d0d9f838ca11cda3e9a86780fb01db994",
+        "pushedAt": 1660851853,
+        "tag": "v2.1.2"
+      },
+      {
+        "digest": "sha256:283803ac94cca42eeb89d2a5264bde14505e0a4fc98f75274cff7c026ba471ab",
+        "pushedAt": 1660851853,
+        "tag": "v4.2.0"
+      },
+      {
+        "digest": "sha256:7092470172782a926e819a75344aff15cfbdb603f7ec75c117ba499dd93c2cd8",
+        "pushedAt": 1660851853,
+        "tag": "v3.0.3"
+      },
+      {
+        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
+        "pushedAt": 1660851852,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
+        "pushedAt": 1660851847,
+        "tag": "v4.1.1"
+      },
+      {
+        "digest": "sha256:ae335399175b47a47f04db0317d5c0ce4b4e073ab61f5b784326625278009107",
+        "pushedAt": 1660851845,
+        "tag": "v4.1.0"
+      },
+      {
+        "digest": "sha256:2bde7d7f9d73c4309d67e9d7f94df52110295ef06c9488ca76c40da32b65f05e",
+        "pushedAt": 1660851844,
+        "tag": "v2.1.1"
+      },
+      {
+        "digest": "sha256:95587f8777d77612788f751da79f34f1e2c003f05320d8ffb005baa06bd8a676",
+        "pushedAt": 1660851844,
+        "tag": "v4.2.1"
+      },
+      {
+        "digest": "sha256:d5d49bede340a36d29397b8941f26852a08a3d81c5d3bea72d9677774085032c",
+        "pushedAt": 1660851844,
+        "tag": "v3.0.1"
+      },
+      {
+        "digest": "sha256:e879ec46a9ba2a99c7e352b8ec8ac63ec0bc7f8dcfab27e92fba5474ab9e8cb4",
+        "pushedAt": 1660851844,
+        "tag": "v2.1.3"
       }
     ]
   },
