@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T06:00:40Z",
+  "generatedAt": "2026-10-28T13:21:22Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -172,6 +172,18 @@
         ],
         "tags": [
           "v0.168.0"
+        ]
+      },
+      "ghcr.io/home-operations/drm-exporter": {
+        "pins": [
+          {
+            "digest": "sha256:d39c531a0032a7c021e8f0da03b24c6e1e469aab8cf2babc78be68a300d7ec5f",
+            "repo": "anthony-spruyt/spruyt-labs",
+            "tag": "0.3.6"
+          }
+        ],
+        "tags": [
+          "0.3.6"
         ]
       },
       "ghcr.io/home-operations/irqbalance": {
@@ -510,6 +522,11 @@
       {
         "digest": "sha256:c7b8faacc4439b8f5c41ca7ce4a3f8ff3e8520cb0c3444fae7292f687b00d0dd",
         "pushedAt": 1792793209,
+        "tag": "debug-nonroot-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:c7b8faacc4439b8f5c41ca7ce4a3f8ff3e8520cb0c3444fae7292f687b00d0dd",
+        "pushedAt": 1792793209,
         "tag": "debug-nonroot-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -546,6 +563,11 @@
         "digest": "sha256:6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104",
         "pushedAt": 1792793184,
         "tag": "debug-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104",
+        "pushedAt": 1792793184,
+        "tag": "debug-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104",
@@ -590,6 +612,11 @@
       {
         "digest": "sha256:18f4cc26c9ffa7f20a359298be7deadac5c607c8e03a02b8119f1a5fc2f82c99",
         "pushedAt": 1792793163,
+        "tag": "nonroot-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:18f4cc26c9ffa7f20a359298be7deadac5c607c8e03a02b8119f1a5fc2f82c99",
+        "pushedAt": 1792793163,
         "tag": "nonroot-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -621,6 +648,11 @@
         "digest": "sha256:15f8637509792e05b97d83451b0b6ccfa4abd548f997e406ac1e72c87fe1fa78",
         "pushedAt": 1792793142,
         "tag": "cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:15f8637509792e05b97d83451b0b6ccfa4abd548f997e406ac1e72c87fe1fa78",
+        "pushedAt": 1792793142,
+        "tag": "cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:15f8637509792e05b97d83451b0b6ccfa4abd548f997e406ac1e72c87fe1fa78",
@@ -670,6 +702,11 @@
       {
         "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
         "pushedAt": 1792793122,
+        "tag": "debug-nonroot-riscv64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
+        "pushedAt": 1792793122,
         "tag": "debug-nonroot-riscv64-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -706,6 +743,11 @@
         "digest": "sha256:1c97ace90143fc3359e5bcbba39830f1b2c750a7c3bfe545181b6acb9f01986d",
         "pushedAt": 1792793101,
         "tag": "debug-riscv64-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:1c97ace90143fc3359e5bcbba39830f1b2c750a7c3bfe545181b6acb9f01986d",
+        "pushedAt": 1792793101,
+        "tag": "debug-riscv64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:1c97ace90143fc3359e5bcbba39830f1b2c750a7c3bfe545181b6acb9f01986d",
@@ -750,6 +792,11 @@
       {
         "digest": "sha256:83ad6416da49baa12025c5b0cf29f99d67f38165fe346a1441e16bd4df43e1ad",
         "pushedAt": 1792793081,
+        "tag": "nonroot-riscv64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:83ad6416da49baa12025c5b0cf29f99d67f38165fe346a1441e16bd4df43e1ad",
+        "pushedAt": 1792793081,
         "tag": "nonroot-riscv64-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -786,6 +833,11 @@
         "digest": "sha256:fa0529cd1c35cc34870effae30996faa3297cbbcf05f6832a2d6940417dca9e5",
         "pushedAt": 1792793062,
         "tag": "riscv64-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:fa0529cd1c35cc34870effae30996faa3297cbbcf05f6832a2d6940417dca9e5",
+        "pushedAt": 1792793062,
+        "tag": "riscv64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:fa0529cd1c35cc34870effae30996faa3297cbbcf05f6832a2d6940417dca9e5",
@@ -830,6 +882,11 @@
       {
         "digest": "sha256:9802c65dc4d0d37c9d59cb1f1c343020f7209ef0bed9ae4842a6e1bd22990306",
         "pushedAt": 1792793042,
+        "tag": "debug-nonroot-ppc64le-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:9802c65dc4d0d37c9d59cb1f1c343020f7209ef0bed9ae4842a6e1bd22990306",
+        "pushedAt": 1792793042,
         "tag": "debug-nonroot-ppc64le-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -866,6 +923,11 @@
         "digest": "sha256:641c107a6db6427888aab6bb69eae975e0de8bb6d4c876d6326f9e5aaecca3cf",
         "pushedAt": 1792793021,
         "tag": "debug-ppc64le-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:641c107a6db6427888aab6bb69eae975e0de8bb6d4c876d6326f9e5aaecca3cf",
+        "pushedAt": 1792793021,
+        "tag": "debug-ppc64le-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:641c107a6db6427888aab6bb69eae975e0de8bb6d4c876d6326f9e5aaecca3cf",
@@ -910,6 +972,11 @@
       {
         "digest": "sha256:3c23f1f2c79f46fc96ccbf9a2591ca45bf8ae034e363c837efa6f7fbd242d82b",
         "pushedAt": 1792792997,
+        "tag": "nonroot-ppc64le-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:3c23f1f2c79f46fc96ccbf9a2591ca45bf8ae034e363c837efa6f7fbd242d82b",
+        "pushedAt": 1792792997,
         "tag": "nonroot-ppc64le-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -946,6 +1013,11 @@
         "digest": "sha256:32849b01c30027423344a35494e2332072357b6010971b30d327563c5f36db9a",
         "pushedAt": 1792792976,
         "tag": "ppc64le-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:32849b01c30027423344a35494e2332072357b6010971b30d327563c5f36db9a",
+        "pushedAt": 1792792976,
+        "tag": "ppc64le-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:32849b01c30027423344a35494e2332072357b6010971b30d327563c5f36db9a",
@@ -990,6 +1062,11 @@
       {
         "digest": "sha256:a4f571335f67bf773c8964fda38d12e40303382f7bcc99de40b1137777c8a7f9",
         "pushedAt": 1792792956,
+        "tag": "debug-nonroot-s390x-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:a4f571335f67bf773c8964fda38d12e40303382f7bcc99de40b1137777c8a7f9",
+        "pushedAt": 1792792956,
         "tag": "debug-nonroot-s390x-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1026,6 +1103,11 @@
         "digest": "sha256:0ba640ab29db08b516264ad8c19bd4284f95ebc33140545e8adc265b7872f0b6",
         "pushedAt": 1792792933,
         "tag": "debug-s390x-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:0ba640ab29db08b516264ad8c19bd4284f95ebc33140545e8adc265b7872f0b6",
+        "pushedAt": 1792792933,
+        "tag": "debug-s390x-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:0ba640ab29db08b516264ad8c19bd4284f95ebc33140545e8adc265b7872f0b6",
@@ -1070,6 +1152,11 @@
       {
         "digest": "sha256:a694e1008265b46aac1088e18b74263791e0f04b582cafad8c9840f345349ba1",
         "pushedAt": 1792792907,
+        "tag": "nonroot-s390x-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:a694e1008265b46aac1088e18b74263791e0f04b582cafad8c9840f345349ba1",
+        "pushedAt": 1792792907,
         "tag": "nonroot-s390x-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1106,6 +1193,11 @@
         "digest": "sha256:05b0de968b93491096cb4ff569f05e167074f0dc9de7aa7717f638233191db21",
         "pushedAt": 1792792884,
         "tag": "s390x-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:05b0de968b93491096cb4ff569f05e167074f0dc9de7aa7717f638233191db21",
+        "pushedAt": 1792792884,
+        "tag": "s390x-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:05b0de968b93491096cb4ff569f05e167074f0dc9de7aa7717f638233191db21",
@@ -1150,6 +1242,11 @@
       {
         "digest": "sha256:55d25f0fe9ed07f4280eabf3660af3f7209652334b90e67fa8337de56bc1bd2a",
         "pushedAt": 1792792859,
+        "tag": "debug-nonroot-arm-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:55d25f0fe9ed07f4280eabf3660af3f7209652334b90e67fa8337de56bc1bd2a",
+        "pushedAt": 1792792859,
         "tag": "debug-nonroot-arm-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1186,6 +1283,11 @@
         "digest": "sha256:73c62cf2612cf1609b2e31aa27cc1a276081ac37319a8d4e4868efad2981d001",
         "pushedAt": 1792792834,
         "tag": "debug-arm-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:73c62cf2612cf1609b2e31aa27cc1a276081ac37319a8d4e4868efad2981d001",
+        "pushedAt": 1792792834,
+        "tag": "debug-arm-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:73c62cf2612cf1609b2e31aa27cc1a276081ac37319a8d4e4868efad2981d001",
@@ -1230,6 +1332,11 @@
       {
         "digest": "sha256:fafe2f7bf0818e1d650064b2b74e0e73f730faaef4ed705ea74718214bbd72ae",
         "pushedAt": 1792792809,
+        "tag": "nonroot-arm-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:fafe2f7bf0818e1d650064b2b74e0e73f730faaef4ed705ea74718214bbd72ae",
+        "pushedAt": 1792792809,
         "tag": "nonroot-arm-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1261,6 +1368,11 @@
         "digest": "sha256:24fad982906c55bc9ba3c189ba60a4ddf3de6ff6db85b5dc71943b5d34136883",
         "pushedAt": 1792792783,
         "tag": "arm-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:24fad982906c55bc9ba3c189ba60a4ddf3de6ff6db85b5dc71943b5d34136883",
+        "pushedAt": 1792792783,
+        "tag": "arm-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:24fad982906c55bc9ba3c189ba60a4ddf3de6ff6db85b5dc71943b5d34136883",
@@ -1310,6 +1422,11 @@
       {
         "digest": "sha256:402bb32334daf65e150202fde53db0cf1db0f3fc80b2aca5d8fbe4f91daa7dc5",
         "pushedAt": 1792792757,
+        "tag": "debug-nonroot-arm64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:402bb32334daf65e150202fde53db0cf1db0f3fc80b2aca5d8fbe4f91daa7dc5",
+        "pushedAt": 1792792757,
         "tag": "debug-nonroot-arm64-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1346,6 +1463,11 @@
         "digest": "sha256:f10774f4b4b387904927910f7bd3a342ad1734f1ba6f68f3017fd5407449f8b2",
         "pushedAt": 1792792733,
         "tag": "debug-arm64-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:f10774f4b4b387904927910f7bd3a342ad1734f1ba6f68f3017fd5407449f8b2",
+        "pushedAt": 1792792733,
+        "tag": "debug-arm64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:f10774f4b4b387904927910f7bd3a342ad1734f1ba6f68f3017fd5407449f8b2",
@@ -1390,6 +1512,11 @@
       {
         "digest": "sha256:ed4ec1de07c43dc8d073221ee9e545cf54e12f7a4d451a4ee7d7bb3ce6165d52",
         "pushedAt": 1792792706,
+        "tag": "nonroot-arm64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:ed4ec1de07c43dc8d073221ee9e545cf54e12f7a4d451a4ee7d7bb3ce6165d52",
+        "pushedAt": 1792792706,
         "tag": "nonroot-arm64-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1421,6 +1548,11 @@
         "digest": "sha256:11bd0c94c3087bf5024a9e86564f19b085784ecad52eb6f4aeab3cdc2b668c72",
         "pushedAt": 1792792677,
         "tag": "arm64-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:11bd0c94c3087bf5024a9e86564f19b085784ecad52eb6f4aeab3cdc2b668c72",
+        "pushedAt": 1792792677,
+        "tag": "arm64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:11bd0c94c3087bf5024a9e86564f19b085784ecad52eb6f4aeab3cdc2b668c72",
@@ -1470,6 +1602,11 @@
       {
         "digest": "sha256:7890c6c1911d3351401b338d6916e08514d0069a7a64fd6397c9ec9dab6319f4",
         "pushedAt": 1792792644,
+        "tag": "debug-nonroot-amd64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:7890c6c1911d3351401b338d6916e08514d0069a7a64fd6397c9ec9dab6319f4",
+        "pushedAt": 1792792644,
         "tag": "debug-nonroot-amd64-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1506,6 +1643,11 @@
         "digest": "sha256:e6c2cbe7b195f1047716e8206bd9fc9b1b858b5678f26f67858a15412a153464",
         "pushedAt": 1792792617,
         "tag": "debug-amd64-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:e6c2cbe7b195f1047716e8206bd9fc9b1b858b5678f26f67858a15412a153464",
+        "pushedAt": 1792792617,
+        "tag": "debug-amd64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:e6c2cbe7b195f1047716e8206bd9fc9b1b858b5678f26f67858a15412a153464",
@@ -1550,6 +1692,11 @@
       {
         "digest": "sha256:433bb346cd0b6b8346462f879adaa4ac0fbb463a72901b46736ede4aeca3dadc",
         "pushedAt": 1792792594,
+        "tag": "nonroot-amd64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
+      },
+      {
+        "digest": "sha256:433bb346cd0b6b8346462f879adaa4ac0fbb463a72901b46736ede4aeca3dadc",
+        "pushedAt": 1792792594,
         "tag": "nonroot-amd64-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
@@ -1581,6 +1728,11 @@
         "digest": "sha256:ccb3134e44d06066d1ba7b65b6d99a8f75c7fb7a9814f91945a1ecbf6338f4cc",
         "pushedAt": 1792792573,
         "tag": "amd64-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28"
+      },
+      {
+        "digest": "sha256:ccb3134e44d06066d1ba7b65b6d99a8f75c7fb7a9814f91945a1ecbf6338f4cc",
+        "pushedAt": 1792792573,
+        "tag": "amd64-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008"
       },
       {
         "digest": "sha256:ccb3134e44d06066d1ba7b65b6d99a8f75c7fb7a9814f91945a1ecbf6338f4cc",
@@ -2943,36 +3095,6 @@
         "digest": "sha256:e8dee87e7ddbf9abc174e8a7b180a690d5265cc4827458d22c5ff5e108170027",
         "pushedAt": 1791448602,
         "tag": "v1.104.2"
-      },
-      {
-        "digest": "sha256:e8dee87e7ddbf9abc174e8a7b180a690d5265cc4827458d22c5ff5e108170027",
-        "pushedAt": 1791448602,
-        "tag": "1.104.2"
-      },
-      {
-        "digest": "sha256:ab9e2d5eaaa75ba1c4882e8f64cad8a40b930734d8b0a976a218aca148108307",
-        "pushedAt": 1791445485,
-        "tag": "v1.102.4"
-      },
-      {
-        "digest": "sha256:ab9e2d5eaaa75ba1c4882e8f64cad8a40b930734d8b0a976a218aca148108307",
-        "pushedAt": 1791445485,
-        "tag": "1.102.4"
-      },
-      {
-        "digest": "sha256:aa63ea1ec5b7f40bc745b63cf4190897f78abac99e9ca32d1196054467e780e2",
-        "pushedAt": 1791445318,
-        "tag": "v1.101.6"
-      },
-      {
-        "digest": "sha256:aa63ea1ec5b7f40bc745b63cf4190897f78abac99e9ca32d1196054467e780e2",
-        "pushedAt": 1791445318,
-        "tag": "1.101.6"
-      },
-      {
-        "digest": "sha256:88fcf3c7d64a35ee14a6fb3c78974204e29cee06e0cc19d634030d0445c03241",
-        "pushedAt": 1791443840,
-        "tag": "v1.106.0-dev.2"
       }
     ],
     "ghcr.io/bjw-s-labs/helm/app-template": [
@@ -4572,14 +4694,19 @@
     ],
     "ghcr.io/controlplaneio-fluxcd/flux-operator-manifests": [
       {
-        "digest": "sha256:033a75c33b911d534e10c58cbcc60dda75027c99054fcd414339c9fd5019f7c3",
-        "pushedAt": 1793114632,
-        "tag": "v0.62.1"
+        "digest": "sha256:11a2882487f5bd1b3a2eeed6ec222a89faf5b2c5fd8bdd8c308d6e6574d96748",
+        "pushedAt": 1793179508,
+        "tag": "v0.62.1-1793179494"
+      },
+      {
+        "digest": "sha256:11a2882487f5bd1b3a2eeed6ec222a89faf5b2c5fd8bdd8c308d6e6574d96748",
+        "pushedAt": 1793179508,
+        "tag": "latest"
       },
       {
         "digest": "sha256:033a75c33b911d534e10c58cbcc60dda75027c99054fcd414339c9fd5019f7c3",
         "pushedAt": 1793114632,
-        "tag": "latest"
+        "tag": "v0.62.1"
       },
       {
         "digest": "sha256:a2b2b9ce3ba253a3bc8c5f315c77e8d6b6872f541d0c0b4f1bdf190b153fc1f2",
@@ -6107,6 +6234,118 @@
         "tag": "v0.147.9"
       }
     ],
+    "ghcr.io/home-operations/drm-exporter": [
+      {
+        "digest": "sha256:0f5d8a81d8b51551d382c8bb559a47573480e80a8701210d3045a59dbaa6121b",
+        "pushedAt": 1793105774,
+        "tag": "main"
+      },
+      {
+        "digest": "sha256:d39c531a0032a7c021e8f0da03b24c6e1e469aab8cf2babc78be68a300d7ec5f",
+        "pushedAt": 1792853029,
+        "tag": "0.3.6"
+      },
+      {
+        "digest": "sha256:d39c531a0032a7c021e8f0da03b24c6e1e469aab8cf2babc78be68a300d7ec5f",
+        "pushedAt": 1792853029,
+        "tag": "0.3"
+      },
+      {
+        "digest": "sha256:d39c531a0032a7c021e8f0da03b24c6e1e469aab8cf2babc78be68a300d7ec5f",
+        "pushedAt": 1792853029,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:d39c531a0032a7c021e8f0da03b24c6e1e469aab8cf2babc78be68a300d7ec5f",
+        "pushedAt": 1792853029,
+        "tag": "rolling"
+      },
+      {
+        "digest": "sha256:3c82a61f086381f53772a5a9420dc484f559807cd32cc6b5eae89e74fb2f13f9",
+        "pushedAt": 1792338126,
+        "tag": "0.3.5"
+      },
+      {
+        "digest": "sha256:9b5424634b74f0c6905109fc46f90a7f569ab7bde1211d3ac5f9c32a17895e60",
+        "pushedAt": 1789906372,
+        "tag": "0.3.4"
+      },
+      {
+        "digest": "sha256:7229811068328ff3d9f9ac70b17319bb036e5e13dff6d743d5c5e3705d961488",
+        "pushedAt": 1785317316,
+        "tag": "0.3.3"
+      },
+      {
+        "digest": "sha256:e18a7028bc214a6e9302b8e0116d79e40a7de3e9e9b248ce15f3ab1ec217dbfa",
+        "pushedAt": 1784940831,
+        "tag": "0.3.2"
+      },
+      {
+        "digest": "sha256:0fa2d107f294aed100df988a7d8e4583c364c3d0977226be9a036f6e9d0e857f",
+        "pushedAt": 1784035386,
+        "tag": "0.3.1"
+      },
+      {
+        "digest": "sha256:5981051216f911763ae13a16b2969ed45afd871455d9037576969e61f3ff73d6",
+        "pushedAt": 1783199182,
+        "tag": "0.3.0"
+      },
+      {
+        "digest": "sha256:7959bf1afb09b03a5ac39bb548b588939b68fab6d960ac3ace3c283d0fdee747",
+        "pushedAt": 1783172703,
+        "tag": "0.2.6"
+      },
+      {
+        "digest": "sha256:7959bf1afb09b03a5ac39bb548b588939b68fab6d960ac3ace3c283d0fdee747",
+        "pushedAt": 1783172703,
+        "tag": "0.2"
+      },
+      {
+        "digest": "sha256:59bc8e28a493c3303a2f486d34a9065c0ce9fe1679d75118649ed5c51dcf2137",
+        "pushedAt": 1782561403,
+        "tag": "0.2.5"
+      },
+      {
+        "digest": "sha256:1ccf3c6db20bcd95bc4d69eac7a5288c92543b34adbe053004c1b739fd0208ef",
+        "pushedAt": 1782036759,
+        "tag": "0.2.4"
+      },
+      {
+        "digest": "sha256:cbc0730a62174cbb9dc96cf4161a010f5157b93314bd0094678fa029a019ec4b",
+        "pushedAt": 1781815606,
+        "tag": "0.2.3"
+      },
+      {
+        "digest": "sha256:c6403df9fa8cac2036095bf63ac3b028d3a5564b041658336f2f594dbed6ad87",
+        "pushedAt": 1781806647,
+        "tag": "0.2.2"
+      },
+      {
+        "digest": "sha256:b72e2e6a716d47572514dddc61f627789800be9675bb42d17a44d05d95d77153",
+        "pushedAt": 1781803452,
+        "tag": "0.2.1"
+      },
+      {
+        "digest": "sha256:72485c7fea514c2989184eb5c447b31e672296e9327ddeb8dbceb8d5a99436ec",
+        "pushedAt": 1781796568,
+        "tag": "0.2.0"
+      },
+      {
+        "digest": "sha256:19b2e31e758e20e138e41acd4722fd1a5b3d10687c1939c2cdfd2a020b83fa3f",
+        "pushedAt": 1781791920,
+        "tag": "0.1.1"
+      },
+      {
+        "digest": "sha256:19b2e31e758e20e138e41acd4722fd1a5b3d10687c1939c2cdfd2a020b83fa3f",
+        "pushedAt": 1781791920,
+        "tag": "0.1"
+      },
+      {
+        "digest": "sha256:459080da7ab5c71e66f169e85fa62a80fb8106aa1c72f61577ab201a44fd40d9",
+        "pushedAt": 1781787226,
+        "tag": "0.1.0"
+      }
+    ],
     "ghcr.io/home-operations/irqbalance": [
       {
         "digest": "sha256:c83a571c3759947288b98a60ca65ce12ec65a54622250d61cf0790841dc0d956",
@@ -6389,11 +6628,6 @@
         "digest": "sha256:3d51b97f01d8f91904339afb1b8725c19c9daca81c14817c2837734c2d279833",
         "pushedAt": 1746714814,
         "tag": "3.3.9"
-      },
-      {
-        "digest": "sha256:e3261f4938bdff5ef52cb173b48173f25e24de781a8a1a041024c2ad86b32dbd",
-        "pushedAt": 1746024965,
-        "tag": "3.4.1"
       }
     ],
     "ghcr.io/oxsecurity/megalinter-ci_light": [
@@ -7076,6 +7310,56 @@
     ],
     "ghcr.io/siderolabs/kubelet": [
       {
+        "digest": "sha256:e106b1b19e784cab0cc1105bdd3005f1522d4d888888c22b29e812c45fa0c330",
+        "pushedAt": 1793183092,
+        "tag": "v1.38.0-alpha.3"
+      },
+      {
+        "digest": "sha256:be907f17b39899cd00d0073308d39299a0df049590abb2d6aa9c4666c95d0eea",
+        "pushedAt": 1793183085,
+        "tag": "v1.38.0-alpha.3-fat"
+      },
+      {
+        "digest": "sha256:34efb378a17eb104cf624cfdcd33a8166a8ddbb336e5876bfb991715e71bdf87",
+        "pushedAt": 1793182590,
+        "tag": "v1.36.6"
+      },
+      {
+        "digest": "sha256:5d9ecd9951110fe32b0f73458b62a22bd7c96a000273bf27ae96489a98975fe9",
+        "pushedAt": 1793182584,
+        "tag": "v1.36.6-fat"
+      },
+      {
+        "digest": "sha256:d80d3843530cfae376a0814f73bcc4ac70e32bc157de777b38a90f33b82d1111",
+        "pushedAt": 1793181987,
+        "tag": "v1.37.2"
+      },
+      {
+        "digest": "sha256:2d0d085cd00f83985070225c210a14080c598cca33d16e59a324554018682684",
+        "pushedAt": 1793181980,
+        "tag": "v1.37.2-fat"
+      },
+      {
+        "digest": "sha256:46384b7fe28f4b9735cf164acf915a1bf1e2c72e14e32759c720bc93c9f48e1b",
+        "pushedAt": 1793181138,
+        "tag": "v1.34.13"
+      },
+      {
+        "digest": "sha256:7398f0fbae4c66f9daf9c43100e34f77bc74a9011a7290dd65d395b1faac38b2",
+        "pushedAt": 1793181130,
+        "tag": "v1.34.13-fat"
+      },
+      {
+        "digest": "sha256:ce336b657733fa4575bfaf3f25301492fc2055bc5ef300aeb4d0ee3778693d1c",
+        "pushedAt": 1793180908,
+        "tag": "v1.35.10"
+      },
+      {
+        "digest": "sha256:ab637fce1bbb774ecd0c236cae620502337cee62bbb8e0feba13c833cb264b33",
+        "pushedAt": 1793180902,
+        "tag": "v1.35.10-fat"
+      },
+      {
         "digest": "sha256:d8f3c2907f72fb9420a7f66fffc51567fdbdcfa0a7dbcffcc1a0de217ca16d5a",
         "pushedAt": 1791615450,
         "tag": "v1.38.0-alpha.2"
@@ -7739,6 +8023,11 @@
       }
     ],
     "ghcr.io/spegel-org/helm-charts/spegel": [
+      {
+        "digest": "sha256:0f6685e12ba49fa57b3fd4329e0e9695d60d00024df102733f337e4752ca2e61",
+        "pushedAt": 1793181938,
+        "tag": "0.8.1"
+      },
       {
         "digest": "sha256:79febd9f166858a67ca28d7510a0401384bf790297a2f309ef8651833673a4c8",
         "pushedAt": 1792156047,
@@ -9318,49 +9607,84 @@
     ],
     "mcr.microsoft.com/dotnet/aspnet": [
       {
-        "digest": "sha256:0e274f165134f4a7802017c33a11afcb12b3d480de644d56d5ec4a41a5194ca9",
-        "pushedAt": 1793165357,
-        "tag": "8.0-bookworm-slim-amd64"
+        "digest": "sha256:ea721098d6ea2894ff9bd8387821a1659d4765d6c014b8d648bb1da16f016f5a",
+        "pushedAt": 1793165412,
+        "tag": "8.0-bookworm-slim"
+      },
+      {
+        "digest": "sha256:ea721098d6ea2894ff9bd8387821a1659d4765d6c014b8d648bb1da16f016f5a",
+        "pushedAt": 1793165365,
+        "tag": "8.0.33-bookworm-slim"
       },
       {
         "digest": "sha256:0e274f165134f4a7802017c33a11afcb12b3d480de644d56d5ec4a41a5194ca9",
-        "pushedAt": 1793165357,
+        "pushedAt": 1793165363,
+        "tag": "8.0-bookworm-slim-amd64"
+      },
+      {
+        "digest": "sha256:10b41b27367aa7086556f121a2d5d1b0725394c82258ff5ada5c33315d5abcae",
+        "pushedAt": 1793165363,
+        "tag": "9.0-bookworm-slim-arm32v7"
+      },
+      {
+        "digest": "sha256:8bbd3f6fcc157792d96f0932107d9d435df814a2c058ce2891a267fe341dea1a",
+        "pushedAt": 1793165363,
+        "tag": "9.0.22-bookworm-slim"
+      },
+      {
+        "digest": "sha256:7d5727a7e5e49991b91be8187ef920c167ec05a7b19649a87f862e719d2c4ee3",
+        "pushedAt": 1793165361,
+        "tag": "8.0.33-bookworm-slim-arm32v7"
+      },
+      {
+        "digest": "sha256:8bbd3f6fcc157792d96f0932107d9d435df814a2c058ce2891a267fe341dea1a",
+        "pushedAt": 1793165361,
+        "tag": "9.0-bookworm-slim"
+      },
+      {
+        "digest": "sha256:7d5727a7e5e49991b91be8187ef920c167ec05a7b19649a87f862e719d2c4ee3",
+        "pushedAt": 1793165360,
+        "tag": "8.0-bookworm-slim-arm32v7"
+      },
+      {
+        "digest": "sha256:0e274f165134f4a7802017c33a11afcb12b3d480de644d56d5ec4a41a5194ca9",
+        "pushedAt": 1793165360,
         "tag": "8.0.33-bookworm-slim-amd64"
       },
       {
         "digest": "sha256:10b41b27367aa7086556f121a2d5d1b0725394c82258ff5ada5c33315d5abcae",
-        "pushedAt": 1793165357,
-        "tag": "9.0-bookworm-slim-arm32v7"
-      },
-      {
-        "digest": "sha256:10b41b27367aa7086556f121a2d5d1b0725394c82258ff5ada5c33315d5abcae",
-        "pushedAt": 1793165357,
+        "pushedAt": 1793165360,
         "tag": "9.0.22-bookworm-slim-arm32v7"
       },
       {
         "digest": "sha256:80897d3ea774fafcedb2858f01266533b2d093e8574307eec70806f83115b5f0",
-        "pushedAt": 1793165356,
+        "pushedAt": 1793165359,
         "tag": "8.0-bookworm-slim-arm64v8"
+      },
+      {
+        "digest": "sha256:ea721098d6ea2894ff9bd8387821a1659d4765d6c014b8d648bb1da16f016f5a",
+        "pushedAt": 1793165359,
+        "tag": "8.0.33"
+      },
+      {
+        "digest": "sha256:6a04c40d0f59e86238e272d6342fbda7f53ceef01b3fa0304fa5ff963aa6c85f",
+        "pushedAt": 1793165358,
+        "tag": "9.0-bookworm-slim-amd64"
+      },
+      {
+        "digest": "sha256:8bbd3f6fcc157792d96f0932107d9d435df814a2c058ce2891a267fe341dea1a",
+        "pushedAt": 1793165358,
+        "tag": "9.0.22"
+      },
+      {
+        "digest": "sha256:88ddc451c72d7281d80a17a89c327873c90a6c5958b92eb19c55cc009c535df8",
+        "pushedAt": 1793165357,
+        "tag": "9.0-bookworm-slim-arm64v8"
       },
       {
         "digest": "sha256:80897d3ea774fafcedb2858f01266533b2d093e8574307eec70806f83115b5f0",
         "pushedAt": 1793165356,
         "tag": "8.0.33-bookworm-slim-arm64v8"
-      },
-      {
-        "digest": "sha256:6a04c40d0f59e86238e272d6342fbda7f53ceef01b3fa0304fa5ff963aa6c85f",
-        "pushedAt": 1793165356,
-        "tag": "9.0-bookworm-slim-amd64"
-      },
-      {
-        "digest": "sha256:88ddc451c72d7281d80a17a89c327873c90a6c5958b92eb19c55cc009c535df8",
-        "pushedAt": 1793165356,
-        "tag": "9.0-bookworm-slim-arm64v8"
-      },
-      {
-        "digest": "sha256:6a04c40d0f59e86238e272d6342fbda7f53ceef01b3fa0304fa5ff963aa6c85f",
-        "pushedAt": 1793165356,
-        "tag": "9.0.22-bookworm-slim-amd64"
       },
       {
         "digest": "sha256:88ddc451c72d7281d80a17a89c327873c90a6c5958b92eb19c55cc009c535df8",
@@ -9369,33 +9693,8 @@
       },
       {
         "digest": "sha256:ea721098d6ea2894ff9bd8387821a1659d4765d6c014b8d648bb1da16f016f5a",
-        "pushedAt": 1793165354,
+        "pushedAt": 1793165355,
         "tag": "8.0"
-      },
-      {
-        "digest": "sha256:ea721098d6ea2894ff9bd8387821a1659d4765d6c014b8d648bb1da16f016f5a",
-        "pushedAt": 1793165354,
-        "tag": "8.0-bookworm-slim"
-      },
-      {
-        "digest": "sha256:7d5727a7e5e49991b91be8187ef920c167ec05a7b19649a87f862e719d2c4ee3",
-        "pushedAt": 1793165354,
-        "tag": "8.0-bookworm-slim-arm32v7"
-      },
-      {
-        "digest": "sha256:ea721098d6ea2894ff9bd8387821a1659d4765d6c014b8d648bb1da16f016f5a",
-        "pushedAt": 1793165354,
-        "tag": "8.0.33"
-      },
-      {
-        "digest": "sha256:ea721098d6ea2894ff9bd8387821a1659d4765d6c014b8d648bb1da16f016f5a",
-        "pushedAt": 1793165354,
-        "tag": "8.0.33-bookworm-slim"
-      },
-      {
-        "digest": "sha256:7d5727a7e5e49991b91be8187ef920c167ec05a7b19649a87f862e719d2c4ee3",
-        "pushedAt": 1793165354,
-        "tag": "8.0.33-bookworm-slim-arm32v7"
       },
       {
         "digest": "sha256:8bbd3f6fcc157792d96f0932107d9d435df814a2c058ce2891a267fe341dea1a",
@@ -9403,19 +9702,9 @@
         "tag": "9.0"
       },
       {
-        "digest": "sha256:8bbd3f6fcc157792d96f0932107d9d435df814a2c058ce2891a267fe341dea1a",
+        "digest": "sha256:6a04c40d0f59e86238e272d6342fbda7f53ceef01b3fa0304fa5ff963aa6c85f",
         "pushedAt": 1793165353,
-        "tag": "9.0-bookworm-slim"
-      },
-      {
-        "digest": "sha256:8bbd3f6fcc157792d96f0932107d9d435df814a2c058ce2891a267fe341dea1a",
-        "pushedAt": 1793165353,
-        "tag": "9.0.22"
-      },
-      {
-        "digest": "sha256:8bbd3f6fcc157792d96f0932107d9d435df814a2c058ce2891a267fe341dea1a",
-        "pushedAt": 1793165353,
-        "tag": "9.0.22-bookworm-slim"
+        "tag": "9.0.22-bookworm-slim-amd64"
       },
       {
         "digest": "sha256:68755779900ad242eabc11a16d3142ca656510951f360a262f143d7f718c9361",
@@ -16723,470 +17012,470 @@
     "registry.k8s.io/sig-storage/csi-snapshotter": [
       {
         "digest": "sha256:b03d3334f8035fa42660b166f6eb819a659a14774da020eb1b6c52cd422eaadb",
-        "pushedAt": 1791969218,
+        "pushedAt": 1791969212,
         "tag": "v8.7.0"
       },
       {
         "digest": "sha256:42af0929bcd60a43499825c078a60ff0534e08af8fbeb283aa391be40feb9f3e",
-        "pushedAt": 1780934467,
+        "pushedAt": 1780934622,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:da081c27e8a6d91f36042c1942362d0515ced8d06e18c11b8f893e58c4d6d797",
-        "pushedAt": 1770993505,
+        "pushedAt": 1770993611,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:c7e0a3718832b6197ce8b29fefb3fed3d84f4fbcdf08f4606140dbec2566501d",
-        "pushedAt": 1761601060,
+        "pushedAt": 1761600982,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:bc7be893ecc3ad524194aa6573b2f5c06cd469bdf21a500ab6c99c2ba1c4d64d",
-        "pushedAt": 1750321634,
+        "pushedAt": 1750321660,
         "tag": "v8.3.0"
       },
       {
         "digest": "sha256:5f4bb469fec51147ce157329dab598c758da1b018bad6dad26f0ff469326d769",
-        "pushedAt": 1740731694,
+        "pushedAt": 1740731801,
         "tag": "v8.2.1"
       },
       {
         "digest": "sha256:68d76ee2618d63de1bf9697850a32cb581e3df4c54f677320ccf900dec378b2f",
-        "pushedAt": 1734473229,
+        "pushedAt": 1734473176,
         "tag": "v8.1.1"
       },
       {
         "digest": "sha256:5f051159c95fd13b0b518436cb20808862d2f7f95f45e036da4242f3416befe4",
-        "pushedAt": 1733851226,
+        "pushedAt": 1733851129,
         "tag": "v8.0.2"
       },
       {
         "digest": "sha256:dd788d79cf4c1b8edee6d9b80b8a1ebfc51a38a365c5be656986b129be9ac784",
-        "pushedAt": 1733851114,
+        "pushedAt": 1733851105,
         "tag": "v8.2.0"
       },
       {
         "digest": "sha256:b3e90b33781670ac050c22c9e88b9e876493dca248966b9da6f7a90cc412ab86",
-        "pushedAt": 1725048841,
+        "pushedAt": 1725048778,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:2e04046334baf9be425bb0fa1d04c2d1720d770825eedbdbcdb10d430da4ad8c",
-        "pushedAt": 1717520306,
+        "pushedAt": 1717520366,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:6d4a90d6e164db684684295e28ad4b012d7c8a29ee4103cfb7611ce2e9c884bb",
-        "pushedAt": 1716574256,
+        "pushedAt": 1716574252,
         "tag": "v8.0.0"
       },
       {
-        "digest": "sha256:c4b6b02737bc24906fcce57fe6626d1a36cb2b91baa971af2a5e5a919093c34e",
-        "pushedAt": 1711041416,
-        "tag": "v7.0.2"
-      },
-      {
         "digest": "sha256:bb66be8355958e600e32026e6a1742c86d0cc54401ca53b98a0234bf32636e36",
-        "pushedAt": 1711041370,
+        "pushedAt": 1711041597,
         "tag": "v6.3.4"
       },
       {
+        "digest": "sha256:c4b6b02737bc24906fcce57fe6626d1a36cb2b91baa971af2a5e5a919093c34e",
+        "pushedAt": 1711041398,
+        "tag": "v7.0.2"
+      },
+      {
         "digest": "sha256:1a29ab1e4ecdc33a84062cec757620d9787c28b28793202c5b78ae097c3dee27",
-        "pushedAt": 1707839252,
+        "pushedAt": 1707839273,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:682d5015146de0f922def125a3be1e2a29c43a3eb45700600e4e0733ec3f5752",
-        "pushedAt": 1706742824,
+        "pushedAt": 1706742767,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:f1bd6ee18c4021c1c94f29edfab89b49b6a4d1b800936c19dbef2d75f8202f2d",
-        "pushedAt": 1703633124,
+        "pushedAt": 1703632841,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:4c5a1b57e685b2631909b958487f65af7746361346fcd82a8635bea3ef14509d",
-        "pushedAt": 1699578020,
+        "pushedAt": 1699578179,
         "tag": "v6.3.2"
       },
       {
         "digest": "sha256:65c5ffde8fe6f68a2f19310cfd789befe7bdd16eedda219d9a0024f8fc68b802",
-        "pushedAt": 1697819431,
+        "pushedAt": 1697819435,
         "tag": "v6.3.1"
       },
       {
         "digest": "sha256:5ff5392cb762a41ee9bc4767e3a693249ae08b46a4322f623f24ad6b63dd06b5",
-        "pushedAt": 1697730671,
+        "pushedAt": 1697730604,
         "tag": "v6.2.3"
       },
       {
         "digest": "sha256:93fbf54dd67f586428ea339743160e1a5110c058afde3c2e824f11fbc6efae53",
-        "pushedAt": 1694719044,
+        "pushedAt": 1694719015,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:becc53e25b96573f61f7469923a92fb3e9d3a3781732159954ce0d9da07233a2",
-        "pushedAt": 1685328560,
+        "pushedAt": 1685328644,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:714aa06ccdd3781f1a76487e2dc7592ece9a12ae9e0b726e4f93d1639129b771",
-        "pushedAt": 1672944816,
+        "pushedAt": 1672944778,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:0d8d81948af4897bd07b86046424f022f79634ee0315e9f1d4cdb5c1c8d51c90",
-        "pushedAt": 1672209309,
+        "pushedAt": 1672209451,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:291334908ddf71a4661fd7f6d9d97274de8a5378a2b6fdfeb2ce73414a34f82f",
-        "pushedAt": 1664282909,
+        "pushedAt": 1664282905,
         "tag": "v6.1.0"
       },
       {
+        "digest": "sha256:26e327b018c21a49523b759d7787e99553181ae9ef90b6bdc13abe362a43ced0",
+        "pushedAt": 1660946049,
+        "tag": "v3.0.2"
+      },
+      {
+        "digest": "sha256:7f93019f399454598370aab2cc1a652a3b8ff722ab92ec4ca9db0eed53acc4b4",
+        "pushedAt": 1660946049,
+        "tag": "v1.1.0"
+      },
+      {
+        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
+        "pushedAt": 1660946048,
+        "tag": "v1.2.2"
+      },
+      {
+        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
+        "pushedAt": 1660946048,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:1530db9fd380ecee86b48a7b3540568c46adb5a64b7fe718c51d9260c4834fd8",
+        "pushedAt": 1660946047,
+        "tag": "v2.0.1"
+      },
+      {
+        "digest": "sha256:35ead85dd09aa8cc612fdb598d4e0e2f048bef816f1b74df5eeab67cd21b10aa",
+        "pushedAt": 1660946047,
+        "tag": "v2.1.0"
+      },
+      {
         "digest": "sha256:89e900a160a986a1a7a4eba7f5259e510398fa87ca9b8a729e7dec59e04c7709",
-        "pushedAt": 1660974666,
+        "pushedAt": 1660946047,
         "tag": "v5.0.1"
       },
       {
-        "digest": "sha256:2d719cc8f5f1d3794ee6ae9bc2f93820e78ff34908ab05ed94293e5b7ddebfb0",
-        "pushedAt": 1660974663,
-        "tag": "v2.1.4"
-      },
-      {
         "digest": "sha256:ac845016480ce5eb18a04c1e4e7a4613900e662367dd1771db1e4ccfcedda5e2",
-        "pushedAt": 1660974663,
+        "pushedAt": 1660946047,
         "tag": "v5.0.0"
       },
       {
         "digest": "sha256:ece29e2217e0faf87973565c062c8508c2b78039169e855032bb357acefa3c98",
-        "pushedAt": 1660974663,
+        "pushedAt": 1660946047,
         "tag": "v3.0.0"
       },
       {
-        "digest": "sha256:ad16874e2140256a809cada2b4ac3d931d5b73b0bee23ed0f8d60bdd778cfec2",
-        "pushedAt": 1660974662,
-        "tag": "v6.0.1"
-      },
-      {
-        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
-        "pushedAt": 1660974659,
-        "tag": "v4.2.0"
-      },
-      {
-        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
-        "pushedAt": 1660974659,
-        "tag": "v4.1.1"
-      },
-      {
-        "digest": "sha256:9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7",
-        "pushedAt": 1660974658,
-        "tag": "v3.0.3"
-      },
-      {
-        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
-        "pushedAt": 1660974658,
-        "tag": "v2.1.3"
-      },
-      {
-        "digest": "sha256:35ead85dd09aa8cc612fdb598d4e0e2f048bef816f1b74df5eeab67cd21b10aa",
-        "pushedAt": 1660974656,
-        "tag": "v2.1.0"
-      },
-      {
-        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
-        "pushedAt": 1660974655,
-        "tag": "v4.0.0"
-      },
-      {
-        "digest": "sha256:7f93019f399454598370aab2cc1a652a3b8ff722ab92ec4ca9db0eed53acc4b4",
-        "pushedAt": 1660974655,
-        "tag": "v1.1.0"
-      },
-      {
-        "digest": "sha256:f0673197110ba3c38a94b42fc0037d0c209b9d17c0b796072d26df72195a7ecd",
-        "pushedAt": 1660974655,
-        "tag": "v2.1.2"
-      },
-      {
-        "digest": "sha256:26e327b018c21a49523b759d7787e99553181ae9ef90b6bdc13abe362a43ced0",
-        "pushedAt": 1660974653,
-        "tag": "v3.0.2"
-      },
-      {
-        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
-        "pushedAt": 1660974652,
-        "tag": "v6.0.0"
-      },
-      {
         "digest": "sha256:e27ad21f007bae28eef68934a4834ca0a5c669e4c246c4900378e7ed1680c37e",
-        "pushedAt": 1660974652,
+        "pushedAt": 1660946046,
         "tag": "v4.1.0"
       },
       {
-        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
-        "pushedAt": 1660974651,
-        "tag": "v4.0.1"
+        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
+        "pushedAt": 1660946046,
+        "tag": "v4.1.1"
       },
       {
-        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
-        "pushedAt": 1660974649,
-        "tag": "v1.2.0"
+        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
+        "pushedAt": 1660946045,
+        "tag": "v2.1.3"
       },
       {
-        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
-        "pushedAt": 1660974646,
-        "tag": "v4.2.1"
-      },
-      {
-        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
-        "pushedAt": 1660974642,
-        "tag": "v3.0.1"
-      },
-      {
-        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
-        "pushedAt": 1660974639,
-        "tag": "v1.2.2"
+        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
+        "pushedAt": 1660946044,
+        "tag": "v4.2.0"
       },
       {
         "digest": "sha256:74e5a1c97b0c558fb0c59ea002b6ddc98a236676221030306355ed1423df667e",
-        "pushedAt": 1660974637,
+        "pushedAt": 1660946044,
         "tag": "v2.1.5"
       },
       {
         "digest": "sha256:de94e695fc27ee421da8b9932c3d42699fe7b848bc34717f67f4350946bc46c9",
-        "pushedAt": 1660974636,
+        "pushedAt": 1660946044,
         "tag": "v2.1.1"
       },
       {
-        "digest": "sha256:1530db9fd380ecee86b48a7b3540568c46adb5a64b7fe718c51d9260c4834fd8",
-        "pushedAt": 1660974633,
-        "tag": "v2.0.1"
+        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
+        "pushedAt": 1660946044,
+        "tag": "v3.0.1"
+      },
+      {
+        "digest": "sha256:ad16874e2140256a809cada2b4ac3d931d5b73b0bee23ed0f8d60bdd778cfec2",
+        "pushedAt": 1660946043,
+        "tag": "v6.0.1"
+      },
+      {
+        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
+        "pushedAt": 1660946042,
+        "tag": "v6.0.0"
+      },
+      {
+        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
+        "pushedAt": 1660946042,
+        "tag": "v4.2.1"
+      },
+      {
+        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
+        "pushedAt": 1660946039,
+        "tag": "v4.0.1"
+      },
+      {
+        "digest": "sha256:9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7",
+        "pushedAt": 1660946038,
+        "tag": "v3.0.3"
+      },
+      {
+        "digest": "sha256:2d719cc8f5f1d3794ee6ae9bc2f93820e78ff34908ab05ed94293e5b7ddebfb0",
+        "pushedAt": 1660946035,
+        "tag": "v2.1.4"
+      },
+      {
+        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
+        "pushedAt": 1660946035,
+        "tag": "v1.2.0"
+      },
+      {
+        "digest": "sha256:f0673197110ba3c38a94b42fc0037d0c209b9d17c0b796072d26df72195a7ecd",
+        "pushedAt": 1660946034,
+        "tag": "v2.1.2"
       }
     ],
     "registry.k8s.io/sig-storage/snapshot-controller": [
       {
         "digest": "sha256:8511f417d0072efcd937aedd7cc79a937d5066e64ee17beb6097301c92742f19",
-        "pushedAt": 1791969184,
+        "pushedAt": 1791969167,
         "tag": "v8.7.0"
       },
       {
         "digest": "sha256:81e79f205083f105e573ba2ebfe5964ede7f69a154e8627f53ebbbccd3ed9f70",
-        "pushedAt": 1780934610,
+        "pushedAt": 1780934501,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:74ca61ab13e978f03cf0f336a607281d15f04cda0a38a881306365473b28a3d8",
-        "pushedAt": 1770993545,
+        "pushedAt": 1770993594,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:b845f4bbc34d70bd84e92f8021f47704df1de3dbabbd8289969651360b39d605",
-        "pushedAt": 1761600970,
+        "pushedAt": 1761600965,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:12c2da094b02ffa8fa249e17b943b755b464604880cc2cfd85977088c1a2c458",
-        "pushedAt": 1750321653,
+        "pushedAt": 1750321651,
         "tag": "v8.3.0"
       },
       {
         "digest": "sha256:472fa35a89dadb5a715454fad576ec11aa6f2e8378fc09ae26473d139b77c437",
-        "pushedAt": 1740731695,
+        "pushedAt": 1740731699,
         "tag": "v8.2.1"
       },
       {
         "digest": "sha256:0b7c1b2937151dde2eb31eba1ddbd8b59bae0e268f2e1d1f2b4ee5313e45f26d",
-        "pushedAt": 1734473242,
+        "pushedAt": 1734473137,
         "tag": "v8.1.1"
       },
       {
-        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
-        "pushedAt": 1733851144,
-        "tag": "v8.2.0"
-      },
-      {
         "digest": "sha256:bb68b81c708f1ab07e3fde2ea5fe19719ec8343956f74971146020418193b42e",
-        "pushedAt": 1733851088,
+        "pushedAt": 1733851238,
         "tag": "v8.0.2"
       },
       {
+        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
+        "pushedAt": 1733851217,
+        "tag": "v8.2.0"
+      },
+      {
         "digest": "sha256:a8a6749641849a6d7e560d26647e88dbd605a75cbff1823568ab90287ea29038",
-        "pushedAt": 1725048769,
+        "pushedAt": 1725048811,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:32b8e4254751c9935c796e6e5c07fe804250bd5032ab78f7133a00f75d504596",
-        "pushedAt": 1717520486,
+        "pushedAt": 1717520562,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:d60a4f302a80f7effa0c9c3f6da7de6a49afede590abc39e30e959e844e46a41",
-        "pushedAt": 1716574442,
+        "pushedAt": 1716574433,
         "tag": "v8.0.0"
       },
       {
-        "digest": "sha256:8f12551e3eca417490cfab20945394fc65a0a0de85c36f3012bc872b96d5e1b0",
-        "pushedAt": 1711041813,
-        "tag": "v6.3.4"
-      },
-      {
         "digest": "sha256:a03550d7b25d0d24c6c313a27fcade0065f0cee159805ed0b0083700dcb52b76",
-        "pushedAt": 1711041754,
+        "pushedAt": 1711041842,
         "tag": "v7.0.2"
       },
       {
+        "digest": "sha256:8f12551e3eca417490cfab20945394fc65a0a0de85c36f3012bc872b96d5e1b0",
+        "pushedAt": 1711041822,
+        "tag": "v6.3.4"
+      },
+      {
         "digest": "sha256:87a44fa28a10d00968be71deec75883ed6d48132779f798572f2fb49d3b30d95",
-        "pushedAt": 1707839314,
+        "pushedAt": 1707839286,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:2084f69694f0fae24d1a3039e02102beaef3ae912c10e59094449196a63ffb7e",
-        "pushedAt": 1706742804,
+        "pushedAt": 1706742839,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:00c36f9f73152a878802abef04d52a836ad1f2c1b3bff24ddb470f7a82ba1587",
-        "pushedAt": 1703633133,
+        "pushedAt": 1703633128,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:73b4160cb0154c0acbafe7ae6acd4091a4289e8f300867e84522b0ae66660876",
-        "pushedAt": 1700488319,
+        "pushedAt": 1700488266,
         "tag": "v6.3.2"
       },
       {
-        "digest": "sha256:ce6ca3c0e30b19477896dafff55f9f4b18ea59dfb683da85c62700e215e8107b",
-        "pushedAt": 1698075275,
-        "tag": "v6.3.1"
-      },
-      {
         "digest": "sha256:c6f972cf23fd437237fdc0e0beb97755d62a9ad4a21564766e2e125952acbc24",
-        "pushedAt": 1698075231,
+        "pushedAt": 1698075323,
         "tag": "v6.2.3"
       },
       {
+        "digest": "sha256:ce6ca3c0e30b19477896dafff55f9f4b18ea59dfb683da85c62700e215e8107b",
+        "pushedAt": 1698075242,
+        "tag": "v6.3.1"
+      },
+      {
         "digest": "sha256:0576eac2184b2bca88f30ada56dfec1e98fa8045e27ecb6aedff23c48534a3ca",
-        "pushedAt": 1694719005,
+        "pushedAt": 1694718968,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:fb95b65bb88f319f0f7d5397c401a654164f11a191f466b4026fa36085c7141b",
-        "pushedAt": 1685328604,
+        "pushedAt": 1685328606,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:98bab4eaf23c5bf75ada9deb7f8c55bd5fc13a48fbb3e658079fc37693375957",
-        "pushedAt": 1672944858,
+        "pushedAt": 1672944816,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:2fdd2e646bdda56c9e728d4758c037088f69275815ee10d0b45ae3f4e3cac314",
-        "pushedAt": 1672209212,
+        "pushedAt": 1672209413,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:823c75d0c45d1427f6d850070956d9ca657140a7bbf828381541d1d808475280",
-        "pushedAt": 1664282910,
+        "pushedAt": 1664282905,
         "tag": "v6.1.0"
       },
       {
-        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
-        "pushedAt": 1660974738,
-        "tag": "v5.0.0"
-      },
-      {
-        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
-        "pushedAt": 1660974737,
-        "tag": "v4.0.0"
-      },
-      {
-        "digest": "sha256:2bde7d7f9d73c4309d67e9d7f94df52110295ef06c9488ca76c40da32b65f05e",
-        "pushedAt": 1660974737,
-        "tag": "v2.1.1"
-      },
-      {
-        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
-        "pushedAt": 1660974736,
-        "tag": "v4.1.1"
-      },
-      {
-        "digest": "sha256:a49993c3325b4bb010e52b8e661ebc62b9d45ebceae6e432d3ee637a4833bae7",
-        "pushedAt": 1660974736,
-        "tag": "v6.0.1"
-      },
-      {
         "digest": "sha256:c20dd675dea1160a7b71bd568fa699220dccaaac5f75e70fc291ea9434bf24dc",
-        "pushedAt": 1660974736,
+        "pushedAt": 1660851862,
         "tag": "v6.0.0"
       },
       {
         "digest": "sha256:cc9f25f394a50acd54df580458e0470b1b804dfc8ada59924d51667da9efb165",
-        "pushedAt": 1660974736,
+        "pushedAt": 1660851861,
         "tag": "v5.0.1"
       },
       {
-        "digest": "sha256:36ca32433c069246ea8988a7b3dbdf0aabf8345be9122b8a25426e6c487878de",
-        "pushedAt": 1660974735,
-        "tag": "v3.0.0"
+        "digest": "sha256:a49993c3325b4bb010e52b8e661ebc62b9d45ebceae6e432d3ee637a4833bae7",
+        "pushedAt": 1660851860,
+        "tag": "v6.0.1"
       },
       {
-        "digest": "sha256:283803ac94cca42eeb89d2a5264bde14505e0a4fc98f75274cff7c026ba471ab",
-        "pushedAt": 1660974734,
-        "tag": "v4.2.0"
+        "digest": "sha256:247fa8ea236de54e387da3185fadc2bab5e6b3a9ce5a1b6efc93db508e426827",
+        "pushedAt": 1660851857,
+        "tag": "v2.1.5"
+      },
+      {
+        "digest": "sha256:83a49df295ec243d14302509d5b8a9b7522aaf754cbc5fa4fb3701ca60fca65d",
+        "pushedAt": 1660851857,
+        "tag": "v2.1.4"
+      },
+      {
+        "digest": "sha256:a494ff6ec10e05a454458fbf44247d93c9b3a0d983a00b538e442f353b7030c8",
+        "pushedAt": 1660851857,
+        "tag": "v3.0.2"
       },
       {
         "digest": "sha256:c39d470f04a167f2e84e5b21b730e2c0bc7865da3a717448814fffbed541d858",
-        "pushedAt": 1660974734,
+        "pushedAt": 1660851857,
         "tag": "v4.0.1"
       },
       {
+        "digest": "sha256:36ca32433c069246ea8988a7b3dbdf0aabf8345be9122b8a25426e6c487878de",
+        "pushedAt": 1660851854,
+        "tag": "v3.0.0"
+      },
+      {
+        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
+        "pushedAt": 1660851854,
+        "tag": "v5.0.0"
+      },
+      {
         "digest": "sha256:253283746365bbd183151b21b1c0b54d0d9f838ca11cda3e9a86780fb01db994",
-        "pushedAt": 1660974733,
+        "pushedAt": 1660851853,
         "tag": "v2.1.2"
       },
       {
+        "digest": "sha256:283803ac94cca42eeb89d2a5264bde14505e0a4fc98f75274cff7c026ba471ab",
+        "pushedAt": 1660851853,
+        "tag": "v4.2.0"
+      },
+      {
         "digest": "sha256:7092470172782a926e819a75344aff15cfbdb603f7ec75c117ba499dd93c2cd8",
-        "pushedAt": 1660974733,
+        "pushedAt": 1660851853,
         "tag": "v3.0.3"
       },
       {
+        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
+        "pushedAt": 1660851852,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
+        "pushedAt": 1660851847,
+        "tag": "v4.1.1"
+      },
+      {
         "digest": "sha256:ae335399175b47a47f04db0317d5c0ce4b4e073ab61f5b784326625278009107",
-        "pushedAt": 1660974733,
+        "pushedAt": 1660851845,
         "tag": "v4.1.0"
       },
       {
+        "digest": "sha256:2bde7d7f9d73c4309d67e9d7f94df52110295ef06c9488ca76c40da32b65f05e",
+        "pushedAt": 1660851844,
+        "tag": "v2.1.1"
+      },
+      {
         "digest": "sha256:95587f8777d77612788f751da79f34f1e2c003f05320d8ffb005baa06bd8a676",
-        "pushedAt": 1660974732,
+        "pushedAt": 1660851844,
         "tag": "v4.2.1"
       },
       {
         "digest": "sha256:d5d49bede340a36d29397b8941f26852a08a3d81c5d3bea72d9677774085032c",
-        "pushedAt": 1660974732,
+        "pushedAt": 1660851844,
         "tag": "v3.0.1"
       },
       {
-        "digest": "sha256:247fa8ea236de54e387da3185fadc2bab5e6b3a9ce5a1b6efc93db508e426827",
-        "pushedAt": 1660974731,
-        "tag": "v2.1.5"
-      },
-      {
-        "digest": "sha256:a494ff6ec10e05a454458fbf44247d93c9b3a0d983a00b538e442f353b7030c8",
-        "pushedAt": 1660974731,
-        "tag": "v3.0.2"
-      },
-      {
         "digest": "sha256:e879ec46a9ba2a99c7e352b8ec8ac63ec0bc7f8dcfab27e92fba5474ab9e8cb4",
-        "pushedAt": 1660974731,
+        "pushedAt": 1660851844,
         "tag": "v2.1.3"
-      },
-      {
-        "digest": "sha256:83a49df295ec243d14302509d5b8a9b7522aaf754cbc5fa4fb3701ca60fca65d",
-        "pushedAt": 1660974726,
-        "tag": "v2.1.4"
       }
     ]
   },
