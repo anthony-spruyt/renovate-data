@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T06:08:04Z",
+  "generatedAt": "2026-10-30T13:17:47Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -5821,8 +5821,8 @@
     ],
     "ghcr.io/home-operations/drm-exporter": [
       {
-        "digest": "sha256:66ae81d8e7e74afd47327db13fe19922e29bdddf7d5e73fc272cd6bc543adad5",
-        "pushedAt": 1793223688,
+        "digest": "sha256:95ff3ec3455b0bbecdac754ed59affe49bdca44c0bda8ede8a4f433f224fa7bd",
+        "pushedAt": 1793361693,
         "tag": "main"
       },
       {
