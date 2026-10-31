@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T12:54:46Z",
+  "generatedAt": "2026-10-31T21:50:22Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -117,13 +117,13 @@
       "ghcr.io/czlonkowski/n8n-mcp": {
         "pins": [
           {
-            "digest": "sha256:2a521b271a3e21df9bcdac6ca91d40b058d92ca79b7ad723935b7a2e047db594",
+            "digest": "sha256:4550f996de70e04b23fbb9041b8edb9b5236fb0ae87723047141fdbc553e7953",
             "repo": "anthony-spruyt/spruyt-labs",
-            "tag": "2.96.2"
+            "tag": "2.97.0"
           }
         ],
         "tags": [
-          "2.96.2"
+          "2.97.0"
         ]
       },
       "ghcr.io/devcontainers/features/github-cli": {
@@ -3309,41 +3309,6 @@
         "digest": "sha256:7be027d9816969364f575bbd84e38315f25d6b0a081987cda1d6c2e31dfce45e",
         "pushedAt": 1790158534,
         "tag": "sha-c2dfcd1"
-      },
-      {
-        "digest": "sha256:6c184474e0162aeac140f2a063d2cb570ce3086fa4816c510cfaec4724a4fb90",
-        "pushedAt": 1789595025,
-        "tag": "2.87"
-      },
-      {
-        "digest": "sha256:6c184474e0162aeac140f2a063d2cb570ce3086fa4816c510cfaec4724a4fb90",
-        "pushedAt": 1789595025,
-        "tag": "2.87.0"
-      },
-      {
-        "digest": "sha256:2a6343f2c9e6c45d1ea33b718e4cf4ad44a79141f05bd4685f2b25e7d0404eb7",
-        "pushedAt": 1789594240,
-        "tag": "sha-2fef056"
-      },
-      {
-        "digest": "sha256:868b573b3899d6a599f27b492d1918cd5b934bb45c11570677ab51fd439486ec",
-        "pushedAt": 1789578826,
-        "tag": "sha-036f729"
-      },
-      {
-        "digest": "sha256:97d992d53d244adbb0b0a877451428258605c770d8580c15f364c933b858ff4b",
-        "pushedAt": 1789578268,
-        "tag": "2.86"
-      },
-      {
-        "digest": "sha256:97d992d53d244adbb0b0a877451428258605c770d8580c15f364c933b858ff4b",
-        "pushedAt": 1789578268,
-        "tag": "2.86.0"
-      },
-      {
-        "digest": "sha256:856f87e3e638ac9013ab6a9dd56b862140528c96b90ee274c7371ae20c535e79",
-        "pushedAt": 1789380694,
-        "tag": "2.85"
       }
     ],
     "ghcr.io/devcontainers/features/github-cli": [
@@ -4607,24 +4572,29 @@
     ],
     "ghcr.io/oxsecurity/megalinter-ci_light": [
       {
-        "digest": "sha256:dafb692c842306627b47f7b2805260fb69b6f23cc59d01a0a1a06ae0fc828f9b",
-        "pushedAt": 1793440912,
+        "digest": "sha256:c8a03e7c1aa68460ae7cf5f943447f5ccb51410f400d394b96e085e8d49e7cb8",
+        "pushedAt": 1793476970,
+        "tag": "v10.2.0"
+      },
+      {
+        "digest": "sha256:c8a03e7c1aa68460ae7cf5f943447f5ccb51410f400d394b96e085e8d49e7cb8",
+        "pushedAt": 1793476970,
+        "tag": "v10"
+      },
+      {
+        "digest": "sha256:c8a03e7c1aa68460ae7cf5f943447f5ccb51410f400d394b96e085e8d49e7cb8",
+        "pushedAt": 1793476970,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:439cc2e565a572a224e03b0438112bbc790b5e4fd78b2334d362fc04429f8837",
+        "pushedAt": 1793471675,
         "tag": "beta"
       },
       {
         "digest": "sha256:e40b320afe3152cd0e856019ff9c74a827d179ed45512148e5790871c3d08259",
         "pushedAt": 1788614853,
         "tag": "v10.1.0"
-      },
-      {
-        "digest": "sha256:e40b320afe3152cd0e856019ff9c74a827d179ed45512148e5790871c3d08259",
-        "pushedAt": 1788614853,
-        "tag": "v10"
-      },
-      {
-        "digest": "sha256:e40b320afe3152cd0e856019ff9c74a827d179ed45512148e5790871c3d08259",
-        "pushedAt": 1788614853,
-        "tag": "latest"
       },
       {
         "digest": "sha256:69153d2c6dbd62dc1c513a7312cf1eec506289c8f61ebab6258de315666ce43e",
@@ -4689,24 +4659,29 @@
     ],
     "ghcr.io/oxsecurity/megalinter-go": [
       {
-        "digest": "sha256:022f88fbeda64d3cef3f3c367c81f2e49318ee2914f71aefc44a5ee1934f4072",
-        "pushedAt": 1793440896,
+        "digest": "sha256:e676b8e9dac00d148bf1abb6ab809f1df76f07e804d8061f78631975d0c90925",
+        "pushedAt": 1793477115,
+        "tag": "v10.2.0"
+      },
+      {
+        "digest": "sha256:e676b8e9dac00d148bf1abb6ab809f1df76f07e804d8061f78631975d0c90925",
+        "pushedAt": 1793477115,
+        "tag": "v10"
+      },
+      {
+        "digest": "sha256:e676b8e9dac00d148bf1abb6ab809f1df76f07e804d8061f78631975d0c90925",
+        "pushedAt": 1793477115,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:607a806c5ab652b586e81e95d62649bace4e4a66d7557a76d91dd636a00d7730",
+        "pushedAt": 1793472043,
         "tag": "beta"
       },
       {
         "digest": "sha256:42e091a4bcbe9141fe420c2520ed7addf75ae60a0c9d42e3df1278eef1c90a88",
         "pushedAt": 1788615000,
         "tag": "v10.1.0"
-      },
-      {
-        "digest": "sha256:42e091a4bcbe9141fe420c2520ed7addf75ae60a0c9d42e3df1278eef1c90a88",
-        "pushedAt": 1788615000,
-        "tag": "v10"
-      },
-      {
-        "digest": "sha256:42e091a4bcbe9141fe420c2520ed7addf75ae60a0c9d42e3df1278eef1c90a88",
-        "pushedAt": 1788615000,
-        "tag": "latest"
       },
       {
         "digest": "sha256:260c1863aa0bed7c302c7e9b29192d932b05294bc22c488c6af317594b0c6308",
@@ -6080,31 +6055,6 @@
         "digest": "sha256:3ece0efb59c89837f4d837f13c295f1a6af2b1e6022648ece89398015f3450b6",
         "pushedAt": 1792253163,
         "tag": "sha-af0de7e"
-      },
-      {
-        "digest": "sha256:00be21cde7ef7f2ea6b8f46d25f615bf8966ad0424de124355b5208498270263",
-        "pushedAt": 1792199104,
-        "tag": "0.38.4"
-      },
-      {
-        "digest": "sha256:f97768cb4a53463d6d99bd0fd7cd0f05b6404173b579d45287a540e9d436f728",
-        "pushedAt": 1792199047,
-        "tag": "sha-6c6165a"
-      },
-      {
-        "digest": "sha256:43b8a387a44914b572dfb3540b2427c7b3804a32076d96fe78d5594789bd06f9",
-        "pushedAt": 1792198811,
-        "tag": "sha-6bba12d"
-      },
-      {
-        "digest": "sha256:2247cd3e0aac1bfeabfc75124ac8b4932d06f93a7fd4c1e21fe4c97374935638",
-        "pushedAt": 1792197571,
-        "tag": "sha-5a1702d"
-      },
-      {
-        "digest": "sha256:0d972a248be661cf581b00e4a82e16af74529965e72bf6373072153ee0a6ad10",
-        "pushedAt": 1792188793,
-        "tag": "sha-44df87f"
       }
     ],
     "ghcr.io/spegel-org/helm-charts/spegel": [
