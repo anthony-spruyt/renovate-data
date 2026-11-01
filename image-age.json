@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "allowedVersions": "/^(debug-nonroot-0594a8442f4306b60e301f6a7b956ff304bbf7d9|debug-nonroot-29b6e28900d76ffcde3cdc69af252be9c76c8635|debug-nonroot-682887a32ccb0740a70c645019d2582837900dcb|debug-nonroot-6f15561cb74af9a6a2afbe1ec4368afe6ca1faa8|debug-nonroot-7756d89b42b6aad9357c1bcf86621f31ac56c7ce|debug-nonroot-b8f3333960136977e2773cbfa6610605c818ce21|debug-nonroot-c8da768f9bb3dd4e01aa6f6746450ef9588e30a6|debug-nonroot-cba0318b3f720f857bc80c8f2700d372dac5c25b|debug-nonroot-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28|debug-nonroot-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008|debug-nonroot-ffd414cd19fa8971be5f954f600cb8266c6a3a7a|update-available-c7b8faacc4439b8f5c41ca7ce4a3f8ff3e8520cb0c3444fae7292f687b00d0dd|debug-0594a8442f4306b60e301f6a7b956ff304bbf7d9|debug-29b6e28900d76ffcde3cdc69af252be9c76c8635|debug-682887a32ccb0740a70c645019d2582837900dcb|debug-6f15561cb74af9a6a2afbe1ec4368afe6ca1faa8|debug-7756d89b42b6aad9357c1bcf86621f31ac56c7ce|debug-b8f3333960136977e2773cbfa6610605c818ce21|debug-c8da768f9bb3dd4e01aa6f6746450ef9588e30a6|debug-cba0318b3f720f857bc80c8f2700d372dac5c25b|debug-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28|debug-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008|debug-ffd414cd19fa8971be5f954f600cb8266c6a3a7a|update-available-6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104|nonroot-0594a8442f4306b60e301f6a7b956ff304bbf7d9|nonroot-29b6e28900d76ffcde3cdc69af252be9c76c8635|nonroot-682887a32ccb0740a70c645019d2582837900dcb|nonroot-6f15561cb74af9a6a2afbe1ec4368afe6ca1faa8|nonroot-7756d89b42b6aad9357c1bcf86621f31ac56c7ce|nonroot-b8f3333960136977e2773cbfa6610605c818ce21|nonroot-c8da768f9bb3dd4e01aa6f6746450ef9588e30a6|nonroot-cba0318b3f720f857bc80c8f2700d372dac5c25b|nonroot-cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28|nonroot-cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008|nonroot-ffd414cd19fa8971be5f954f600cb8266c6a3a7a|update-available-18f4cc26c9ffa7f20a359298be7deadac5c607c8e03a02b8119f1a5fc2f82c99|0594a8442f4306b60e301f6a7b956ff304bbf7d9|29b6e28900d76ffcde3cdc69af252be9c76c8635|682887a32ccb0740a70c645019d2582837900dcb|6f15561cb74af9a6a2afbe1ec4368afe6ca1faa8|7756d89b42b6aad9357c1bcf86621f31ac56c7ce|b8f3333960136977e2773cbfa6610605c818ce21|c8da768f9bb3dd4e01aa6f6746450ef9588e30a6|cba0318b3f720f857bc80c8f2700d372dac5c25b|cbb83e7a7fa0dd3f236fbdf3d22d0a9d28b27e28|cd554ed61ffa19d647cdd8d5eb6f4dbecb5bd008|ffd414cd19fa8971be5f954f600cb8266c6a3a7a|update-available-15f8637509792e05b97d83451b0b6ccfa4abd548f997e406ac1e72c87fe1fa78|debug-nonroot-riscv64-0594a8442f4306b60e301f6a7b956ff304bbf7d9|debug-nonroot-riscv64-29b6e28900d76ffcde3cdc69af252be9c76c8635)$/",
-      "description": "image-age: gcr.io/distroless/static tags built at least 7 days ago, dated 2026-11-01T18:02:22Z",
+      "description": "image-age: gcr.io/distroless/static tags built at least 7 days ago, dated 2026-11-01T22:15:20Z",
       "matchDatasources": [
         "docker"
       ],
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "description": "image-age: gcr.io/distroless/static rebuilds younger than 7 days wait, dated 2026-11-01T18:02:22Z",
+      "description": "image-age: gcr.io/distroless/static rebuilds younger than 7 days wait, dated 2026-11-01T22:15:20Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -32,7 +32,7 @@
     },
     {
       "allowedVersions": "/^(v1\\.106\\.4|1\\.106\\.4|v1\\.104\\.7|1\\.104\\.7|v1\\.105\\.5|1\\.105\\.5|v1\\.103\\.9|1\\.103\\.9|v1\\.106\\.3|1\\.106\\.3|v1\\.105\\.4|1\\.105\\.4|v1\\.104\\.6|1\\.104\\.6|v1\\.103\\.8|1\\.103\\.8|v1\\.106\\.2|1\\.106\\.2|v1\\.105\\.3|1\\.105\\.3|v1\\.103\\.7|1\\.103\\.7|v1\\.104\\.5|1\\.104\\.5|v1\\.106\\.1|1\\.106\\.1|v1\\.105\\.2|1\\.105\\.2|v1\\.103\\.6|1\\.103\\.6|v1\\.107\\.0-rc\\.2|1\\.107\\.0-rc\\.2|v1\\.104\\.4|1\\.104\\.4|v1\\.107\\.0-rc\\.1|1\\.107\\.0-rc\\.1|v1\\.106\\.0|1\\.106\\.0|v1\\.103\\.5|1\\.103\\.5|v1\\.107\\.0-dev\\.3|1\\.107\\.0-dev\\.3|v1\\.106\\.0-rc\\.4|1\\.106\\.0-rc\\.4|v1\\.107\\.0-dev\\.2|1\\.107\\.0-dev\\.2|v1\\.106\\.0-rc\\.3|1\\.106\\.0-rc\\.3|v1\\.107\\.0-dev\\.1|1\\.107\\.0-dev\\.1)$/",
-      "description": "image-age: ghcr.io/berriai/litellm-non_root tags built at least 7 days ago, dated 2026-11-01T18:02:24Z",
+      "description": "image-age: ghcr.io/berriai/litellm-non_root tags built at least 7 days ago, dated 2026-11-01T22:15:23Z",
       "matchDatasources": [
         "docker"
       ],
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/berriai/litellm-non_root rebuilds younger than 7 days wait, dated 2026-11-01T18:02:24Z",
+      "description": "image-age: ghcr.io/berriai/litellm-non_root rebuilds younger than 7 days wait, dated 2026-11-01T22:15:23Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -61,7 +61,7 @@
     },
     {
       "allowedVersions": "/^(5\\.3\\.0|5\\.2\\.1|5\\.2\\.0|5\\.1\\.0|5\\.0\\.1|5\\.0\\.0|4\\.6\\.2|4\\.6\\.1|4\\.6\\.0|4\\.5\\.0|4\\.4\\.0|4\\.3\\.0|4\\.2\\.0|4\\.1\\.2|4\\.1\\.1|4\\.1\\.0|4\\.0\\.1|4\\.0\\.0|3\\.7\\.3)$/",
-      "description": "image-age: ghcr.io/bjw-s-labs/helm/app-template tags built at least 7 days ago, dated 2026-11-01T18:02:24Z",
+      "description": "image-age: ghcr.io/bjw-s-labs/helm/app-template tags built at least 7 days ago, dated 2026-11-01T22:15:24Z",
       "matchDatasources": [
         "docker"
       ],
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/bjw-s-labs/helm/app-template rebuilds younger than 7 days wait, dated 2026-11-01T18:02:24Z",
+      "description": "image-age: ghcr.io/bjw-s-labs/helm/app-template rebuilds younger than 7 days wait, dated 2026-11-01T22:15:24Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -90,7 +90,7 @@
     },
     {
       "allowedVersions": "/^(15\\.19-202610190958-system-trixie|15\\.19-202610190958-system-bookworm|15\\.19-202610190958-standard-trixie|16\\.15-202610190958-system-trixie|16\\.15-202610190958-system-bookworm|15\\.19-202610190958-standard-bookworm|16\\.15-202610190958-standard-trixie|15\\.19-202610190958-minimal-trixie|16\\.15-202610190958-standard-bookworm|16\\.15-202610190958-minimal-trixie|15\\.19-202610190958-minimal-bookworm|16\\.15-202610190958-minimal-bookworm|17\\.11-202610190957-system-trixie|18\\.6-202610190957-system-trixie|14\\.24-202610190957-system-trixie|17\\.11-202610190957-system-bookworm|18\\.6-202610190957-system-bookworm|14\\.24-202610190957-system-bookworm|17\\.11-202610190957-standard-trixie|18\\.6-202610190957-standard-trixie|19rc1-202610190957-system-trixie|14\\.24-202610190957-standard-trixie|17\\.11-202610190957-standard-bookworm|19rc1-202610190957-system-bookworm|18\\.6-202610190957-standard-bookworm|19rc1-202610190957-standard-trixie|14\\.24-202610190957-standard-bookworm|17\\.11-202610190957-minimal-trixie|19rc1-202610190957-standard-bookworm|18\\.6-202610190957-minimal-trixie|14\\.24-202610190957-minimal-trixie|19rc1-202610190957-minimal-trixie|17\\.11-202610190957-minimal-bookworm|19rc1-202610190957-minimal-bookworm|18\\.6-202610190957-minimal-bookworm|14\\.24-202610190957-minimal-bookworm|15\\.19-202610190818-system-trixie|15\\.19-202610190818-system-bookworm|15\\.19-202610190818-standard-trixie|15\\.19-202610190818-standard-bookworm|18\\.6-202610190818-system-trixie|15\\.19-202610190818-minimal-trixie|16\\.15-202610190818-system-trixie|18\\.6-202610190818-system-bookworm|15\\.19-202610190818-minimal-bookworm|17\\.11-202610190818-system-trixie|16\\.15-202610190818-system-bookworm|14\\.24-202610190818-system-trixie|18\\.6-202610190818-standard-trixie|17\\.11-202610190818-system-bookworm|17|18)$/",
-      "description": "image-age: ghcr.io/cloudnative-pg/postgresql tags built at least 7 days ago, dated 2026-11-01T18:02:38Z",
+      "description": "image-age: ghcr.io/cloudnative-pg/postgresql tags built at least 7 days ago, dated 2026-11-01T22:15:39Z",
       "matchDatasources": [
         "docker"
       ],
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/cloudnative-pg/postgresql rebuilds younger than 7 days wait, dated 2026-11-01T18:02:38Z",
+      "description": "image-age: ghcr.io/cloudnative-pg/postgresql rebuilds younger than 7 days wait, dated 2026-11-01T22:15:39Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -119,7 +119,7 @@
     },
     {
       "allowedVersions": "/^(1\\.3\\.0|latest|1\\.2\\.0|1\\.1\\.0|1\\.0\\.6|1\\.0\\.5|1\\.0\\.4|1\\.0\\.3|1\\.0\\.2|1\\.0\\.0-dev-0ec371f|1\\.0\\.0-rc\\.7|1\\.0\\.0-rc\\.6|1\\.0\\.0-rc\\.5|1\\.0\\.0-rc\\.1|1\\.0\\.0-rc\\.0|0\\.2\\.9|0\\.2\\.8|0\\.2\\.7|0\\.2\\.6|0\\.2\\.5|0\\.2\\.4|0\\.2\\.3|0\\.2\\.2|0\\.2\\.1|0\\.2\\.0|0\\.1\\.6|0\\.1\\.5|0\\.1\\.4|0\\.1\\.3|0\\.1\\.2|0\\.1\\.1|0\\.1\\.0|0\\.0\\.10|0\\.0\\.9|0\\.0\\.8|0\\.0\\.7|0\\.0\\.6|0\\.0\\.5|0\\.0\\.4|0\\.0\\.3|0\\.0\\.2|0\\.0\\.1)$/",
-      "description": "image-age: ghcr.io/coder/envbuilder tags built at least 7 days ago, dated 2026-11-01T18:02:40Z",
+      "description": "image-age: ghcr.io/coder/envbuilder tags built at least 7 days ago, dated 2026-11-01T22:15:41Z",
       "matchDatasources": [
         "docker"
       ],
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/coder/envbuilder rebuilds younger than 7 days wait, dated 2026-11-01T18:02:40Z",
+      "description": "image-age: ghcr.io/coder/envbuilder rebuilds younger than 7 days wait, dated 2026-11-01T22:15:41Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -148,7 +148,7 @@
     },
     {
       "allowedVersions": "/^(0\\.61\\.0|0\\.60\\.0|0\\.59\\.0|0\\.58\\.1|0\\.58\\.0|0\\.57\\.0|0\\.56\\.0|0\\.55\\.0|0\\.54\\.1|0\\.54\\.0|0\\.53\\.0|0\\.52\\.0|0\\.51\\.0|0\\.50\\.0|0\\.49\\.0|0\\.48\\.0|0\\.47\\.0|0\\.46\\.0|0\\.45\\.1|0\\.45\\.0|0\\.44\\.0|0\\.43\\.0|0\\.42\\.1|0\\.41\\.1|0\\.41\\.0|0\\.40\\.0|0\\.39\\.0|0\\.38\\.1|0\\.37\\.1|0\\.37\\.0|0\\.36\\.0|0\\.35\\.0|0\\.34\\.0|0\\.33\\.0|0\\.32\\.0|0\\.31\\.0|0\\.30\\.0|0\\.29\\.0|0\\.28\\.0|0\\.27\\.0|0\\.26\\.0|0\\.25\\.0|0\\.24\\.1|0\\.24\\.0|0\\.23\\.0|0\\.22\\.0|0\\.21\\.0|0\\.20\\.0|0\\.19\\.0|0\\.18\\.0)$/",
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-instance tags built at least 7 days ago, dated 2026-11-01T18:02:41Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-instance tags built at least 7 days ago, dated 2026-11-01T22:15:42Z",
       "matchDatasources": [
         "docker"
       ],
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-instance rebuilds younger than 7 days wait, dated 2026-11-01T18:02:41Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-instance rebuilds younger than 7 days wait, dated 2026-11-01T22:15:42Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -177,7 +177,7 @@
     },
     {
       "allowedVersions": "/^(0\\.61\\.0|0\\.60\\.0|0\\.59\\.0|0\\.58\\.1|0\\.58\\.0|0\\.57\\.0|0\\.56\\.0|0\\.55\\.0|0\\.54\\.1|0\\.54\\.0|0\\.53\\.0|0\\.52\\.0|0\\.51\\.0|0\\.50\\.0|0\\.49\\.0|0\\.48\\.0|0\\.47\\.0|0\\.46\\.0|0\\.45\\.1|0\\.45\\.0|0\\.44\\.0|0\\.43\\.0|0\\.42\\.1|0\\.41\\.1|0\\.41\\.0|0\\.40\\.0|0\\.39\\.0|0\\.38\\.1|0\\.37\\.1|0\\.37\\.0|0\\.36\\.0|0\\.35\\.0|0\\.34\\.0|0\\.33\\.0|0\\.32\\.0|0\\.31\\.0|0\\.30\\.0|0\\.29\\.0|0\\.28\\.0|0\\.27\\.0|0\\.26\\.0|0\\.25\\.0|0\\.24\\.1|0\\.24\\.0|0\\.23\\.0|0\\.22\\.0|0\\.21\\.0|0\\.20\\.0|0\\.19\\.0|0\\.18\\.0)$/",
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-operator tags built at least 7 days ago, dated 2026-11-01T18:02:42Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-operator tags built at least 7 days ago, dated 2026-11-01T22:15:43Z",
       "matchDatasources": [
         "docker"
       ],
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-operator rebuilds younger than 7 days wait, dated 2026-11-01T18:02:42Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-operator rebuilds younger than 7 days wait, dated 2026-11-01T22:15:43Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -206,7 +206,7 @@
     },
     {
       "allowedVersions": "/^(v0\\.61\\.0-1792591340|v0\\.61\\.0-1792414906|v0\\.61\\.0-1791586354|v0\\.61\\.0-1791575382|v0\\.61\\.0-1790936637|v0\\.61\\.0|v0\\.60\\.0-1790584741|v0\\.60\\.0-1790325387|v0\\.60\\.0-1789738688|v0\\.60\\.0|v0\\.59\\.0-1789045935|v0\\.59\\.0-1788955520|v0\\.59\\.0-1788356211|v0\\.59\\.0-1788263746|v0\\.59\\.0|v0\\.58\\.1-1787836381|v0\\.58\\.1|v0\\.58\\.0-1786708211|v0\\.58\\.0-1786442856|v0\\.58\\.0|v0\\.57\\.0-1785925959|v0\\.57\\.0-1785256599|v0\\.57\\.0|v0\\.56\\.0-1785163529|v0\\.56\\.0|v0\\.55\\.0-1784734330|v0\\.55\\.0|v0\\.54\\.1-1783691352|v0\\.54\\.1|v0\\.54\\.0|v0\\.53\\.0-1782987615|v0\\.53\\.0-1782902908|v0\\.53\\.0|v0\\.52\\.0-1782809225|v0\\.52\\.0-1782475681|v0\\.52\\.0-1782121677|v0\\.52\\.0-1781172141|v0\\.52\\.0|v0\\.51\\.0|v0\\.50\\.0-1780943501|v0\\.50\\.0-1780403835|v0\\.50\\.0-1779443915|v0\\.50\\.0|v0\\.49\\.0-1779272666|v0\\.49\\.0-1779094994|v0\\.49\\.0|v0\\.48\\.0-1778516599|v0\\.48\\.0-1778510596|v0\\.48\\.0-1778060951|v0\\.48\\.0-1777982437)$/",
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/flux-operator-manifests tags built at least 7 days ago, dated 2026-11-01T18:02:44Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/flux-operator-manifests tags built at least 7 days ago, dated 2026-11-01T22:15:44Z",
       "matchDatasources": [
         "docker"
       ],
@@ -215,7 +215,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/flux-operator-manifests rebuilds younger than 7 days wait, dated 2026-11-01T18:02:44Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/flux-operator-manifests rebuilds younger than 7 days wait, dated 2026-11-01T22:15:44Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -235,7 +235,7 @@
     },
     {
       "allowedVersions": "/^(2\\.99\\.1|2\\.99\\.0|sha-9f563df|2\\.98\\.1|2\\.98|sha-7927019|sha-74fe603|2\\.98\\.0|2\\.97|2\\.97\\.0|sha-5578f73|sha-ef2463f|2\\.96\\.2|2\\.96|sha-a49bd8f|2\\.96\\.1|2\\.96\\.0|sha-a3ff21b|2\\.95|2\\.95\\.0|sha-d8ebc29|2\\.94\\.3|2\\.94|sha-19b09f5|sha-26d79a4|2\\.94\\.2|sha-6b57694|2\\.94\\.1|2\\.94\\.0|sha-8ef965a|2\\.93|2\\.93\\.0|sha-f64d2a7|sha-64c8093|sha-347cf93|2\\.92\\.1|2\\.92|sha-502b317|2\\.92\\.0|2\\.91|2\\.91\\.0|sha-3a2ec76|2\\.90|2\\.90\\.0|sha-1284c9f|2\\.89|2\\.89\\.0|sha-4cc0efd|2\\.88|2\\.88\\.0)$/",
-      "description": "image-age: ghcr.io/czlonkowski/n8n-mcp tags built at least 7 days ago, dated 2026-11-01T18:02:46Z",
+      "description": "image-age: ghcr.io/czlonkowski/n8n-mcp tags built at least 7 days ago, dated 2026-11-01T22:15:46Z",
       "matchDatasources": [
         "docker"
       ],
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/czlonkowski/n8n-mcp rebuilds younger than 7 days wait, dated 2026-11-01T18:02:46Z",
+      "description": "image-age: ghcr.io/czlonkowski/n8n-mcp rebuilds younger than 7 days wait, dated 2026-11-01T22:15:46Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -264,7 +264,7 @@
     },
     {
       "allowedVersions": "/^(1\\.1\\.3|1\\.1|1|latest|1\\.1\\.2|1\\.1\\.1|1\\.1\\.0|1\\.0\\.15|1\\.0|1\\.0\\.14|1\\.0\\.13|1\\.0\\.12|1\\.0\\.11|1\\.0\\.10|1\\.0\\.9|1\\.0\\.8|1\\.0\\.7|1\\.0\\.6|1\\.0\\.5|1\\.0\\.4|1\\.0\\.3|1\\.0\\.2|1\\.0\\.1|1\\.0\\.0)$/",
-      "description": "image-age: ghcr.io/devcontainers/features/github-cli tags built at least 7 days ago, dated 2026-11-01T18:02:46Z",
+      "description": "image-age: ghcr.io/devcontainers/features/github-cli tags built at least 7 days ago, dated 2026-11-01T22:15:47Z",
       "matchDatasources": [
         "docker"
       ],
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/devcontainers/features/github-cli rebuilds younger than 7 days wait, dated 2026-11-01T18:02:46Z",
+      "description": "image-age: ghcr.io/devcontainers/features/github-cli rebuilds younger than 7 days wait, dated 2026-11-01T22:15:47Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -293,7 +293,7 @@
     },
     {
       "allowedVersions": "/^(2\\.1\\.1|2\\.1|2|latest|2\\.1\\.0|2\\.0\\.0|2\\.0|1\\.7\\.1|1\\.7|1|1\\.7\\.0|1\\.6\\.4|1\\.6|1\\.6\\.3|1\\.6\\.2|1\\.6\\.1|1\\.6\\.0|1\\.5\\.0|1\\.5|1\\.4\\.1|1\\.4|1\\.4\\.0|1\\.3\\.1|1\\.3|1\\.3\\.0|1\\.2\\.1|1\\.2|1\\.2\\.0|1\\.1\\.5|1\\.1|1\\.1\\.4|1\\.1\\.3|1\\.1\\.2|1\\.1\\.1|1\\.1\\.0|1\\.0\\.8|1\\.0|1\\.0\\.7|1\\.0\\.6|1\\.0\\.5|1\\.0\\.4|1\\.0\\.3|1\\.0\\.2|1\\.0\\.1|1\\.0\\.0)$/",
-      "description": "image-age: ghcr.io/devcontainers/features/node tags built at least 7 days ago, dated 2026-11-01T18:02:47Z",
+      "description": "image-age: ghcr.io/devcontainers/features/node tags built at least 7 days ago, dated 2026-11-01T22:15:47Z",
       "matchDatasources": [
         "docker"
       ],
@@ -302,7 +302,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/devcontainers/features/node rebuilds younger than 7 days wait, dated 2026-11-01T18:02:47Z",
+      "description": "image-age: ghcr.io/devcontainers/features/node rebuilds younger than 7 days wait, dated 2026-11-01T22:15:47Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -322,7 +322,7 @@
     },
     {
       "allowedVersions": "/^(1\\.8\\.0|1\\.8|1|latest|1\\.7\\.1|1\\.7|1\\.7\\.0|1\\.6\\.5|1\\.6|1\\.6\\.4|1\\.6\\.3|1\\.6\\.2|1\\.6\\.1|1\\.6\\.0|1\\.5\\.0|1\\.5|1\\.4\\.2|1\\.4|1\\.4\\.1|1\\.4\\.0|1\\.3\\.2|1\\.3|1\\.3\\.1|1\\.3\\.0|1\\.2\\.1|1\\.2|1\\.2\\.0|1\\.1\\.0|1\\.1|1\\.0\\.22|1\\.0|1\\.0\\.21|1\\.0\\.20|1\\.0\\.19|1\\.0\\.18|1\\.0\\.17|1\\.0\\.16|1\\.0\\.15|1\\.0\\.14|1\\.0\\.13|1\\.0\\.12|1\\.0\\.11|1\\.0\\.10|1\\.0\\.9|1\\.0\\.8|1\\.0\\.7|1\\.0\\.6|1\\.0\\.5|1\\.0\\.4|1\\.0\\.3)$/",
-      "description": "image-age: ghcr.io/devcontainers/features/python tags built at least 7 days ago, dated 2026-11-01T18:02:48Z",
+      "description": "image-age: ghcr.io/devcontainers/features/python tags built at least 7 days ago, dated 2026-11-01T22:15:48Z",
       "matchDatasources": [
         "docker"
       ],
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/devcontainers/features/python rebuilds younger than 7 days wait, dated 2026-11-01T18:02:48Z",
+      "description": "image-age: ghcr.io/devcontainers/features/python rebuilds younger than 7 days wait, dated 2026-11-01T22:15:48Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -351,7 +351,7 @@
     },
     {
       "allowedVersions": "/^(v0\\.168\\.0|v0\\.167\\.0|v0\\.166\\.0|v0\\.165\\.0|v0\\.164\\.0|v0\\.163\\.3|v0\\.163\\.2|v0\\.163\\.1|v0\\.163\\.0|v0\\.162\\.1|v0\\.162\\.0|v0\\.161\\.1|v0\\.161\\.0|v0\\.160\\.1|v0\\.160\\.0|v0\\.159\\.2|v0\\.159\\.1|v0\\.159\\.0|v0\\.158\\.0|v0\\.157\\.0|v0\\.156\\.0|v0\\.155\\.3|v0\\.155\\.2|v0\\.155\\.1|v0\\.155\\.0|v0\\.154\\.5|v0\\.154\\.4|v0\\.154\\.3|v0\\.154\\.2|v0\\.154\\.1|v0\\.154\\.0|v0\\.153\\.5|v0\\.153\\.4|v0\\.153\\.3|v0\\.153\\.2|v0\\.153\\.1|v0\\.153\\.0|v0\\.152\\.2|v0\\.152\\.1|v0\\.152\\.0|v0\\.151\\.2|v0\\.151\\.1|v0\\.151\\.0|v0\\.150\\.1|v0\\.150\\.0|v0\\.149\\.1|v0\\.148\\.2|v0\\.148\\.1|v0\\.148\\.0|v0\\.147\\.9)$/",
-      "description": "image-age: ghcr.io/gohugoio/hugo tags built at least 7 days ago, dated 2026-11-01T18:02:50Z",
+      "description": "image-age: ghcr.io/gohugoio/hugo tags built at least 7 days ago, dated 2026-11-01T22:15:50Z",
       "matchDatasources": [
         "docker"
       ],
@@ -360,7 +360,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/gohugoio/hugo rebuilds younger than 7 days wait, dated 2026-11-01T18:02:50Z",
+      "description": "image-age: ghcr.io/gohugoio/hugo rebuilds younger than 7 days wait, dated 2026-11-01T22:15:50Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -380,7 +380,7 @@
     },
     {
       "allowedVersions": "/^(0\\.3\\.6|0\\.3|latest|rolling|0\\.3\\.5|0\\.3\\.4|0\\.3\\.3|0\\.3\\.2|0\\.3\\.1|0\\.3\\.0|0\\.2\\.6|0\\.2|0\\.2\\.5|0\\.2\\.4|0\\.2\\.3|0\\.2\\.2|0\\.2\\.1|0\\.2\\.0|0\\.1\\.1|0\\.1|0\\.1\\.0)$/",
-      "description": "image-age: ghcr.io/home-operations/drm-exporter tags built at least 7 days ago, dated 2026-11-01T18:02:57Z",
+      "description": "image-age: ghcr.io/home-operations/drm-exporter tags built at least 7 days ago, dated 2026-11-01T22:15:57Z",
       "matchDatasources": [
         "docker"
       ],
@@ -389,7 +389,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/home-operations/drm-exporter rebuilds younger than 7 days wait, dated 2026-11-01T18:02:57Z",
+      "description": "image-age: ghcr.io/home-operations/drm-exporter rebuilds younger than 7 days wait, dated 2026-11-01T22:15:57Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -409,7 +409,7 @@
     },
     {
       "allowedVersions": "/^(1\\.9\\.5|1\\.9|rolling|1|sandbox|1\\.9\\.4)$/",
-      "description": "image-age: ghcr.io/home-operations/irqbalance tags built at least 7 days ago, dated 2026-11-01T18:02:58Z",
+      "description": "image-age: ghcr.io/home-operations/irqbalance tags built at least 7 days ago, dated 2026-11-01T22:15:58Z",
       "matchDatasources": [
         "docker"
       ],
@@ -418,7 +418,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/home-operations/irqbalance rebuilds younger than 7 days wait, dated 2026-11-01T18:02:58Z",
+      "description": "image-age: ghcr.io/home-operations/irqbalance rebuilds younger than 7 days wait, dated 2026-11-01T22:15:58Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -438,7 +438,7 @@
     },
     {
       "allowedVersions": "/^(3\\.9\\.2|3\\.9\\.2-rc\\.5|3\\.9\\.1|3\\.9\\.0|3\\.9\\.0-rc\\.4|3\\.9\\.0-rc\\.3|3\\.9\\.0-rc\\.2|3\\.9\\.0-rc\\.1|3\\.8\\.2|3\\.8\\.2-rc\\.2|3\\.8\\.1|3\\.8\\.1-rc\\.2|3\\.8\\.1-rc\\.1|3\\.8\\.0|3\\.6\\.4|3\\.7\\.2|3\\.8\\.0-rc\\.1|3\\.6\\.4-rc\\.1|3\\.7\\.2-rc\\.1|3\\.6\\.3|3\\.7\\.1|3\\.7\\.1-rc\\.1|3\\.7\\.0|3\\.7\\.0-rc\\.3|3\\.7\\.0-rc\\.2|3\\.5\\.3|3\\.6\\.3-rc\\.1|3\\.5\\.3-rc\\.1|3\\.7\\.0-rc\\.1|3\\.6\\.2|3\\.6\\.1|3\\.6\\.1-rc\\.2|3\\.6\\.1-rc\\.1|3\\.6\\.0|3\\.4\\.6|3\\.6\\.0-rc\\.2|3\\.4\\.5|3\\.6\\.0-rc\\.1|3\\.5\\.2|3\\.5\\.2-rc\\.1|3\\.5\\.1|3\\.5\\.1-rc\\.3|3\\.5\\.1-rc\\.2|3\\.5\\.1-rc\\.1|3\\.5\\.0|3\\.4\\.4|3\\.4\\.3|3\\.4\\.2|3\\.4\\.2-rc\\.1|3\\.3\\.9)$/",
-      "description": "image-age: ghcr.io/kyverno/charts/kyverno tags built at least 7 days ago, dated 2026-11-01T18:02:59Z",
+      "description": "image-age: ghcr.io/kyverno/charts/kyverno tags built at least 7 days ago, dated 2026-11-01T22:15:59Z",
       "matchDatasources": [
         "docker"
       ],
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/kyverno/charts/kyverno rebuilds younger than 7 days wait, dated 2026-11-01T18:02:59Z",
+      "description": "image-age: ghcr.io/kyverno/charts/kyverno rebuilds younger than 7 days wait, dated 2026-11-01T22:15:59Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -467,7 +467,7 @@
     },
     {
       "allowedVersions": "/^(v10\\.1\\.0|v10\\.0\\.0|v9\\.6\\.0|v9|v9\\.5\\.0|v9\\.4\\.0|alpha|v9\\.3\\.0|v9\\.2\\.0|v9\\.1\\.0|v9\\.0\\.1|v9\\.0\\.0|v8)$/",
-      "description": "image-age: ghcr.io/oxsecurity/megalinter-ci_light tags built at least 7 days ago, dated 2026-11-01T18:03:13Z",
+      "description": "image-age: ghcr.io/oxsecurity/megalinter-ci_light tags built at least 7 days ago, dated 2026-11-01T22:16:15Z",
       "matchDatasources": [
         "docker"
       ],
@@ -476,7 +476,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/oxsecurity/megalinter-ci_light rebuilds younger than 7 days wait, dated 2026-11-01T18:03:13Z",
+      "description": "image-age: ghcr.io/oxsecurity/megalinter-ci_light rebuilds younger than 7 days wait, dated 2026-11-01T22:16:15Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -496,7 +496,7 @@
     },
     {
       "allowedVersions": "/^(v10\\.1\\.0|v10\\.0\\.0|v9\\.6\\.0|v9|v9\\.5\\.0|v9\\.4\\.0|alpha|v9\\.3\\.0|v9\\.2\\.0|v9\\.1\\.0|v9\\.0\\.1|v9\\.0\\.0|v8)$/",
-      "description": "image-age: ghcr.io/oxsecurity/megalinter-go tags built at least 7 days ago, dated 2026-11-01T18:03:27Z",
+      "description": "image-age: ghcr.io/oxsecurity/megalinter-go tags built at least 7 days ago, dated 2026-11-01T22:16:29Z",
       "matchDatasources": [
         "docker"
       ],
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/oxsecurity/megalinter-go rebuilds younger than 7 days wait, dated 2026-11-01T18:03:27Z",
+      "description": "image-age: ghcr.io/oxsecurity/megalinter-go rebuilds younger than 7 days wait, dated 2026-11-01T22:16:29Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -525,7 +525,7 @@
     },
     {
       "allowedVersions": "/^(v1\\.20\\.9|v1\\.19\\.12|1\\.21\\.0|v1\\.20\\.8|1\\.21\\.0-beta-0|1\\.21\\.0-alpha-0|v1\\.20\\.7|v1\\.19\\.11|v1\\.20\\.6|v1\\.19\\.10|v1\\.19\\.9|v1\\.20\\.5|v1\\.20\\.4|v1\\.20\\.3|v1\\.19\\.8|v1\\.20\\.2|v1\\.20\\.1|v1\\.19\\.7|v1\\.20\\.0|v1\\.19\\.6|v1\\.18\\.11|v1\\.19\\.5|v1\\.20\\.0-beta-0|v1\\.20\\.0-alpha-0|v1\\.19\\.4|v1\\.19\\.3|v1\\.18\\.10|v1\\.19\\.2|v1\\.19\\.1|v1\\.19\\.0|v1\\.18\\.9|v1\\.19\\.0-beta-0|v1\\.19\\.0-alpha-0|v1\\.18\\.8|v1\\.18\\.7|v1\\.17\\.9|v1\\.18\\.6|v1\\.18\\.5|v1\\.18\\.4|v1\\.18\\.3|v1\\.18\\.2|v1\\.18\\.1|v1\\.18\\.0|v1\\.17\\.8|v1\\.16\\.9|v1\\.18\\.0-beta-0|v1\\.17\\.7|v1\\.18\\.0-alpha-0|v1\\.17\\.6|v1\\.17\\.5)$/",
-      "description": "image-age: ghcr.io/rook/rook-ceph tags built at least 7 days ago, dated 2026-11-01T18:03:28Z",
+      "description": "image-age: ghcr.io/rook/rook-ceph tags built at least 7 days ago, dated 2026-11-01T22:16:31Z",
       "matchDatasources": [
         "docker"
       ],
@@ -534,7 +534,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/rook/rook-ceph rebuilds younger than 7 days wait, dated 2026-11-01T18:03:28Z",
+      "description": "image-age: ghcr.io/rook/rook-ceph rebuilds younger than 7 days wait, dated 2026-11-01T22:16:31Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -554,7 +554,7 @@
     },
     {
       "allowedVersions": "/^(v1\\.20\\.9|v1\\.19\\.12|1\\.21\\.0|v1\\.20\\.8|1\\.21\\.0-beta-0|1\\.21\\.0-alpha-0|v1\\.20\\.7|v1\\.19\\.11|v1\\.20\\.6|v1\\.19\\.10|v1\\.19\\.9|v1\\.20\\.5|v1\\.20\\.4|v1\\.20\\.3|v1\\.19\\.8|v1\\.20\\.2|v1\\.20\\.1|v1\\.19\\.7|v1\\.20\\.0|v1\\.19\\.6|v1\\.18\\.11|v1\\.19\\.5|v1\\.20\\.0-beta-0|v1\\.20\\.0-alpha-0|v1\\.19\\.4|v1\\.19\\.3|v1\\.18\\.10|v1\\.19\\.2|v1\\.19\\.1|v1\\.19\\.0|v1\\.18\\.9|v1\\.19\\.0-beta-0|v1\\.19\\.0-alpha-0|v1\\.18\\.8|v1\\.18\\.7|v1\\.17\\.9|v1\\.18\\.6|v1\\.18\\.5|v1\\.18\\.4|v1\\.18\\.3|v1\\.18\\.2|v1\\.18\\.1|v1\\.18\\.0|v1\\.17\\.8|v1\\.16\\.9|v1\\.18\\.0-beta-0|v1\\.17\\.7|v1\\.18\\.0-alpha-0|v1\\.17\\.6|v1\\.17\\.5)$/",
-      "description": "image-age: ghcr.io/rook/rook-ceph-cluster tags built at least 7 days ago, dated 2026-11-01T18:03:29Z",
+      "description": "image-age: ghcr.io/rook/rook-ceph-cluster tags built at least 7 days ago, dated 2026-11-01T22:16:33Z",
       "matchDatasources": [
         "docker"
       ],
@@ -563,7 +563,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/rook/rook-ceph-cluster rebuilds younger than 7 days wait, dated 2026-11-01T18:03:29Z",
+      "description": "image-age: ghcr.io/rook/rook-ceph-cluster rebuilds younger than 7 days wait, dated 2026-11-01T22:16:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -583,7 +583,7 @@
     },
     {
       "allowedVersions": "/^(v1\\.38\\.0-alpha\\.2|v1\\.38\\.0-alpha\\.2-fat|v1\\.38\\.0-alpha\\.1|v1\\.38\\.0-alpha\\.1-fat|v1\\.37\\.1|v1\\.37\\.1-fat|v1\\.36\\.5|v1\\.36\\.5-fat|v1\\.35\\.9|v1\\.35\\.9-fat|v1\\.34\\.12|v1\\.34\\.12-fat|v1\\.37\\.0|v1\\.37\\.0-fat|v1\\.34\\.11|v1\\.34\\.11-fat|v1\\.35\\.8|v1\\.35\\.8-fat|v1\\.36\\.4|v1\\.36\\.4-fat|v1\\.37\\.0-rc\\.1|v1\\.37\\.0-rc\\.1-fat|v1\\.37\\.0-rc\\.0|v1\\.37\\.0-rc\\.0-fat|v1\\.36\\.3|v1\\.36\\.3-fat|v1\\.35\\.7|v1\\.35\\.7-fat|v1\\.34\\.10|v1\\.34\\.10-fat|v1\\.37\\.0-beta\\.0|v1\\.37\\.0-beta\\.0-fat|v1\\.37\\.0-alpha\\.3|v1\\.37\\.0-alpha\\.3-fat|v1\\.36\\.2|v1\\.36\\.2-fat|v1\\.35\\.6|v1\\.35\\.6-fat|v1\\.34\\.9|v1\\.34\\.9-fat|v1\\.33\\.13|v1\\.33\\.13-fat|v1\\.36\\.1|v1\\.36\\.1-fat|v1\\.35\\.5|v1\\.35\\.5-fat|v1\\.34\\.8|v1\\.34\\.8-fat|v1\\.33\\.12|v1\\.33\\.12-fat)$/",
-      "description": "image-age: ghcr.io/siderolabs/kubelet tags built at least 7 days ago, dated 2026-11-01T18:03:32Z",
+      "description": "image-age: ghcr.io/siderolabs/kubelet tags built at least 7 days ago, dated 2026-11-01T22:16:36Z",
       "matchDatasources": [
         "docker"
       ],
@@ -592,7 +592,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/siderolabs/kubelet rebuilds younger than 7 days wait, dated 2026-11-01T18:03:32Z",
+      "description": "image-age: ghcr.io/siderolabs/kubelet rebuilds younger than 7 days wait, dated 2026-11-01T22:16:36Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -612,7 +612,7 @@
     },
     {
       "allowedVersions": "/^(sha-04b0b7b|sha-d7d91f1|sha-2c7d3cc|sha-4d0b103|sha-beec04e|sha-1a4d453|sha-6043114|sha-043071b|0\\.40\\.0|sha-f4cc951|sha-53bbec1|sha-9225a8c|sha-d62c838|sha-8994191|sha-a47eb6a|sha-30c3b5c|sha-a24d0dc|sha-33b02e7|0\\.39\\.3|sha-e828477|sha-e12c5bd|sha-8b99ba8|sha-9ad0ba6|sha-a5aba3a|0\\.39\\.2|sha-f1b7c52|sha-09a86b8|sha-27c48dd|sha-68e839d|sha-171842a|sha-dc9f258|sha-1f567f4|0\\.39\\.1|sha-ef738c5|sha-0e9167f|sha-fbd083c|sha-15dab93|0\\.39\\.0|sha-079b691|sha-4c23ca7|sha-2d0ae6f|sha-c618d8a|sha-7ca0a24|0\\.38\\.6|sha-8a1aa2d|sha-95c9c69|sha-68aa747|sha-7a7d206|sha-61fe9e1|0\\.38\\.5)$/",
-      "description": "image-age: ghcr.io/sirkirby/unifi-network-mcp tags built at least 7 days ago, dated 2026-11-01T18:03:36Z",
+      "description": "image-age: ghcr.io/sirkirby/unifi-network-mcp tags built at least 7 days ago, dated 2026-11-01T22:16:39Z",
       "matchDatasources": [
         "docker"
       ],
@@ -621,7 +621,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/sirkirby/unifi-network-mcp rebuilds younger than 7 days wait, dated 2026-11-01T18:03:36Z",
+      "description": "image-age: ghcr.io/sirkirby/unifi-network-mcp rebuilds younger than 7 days wait, dated 2026-11-01T22:16:39Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -641,7 +641,7 @@
     },
     {
       "allowedVersions": "/^(0\\.8\\.0|0\\.8\\.0-rc\\.2|0\\.8\\.0-rc\\.1|0\\.7\\.4|0\\.7\\.3|0\\.7\\.2|0\\.7\\.1|0\\.7\\.0|0\\.6\\.0|0\\.5\\.1|0\\.5\\.0|0\\.4\\.0|0\\.3\\.0|0\\.2\\.0|0\\.1\\.1|0\\.1\\.0|v0\\.0\\.30|v0\\.0\\.29|v0\\.0\\.28|v0\\.0\\.27|v0\\.0\\.26|v0\\.0\\.25|v0\\.0\\.24|v0\\.0\\.23|v0\\.0\\.22|v0\\.0\\.21|artifacthub\\.io|v0\\.0\\.20|v0\\.0\\.18|v0\\.0\\.17|v0\\.0\\.16|v0\\.0\\.15|v0\\.0\\.14|v0\\.0\\.13|v0\\.0\\.12|v0\\.0\\.11|v0\\.0\\.10|v0\\.0\\.9|v0\\.0\\.8|v0\\.0\\.7|v0\\.0\\.6|v0\\.0\\.5|v0\\.0\\.4|v0\\.0\\.3|v0\\.0\\.2|v0\\.0\\.1|v0\\.0\\.19)$/",
-      "description": "image-age: ghcr.io/spegel-org/helm-charts/spegel tags built at least 7 days ago, dated 2026-11-01T18:03:36Z",
+      "description": "image-age: ghcr.io/spegel-org/helm-charts/spegel tags built at least 7 days ago, dated 2026-11-01T22:16:40Z",
       "matchDatasources": [
         "docker"
       ],
@@ -650,7 +650,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/spegel-org/helm-charts/spegel rebuilds younger than 7 days wait, dated 2026-11-01T18:03:36Z",
+      "description": "image-age: ghcr.io/spegel-org/helm-charts/spegel rebuilds younger than 7 days wait, dated 2026-11-01T22:16:40Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -670,7 +670,7 @@
     },
     {
       "allowedVersions": "/^(v1\\.5\\.0|1\\.5\\.0|latest|v1\\.4\\.0|1\\.4\\.0|v1\\.3\\.0|1\\.3\\.0|v1\\.2\\.0|v1\\.1\\.0|v1\\.0\\.0)$/",
-      "description": "image-age: ghcr.io/victoriametrics-community/mcp-victoriatraces tags built at least 7 days ago, dated 2026-11-01T18:03:37Z",
+      "description": "image-age: ghcr.io/victoriametrics-community/mcp-victoriatraces tags built at least 7 days ago, dated 2026-11-01T22:16:41Z",
       "matchDatasources": [
         "docker"
       ],
@@ -679,7 +679,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics-community/mcp-victoriatraces rebuilds younger than 7 days wait, dated 2026-11-01T18:03:37Z",
+      "description": "image-age: ghcr.io/victoriametrics-community/mcp-victoriatraces rebuilds younger than 7 days wait, dated 2026-11-01T22:16:41Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -699,7 +699,7 @@
     },
     {
       "allowedVersions": "/^(0\\.13\\.10|0\\.13\\.9|0\\.13\\.8|0\\.13\\.7|0\\.13\\.6|0\\.13\\.5|0\\.13\\.4|0\\.13\\.3|0\\.13\\.2|0\\.13\\.1|0\\.13\\.0|0\\.12\\.5|0\\.12\\.4|0\\.12\\.3|0\\.12\\.2|0\\.12\\.1|0\\.12\\.0|0\\.11\\.32|0\\.11\\.31|0\\.11\\.30|0\\.11\\.29|0\\.11\\.28|0\\.11\\.27|0\\.11\\.26|0\\.11\\.25|0\\.11\\.24|0\\.11\\.23|0\\.11\\.22|0\\.11\\.21|0\\.11\\.20|0\\.11\\.19|0\\.11\\.18|0\\.11\\.17|0\\.11\\.16|0\\.11\\.15|0\\.11\\.14|0\\.11\\.13|0\\.11\\.12|0\\.11\\.11|0\\.11\\.10|0\\.11\\.9|0\\.11\\.8|0\\.11\\.7|0\\.11\\.6|0\\.11\\.5|0\\.11\\.4|0\\.11\\.3|0\\.11\\.2|0\\.11\\.1|0\\.11\\.0)$/",
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-logs-single tags built at least 7 days ago, dated 2026-11-01T18:03:38Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-logs-single tags built at least 7 days ago, dated 2026-11-01T22:16:42Z",
       "matchDatasources": [
         "docker"
       ],
@@ -708,7 +708,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-logs-single rebuilds younger than 7 days wait, dated 2026-11-01T18:03:38Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-logs-single rebuilds younger than 7 days wait, dated 2026-11-01T22:16:42Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -728,7 +728,7 @@
     },
     {
       "allowedVersions": "/^(0\\.96\\.1|0\\.96\\.0|0\\.95\\.2|0\\.95\\.1|0\\.95\\.0|0\\.94\\.0|0\\.93\\.0|0\\.92\\.1|0\\.92\\.0|0\\.91\\.2|0\\.91\\.1|0\\.91\\.0|0\\.90\\.2|0\\.90\\.1|0\\.90\\.0|0\\.89\\.0|0\\.88\\.0|0\\.87\\.0|0\\.86\\.2|0\\.86\\.1|0\\.86\\.0|0\\.85\\.10|0\\.85\\.9|0\\.85\\.8|0\\.85\\.7|0\\.85\\.6|0\\.85\\.5|0\\.85\\.4|0\\.85\\.3|0\\.85\\.2|0\\.85\\.1|0\\.85\\.0|0\\.84\\.0|0\\.83\\.0|0\\.82\\.0|0\\.81\\.0|0\\.80\\.0|0\\.79\\.1|0\\.79\\.0|0\\.78\\.0|0\\.77\\.0|0\\.76\\.0|0\\.75\\.0|0\\.74\\.1|0\\.74\\.0|0\\.73\\.0|0\\.72\\.6|0\\.72\\.5|0\\.72\\.4|0\\.72\\.3)$/",
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack tags built at least 7 days ago, dated 2026-11-01T18:03:40Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack tags built at least 7 days ago, dated 2026-11-01T22:16:44Z",
       "matchDatasources": [
         "docker"
       ],
@@ -737,7 +737,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack rebuilds younger than 7 days wait, dated 2026-11-01T18:03:40Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack rebuilds younger than 7 days wait, dated 2026-11-01T22:16:44Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -757,7 +757,7 @@
     },
     {
       "allowedVersions": "/^(0\\.68\\.1|0\\.68\\.0|0\\.67\\.3|0\\.67\\.2|0\\.67\\.1|0\\.67\\.0|0\\.66\\.3|0\\.66\\.2|0\\.66\\.1|0\\.66\\.0|0\\.65\\.1|0\\.65\\.0|0\\.64\\.1|0\\.63\\.1|0\\.63\\.0|0\\.62\\.1|0\\.62\\.0|0\\.61\\.1|0\\.61\\.0|0\\.60\\.0|0\\.59\\.5|0\\.59\\.4|0\\.59\\.3|0\\.59\\.2|0\\.59\\.1|0\\.59\\.0|0\\.58\\.1|0\\.58\\.0|0\\.57\\.1|0\\.57\\.0|0\\.56\\.4|0\\.56\\.3|0\\.56\\.2|0\\.56\\.1|0\\.56\\.0|0\\.55\\.3|0\\.55\\.2|0\\.55\\.1|0\\.55\\.0|0\\.54\\.1|0\\.54\\.0|0\\.53\\.0|0\\.52\\.1|0\\.52\\.0|0\\.51\\.4|0\\.51\\.3|0\\.51\\.2|0\\.51\\.1|0\\.51\\.0|0\\.50\\.3)$/",
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator tags built at least 7 days ago, dated 2026-11-01T18:03:42Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator tags built at least 7 days ago, dated 2026-11-01T22:16:46Z",
       "matchDatasources": [
         "docker"
       ],
@@ -766,7 +766,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator rebuilds younger than 7 days wait, dated 2026-11-01T18:03:42Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator rebuilds younger than 7 days wait, dated 2026-11-01T22:16:46Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -786,7 +786,7 @@
     },
     {
       "allowedVersions": "/^(0\\.1\\.11|0\\.1\\.10|0\\.1\\.9|0\\.1\\.8|0\\.1\\.7|0\\.1\\.6|0\\.1\\.5|0\\.1\\.4|0\\.1\\.3|0\\.1\\.2|0\\.1\\.1|0\\.1\\.0|0\\.0\\.9|0\\.0\\.8|0\\.0\\.7|0\\.0\\.6|0\\.0\\.5|0\\.0\\.4|0\\.0\\.3|0\\.0\\.2|0\\.0\\.1)$/",
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-traces-single tags built at least 7 days ago, dated 2026-11-01T18:03:43Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-traces-single tags built at least 7 days ago, dated 2026-11-01T22:16:47Z",
       "matchDatasources": [
         "docker"
       ],
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-traces-single rebuilds younger than 7 days wait, dated 2026-11-01T18:03:43Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-traces-single rebuilds younger than 7 days wait, dated 2026-11-01T22:16:47Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -815,7 +815,7 @@
     },
     {
       "allowedVersions": "/^(v1\\.9\\.0|latest|1\\.9\\.0)$/",
-      "description": "image-age: ghcr.io/victoriametrics/mcp-victorialogs tags built at least 7 days ago, dated 2026-11-01T18:03:43Z",
+      "description": "image-age: ghcr.io/victoriametrics/mcp-victorialogs tags built at least 7 days ago, dated 2026-11-01T22:16:47Z",
       "matchDatasources": [
         "docker"
       ],
@@ -824,7 +824,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/mcp-victorialogs rebuilds younger than 7 days wait, dated 2026-11-01T18:03:43Z",
+      "description": "image-age: ghcr.io/victoriametrics/mcp-victorialogs rebuilds younger than 7 days wait, dated 2026-11-01T22:16:47Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -844,7 +844,7 @@
     },
     {
       "allowedVersions": "/^(v1\\.20\\.2|1\\.20\\.2|latest|v1\\.20\\.1|1\\.20\\.1|v1\\.20\\.0|1\\.20\\.0|v1\\.19\\.0|1\\.19\\.0)$/",
-      "description": "image-age: ghcr.io/victoriametrics/mcp-victoriametrics tags built at least 7 days ago, dated 2026-11-01T18:03:44Z",
+      "description": "image-age: ghcr.io/victoriametrics/mcp-victoriametrics tags built at least 7 days ago, dated 2026-11-01T22:16:48Z",
       "matchDatasources": [
         "docker"
       ],
@@ -853,7 +853,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/mcp-victoriametrics rebuilds younger than 7 days wait, dated 2026-11-01T18:03:44Z",
+      "description": "image-age: ghcr.io/victoriametrics/mcp-victoriametrics rebuilds younger than 7 days wait, dated 2026-11-01T22:16:48Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -873,7 +873,7 @@
     },
     {
       "allowedVersions": "/^(2\\.2\\.3-debian12|2\\.2\\.3-bookworm|3\\.0\\.10-ubuntu|3\\.0\\.10-ubuntu26\\.04|3\\.0\\.10-resolute|2\\.2\\.3-trixie|4\\.0\\.7-alpine3\\.22|2\\.2\\.3-debian|2\\.2\\.3|2\\.2\\.3-debian13|3\\.0\\.10-ubuntu24\\.04|3\\.0\\.10-noble|3\\.0\\.10-ubuntu22\\.04|3\\.0\\.10-jammy|4\\.0\\.7-alpine|4\\.0\\.7-alpine3\\.23|4\\.0\\.7-alpine3\\.21|3\\.0\\.9-ubuntu26\\.04|3\\.0\\.9-resolute|3\\.0\\.9-ubuntu|2\\.2\\.2-debian|2\\.2\\.2-debian13|2\\.2\\.2-trixie|2\\.2\\.2|3\\.0\\.9-ubuntu24\\.04|3\\.0\\.9-noble|2\\.2\\.2-debian12|2\\.2\\.2-bookworm|4\\.0\\.6-alpine|4\\.0\\.6-alpine3\\.23|4\\.0\\.6-alpine3\\.21|4\\.0\\.6-alpine3\\.22|3\\.0\\.9-ubuntu22\\.04|3\\.0\\.9-jammy|4\\.0\\.5-alpine3\\.22|3\\.0\\.8-ubuntu26\\.04|3\\.0\\.8-resolute|3\\.0\\.8-ubuntu|2\\.2\\.1-debian13|2\\.2\\.1-trixie|2\\.2\\.1|2\\.2\\.1-debian|3\\.0\\.8-noble|3\\.0\\.8-ubuntu24\\.04|3\\.0\\.8-jammy|3\\.0\\.8-ubuntu22\\.04|2\\.2\\.1-debian12|2\\.2\\.1-bookworm|4\\.0\\.5-alpine|4\\.0\\.5-alpine3\\.23)$/",
-      "description": "image-age: mcr.microsoft.com/devcontainers/base tags built at least 7 days ago, dated 2026-11-01T18:03:44Z",
+      "description": "image-age: mcr.microsoft.com/devcontainers/base tags built at least 7 days ago, dated 2026-11-01T22:16:48Z",
       "matchDatasources": [
         "docker"
       ],
@@ -882,7 +882,7 @@
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/devcontainers/base rebuilds younger than 7 days wait, dated 2026-11-01T18:03:44Z",
+      "description": "image-age: mcr.microsoft.com/devcontainers/base rebuilds younger than 7 days wait, dated 2026-11-01T22:16:48Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -901,8 +901,8 @@
       ]
     },
     {
-      "allowedVersions": "/^(11\\.0\\.0-rc\\.2-resolute|11\\.0\\.0-rc\\.2-resolute-arm64v8|10\\.0\\.13-resolute-arm64v8|11\\.0\\.0-rc\\.2-resolute-amd64|11\\.0\\.0-rc\\.2|11\\.0\\.0-rc\\.2-resolute-arm32v7|10\\.0\\.13-resolute|10\\.0\\.13-resolute-amd64|10\\.0\\.13-resolute-arm32v7|10\\.0\\.13-nanoserver-ltsc2022|10\\.0\\.13-windowsservercore-ltsc2022|11\\.0\\.0-rc\\.2-azurelinux4\\.0-amd64|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-composite-amd64|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-composite-extra-amd64|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-arm64v8|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-composite-arm64v8|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-extra-arm64v8|11\\.0\\.0-rc\\.2-azurelinux4\\.0|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-amd64|11\\.0\\.0-rc\\.2-azurelinux4\\.0-arm64v8|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-extra-amd64|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-composite|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-composite-extra-arm64v8|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-extra|11\\.0\\.0-rc\\.2-azurelinux4\\.0-distroless-composite-extra|9\\.0\\.21-azurelinux3\\.0-distroless-composite-extra-arm64v8|10\\.0\\.13-azurelinux3\\.0-distroless-amd64|10\\.0\\.13-azurelinux3\\.0-distroless-composite|11\\.0\\.0-rc\\.2-azurelinux3\\.0-distroless-composite-amd64|11\\.0\\.0-rc\\.2-azurelinux3\\.0-distroless-extra|9\\.0\\.21-azurelinux3\\.0-distroless-composite-extra-amd64|11\\.0\\.0-rc\\.2-azurelinux3\\.0-amd64|10\\.0\\.13-azurelinux3\\.0-arm64v8|8\\.0\\.32-azurelinux3\\.0-distroless-extra-amd64|8\\.0\\.32-azurelinux3\\.0|10\\.0\\.13-azurelinux3\\.0-distroless-composite-extra-arm64v8|9\\.0\\.21-azurelinux3\\.0-distroless|11\\.0\\.0-rc\\.2-azurelinux3\\.0-distroless-composite-extra-amd64|9\\.0\\.21-azurelinux3\\.0-distroless-composite-extra|9\\.0\\.21-azurelinux3\\.0-distroless-composite-arm64v8|11\\.0\\.0-rc\\.2-azurelinux3\\.0-distroless-extra-amd64|10\\.0\\.13-azurelinux3\\.0-distroless|10\\.0\\.13-azurelinux3\\.0-distroless-composite-extra|10\\.0\\.13-azurelinux3\\.0-distroless-composite-arm64v8|9\\.0\\.21-azurelinux3\\.0-distroless-extra-arm64v8|8\\.0\\.32-azurelinux3\\.0-distroless-extra-arm64v8|8\\.0\\.32-azurelinux3\\.0-amd64|9\\.0\\.21-azurelinux3\\.0-distroless-arm64v8|9\\.0\\.21-azurelinux3\\.0-distroless-extra-amd64|10\\.0\\.13-noble-chiseled)$/",
-      "description": "image-age: mcr.microsoft.com/dotnet/aspnet tags built at least 7 days ago, dated 2026-11-01T18:03:46Z",
+      "allowedVersions": "/^(8\\.0\\.33-jammy-chiseled-composite|8\\.0\\.33-jammy-chiseled-extra|9\\.0\\.22-alpine3\\.24-extra|8\\.0\\.33-jammy-chiseled|9\\.0\\.22-alpine3\\.24-composite|9\\.0-noble-chiseled|10\\.0-alpine-extra|8\\.0-noble-chiseled-extra|11\\.0\\.0-rc\\.3-resolute-chiseled-extra|8\\.0-jammy-chiseled|9\\.0-alpine3\\.24-composite|8\\.0-jammy-chiseled-composite-extra|8\\.0\\.33-noble-chiseled-composite|9\\.0-noble-chiseled-extra|9\\.0-alpine3\\.24|11\\.0-resolute-chiseled-composite|9\\.0\\.22-noble-chiseled-composite|9\\.0\\.22-alpine3\\.24|9\\.0-noble-chiseled-composite-extra|8\\.0-alpine3\\.24-extra|11\\.0-resolute-chiseled|10\\.0\\.14-noble-chiseled-composite|8\\.0-noble-chiseled-composite|11\\.0-resolute-chiseled-extra|9\\.0\\.22-alpine3\\.24-composite-extra|10\\.0-noble-chiseled-composite|10\\.0\\.14-resolute-chiseled-extra|10\\.0-noble-chiseled-composite-extra|9\\.0-alpine-extra|8\\.0-noble-chiseled-composite-extra|8\\.0\\.33-noble-chiseled|9\\.0-alpine|8\\.0\\.33-noble-chiseled-composite-extra|8\\.0-alpine|10\\.0-resolute-chiseled-extra|8\\.0\\.33-jammy-chiseled-composite-extra|9\\.0-noble-chiseled-composite|11\\.0\\.0-rc\\.3-resolute-chiseled-composite|11\\.0\\.0-rc\\.3-resolute-chiseled|9\\.0\\.22-noble-chiseled|10\\.0-noble-chiseled|10\\.0\\.14-noble-chiseled-extra|8\\.0-jammy-chiseled-extra|8\\.0-noble-chiseled|8\\.0-alpine3\\.24|8\\.0-jammy-chiseled-composite|10\\.0-noble-chiseled-extra|8\\.0\\.33-noble-chiseled-extra|9\\.0-alpine3\\.24-extra|8\\.0-alpine3\\.24-composite-extra|10\\.0\\.13-noble-chiseled)$/",
+      "description": "image-age: mcr.microsoft.com/dotnet/aspnet tags built at least 7 days ago, dated 2026-11-01T22:16:49Z",
       "matchDatasources": [
         "docker"
       ],
@@ -911,13 +911,13 @@
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/dotnet/aspnet rebuilds younger than 7 days wait, dated 2026-11-01T18:03:46Z",
+      "description": "image-age: mcr.microsoft.com/dotnet/aspnet rebuilds younger than 7 days wait, dated 2026-11-01T22:16:49Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchJsonata": [
-        "($m := {\"10.0.13-azurelinux3.0-arm64v8\":\"sha256:79c897c66338feda9d71b37cf4b08d2176e756f0c5cc15a04ac9da18fd212294\",\"10.0.13-azurelinux3.0-distroless\":\"sha256:fa26a8a53d81c3a2aab53fe5d92d88e2569175d5718f56224b0543a008be1e69\",\"10.0.13-azurelinux3.0-distroless-amd64\":\"sha256:d83e6a263d33294d9eec336cb9657c2c52729e38cb35fc4b5f6bacc3f1ec964a\",\"10.0.13-azurelinux3.0-distroless-composite\":\"sha256:f7fffaf0e6463174162bfff04187c370f1cde492162ff85fe539134c40045a79\",\"10.0.13-azurelinux3.0-distroless-composite-arm64v8\":\"sha256:461eadc4158968ad9d78f2d0d92e6463fd2dc69df53c85b6d955bdd25ac57d84\",\"10.0.13-azurelinux3.0-distroless-composite-extra\":\"sha256:45a8006e8c49cd274ae678ef7c99f088356212fe82553e92697250e4a55c4916\",\"10.0.13-azurelinux3.0-distroless-composite-extra-arm64v8\":\"sha256:9bd0a88725e7d3bfe32ca971ee6bf245b72be638eef0828ab0b535d2ef4bd5e9\",\"10.0.13-nanoserver-ltsc2022\":\"sha256:f3ee42069323513f30b0593e7ad6c8f54f38f1d70299ece7f6aa2613b597b8d1\",\"10.0.13-noble-chiseled\":\"sha256:5165aeeb688df15e869a56a7584bb94bf16a14e0b3ba77b49fcdbe350f6b8020\",\"10.0.13-resolute\":\"sha256:2d17ca29ae95621a8a47f3581c027b71192a89b6a9a5b22cbfc8a3d10de1f4be\",\"10.0.13-resolute-amd64\":\"sha256:4ee8a281982096077a58ad8ec4cafde8d66c7d57bd9c955d8eef4b64841d419f\",\"10.0.13-resolute-arm32v7\":\"sha256:c268da3f2626759276ddaaa9e9ccc3532a45c184ba6e7148eb6043dcd274a5ed\",\"10.0.13-resolute-arm64v8\":\"sha256:b66d9d299c089db4e35a7417182edee96eb28165e01ca925a6f8c340cc67b9c8\",\"10.0.13-windowsservercore-ltsc2022\":\"sha256:92abd7300ac7beb5fb49349f428c9c4490436414d4fa66d2a35b4fca6fbb5c2c\",\"11.0.0-rc.2\":\"sha256:9a52cade70623cb66cad79baeea5ae9995b42b38d169ccc2a95b4f6b041e9874\",\"11.0.0-rc.2-azurelinux3.0-amd64\":\"sha256:bd3121a7e593e0da1c115c9da207ecad6d1d17e42dd8f858a6d199398d7ddb09\",\"11.0.0-rc.2-azurelinux3.0-distroless-composite-amd64\":\"sha256:5955a15d6186aaa1d451dd0ede8a3cb860b4608dc46655edf65afe3580444fc9\",\"11.0.0-rc.2-azurelinux3.0-distroless-composite-extra-amd64\":\"sha256:1441f3eb344367810da4cba87ee893c07d0313d6fe5efdc7a7797d7e1b82dbc8\",\"11.0.0-rc.2-azurelinux3.0-distroless-extra\":\"sha256:9e543b2f992b07fdc87732e7f80661fd2e44b2867f4abcb55ba304a74e6dbc17\",\"11.0.0-rc.2-azurelinux3.0-distroless-extra-amd64\":\"sha256:6607b989514eabf8b2c93e148c672a7e4b8701652cf2139fcc5ea5f14f21855e\",\"11.0.0-rc.2-azurelinux4.0\":\"sha256:78eae6ab6097222a4274b877c4d500ee6139d29e712a22bc868998ca51c2a741\",\"11.0.0-rc.2-azurelinux4.0-amd64\":\"sha256:f9d498da243e53dbe8500eb1e66c0fba2d2420ec01dd7989865f2ddbe2d273bf\",\"11.0.0-rc.2-azurelinux4.0-arm64v8\":\"sha256:71523faa1f2d8d424c67c3e75d2bb2eacb20a3e6a5daaab378734dcb3e5b14dc\",\"11.0.0-rc.2-azurelinux4.0-distroless\":\"sha256:29164fa130095f71810c3f11c0292a9727ee4d3a3b093230a1d6cd13ac32e7cf\",\"11.0.0-rc.2-azurelinux4.0-distroless-amd64\":\"sha256:8be9596396e0d464ee995404f2c1020b617d3f272c24d3e594974876e838b0ad\",\"11.0.0-rc.2-azurelinux4.0-distroless-arm64v8\":\"sha256:bac04549440aced1a331ce6a6967caa6b960c96908ac8ef3309a6bef4dc7729c\",\"11.0.0-rc.2-azurelinux4.0-distroless-composite\":\"sha256:737eeead4466cca1163de0ccb82eb60fae130594ae2bb0961c0ff81cbdb927b3\",\"11.0.0-rc.2-azurelinux4.0-distroless-composite-amd64\":\"sha256:a78904bbcc6bf7f7f2311e3ef7dd8ab275a596642c61034545150ff50ab7a401\",\"11.0.0-rc.2-azurelinux4.0-distroless-composite-arm64v8\":\"sha256:79874e8b3020d6787963f2c42ca0d56afb752690250d7ef2fb890b59b3d58259\",\"11.0.0-rc.2-azurelinux4.0-distroless-composite-extra\":\"sha256:cfa8cc2a174fff52276562733df1e1c69ca27cf5974a6ad46e137b540ee80676\",\"11.0.0-rc.2-azurelinux4.0-distroless-composite-extra-amd64\":\"sha256:b673b0818ad6339dfbeddca3aa15f728a1c2f80743a92349cf21832e5d87d403\",\"11.0.0-rc.2-azurelinux4.0-distroless-composite-extra-arm64v8\":\"sha256:8a95a8d5bd5fb6f1b47018b8baf37d6e9d4d419289e3b096e2d93106d57be20a\",\"11.0.0-rc.2-azurelinux4.0-distroless-extra\":\"sha256:9c17f115e73a8f1e58011bab177cc470de4b842e71d61aa45fa841ee35ee34b2\",\"11.0.0-rc.2-azurelinux4.0-distroless-extra-amd64\":\"sha256:f15d76ba3c330af8eeeb76dd459366d7559110227d76def25390edabe7ec0c36\",\"11.0.0-rc.2-azurelinux4.0-distroless-extra-arm64v8\":\"sha256:f7d4a2c450e4e85012d8d60645fa737324962d1abb92a2bb64ade0c89b17f22b\",\"11.0.0-rc.2-resolute\":\"sha256:9a52cade70623cb66cad79baeea5ae9995b42b38d169ccc2a95b4f6b041e9874\",\"11.0.0-rc.2-resolute-amd64\":\"sha256:5c0cb03079928f2790d46cb09e8c1d9c851cd95da4417655d04d587b8532286c\",\"11.0.0-rc.2-resolute-arm32v7\":\"sha256:144d02508ee8133bee0dd5dacd1837f93d758d651ea1a7fd44fe0a4d98b5bca7\",\"11.0.0-rc.2-resolute-arm64v8\":\"sha256:455f7c1a531965f1ffbbc24ed40fbba7ad0ec2085f8c0e48bb8752b9310b4298\",\"8.0.32-azurelinux3.0\":\"sha256:23a21b5975d5233a3d32b612e9b983cfdb98c2ca6a8b0e3de040736bab2379a9\",\"8.0.32-azurelinux3.0-amd64\":\"sha256:71661ca6b6b7ba99278476df3b0d2f31a1b76641d21f5799ac693ba2d342e66f\",\"8.0.32-azurelinux3.0-distroless-extra-amd64\":\"sha256:d903e36aa647a26877712925e45443e927f911ca91caf92c619cd8af2315f27e\",\"8.0.32-azurelinux3.0-distroless-extra-arm64v8\":\"sha256:d901e96b916ef30d17362aa85f612eac31aa5bffde939e62f96c1157caa5a9cc\",\"9.0.21-azurelinux3.0-distroless\":\"sha256:57ba034fd207357fb9326e834bef0d7a9cbd8ead1d7917ec9524efee0718a7b1\",\"9.0.21-azurelinux3.0-distroless-arm64v8\":\"sha256:7507cc9abbea0aa7766df2ea31d4cf6c04220d4d051ea23cdb91d92e6ceb6d74\",\"9.0.21-azurelinux3.0-distroless-composite-arm64v8\":\"sha256:ee5d7e1b0520dbf6ff225e22e7114fa023c7a1b7f86e7a8e3932f365001c111f\",\"9.0.21-azurelinux3.0-distroless-composite-extra\":\"sha256:b0878c93662cfadae883db7eff3d3cb17e8a6f106c20262f2b81a623539c877d\",\"9.0.21-azurelinux3.0-distroless-composite-extra-amd64\":\"sha256:18878893c540884676a4cbdd2bb51ab021a63a2b91672c726bbd9bbe4fa51455\",\"9.0.21-azurelinux3.0-distroless-composite-extra-arm64v8\":\"sha256:050c07137c0155620a5c6adff4bd4c7fded3af97cb4cdee309230b81acd91ba7\",\"9.0.21-azurelinux3.0-distroless-extra-amd64\":\"sha256:404666417461ba490bf6bfa8500c707dbf7208db3f7bb1873d5206126d70a4f1\",\"9.0.21-azurelinux3.0-distroless-extra-arm64v8\":\"sha256:e0d961402c61c1918ff408971ed66c4c3cd75a13eef79e20185754bcf667305d\"}; $exists(newDigest) and ($exists($lookup($m, newValue)) ? $lookup($m, newValue) != newDigest : true))"
+        "($m := {\"10.0-alpine-extra\":\"sha256:78bec9181ad577eff1f78e738d19603ece6f3170819c7f268eae6a7566c9f600\",\"10.0-noble-chiseled\":\"sha256:c89a6a61f494f20a5ae302990e814627a8d91b332fd4a8e7c1707c2d4da9555d\",\"10.0-noble-chiseled-composite\":\"sha256:6055b3b318a59d639894ce896f5c7c309b4b826930c4ac539dbded9e750b1fdf\",\"10.0-noble-chiseled-composite-extra\":\"sha256:aeaaa54f4ac7b39d0cca0a843191c729544b3ea2ed233df18f778b5960b15b82\",\"10.0-noble-chiseled-extra\":\"sha256:9b755ea799ae649141a073e30d8b62d8095a5465af2b7694d17866e8c05131d8\",\"10.0-resolute-chiseled-extra\":\"sha256:41db8302b4b08401ccf2bf139b02b37460da8872179d793899782ec0ef90933a\",\"10.0.13-noble-chiseled\":\"sha256:5165aeeb688df15e869a56a7584bb94bf16a14e0b3ba77b49fcdbe350f6b8020\",\"10.0.14-noble-chiseled-composite\":\"sha256:6055b3b318a59d639894ce896f5c7c309b4b826930c4ac539dbded9e750b1fdf\",\"10.0.14-noble-chiseled-extra\":\"sha256:9b755ea799ae649141a073e30d8b62d8095a5465af2b7694d17866e8c05131d8\",\"10.0.14-resolute-chiseled-extra\":\"sha256:41db8302b4b08401ccf2bf139b02b37460da8872179d793899782ec0ef90933a\",\"11.0-resolute-chiseled\":\"sha256:1431d55bf5bd5708450c10664f3d4c4603d7e60cc059e64397787de3978f3e8c\",\"11.0-resolute-chiseled-composite\":\"sha256:e04767d14792e51074c80b2e413e356255fb8c820c510a530b85562fc05b4df7\",\"11.0-resolute-chiseled-extra\":\"sha256:4a02e6f650d442ef3acf66932e74a2f63f3585b44e1990c3c8edd2c010298ff0\",\"11.0.0-rc.3-resolute-chiseled\":\"sha256:1431d55bf5bd5708450c10664f3d4c4603d7e60cc059e64397787de3978f3e8c\",\"11.0.0-rc.3-resolute-chiseled-composite\":\"sha256:e04767d14792e51074c80b2e413e356255fb8c820c510a530b85562fc05b4df7\",\"11.0.0-rc.3-resolute-chiseled-extra\":\"sha256:4a02e6f650d442ef3acf66932e74a2f63f3585b44e1990c3c8edd2c010298ff0\",\"8.0-alpine\":\"sha256:fc9d161eefc515dd65749a45189ac9691cf9954a044fef23ac278e039c6e2ac4\",\"8.0-alpine3.24\":\"sha256:fc9d161eefc515dd65749a45189ac9691cf9954a044fef23ac278e039c6e2ac4\",\"8.0-alpine3.24-composite-extra\":\"sha256:feb214742d304d646148b895a4baab811cbda20b6dc95b7b4f06aaeccb07da85\",\"8.0-alpine3.24-extra\":\"sha256:c4ffeafa8138a201e633a9a143c55ef2e21c5b00e209765682ddd52eca8657c4\",\"8.0-jammy-chiseled\":\"sha256:432c7a5f21791ed00cb4dddc9dd943c18500b1d262ead2dc079d41319b24b70a\",\"8.0-jammy-chiseled-composite\":\"sha256:3c9e90355c9f28d65b5ee5707f1785223233e4288494274f97b0d95fee309fdc\",\"8.0-jammy-chiseled-composite-extra\":\"sha256:15a0b1cbca4449128fe3a2598379c125de79a255837508fb6e98f9781858184b\",\"8.0-jammy-chiseled-extra\":\"sha256:7a6bf765edb270c1b1443d09a76f247948e1a019b1756ebf746bb3898eaed21d\",\"8.0-noble-chiseled\":\"sha256:9bb8b956224caa1091f7bc93e490c8b14a0d3ba32ec19c2b714c344579aa294c\",\"8.0-noble-chiseled-composite\":\"sha256:78be429abe095eb6aecd778cacfb3da94b746c57dd71f1b5b9235f195b9e891a\",\"8.0-noble-chiseled-composite-extra\":\"sha256:2ce9bac3ef8ea351738932eaaf4c9496c89835e2a662ee4e5be5f541dea63b8d\",\"8.0-noble-chiseled-extra\":\"sha256:59b9ca55ad10177ebc51680ebae0872d03f92ef7c8fa731991bfe1e26f688a02\",\"8.0.33-jammy-chiseled\":\"sha256:432c7a5f21791ed00cb4dddc9dd943c18500b1d262ead2dc079d41319b24b70a\",\"8.0.33-jammy-chiseled-composite\":\"sha256:3c9e90355c9f28d65b5ee5707f1785223233e4288494274f97b0d95fee309fdc\",\"8.0.33-jammy-chiseled-composite-extra\":\"sha256:15a0b1cbca4449128fe3a2598379c125de79a255837508fb6e98f9781858184b\",\"8.0.33-jammy-chiseled-extra\":\"sha256:7a6bf765edb270c1b1443d09a76f247948e1a019b1756ebf746bb3898eaed21d\",\"8.0.33-noble-chiseled\":\"sha256:9bb8b956224caa1091f7bc93e490c8b14a0d3ba32ec19c2b714c344579aa294c\",\"8.0.33-noble-chiseled-composite\":\"sha256:78be429abe095eb6aecd778cacfb3da94b746c57dd71f1b5b9235f195b9e891a\",\"8.0.33-noble-chiseled-composite-extra\":\"sha256:2ce9bac3ef8ea351738932eaaf4c9496c89835e2a662ee4e5be5f541dea63b8d\",\"8.0.33-noble-chiseled-extra\":\"sha256:59b9ca55ad10177ebc51680ebae0872d03f92ef7c8fa731991bfe1e26f688a02\",\"9.0-alpine\":\"sha256:c8e9a3262af499a08fd3911542af57a35c7a11819ba5db2a0a1658e47417d11b\",\"9.0-alpine-extra\":\"sha256:8a4cd72ad4e48cea0db848ec573f3ae89dbe9e7d962ddb98fe3f291be320551c\",\"9.0-alpine3.24\":\"sha256:c8e9a3262af499a08fd3911542af57a35c7a11819ba5db2a0a1658e47417d11b\",\"9.0-alpine3.24-composite\":\"sha256:ff4dc991f49eb37995cc7fb48e8a23055a4d18902cf534655403ede02093b88e\",\"9.0-alpine3.24-extra\":\"sha256:8a4cd72ad4e48cea0db848ec573f3ae89dbe9e7d962ddb98fe3f291be320551c\",\"9.0-noble-chiseled\":\"sha256:686f9c03a3ebd77e417d68d0a6024f4bf23d8d80014be4ca87c05d2c6e27abb6\",\"9.0-noble-chiseled-composite\":\"sha256:94fecc9121ff1cc383ad83f4db8a96cff82edc964430786b7b3a3b315492ad7b\",\"9.0-noble-chiseled-composite-extra\":\"sha256:1ab07082cd41777616377fc8c994e89ddd93f44dd02547dcd763bfd699b62f81\",\"9.0-noble-chiseled-extra\":\"sha256:a606a886dc72bf03ab16b0484e9655457b1ae5836c5995ceeb42399e6a592a43\",\"9.0.22-alpine3.24\":\"sha256:c8e9a3262af499a08fd3911542af57a35c7a11819ba5db2a0a1658e47417d11b\",\"9.0.22-alpine3.24-composite\":\"sha256:ff4dc991f49eb37995cc7fb48e8a23055a4d18902cf534655403ede02093b88e\",\"9.0.22-alpine3.24-composite-extra\":\"sha256:39eb485dda3c0cdf5a4187180240270c95b4dd803262a807fcfe092e013382ca\",\"9.0.22-alpine3.24-extra\":\"sha256:8a4cd72ad4e48cea0db848ec573f3ae89dbe9e7d962ddb98fe3f291be320551c\",\"9.0.22-noble-chiseled\":\"sha256:686f9c03a3ebd77e417d68d0a6024f4bf23d8d80014be4ca87c05d2c6e27abb6\",\"9.0.22-noble-chiseled-composite\":\"sha256:94fecc9121ff1cc383ad83f4db8a96cff82edc964430786b7b3a3b315492ad7b\"}; $exists(newDigest) and ($exists($lookup($m, newValue)) ? $lookup($m, newValue) != newDigest : true))"
       ],
       "matchPackageNames": [
         "mcr.microsoft.com/dotnet/aspnet"
@@ -930,8 +930,8 @@
       ]
     },
     {
-      "allowedVersions": "/^(10\\.0\\.402-resolute-amd64|10\\.0\\.402-resolute-aot-amd64|10\\.0\\.402-resolute-aot-arm64v8|11\\.0\\.100-rc\\.2-resolute-arm32v7|10\\.0\\.402-resolute-aot|11\\.0\\.100-rc\\.2|10\\.0\\.402-resolute|11\\.0\\.100-rc\\.2-resolute|10\\.0\\.402-resolute-arm32v7|10\\.0\\.402-resolute-arm64v8|11\\.0\\.100-rc\\.2-resolute-amd64|11\\.0\\.100-rc\\.2-resolute-aot-arm64v8|11\\.0\\.100-rc\\.2-aot|11\\.0\\.100-rc\\.2-resolute-aot|11\\.0\\.100-rc\\.2-resolute-aot-amd64|11\\.0\\.100-rc\\.2-resolute-arm64v8|11\\.0\\.100-rc\\.2-azurelinux4\\.0-aot|11\\.0\\.100-rc\\.2-azurelinux4\\.0-aot-arm64v8|11\\.0\\.100-rc\\.2-azurelinux4\\.0-amd64|11\\.0\\.100-rc\\.2-azurelinux4\\.0|11\\.0\\.100-rc\\.2-azurelinux4\\.0-arm64v8|10\\.0\\.402-windowsservercore-ltsc2022|11\\.0\\.100-rc\\.2-azurelinux4\\.0-aot-amd64|10\\.0\\.402-nanoserver-ltsc2022|10\\.0\\.402-azurelinux3\\.0-aot|8\\.0\\.426-azurelinux3\\.0-arm64v8|10\\.0\\.402-azurelinux3\\.0-aot-amd64|8\\.0\\.426-azurelinux3\\.0-amd64|9\\.0\\.319-azurelinux3\\.0-arm64v8|10\\.0\\.402-azurelinux3\\.0-aot-arm64v8|10\\.0\\.402-azurelinux3\\.0-arm64v8|11\\.0\\.100-rc\\.2-azurelinux3\\.0-amd64|9\\.0\\.319-azurelinux3\\.0|11\\.0\\.100-rc\\.2-azurelinux3\\.0|10\\.0\\.402-azurelinux3\\.0|8\\.0\\.426-azurelinux3\\.0|11\\.0\\.100-rc\\.2-azurelinux3\\.0-arm64v8|10\\.0\\.402-azurelinux3\\.0-amd64|9\\.0\\.319-azurelinux3\\.0-amd64|11\\.0\\.100-rc\\.2-azurelinux3\\.0-aot-amd64|11\\.0\\.100-rc\\.2-azurelinux3\\.0-aot-arm64v8|11\\.0\\.100-rc\\.2-azurelinux3\\.0-aot|11\\.0\\.100-rc\\.2-alpine3\\.24-aot-arm64v8|11\\.0\\.100-rc\\.2-alpine3\\.24-arm32v7|10\\.0\\.402-alpine3\\.24-aot-amd64|10\\.0\\.402-alpine3\\.24-arm32v7|10\\.0\\.402-alpine3\\.24|10\\.0\\.402-alpine3\\.24-amd64|11\\.0\\.100-rc\\.2-alpine3\\.24|10\\.0\\.402-alpine3\\.24-arm64v8|10\\.0\\.402-noble)$/",
-      "description": "image-age: mcr.microsoft.com/dotnet/sdk tags built at least 7 days ago, dated 2026-11-01T18:03:47Z",
+      "allowedVersions": "/^(8\\.0-alpine|9\\.0-alpine|11\\.0\\.100-rc\\.3-alpine3\\.24-aot|11\\.0-alpine3\\.24|9\\.0\\.320-alpine3\\.24|11\\.0-alpine|11\\.0-alpine3\\.24-aot|11\\.0\\.100-rc\\.3-alpine3\\.24|10\\.0-alpine-aot|11\\.0-alpine-aot|8\\.0-alpine3\\.24|9\\.0-alpine3\\.24|10\\.0-alpine3\\.24-aot|10\\.0-alpine|10\\.0-alpine3\\.24|10\\.0\\.403-alpine3\\.24-aot|11\\.0-alpine3\\.24-aot-arm64v8|11\\.0\\.100-rc\\.3-alpine3\\.24-arm64v8|11\\.0-alpine3\\.24-arm64v8|10\\.0-alpine-aot-amd64|8\\.0\\.427-alpine3\\.24-amd64|11\\.0-alpine-aot-arm64v8|11\\.0\\.100-rc\\.3-alpine3\\.24-aot-arm64v8|10\\.0-alpine3\\.24-aot-amd64|10\\.0\\.403-alpine3\\.24|10\\.0\\.403-alpine3\\.24-aot-arm64v8|8\\.0\\.427-alpine3\\.24|11\\.0-alpine-aot-amd64|9\\.0\\.320-alpine3\\.24-amd64|11\\.0-alpine3\\.24-aot-amd64|8\\.0-alpine3\\.24-amd64|10\\.0-alpine3\\.24-arm32v7|9\\.0-alpine-arm64v8|11\\.0-alpine-arm64v8|8\\.0-alpine-amd64|10\\.0\\.403-alpine3\\.24-aot-amd64|8\\.0-alpine-arm64v8|8\\.0\\.427-alpine3\\.24-arm32v7|9\\.0-alpine3\\.24-arm32v7|10\\.0-alpine-arm64v8|10\\.0-alpine3\\.24-arm64v8|10\\.0-alpine3\\.24-aot-arm64v8|9\\.0-alpine-arm32v7|8\\.0-alpine-arm32v7|10\\.0\\.403-alpine3\\.24-amd64|11\\.0-alpine-amd64|10\\.0-alpine-aot-arm64v8|10\\.0\\.403-alpine3\\.24-arm32v7|10\\.0-alpine-arm32v7|11\\.0\\.100-rc\\.3-alpine3\\.24-aot-amd64|10\\.0\\.402-noble)$/",
+      "description": "image-age: mcr.microsoft.com/dotnet/sdk tags built at least 7 days ago, dated 2026-11-01T22:16:50Z",
       "matchDatasources": [
         "docker"
       ],
@@ -940,13 +940,13 @@
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/dotnet/sdk rebuilds younger than 7 days wait, dated 2026-11-01T18:03:47Z",
+      "description": "image-age: mcr.microsoft.com/dotnet/sdk rebuilds younger than 7 days wait, dated 2026-11-01T22:16:50Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchJsonata": [
-        "($m := {\"10.0.402-alpine3.24\":\"sha256:496914451b05ac5a24592024362ec370c3a2d3c3fe817f864e4aa55c4c194a56\",\"10.0.402-alpine3.24-amd64\":\"sha256:b47ebbac8b32b15648906217a72c01d43b8003600bd922c838c5416697ae5043\",\"10.0.402-alpine3.24-aot-amd64\":\"sha256:3eb9d579f4298aa9067aeb63795dbd3d740fb3925d94c83538972854a9045907\",\"10.0.402-alpine3.24-arm32v7\":\"sha256:83f2f62916ab3bd2803ae77d8d30e6568a2ddacf3bc4eb4e50be91c3cffb2af0\",\"10.0.402-alpine3.24-arm64v8\":\"sha256:e3d6799019a34063e7f85262ae13bb3313e99a056a0630bdff3b8ce79eb9de23\",\"10.0.402-azurelinux3.0\":\"sha256:09b8d78b079ff2237dbb56aa3ee70db2747ce23da2a6b5b095a7e16b8bf20d29\",\"10.0.402-azurelinux3.0-amd64\":\"sha256:9f056d0da75d73ea93bba7f0d269852e9a2be945bb34739d7280eb2f31b77980\",\"10.0.402-azurelinux3.0-aot\":\"sha256:e38398f08f114aa706f103b14894d543587c29142ba98b1d1af77a552f025456\",\"10.0.402-azurelinux3.0-aot-amd64\":\"sha256:b84958c03341f61f083fe079f62d7d3ca6e6a1de3aa976e7ec678aa546926316\",\"10.0.402-azurelinux3.0-aot-arm64v8\":\"sha256:4e0f62791c2a59a9dfe550f12fe8dc2452f69b9845d1f633a7224440b09fde76\",\"10.0.402-azurelinux3.0-arm64v8\":\"sha256:62eebae1bc64e6a59df3c63b09ec19fb2a446fb623e3c17d4e8c64b48defda08\",\"10.0.402-nanoserver-ltsc2022\":\"sha256:ddd01397230f69b0ff0bc944b2a10a8264938a87b84c94b1f5d2cf7d631b25c6\",\"10.0.402-noble\":\"sha256:747cbade5bfd918a175ac32f8f1d931edec2c7d0d5397a3de72eaef1ac1f66d2\",\"10.0.402-resolute\":\"sha256:9b045c06c7b57d3ba40a3f1731c843b8e9d707bce6aee069a7868dd75e3bb99e\",\"10.0.402-resolute-amd64\":\"sha256:d586831fedfd24de3eac9dd0c83f510ee4309d001abefb85f8b0d1edf95774eb\",\"10.0.402-resolute-aot\":\"sha256:ad91033d6817291659f26f0679c988679b153c130f33ee4307ec017a149cd8c3\",\"10.0.402-resolute-aot-amd64\":\"sha256:19c5c0709403f728f0b9c3af083e1fde642d962729f4ca070b84564ba422666b\",\"10.0.402-resolute-aot-arm64v8\":\"sha256:7eb8bc62caadfa54c3c5e6c8cfb9b43cf21ed92e099825418184ccc928cf11fc\",\"10.0.402-resolute-arm32v7\":\"sha256:8708b71a641846379b9fbe101329438daa6673217c5afc97967eb697f6d6a874\",\"10.0.402-resolute-arm64v8\":\"sha256:2a14cf58b96db9c04ee0dc473bb5666b9a94ad12b69c288cbeca5f30e6fa40a5\",\"10.0.402-windowsservercore-ltsc2022\":\"sha256:c8fce7fc19f1e42a4135411c0ef1f70e425d113d22145d2e384eb3856a098a80\",\"11.0.100-rc.2\":\"sha256:db7d1f28c0805ea69fe43f73e54cffd2a0689a0c637a6078328e27c5aab2314a\",\"11.0.100-rc.2-alpine3.24\":\"sha256:39ddcf20d5e20848ddd6e689cfe15d8ad887e2b07a9ddd3e9353d1cd846112a9\",\"11.0.100-rc.2-alpine3.24-aot-arm64v8\":\"sha256:d0541bf6a6c69f28baa6922079e79462f5cc86a937e2cdf9f3f9a95fa3bcb4ae\",\"11.0.100-rc.2-alpine3.24-arm32v7\":\"sha256:d54e28c0a4d5f0d3f03343ca08d04d136b283d7e386947da1a886af04d67e246\",\"11.0.100-rc.2-aot\":\"sha256:b791b8670ee12b3afe3c98b5252398b037f1e9bbc66fc3340a24c3ff383b7cdb\",\"11.0.100-rc.2-azurelinux3.0\":\"sha256:6ff3ff6988f50b461fb2207949906d738fbdb96adcee9bee6cd309e1a2603117\",\"11.0.100-rc.2-azurelinux3.0-amd64\":\"sha256:64616c2633f38de044c98d852541d425c1bf541dc0e605bf7b68f05f732fa117\",\"11.0.100-rc.2-azurelinux3.0-aot\":\"sha256:821cbf6f15e2fdd1b5b0eeb8cb7a4aa1511ebb84d0214c46a91620b3fd2d000f\",\"11.0.100-rc.2-azurelinux3.0-aot-amd64\":\"sha256:7e4d97aeb3e3b1456888ddffb411790053775ae7d4f713fad8d42b39b26288c5\",\"11.0.100-rc.2-azurelinux3.0-aot-arm64v8\":\"sha256:8da0a98e8af118fbd78f1d15eebc57d0e32d4f9946d9947dc67050c3fc6f6a07\",\"11.0.100-rc.2-azurelinux3.0-arm64v8\":\"sha256:85cbc29d239b71c351511c2eb19c715d422998f63930fc2f0b82e82681d57c2b\",\"11.0.100-rc.2-azurelinux4.0\":\"sha256:8890616cb85654f450f112de98d2381612ac469e11656fe50bab7e47abac39e5\",\"11.0.100-rc.2-azurelinux4.0-amd64\":\"sha256:e5a9759d3bf3cd68ad48dbf8a46a3d7f22f9aac554b02c21e6d1350c4cc391c2\",\"11.0.100-rc.2-azurelinux4.0-aot\":\"sha256:ae5a151d7173d2beda218b581dd124abc25237b60bebeab4a7ce070ae1919d9f\",\"11.0.100-rc.2-azurelinux4.0-aot-amd64\":\"sha256:7193b00446e089627ece50e488f0c693d71cb802683afdbe669b137d220898d5\",\"11.0.100-rc.2-azurelinux4.0-aot-arm64v8\":\"sha256:93f384752c46138608793b51df78dbaa66f6371da8b2701a68a3a1cac2e174de\",\"11.0.100-rc.2-azurelinux4.0-arm64v8\":\"sha256:d133f4ac1d28d1663566d6ef81bb65ede6a6d8fed12fcd3f6fdb43fa34755e8a\",\"11.0.100-rc.2-resolute\":\"sha256:db7d1f28c0805ea69fe43f73e54cffd2a0689a0c637a6078328e27c5aab2314a\",\"11.0.100-rc.2-resolute-amd64\":\"sha256:1c852466724cf6a1f0c31935ee3ec386b51f60fab4bd3b016aff7c271cc124ab\",\"11.0.100-rc.2-resolute-aot\":\"sha256:b791b8670ee12b3afe3c98b5252398b037f1e9bbc66fc3340a24c3ff383b7cdb\",\"11.0.100-rc.2-resolute-aot-amd64\":\"sha256:4c6fc4e460be52590d46e093266d3d1d0bb2a729dbd813446ad0909cd267c290\",\"11.0.100-rc.2-resolute-aot-arm64v8\":\"sha256:a153f3030b35dfd646ef9b14ddd1cdab1835b08c2b92ce7021900245e8391715\",\"11.0.100-rc.2-resolute-arm32v7\":\"sha256:84203fc6a6faad19b1a4559a7c588d609962e24a0f872d7cb078d258a502e01d\",\"11.0.100-rc.2-resolute-arm64v8\":\"sha256:44e55ac222e9683b45250b067c2af0a17beea1c64ae265865aa3b8cf099a440a\",\"8.0.426-azurelinux3.0\":\"sha256:3fdb806e48fd7724f8bf4263fb1a7eab465938ce39d8e6792be32e82b7cc5307\",\"8.0.426-azurelinux3.0-amd64\":\"sha256:8a14f9909f25adeceaa855b5861ddd700db8989afe7afdda500c3a1dcf53bc9d\",\"8.0.426-azurelinux3.0-arm64v8\":\"sha256:38478166e7a4aa9a848ffbeb91ecdf73aa676f31cd9bccc7d1be455158c8b98f\",\"9.0.319-azurelinux3.0\":\"sha256:a57657f48b513031b8474e63c616c91076014685b6a245fb82bea926db58703e\",\"9.0.319-azurelinux3.0-amd64\":\"sha256:83811c12e1dfe980e2176c5f46451c92c7b30ec89fbf36c237c9990dd7d3def5\",\"9.0.319-azurelinux3.0-arm64v8\":\"sha256:374da3c2253194741e65b5121e7c4d642aedcd591d3aad897598f2c4e6a01c40\"}; $exists(newDigest) and ($exists($lookup($m, newValue)) ? $lookup($m, newValue) != newDigest : true))"
+        "($m := {\"10.0-alpine\":\"sha256:cc02b814237a76c4735fb6eeee87181597b5e56f2ce458a435e527674d91f4d7\",\"10.0-alpine-aot\":\"sha256:8a339f2175a99aad64cd618450303b8361d565eebbdf8aad95cdf8e6b54ab9d3\",\"10.0-alpine-aot-amd64\":\"sha256:e4d9bb7b378aa20d276eb3df5d217cd825f17e01fb2e8cadb95997e663119aef\",\"10.0-alpine-aot-arm64v8\":\"sha256:45aa4b3ea6daad37bbbc2b6536af102ae999fd377d3b6a5b1d8269b5e2692cb1\",\"10.0-alpine-arm32v7\":\"sha256:745ea789ff7147bf5a1ad39416c947483bd246fa83908f7f412f3d89b73874ff\",\"10.0-alpine-arm64v8\":\"sha256:bf500481e8dac63987f2b1e617938f72a77bcfb9b310a234f39483abf35c9bff\",\"10.0-alpine3.24\":\"sha256:cc02b814237a76c4735fb6eeee87181597b5e56f2ce458a435e527674d91f4d7\",\"10.0-alpine3.24-aot\":\"sha256:8a339f2175a99aad64cd618450303b8361d565eebbdf8aad95cdf8e6b54ab9d3\",\"10.0-alpine3.24-aot-amd64\":\"sha256:e4d9bb7b378aa20d276eb3df5d217cd825f17e01fb2e8cadb95997e663119aef\",\"10.0-alpine3.24-aot-arm64v8\":\"sha256:45aa4b3ea6daad37bbbc2b6536af102ae999fd377d3b6a5b1d8269b5e2692cb1\",\"10.0-alpine3.24-arm32v7\":\"sha256:745ea789ff7147bf5a1ad39416c947483bd246fa83908f7f412f3d89b73874ff\",\"10.0-alpine3.24-arm64v8\":\"sha256:bf500481e8dac63987f2b1e617938f72a77bcfb9b310a234f39483abf35c9bff\",\"10.0.402-noble\":\"sha256:747cbade5bfd918a175ac32f8f1d931edec2c7d0d5397a3de72eaef1ac1f66d2\",\"10.0.403-alpine3.24\":\"sha256:cc02b814237a76c4735fb6eeee87181597b5e56f2ce458a435e527674d91f4d7\",\"10.0.403-alpine3.24-amd64\":\"sha256:60a079c9d3ffc98b2968c3153b995ede679f7d6504e3ae7d2b68225a7fd84f5a\",\"10.0.403-alpine3.24-aot\":\"sha256:8a339f2175a99aad64cd618450303b8361d565eebbdf8aad95cdf8e6b54ab9d3\",\"10.0.403-alpine3.24-aot-amd64\":\"sha256:e4d9bb7b378aa20d276eb3df5d217cd825f17e01fb2e8cadb95997e663119aef\",\"10.0.403-alpine3.24-aot-arm64v8\":\"sha256:45aa4b3ea6daad37bbbc2b6536af102ae999fd377d3b6a5b1d8269b5e2692cb1\",\"10.0.403-alpine3.24-arm32v7\":\"sha256:745ea789ff7147bf5a1ad39416c947483bd246fa83908f7f412f3d89b73874ff\",\"11.0-alpine\":\"sha256:f2542b156e7c9eda7783e4a5745efa6c133a162a1940fd4175849aa80fccfd23\",\"11.0-alpine-amd64\":\"sha256:931786f627869697eed975360494c2933707585efd1792678b6695ac563522be\",\"11.0-alpine-aot\":\"sha256:e5662d136e388a160bbca53c2c5ba22991d0d37533e2b8d68ace89a4a52d32ca\",\"11.0-alpine-aot-amd64\":\"sha256:04e2446eaa3f42f1181082faf3ac36620a0efac1316431f2731f8d496d48ac82\",\"11.0-alpine-aot-arm64v8\":\"sha256:e465b51e993036a5ac0a1f0a41245b1f807df74ad16cfd9eb2a5756818885e5b\",\"11.0-alpine-arm64v8\":\"sha256:ae58349ff00a0031798c6525c8eb74a66ace4775c399e99d8d288bfb6d6bd026\",\"11.0-alpine3.24\":\"sha256:f2542b156e7c9eda7783e4a5745efa6c133a162a1940fd4175849aa80fccfd23\",\"11.0-alpine3.24-aot\":\"sha256:e5662d136e388a160bbca53c2c5ba22991d0d37533e2b8d68ace89a4a52d32ca\",\"11.0-alpine3.24-aot-amd64\":\"sha256:04e2446eaa3f42f1181082faf3ac36620a0efac1316431f2731f8d496d48ac82\",\"11.0-alpine3.24-aot-arm64v8\":\"sha256:e465b51e993036a5ac0a1f0a41245b1f807df74ad16cfd9eb2a5756818885e5b\",\"11.0-alpine3.24-arm64v8\":\"sha256:ae58349ff00a0031798c6525c8eb74a66ace4775c399e99d8d288bfb6d6bd026\",\"11.0.100-rc.3-alpine3.24\":\"sha256:f2542b156e7c9eda7783e4a5745efa6c133a162a1940fd4175849aa80fccfd23\",\"11.0.100-rc.3-alpine3.24-aot\":\"sha256:e5662d136e388a160bbca53c2c5ba22991d0d37533e2b8d68ace89a4a52d32ca\",\"11.0.100-rc.3-alpine3.24-aot-amd64\":\"sha256:04e2446eaa3f42f1181082faf3ac36620a0efac1316431f2731f8d496d48ac82\",\"11.0.100-rc.3-alpine3.24-aot-arm64v8\":\"sha256:e465b51e993036a5ac0a1f0a41245b1f807df74ad16cfd9eb2a5756818885e5b\",\"11.0.100-rc.3-alpine3.24-arm64v8\":\"sha256:ae58349ff00a0031798c6525c8eb74a66ace4775c399e99d8d288bfb6d6bd026\",\"8.0-alpine\":\"sha256:96a932f1623d70929c769fafcec11d8c538c511e1524491b1af352f0451f6a3f\",\"8.0-alpine-amd64\":\"sha256:9ce04846f5cb9813f4bd816788c6adfa03dd038dfa1cb5d25683fe29014a93a1\",\"8.0-alpine-arm32v7\":\"sha256:d0487b39cabebb00b8620312215df5328883e4db3c583e2d0f52056542eff080\",\"8.0-alpine-arm64v8\":\"sha256:492a53da45ba166040228deffa4ec403d16cfdba2a982c283fbdf55979900872\",\"8.0-alpine3.24\":\"sha256:96a932f1623d70929c769fafcec11d8c538c511e1524491b1af352f0451f6a3f\",\"8.0-alpine3.24-amd64\":\"sha256:9ce04846f5cb9813f4bd816788c6adfa03dd038dfa1cb5d25683fe29014a93a1\",\"8.0.427-alpine3.24\":\"sha256:96a932f1623d70929c769fafcec11d8c538c511e1524491b1af352f0451f6a3f\",\"8.0.427-alpine3.24-amd64\":\"sha256:9ce04846f5cb9813f4bd816788c6adfa03dd038dfa1cb5d25683fe29014a93a1\",\"8.0.427-alpine3.24-arm32v7\":\"sha256:d0487b39cabebb00b8620312215df5328883e4db3c583e2d0f52056542eff080\",\"9.0-alpine\":\"sha256:5c27d494a591387d9613551a2b4f8f54873cfb5469a4d667bfe092a845b0baf0\",\"9.0-alpine-arm32v7\":\"sha256:6bd136ddea9d51bfb7742ec708251df322b3145186f1efed8132db3a0cbad08f\",\"9.0-alpine-arm64v8\":\"sha256:5b000f030962c7ed95675a64f07ed9892b6156603bdacbad760b6cfaab3a69c4\",\"9.0-alpine3.24\":\"sha256:5c27d494a591387d9613551a2b4f8f54873cfb5469a4d667bfe092a845b0baf0\",\"9.0-alpine3.24-arm32v7\":\"sha256:6bd136ddea9d51bfb7742ec708251df322b3145186f1efed8132db3a0cbad08f\",\"9.0.320-alpine3.24\":\"sha256:5c27d494a591387d9613551a2b4f8f54873cfb5469a4d667bfe092a845b0baf0\",\"9.0.320-alpine3.24-amd64\":\"sha256:d85464ea40363b0ab44d32564020651bae8e90197925cb1ee2e08105d9307601\"}; $exists(newDigest) and ($exists($lookup($m, newValue)) ? $lookup($m, newValue) != newDigest : true))"
       ],
       "matchPackageNames": [
         "mcr.microsoft.com/dotnet/sdk"
@@ -960,7 +960,7 @@
     },
     {
       "allowedVersions": "/^(2\\.2\\.362|latest|2\\.2\\.361|2\\.2\\.360|2\\.2\\.359|2\\.2\\.358|2\\.2\\.357|2\\.2\\.356|2\\.2\\.355|2\\.2\\.354|2\\.2\\.353|2\\.2\\.352|2\\.2\\.351|2\\.2\\.350|2\\.2\\.4|2\\.2\\.35|2\\.2\\.34|2\\.2\\.33|2\\.2\\.32|2\\.2\\.31|2\\.2\\.30|2\\.2\\.29|2\\.2\\.28|2\\.2\\.27|2\\.2\\.26|2\\.2\\.25|2\\.2\\.24|2\\.2\\.23|2\\.2\\.22|2\\.2\\.21|2\\.2\\.2|2\\.2\\.1|2\\.2\\.0|2\\.1\\.0|2\\.0\\.3|2\\.0\\.2|2\\.0\\.1|2\\.0\\.0|2\\.0\\.0-rc1|v0\\.3|v2-latest|1\\.11\\.0|1\\.10\\.0|1\\.9\\.0|v0\\.3s|v0\\.2|latest-dev)$/",
-      "description": "image-age: mcr.microsoft.com/presidio-analyzer tags built at least 7 days ago, dated 2026-11-01T18:03:48Z",
+      "description": "image-age: mcr.microsoft.com/presidio-analyzer tags built at least 7 days ago, dated 2026-11-01T22:16:50Z",
       "matchDatasources": [
         "docker"
       ],
@@ -969,7 +969,7 @@
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/presidio-analyzer rebuilds younger than 7 days wait, dated 2026-11-01T18:03:48Z",
+      "description": "image-age: mcr.microsoft.com/presidio-analyzer rebuilds younger than 7 days wait, dated 2026-11-01T22:16:50Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -989,7 +989,7 @@
     },
     {
       "allowedVersions": "/^(latest|2\\.2\\.362|2\\.2\\.361|2\\.2\\.360|2\\.2\\.359|2\\.2\\.358|2\\.2\\.357|2\\.2\\.356|2\\.2\\.355|2\\.2\\.354|2\\.2\\.353|2\\.2\\.352|2\\.2\\.351|2\\.2\\.350|2\\.2\\.4|2\\.2\\.35|2\\.2\\.34|2\\.2\\.33|2\\.2\\.32|2\\.2\\.31|2\\.2\\.30|2\\.2\\.29|2\\.2\\.28|2\\.2\\.27|2\\.2\\.26|2\\.2\\.25|2\\.2\\.24|2\\.2\\.23|2\\.2\\.22|2\\.2\\.21|2\\.2\\.2|2\\.2\\.1|2\\.2\\.0|2\\.1\\.0|2\\.0\\.3|2\\.0\\.2|2\\.0\\.1|2\\.0\\.0|2\\.0\\.0-rc1|v0\\.3|v2-latest|1\\.11\\.0|1\\.10\\.0|1\\.9\\.0|v0\\.3s|v0\\.2|latest-dev)$/",
-      "description": "image-age: mcr.microsoft.com/presidio-anonymizer tags built at least 7 days ago, dated 2026-11-01T18:03:48Z",
+      "description": "image-age: mcr.microsoft.com/presidio-anonymizer tags built at least 7 days ago, dated 2026-11-01T22:16:51Z",
       "matchDatasources": [
         "docker"
       ],
@@ -998,7 +998,7 @@
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/presidio-anonymizer rebuilds younger than 7 days wait, dated 2026-11-01T18:03:48Z",
+      "description": "image-age: mcr.microsoft.com/presidio-anonymizer rebuilds younger than 7 days wait, dated 2026-11-01T22:16:51Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -1018,7 +1018,7 @@
     },
     {
       "allowedVersions": "/^(v21\\.1\\.2-20261009|v21\\.1\\.2|v21\\.1|v19\\.2\\.7-20261009|v19\\.2\\.7|v19\\.2|v19|v21\\.1\\.1-20260924|v21\\.1\\.1|v20\\.2\\.4-20260818|v20\\.2\\.4|v20\\.2|v20|v19\\.2\\.6-20260818|v19\\.2\\.6|v20\\.2\\.3-20260804|v20\\.2\\.3|v21\\.1\\.0-20260717|v21\\.1\\.0|v19\\.2\\.5-20260709|v19\\.2\\.5|reef-bkp-disk-replacement|v20\\.2\\.2-20260616|v20\\.2\\.2|v19\\.2\\.4-20260528|v19\\.2\\.4|v20\\.2\\.1-20260402|v20\\.2\\.1|v18\\.2\\.8-20260313|v18\\.2\\.8|v18\\.2|v18|v20\\.2\\.0-20260312|v20\\.2\\.0-20251104|v20\\.2\\.0|v20\\.1\\.1-20251003|v20\\.1\\.1|v20\\.1|v20\\.1\\.0-20250905|v20\\.1\\.0|v19\\.2\\.3-20250717|v19\\.2\\.3|v18\\.2\\.7-20250507|v18\\.2\\.7|v18\\.2\\.6-20250417|v18\\.2\\.6|v18\\.2\\.5-20250407|v18\\.2\\.5|v19\\.2\\.2-20250409|v19\\.2\\.2)$/",
-      "description": "image-age: quay.io/ceph/ceph tags built at least 7 days ago, dated 2026-11-01T18:03:51Z",
+      "description": "image-age: quay.io/ceph/ceph tags built at least 7 days ago, dated 2026-11-01T22:16:53Z",
       "matchDatasources": [
         "docker"
       ],
@@ -1027,7 +1027,7 @@
       ]
     },
     {
-      "description": "image-age: quay.io/ceph/ceph rebuilds younger than 7 days wait, dated 2026-11-01T18:03:51Z",
+      "description": "image-age: quay.io/ceph/ceph rebuilds younger than 7 days wait, dated 2026-11-01T22:16:53Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -1047,7 +1047,7 @@
     },
     {
       "allowedVersions": "/^(v0\\.15\\.1|v0\\.15\\.0|v0\\.14\\.0|v0\\.13\\.0|v0\\.12\\.0|v0\\.11\\.0|v0\\.10\\.0|v0\\.9\\.1|v0\\.9\\.0|v0\\.8\\.0|v0\\.7\\.0|v0\\.6\\.0|v0\\.5\\.0|v0\\.4\\.0|v0\\.3\\.0|v0\\.2\\.1|v0\\.2\\.0|v0\\.1\\.1|v0\\.1\\.0)$/",
-      "description": "image-age: quay.io/csiaddons/k8s-controller tags built at least 7 days ago, dated 2026-11-01T18:03:51Z",
+      "description": "image-age: quay.io/csiaddons/k8s-controller tags built at least 7 days ago, dated 2026-11-01T22:16:53Z",
       "matchDatasources": [
         "docker"
       ],
@@ -1056,7 +1056,7 @@
       ]
     },
     {
-      "description": "image-age: quay.io/csiaddons/k8s-controller rebuilds younger than 7 days wait, dated 2026-11-01T18:03:51Z",
+      "description": "image-age: quay.io/csiaddons/k8s-controller rebuilds younger than 7 days wait, dated 2026-11-01T22:16:53Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -1076,7 +1076,7 @@
     },
     {
       "allowedVersions": "/^(v0\\.15\\.1|v0\\.15\\.0|v0\\.14\\.0|v0\\.13\\.0|v0\\.12\\.0|v0\\.11\\.0|v0\\.10\\.0|v0\\.9\\.1|v0\\.9\\.0|v0\\.8\\.0|v0\\.7\\.0|v0\\.6\\.0|v0\\.5\\.0|v0\\.4\\.0|v0\\.3\\.0|v0\\.2\\.1|v0\\.2\\.0|v0\\.1\\.1|v0\\.1\\.0)$/",
-      "description": "image-age: quay.io/csiaddons/k8s-sidecar tags built at least 7 days ago, dated 2026-11-01T18:03:52Z",
+      "description": "image-age: quay.io/csiaddons/k8s-sidecar tags built at least 7 days ago, dated 2026-11-01T22:16:54Z",
       "matchDatasources": [
         "docker"
       ],
@@ -1085,7 +1085,7 @@
       ]
     },
     {
-      "description": "image-age: quay.io/csiaddons/k8s-sidecar rebuilds younger than 7 days wait, dated 2026-11-01T18:03:52Z",
+      "description": "image-age: quay.io/csiaddons/k8s-sidecar rebuilds younger than 7 days wait, dated 2026-11-01T22:16:54Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -1104,8 +1104,8 @@
       ]
     },
     {
-      "allowedVersions": "/^(v8\\.7\\.0|v8\\.6\\.0|v8\\.5\\.0|v8\\.4\\.0|v8\\.3\\.0|v8\\.2\\.1|v8\\.1\\.1|v8\\.2\\.0|v8\\.0\\.2|v8\\.1\\.0|v8\\.0\\.1|v8\\.0\\.0|v6\\.3\\.4|v7\\.0\\.2|v7\\.0\\.1|v7\\.0\\.0|v6\\.3\\.3|v6\\.3\\.2|v6\\.3\\.1|v6\\.2\\.3|v6\\.3\\.0|v6\\.2\\.2|v6\\.2\\.1|v6\\.2\\.0|v6\\.1\\.0|v6\\.0\\.1|v4\\.0\\.1|v1\\.2\\.2|v6\\.0\\.0|v1\\.1\\.0|v3\\.0\\.3|v2\\.1\\.4|v2\\.1\\.5|v5\\.0\\.0|v3\\.0\\.2|v3\\.0\\.1|v4\\.1\\.1|v4\\.2\\.0|v5\\.0\\.1|v4\\.2\\.1|v2\\.1\\.3|v4\\.1\\.0|v3\\.0\\.0|v2\\.1\\.2|v1\\.2\\.0|v4\\.0\\.0|v2\\.1\\.1|v2\\.0\\.1|v2\\.1\\.0)$/",
-      "description": "image-age: registry.k8s.io/sig-storage/csi-snapshotter tags built at least 7 days ago, dated 2026-11-01T18:03:53Z",
+      "allowedVersions": "/^(v8\\.7\\.0|v8\\.6\\.0|v8\\.5\\.0|v8\\.4\\.0|v8\\.3\\.0|v8\\.2\\.1|v8\\.1\\.1|v8\\.0\\.2|v8\\.2\\.0|v8\\.1\\.0|v8\\.0\\.1|v8\\.0\\.0|v7\\.0\\.2|v6\\.3\\.4|v7\\.0\\.1|v7\\.0\\.0|v6\\.3\\.3|v6\\.3\\.2|v6\\.3\\.1|v6\\.2\\.3|v6\\.3\\.0|v6\\.2\\.2|v6\\.2\\.1|v6\\.2\\.0|v6\\.1\\.0|v6\\.0\\.1|v2\\.1\\.5|v2\\.1\\.0|v2\\.0\\.1|v2\\.1\\.4|v4\\.1\\.1|v5\\.0\\.1|v3\\.0\\.3|v3\\.0\\.0|v1\\.2\\.0|v4\\.1\\.0|v3\\.0\\.2|v4\\.0\\.1|v3\\.0\\.1|v1\\.2\\.2|v4\\.2\\.1|v6\\.0\\.0|v5\\.0\\.0|v4\\.2\\.0|v1\\.1\\.0|v4\\.0\\.0|v2\\.1\\.3|v2\\.1\\.1|v2\\.1\\.2)$/",
+      "description": "image-age: registry.k8s.io/sig-storage/csi-snapshotter tags built at least 7 days ago, dated 2026-11-01T22:16:55Z",
       "matchDatasources": [
         "docker"
       ],
@@ -1114,7 +1114,7 @@
       ]
     },
     {
-      "description": "image-age: registry.k8s.io/sig-storage/csi-snapshotter rebuilds younger than 7 days wait, dated 2026-11-01T18:03:53Z",
+      "description": "image-age: registry.k8s.io/sig-storage/csi-snapshotter rebuilds younger than 7 days wait, dated 2026-11-01T22:16:55Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -1133,8 +1133,8 @@
       ]
     },
     {
-      "allowedVersions": "/^(v8\\.7\\.0|v8\\.6\\.0|v8\\.5\\.0|v8\\.4\\.0|v8\\.3\\.0|v8\\.2\\.1|v8\\.1\\.1|v8\\.2\\.0|v8\\.0\\.2|v8\\.1\\.0|v8\\.0\\.1|v8\\.0\\.0|v6\\.3\\.4|v7\\.0\\.2|v7\\.0\\.1|v7\\.0\\.0|v6\\.3\\.3|v6\\.3\\.2|v6\\.2\\.3|v6\\.3\\.1|v6\\.3\\.0|v6\\.2\\.2|v6\\.2\\.1|v6\\.2\\.0|v6\\.1\\.0|v5\\.0\\.0|v4\\.0\\.1|v3\\.0\\.1|v2\\.1\\.3|v2\\.1\\.2|v6\\.0\\.0|v3\\.0\\.0|v2\\.1\\.4|v3\\.0\\.2|v5\\.0\\.1|v4\\.1\\.1|v4\\.0\\.0|v4\\.1\\.0|v4\\.2\\.0|v4\\.2\\.1|v3\\.0\\.3|v6\\.0\\.1|v2\\.1\\.1|v2\\.1\\.5)$/",
-      "description": "image-age: registry.k8s.io/sig-storage/snapshot-controller tags built at least 7 days ago, dated 2026-11-01T18:03:53Z",
+      "allowedVersions": "/^(v8\\.7\\.0|v8\\.6\\.0|v8\\.5\\.0|v8\\.4\\.0|v8\\.3\\.0|v8\\.2\\.1|v8\\.1\\.1|v8\\.0\\.2|v8\\.2\\.0|v8\\.1\\.0|v8\\.0\\.1|v8\\.0\\.0|v7\\.0\\.2|v6\\.3\\.4|v7\\.0\\.1|v7\\.0\\.0|v6\\.3\\.3|v6\\.3\\.2|v6\\.2\\.3|v6\\.3\\.1|v6\\.3\\.0|v6\\.2\\.2|v6\\.2\\.1|v6\\.2\\.0|v6\\.1\\.0|v6\\.0\\.0|v5\\.0\\.1|v6\\.0\\.1|v2\\.1\\.5|v2\\.1\\.4|v3\\.0\\.2|v4\\.0\\.1|v3\\.0\\.0|v5\\.0\\.0|v2\\.1\\.2|v4\\.2\\.0|v3\\.0\\.3|v4\\.0\\.0|v4\\.1\\.1|v4\\.1\\.0|v2\\.1\\.1|v4\\.2\\.1|v3\\.0\\.1|v2\\.1\\.3)$/",
+      "description": "image-age: registry.k8s.io/sig-storage/snapshot-controller tags built at least 7 days ago, dated 2026-11-01T22:16:55Z",
       "matchDatasources": [
         "docker"
       ],
@@ -1143,7 +1143,7 @@
       ]
     },
     {
-      "description": "image-age: registry.k8s.io/sig-storage/snapshot-controller rebuilds younger than 7 days wait, dated 2026-11-01T18:03:53Z",
+      "description": "image-age: registry.k8s.io/sig-storage/snapshot-controller rebuilds younger than 7 days wait, dated 2026-11-01T22:16:55Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -1162,7 +1162,7 @@
       ]
     },
     {
-      "description": "image-age: registry image not yet dated, picked up on its next run, 2026-11-01T18:03:56Z",
+      "description": "image-age: registry image not yet dated, picked up on its next run, 2026-11-01T22:16:58Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -1223,13 +1223,13 @@
       ]
     },
     {
-      "description": "image-age: data older than 36h, see the image-age workflow in repo-operator, generated 2026-11-01T18:03:56Z",
+      "description": "image-age: data older than 36h, see the image-age workflow in repo-operator, generated 2026-11-01T22:16:58Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchJsonata": [
-        "$toMillis($now()) > 1793685836000"
+        "$toMillis($now()) > 1793701018000"
       ],
       "matchPackageNames": [
         "/^[^/]+\\.[^/]+\\//",
