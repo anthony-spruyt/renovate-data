@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T06:31:55Z",
+  "generatedAt": "2026-11-01T18:03:57Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -820,6 +820,11 @@
         "tag": "debug-nonroot-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
+        "digest": "sha256:c7b8faacc4439b8f5c41ca7ce4a3f8ff3e8520cb0c3444fae7292f687b00d0dd",
+        "pushedAt": 1792793209,
+        "tag": "update-available-c7b8faacc4439b8f5c41ca7ce4a3f8ff3e8520cb0c3444fae7292f687b00d0dd"
+      },
+      {
         "digest": "sha256:6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104",
         "pushedAt": 1792793184,
         "tag": "debug-0594a8442f4306b60e301f6a7b956ff304bbf7d9"
@@ -873,6 +878,11 @@
         "digest": "sha256:6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104",
         "pushedAt": 1792793184,
         "tag": "debug-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
+      },
+      {
+        "digest": "sha256:6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104",
+        "pushedAt": 1792793184,
+        "tag": "update-available-6a5e9a4921c51d613ab8128402badf19d27b16627f92f97146f4597d2c593104"
       },
       {
         "digest": "sha256:18f4cc26c9ffa7f20a359298be7deadac5c607c8e03a02b8119f1a5fc2f82c99",
@@ -930,6 +940,11 @@
         "tag": "nonroot-ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
+        "digest": "sha256:18f4cc26c9ffa7f20a359298be7deadac5c607c8e03a02b8119f1a5fc2f82c99",
+        "pushedAt": 1792793163,
+        "tag": "update-available-18f4cc26c9ffa7f20a359298be7deadac5c607c8e03a02b8119f1a5fc2f82c99"
+      },
+      {
         "digest": "sha256:15f8637509792e05b97d83451b0b6ccfa4abd548f997e406ac1e72c87fe1fa78",
         "pushedAt": 1792793142,
         "tag": "0594a8442f4306b60e301f6a7b956ff304bbf7d9"
@@ -985,6 +1000,11 @@
         "tag": "ffd414cd19fa8971be5f954f600cb8266c6a3a7a"
       },
       {
+        "digest": "sha256:15f8637509792e05b97d83451b0b6ccfa4abd548f997e406ac1e72c87fe1fa78",
+        "pushedAt": 1792793142,
+        "tag": "update-available-15f8637509792e05b97d83451b0b6ccfa4abd548f997e406ac1e72c87fe1fa78"
+      },
+      {
         "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
         "pushedAt": 1792793122,
         "tag": "debug-nonroot-riscv64-0594a8442f4306b60e301f6a7b956ff304bbf7d9"
@@ -993,26 +1013,6 @@
         "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
         "pushedAt": 1792793122,
         "tag": "debug-nonroot-riscv64-29b6e28900d76ffcde3cdc69af252be9c76c8635"
-      },
-      {
-        "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
-        "pushedAt": 1792793122,
-        "tag": "debug-nonroot-riscv64-682887a32ccb0740a70c645019d2582837900dcb"
-      },
-      {
-        "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
-        "pushedAt": 1792793122,
-        "tag": "debug-nonroot-riscv64-6f15561cb74af9a6a2afbe1ec4368afe6ca1faa8"
-      },
-      {
-        "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
-        "pushedAt": 1792793122,
-        "tag": "debug-nonroot-riscv64-7756d89b42b6aad9357c1bcf86621f31ac56c7ce"
-      },
-      {
-        "digest": "sha256:e314d78b93dafb594be4444a6a5b20ef89d645378b50cc02d1c644e4993ae85c",
-        "pushedAt": 1792793122,
-        "tag": "debug-nonroot-riscv64-b8f3333960136977e2773cbfa6610605c818ce21"
       }
     ],
     "ghcr.io/berriai/litellm-non_root": [
@@ -1380,46 +1380,6 @@
         "digest": "sha256:c6b35c8bbc7fb80e04f877f07a254bacaad2cf736cd2481eaeabb10f6766d280",
         "pushedAt": 1791997031,
         "tag": "1.107.0-dev.1"
-      },
-      {
-        "digest": "sha256:8e010d43ed744d5f6d188dfe087ea5a7b94de1e8c297b9f7c7ba57729eff22a2",
-        "pushedAt": 1791952186,
-        "tag": "v1.105.1"
-      },
-      {
-        "digest": "sha256:8e010d43ed744d5f6d188dfe087ea5a7b94de1e8c297b9f7c7ba57729eff22a2",
-        "pushedAt": 1791952186,
-        "tag": "1.105.1"
-      },
-      {
-        "digest": "sha256:959048058098d6eda9b046ff82f86b8cf80bac25c9f05ecee51f34c4fe274503",
-        "pushedAt": 1791935651,
-        "tag": "v1.106.0-rc.2"
-      },
-      {
-        "digest": "sha256:959048058098d6eda9b046ff82f86b8cf80bac25c9f05ecee51f34c4fe274503",
-        "pushedAt": 1791935651,
-        "tag": "1.106.0-rc.2"
-      },
-      {
-        "digest": "sha256:dbe7a657361a0aa8e4434a1f852ed66df7936e30b81b0a9315175ccab9e4c1dd",
-        "pushedAt": 1791714776,
-        "tag": "v1.104.3"
-      },
-      {
-        "digest": "sha256:dbe7a657361a0aa8e4434a1f852ed66df7936e30b81b0a9315175ccab9e4c1dd",
-        "pushedAt": 1791714776,
-        "tag": "1.104.3"
-      },
-      {
-        "digest": "sha256:763ad5871b2747fba2c4872b504ac43ca452a6fbf49fb2b0345a42abacf6f91a",
-        "pushedAt": 1791712177,
-        "tag": "v1.105.0"
-      },
-      {
-        "digest": "sha256:763ad5871b2747fba2c4872b504ac43ca452a6fbf49fb2b0345a42abacf6f91a",
-        "pushedAt": 1791712177,
-        "tag": "1.105.0"
       }
     ],
     "ghcr.io/bjw-s-labs/helm/app-template": [
@@ -3584,11 +3544,6 @@
         "digest": "sha256:0a2947ed1116b22f7586d0cf96b104254ecc0b7090f7bcb9e56f2dbb9d2d6751",
         "pushedAt": 1790159312,
         "tag": "2.88.0"
-      },
-      {
-        "digest": "sha256:7be027d9816969364f575bbd84e38315f25d6b0a081987cda1d6c2e31dfce45e",
-        "pushedAt": 1790158534,
-        "tag": "sha-c2dfcd1"
       }
     ],
     "ghcr.io/devcontainers/features/github-cli": [
@@ -7098,11 +7053,6 @@
         "digest": "sha256:219b312fe0de584d75e434fcdc0394e4e9b3d5aeefdc2979999dd608fec84893",
         "pushedAt": 1772663546,
         "tag": "0.72.3"
-      },
-      {
-        "digest": "sha256:9fe2b844de93cd3955ac630e305c6bdc35d75a8ea64eabc74e6250fe49877c3b",
-        "pushedAt": 1772046568,
-        "tag": "0.72.2"
       }
     ],
     "ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator": [
