@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T06:47:19Z",
+  "generatedAt": "2026-11-04T20:00:07Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -177,13 +177,13 @@
       "ghcr.io/gohugoio/hugo": {
         "pins": [
           {
-            "digest": "sha256:1fb8fe7f417abd5802d86747d297728aa48078d763159e7dff6559fe3f8bb8e7",
+            "digest": "sha256:a146e0639230bbc73358e6563240f0a6103466f0390b80a457c775068ec802a9",
             "repo": "anthony-spruyt/blog",
-            "tag": "v0.168.0"
+            "tag": "v0.169.0"
           }
         ],
         "tags": [
-          "v0.168.0"
+          "v0.169.0"
         ]
       },
       "ghcr.io/home-operations/drm-exporter": {
@@ -487,7 +487,13 @@
         ]
       },
       "registry.k8s.io/coredns/coredns": {
-        "pins": [],
+        "pins": [
+          {
+            "digest": "sha256:900f9c109f7a33545d3c811516e8376df9019147b750f5ce3e254468769176ea",
+            "repo": "anthony-spruyt/spruyt-labs",
+            "tag": "v1.14.6"
+          }
+        ],
         "tags": [
           "v1.14.6"
         ]
@@ -3367,14 +3373,14 @@
         "digest": "sha256:ab3e1e8c0e5e7d4124f0303eaca0317419c705d4947bde47197ad5c774806153",
         "pushedAt": 1778601391,
         "tag": "v0.49.0"
-      },
-      {
-        "digest": "sha256:234c3bd734af4c181298632734dd46580358adf0b08abec23c4c18575c767a38",
-        "pushedAt": 1778516606,
-        "tag": "v0.48.0-1778516599"
       }
     ],
     "ghcr.io/coredns/charts/coredns": [
+      {
+        "digest": "sha256:8d4d61023c039ea959d4dd571d8a333b5a437ff9e32ea96320c7c803fb91219d",
+        "pushedAt": 1793821482,
+        "tag": "1.50.1"
+      },
       {
         "digest": "sha256:f606e1c85008c1722cfdc8dcb5097a1c6f49af5ba4c38f32769be9a88a887da8",
         "pushedAt": 1793607703,
@@ -6022,56 +6028,6 @@
         "digest": "sha256:dee1718bf09ba0345e804ac34680cdf5cab04ddb0aa4e9b2e2e02dac2f996cce",
         "pushedAt": 1781268415,
         "tag": "v1.34.9-fat"
-      },
-      {
-        "digest": "sha256:4d693dd2ae8115ea106828ed3fd4049487f3490adb1318b84020b9c9dad3879e",
-        "pushedAt": 1781268259,
-        "tag": "v1.33.13"
-      },
-      {
-        "digest": "sha256:a1e09b1a7fdf8c12d549be91823bf074f78fbf6590f2f3acb107bc61ef37d9a0",
-        "pushedAt": 1781268254,
-        "tag": "v1.33.13-fat"
-      },
-      {
-        "digest": "sha256:9177daacd26a3ad9727280760864ee4cb3de586287457dfe6a1d8b6a33c91ce3",
-        "pushedAt": 1778666507,
-        "tag": "v1.36.1"
-      },
-      {
-        "digest": "sha256:cbe3f83aec28f998459cb946ba67e524b7d822ee07a4d0d688d2b081f52d928b",
-        "pushedAt": 1778666480,
-        "tag": "v1.36.1-fat"
-      },
-      {
-        "digest": "sha256:7e16322dbe7c55468bf89a9accf8271607011ec1b867e39188fd8937082cea28",
-        "pushedAt": 1778666308,
-        "tag": "v1.35.5"
-      },
-      {
-        "digest": "sha256:0119fa694cf7b8db80a6d4ba797cd4a18b7581b444135d56647ac04efbb243e3",
-        "pushedAt": 1778666278,
-        "tag": "v1.35.5-fat"
-      },
-      {
-        "digest": "sha256:e6945509a5db52170829096169ce7f894dc837bcecf4f33543e7b325a71ce935",
-        "pushedAt": 1778665995,
-        "tag": "v1.34.8"
-      },
-      {
-        "digest": "sha256:d19294deca3f95a694c251fb51bcc2bb8237ab3548bb75c4dcdda1a8dd8d71b3",
-        "pushedAt": 1778665921,
-        "tag": "v1.34.8-fat"
-      },
-      {
-        "digest": "sha256:2d461ff9152ab068b2e0a153b4c630490697e5408538d98eaac82c18f6549153",
-        "pushedAt": 1778665204,
-        "tag": "v1.33.12"
-      },
-      {
-        "digest": "sha256:9913a50a91dca3451419739cea3840aa8a9e31a0f07fd14386b4b6f90dadea06",
-        "pushedAt": 1778665182,
-        "tag": "v1.33.12-fat"
       }
     ],
     "ghcr.io/sirkirby/unifi-network-mcp": [
@@ -6519,66 +6475,6 @@
         "digest": "sha256:559efc53fc77e28566cbabf99ce18091626dd053e7760eb9b8d1ad020bf35410",
         "pushedAt": 1792358855,
         "tag": "0.39.0"
-      },
-      {
-        "digest": "sha256:8ea1bb10c064cc71c04c9b20218909a4f1b19339edcf0b3d3b8f7c92c5fa41ac",
-        "pushedAt": 1792358814,
-        "tag": "sha-079b691"
-      },
-      {
-        "digest": "sha256:a15133cf735141d6328256f91d00786c78b8d4a0ed02a2187f5d26d6f18d9e0d",
-        "pushedAt": 1792358575,
-        "tag": "sha-4c23ca7"
-      },
-      {
-        "digest": "sha256:e652ea0bae7796934eee8015f50b27759f9dd5e009201658c375c6108eb6b306",
-        "pushedAt": 1792358368,
-        "tag": "sha-2d0ae6f"
-      },
-      {
-        "digest": "sha256:9ab3c3baa148bc5890d1db205d2b0ef886c5b73f9b6ceff766d31bc0e32f2e33",
-        "pushedAt": 1792357389,
-        "tag": "sha-c618d8a"
-      },
-      {
-        "digest": "sha256:6082695fdec17547659f0a598c71126a5711ae05414f756687d157aa177e5cf7",
-        "pushedAt": 1792357375,
-        "tag": "sha-7ca0a24"
-      },
-      {
-        "digest": "sha256:27adaeb761beab74d78945db42fa3b7aadb62cac20c3c70ae00f4a4a12d3dbed",
-        "pushedAt": 1792353546,
-        "tag": "0.38.6"
-      },
-      {
-        "digest": "sha256:6d1cf52f5927d1dc0c0e6040abe2119bbd4ffde963a99fee24ab38b72a55937d",
-        "pushedAt": 1792353519,
-        "tag": "sha-8a1aa2d"
-      },
-      {
-        "digest": "sha256:304e40c054f5f37dc97e48d2ba9225d96a340830e0462c26254747d1986abe2b",
-        "pushedAt": 1792353438,
-        "tag": "sha-95c9c69"
-      },
-      {
-        "digest": "sha256:42b91293e53438ae40ea327b54741607a43b4da5f0a53299009f4ffd31a9d530",
-        "pushedAt": 1792352751,
-        "tag": "sha-68aa747"
-      },
-      {
-        "digest": "sha256:17c80f6c05a0eac41707a7688b4f95b7ffc2998f1e532f10597aaf2dc6de26b9",
-        "pushedAt": 1792256387,
-        "tag": "sha-7a7d206"
-      },
-      {
-        "digest": "sha256:e8d24ec1c5b6ae11b4bd319609da3915bbfb81c8fe8f6b7eda3812928983b1e3",
-        "pushedAt": 1792256126,
-        "tag": "sha-61fe9e1"
-      },
-      {
-        "digest": "sha256:3ad5b6fce2268b1a9063a1fa57e61ed3c517ac1f40a59a4eb0c677852a0e2040",
-        "pushedAt": 1792255844,
-        "tag": "0.38.5"
       }
     ],
     "ghcr.io/spegel-org/helm-charts/spegel": [
@@ -7639,11 +7535,6 @@
         "digest": "sha256:8dad730948689b48a3461664472550ca764eb59af14ffb526edac62ef0a230ae",
         "pushedAt": 1752611599,
         "tag": "0.51.0"
-      },
-      {
-        "digest": "sha256:b45bf161dfa28d25f98c8feec509aceb779b26a3aba4f51cfcb3b7541ecf2f09",
-        "pushedAt": 1751049411,
-        "tag": "0.50.3"
       }
     ],
     "ghcr.io/victoriametrics/helm-charts/victoria-traces-single": [
@@ -8167,431 +8058,6 @@
         "digest": "sha256:ed91b3f0cb8348115dc634056c6dfee9fac6ae9058210a3c1922964aaa1e8eb8",
         "pushedAt": 1793214763,
         "tag": "4.0.9-alpine3.23"
-      },
-      {
-        "digest": "sha256:49337fee1d98338c70b8c574235cd6c8f8def5e674d7715e660e0c15701d6b9e",
-        "pushedAt": 1793214753,
-        "tag": "4-alpine3.21"
-      },
-      {
-        "digest": "sha256:49337fee1d98338c70b8c574235cd6c8f8def5e674d7715e660e0c15701d6b9e",
-        "pushedAt": 1793214753,
-        "tag": "alpine3.21"
-      },
-      {
-        "digest": "sha256:49337fee1d98338c70b8c574235cd6c8f8def5e674d7715e660e0c15701d6b9e",
-        "pushedAt": 1793214752,
-        "tag": "4.0-alpine3.21"
-      },
-      {
-        "digest": "sha256:49337fee1d98338c70b8c574235cd6c8f8def5e674d7715e660e0c15701d6b9e",
-        "pushedAt": 1793214750,
-        "tag": "4.0.9-alpine3.21"
-      },
-      {
-        "digest": "sha256:563c702dc5cd50e7cc0059ca8de194f68386dcbc2a208ced56cfbe45d04e1dee",
-        "pushedAt": 1793214747,
-        "tag": "jammy"
-      },
-      {
-        "digest": "sha256:563c702dc5cd50e7cc0059ca8de194f68386dcbc2a208ced56cfbe45d04e1dee",
-        "pushedAt": 1793214746,
-        "tag": "ubuntu22.04"
-      },
-      {
-        "digest": "sha256:563c702dc5cd50e7cc0059ca8de194f68386dcbc2a208ced56cfbe45d04e1dee",
-        "pushedAt": 1793214745,
-        "tag": "3-ubuntu22.04"
-      },
-      {
-        "digest": "sha256:563c702dc5cd50e7cc0059ca8de194f68386dcbc2a208ced56cfbe45d04e1dee",
-        "pushedAt": 1793214744,
-        "tag": "3-jammy"
-      },
-      {
-        "digest": "sha256:563c702dc5cd50e7cc0059ca8de194f68386dcbc2a208ced56cfbe45d04e1dee",
-        "pushedAt": 1793214742,
-        "tag": "3.0-ubuntu22.04"
-      },
-      {
-        "digest": "sha256:563c702dc5cd50e7cc0059ca8de194f68386dcbc2a208ced56cfbe45d04e1dee",
-        "pushedAt": 1793214741,
-        "tag": "3.0-jammy"
-      },
-      {
-        "digest": "sha256:ed91b3f0cb8348115dc634056c6dfee9fac6ae9058210a3c1922964aaa1e8eb8",
-        "pushedAt": 1793214718,
-        "tag": "alpine3.23"
-      },
-      {
-        "digest": "sha256:ed91b3f0cb8348115dc634056c6dfee9fac6ae9058210a3c1922964aaa1e8eb8",
-        "pushedAt": 1793214717,
-        "tag": "4-alpine3.23"
-      },
-      {
-        "digest": "sha256:ed91b3f0cb8348115dc634056c6dfee9fac6ae9058210a3c1922964aaa1e8eb8",
-        "pushedAt": 1793214717,
-        "tag": "alpine"
-      },
-      {
-        "digest": "sha256:ed91b3f0cb8348115dc634056c6dfee9fac6ae9058210a3c1922964aaa1e8eb8",
-        "pushedAt": 1793214716,
-        "tag": "4-alpine"
-      },
-      {
-        "digest": "sha256:ae2fde998dd4625521d6ffaca68c4d761235ebb25201ab42afbecd17c59c4633",
-        "pushedAt": 1793214460,
-        "tag": "4-alpine3.22"
-      },
-      {
-        "digest": "sha256:ae2fde998dd4625521d6ffaca68c4d761235ebb25201ab42afbecd17c59c4633",
-        "pushedAt": 1793214460,
-        "tag": "4.0-alpine3.22"
-      },
-      {
-        "digest": "sha256:ae2fde998dd4625521d6ffaca68c4d761235ebb25201ab42afbecd17c59c4633",
-        "pushedAt": 1793214459,
-        "tag": "4.0.9-alpine3.22"
-      },
-      {
-        "digest": "sha256:ae2fde998dd4625521d6ffaca68c4d761235ebb25201ab42afbecd17c59c4633",
-        "pushedAt": 1793214408,
-        "tag": "alpine3.22"
-      },
-      {
-        "digest": "sha256:d4bd27b81d5342afb0ab0106cfcf0c819389681a32260c9a2695409b6d3f4975",
-        "pushedAt": 1793208961,
-        "tag": "4.0.8-alpine3.22"
-      },
-      {
-        "digest": "sha256:998681de7f6f0fa49ea670e04a529371435e4c06a9845714e5adeb5a832da59d",
-        "pushedAt": 1793208526,
-        "tag": "3.0.11-ubuntu24.04"
-      },
-      {
-        "digest": "sha256:998681de7f6f0fa49ea670e04a529371435e4c06a9845714e5adeb5a832da59d",
-        "pushedAt": 1793208524,
-        "tag": "3.0.11-noble"
-      },
-      {
-        "digest": "sha256:851f602da11e16c0aab80da432a6cedfeb2b0cbe043dee973586eb1029a5cd3e",
-        "pushedAt": 1793208172,
-        "tag": "4.0.8-alpine3.21"
-      },
-      {
-        "digest": "sha256:32f08d689904c6de7967f9a80b0ae9abc9411aeafbac420ca0adfd10297ac9cf",
-        "pushedAt": 1793207902,
-        "tag": "3.0.11-ubuntu"
-      },
-      {
-        "digest": "sha256:32f08d689904c6de7967f9a80b0ae9abc9411aeafbac420ca0adfd10297ac9cf",
-        "pushedAt": 1793207899,
-        "tag": "3.0.11-ubuntu26.04"
-      },
-      {
-        "digest": "sha256:32f08d689904c6de7967f9a80b0ae9abc9411aeafbac420ca0adfd10297ac9cf",
-        "pushedAt": 1793207897,
-        "tag": "3.0.11-resolute"
-      },
-      {
-        "digest": "sha256:f8a211038233c62fe98b24302671b223758e8e214d34186d757591e0be1be199",
-        "pushedAt": 1793207848,
-        "tag": "2.2.4-trixie"
-      },
-      {
-        "digest": "sha256:f8a211038233c62fe98b24302671b223758e8e214d34186d757591e0be1be199",
-        "pushedAt": 1793207841,
-        "tag": "2.2.4"
-      },
-      {
-        "digest": "sha256:f8a211038233c62fe98b24302671b223758e8e214d34186d757591e0be1be199",
-        "pushedAt": 1793207839,
-        "tag": "2.2.4-debian"
-      },
-      {
-        "digest": "sha256:f8a211038233c62fe98b24302671b223758e8e214d34186d757591e0be1be199",
-        "pushedAt": 1793207838,
-        "tag": "2.2.4-debian13"
-      },
-      {
-        "digest": "sha256:66e14d6fa43c848d2888f188796a913ef73ae68bfc4b144b92952c22b1706782",
-        "pushedAt": 1793207541,
-        "tag": "2.2.4-debian12"
-      },
-      {
-        "digest": "sha256:66e14d6fa43c848d2888f188796a913ef73ae68bfc4b144b92952c22b1706782",
-        "pushedAt": 1793207538,
-        "tag": "2.2.4-bookworm"
-      },
-      {
-        "digest": "sha256:f768b14f7bd934b9b5caf751f23c35ca5e7988fbe4e2ffd3a3415d55aab83b0b",
-        "pushedAt": 1793207499,
-        "tag": "3.0.11-jammy"
-      },
-      {
-        "digest": "sha256:f768b14f7bd934b9b5caf751f23c35ca5e7988fbe4e2ffd3a3415d55aab83b0b",
-        "pushedAt": 1793207490,
-        "tag": "3.0.11-ubuntu22.04"
-      },
-      {
-        "digest": "sha256:d053ec9a9efb8f42e652c8909ef20d867d2bd0832347ab1e2f965d938dad4a10",
-        "pushedAt": 1793207457,
-        "tag": "4.0.8-alpine"
-      },
-      {
-        "digest": "sha256:d053ec9a9efb8f42e652c8909ef20d867d2bd0832347ab1e2f965d938dad4a10",
-        "pushedAt": 1793207456,
-        "tag": "4.0.8-alpine3.23"
-      },
-      {
-        "digest": "sha256:9a5942e64b35c5497c591b9bf177f4a3002d43440bf0a5e1a14fc34667b1a5c1",
-        "pushedAt": 1791576262,
-        "tag": "2.2.3-debian12"
-      },
-      {
-        "digest": "sha256:9a5942e64b35c5497c591b9bf177f4a3002d43440bf0a5e1a14fc34667b1a5c1",
-        "pushedAt": 1791576251,
-        "tag": "2.2.3-bookworm"
-      },
-      {
-        "digest": "sha256:91eff046d5c12318fc98e59258982b87ba896c467427ed8b5dab5a02107a5db7",
-        "pushedAt": 1791574914,
-        "tag": "3.0.10-ubuntu"
-      },
-      {
-        "digest": "sha256:91eff046d5c12318fc98e59258982b87ba896c467427ed8b5dab5a02107a5db7",
-        "pushedAt": 1791574905,
-        "tag": "3.0.10-ubuntu26.04"
-      },
-      {
-        "digest": "sha256:91eff046d5c12318fc98e59258982b87ba896c467427ed8b5dab5a02107a5db7",
-        "pushedAt": 1791574901,
-        "tag": "3.0.10-resolute"
-      },
-      {
-        "digest": "sha256:6ee2b4097c75d33e9a94d941577a3286e5d629434fba384688b06daeeaaeac99",
-        "pushedAt": 1791574744,
-        "tag": "2.2.3-trixie"
-      },
-      {
-        "digest": "sha256:08dd9426a750aee184ef19aa2ae3d0cd9cb4522e8be6a866586c99adf3eba19e",
-        "pushedAt": 1791574738,
-        "tag": "4.0.7-alpine3.22"
-      },
-      {
-        "digest": "sha256:6ee2b4097c75d33e9a94d941577a3286e5d629434fba384688b06daeeaaeac99",
-        "pushedAt": 1791574688,
-        "tag": "2.2.3-debian"
-      },
-      {
-        "digest": "sha256:6ee2b4097c75d33e9a94d941577a3286e5d629434fba384688b06daeeaaeac99",
-        "pushedAt": 1791574687,
-        "tag": "2.2.3"
-      },
-      {
-        "digest": "sha256:6ee2b4097c75d33e9a94d941577a3286e5d629434fba384688b06daeeaaeac99",
-        "pushedAt": 1791574687,
-        "tag": "2.2.3-debian13"
-      },
-      {
-        "digest": "sha256:21e9e3275736cb3bc33a2904b279a2ab292c51fedd53c2963463627d4586c3e6",
-        "pushedAt": 1791574588,
-        "tag": "3.0.10-ubuntu24.04"
-      },
-      {
-        "digest": "sha256:21e9e3275736cb3bc33a2904b279a2ab292c51fedd53c2963463627d4586c3e6",
-        "pushedAt": 1791574584,
-        "tag": "3.0.10-noble"
-      },
-      {
-        "digest": "sha256:5a5b2cf3b77c5cdfa039a5eac6bbda6b0111a853768c6467ebef5c81ec7778f4",
-        "pushedAt": 1791574570,
-        "tag": "3.0.10-ubuntu22.04"
-      },
-      {
-        "digest": "sha256:5a5b2cf3b77c5cdfa039a5eac6bbda6b0111a853768c6467ebef5c81ec7778f4",
-        "pushedAt": 1791574561,
-        "tag": "3.0.10-jammy"
-      },
-      {
-        "digest": "sha256:190bccaf23c9e88f21734f82b08b597310efcd4aa9240faf7e96d98c228753e3",
-        "pushedAt": 1791574540,
-        "tag": "4.0.7-alpine"
-      },
-      {
-        "digest": "sha256:190bccaf23c9e88f21734f82b08b597310efcd4aa9240faf7e96d98c228753e3",
-        "pushedAt": 1791574536,
-        "tag": "4.0.7-alpine3.23"
-      },
-      {
-        "digest": "sha256:f233f5ceefb6b90c1b6628a722e315aa0d65cbfd52d2ccbd27761eb2c6a8aa19",
-        "pushedAt": 1791574253,
-        "tag": "4.0.7-alpine3.21"
-      },
-      {
-        "digest": "sha256:0b997af705ff88f10e3293326dce61b4a9676b9f98de6aad67f1973691737dd8",
-        "pushedAt": 1791477074,
-        "tag": "3.0.9-ubuntu26.04"
-      },
-      {
-        "digest": "sha256:0b997af705ff88f10e3293326dce61b4a9676b9f98de6aad67f1973691737dd8",
-        "pushedAt": 1791477071,
-        "tag": "3.0.9-resolute"
-      },
-      {
-        "digest": "sha256:0b997af705ff88f10e3293326dce61b4a9676b9f98de6aad67f1973691737dd8",
-        "pushedAt": 1791477023,
-        "tag": "3.0.9-ubuntu"
-      },
-      {
-        "digest": "sha256:c6b8c3c79b7378399a84f9f7b2bbff460b59ccc5594eba14131f48bdf6adaa92",
-        "pushedAt": 1791476593,
-        "tag": "2.2.2-debian"
-      },
-      {
-        "digest": "sha256:c6b8c3c79b7378399a84f9f7b2bbff460b59ccc5594eba14131f48bdf6adaa92",
-        "pushedAt": 1791476591,
-        "tag": "2.2.2-debian13"
-      },
-      {
-        "digest": "sha256:c6b8c3c79b7378399a84f9f7b2bbff460b59ccc5594eba14131f48bdf6adaa92",
-        "pushedAt": 1791476590,
-        "tag": "2.2.2-trixie"
-      },
-      {
-        "digest": "sha256:c6b8c3c79b7378399a84f9f7b2bbff460b59ccc5594eba14131f48bdf6adaa92",
-        "pushedAt": 1791476543,
-        "tag": "2.2.2"
-      },
-      {
-        "digest": "sha256:92164bd01e0a8578ac68ccd4466a472fee8dde530d25741a377487f545884bd5",
-        "pushedAt": 1791476520,
-        "tag": "3.0.9-ubuntu24.04"
-      },
-      {
-        "digest": "sha256:92164bd01e0a8578ac68ccd4466a472fee8dde530d25741a377487f545884bd5",
-        "pushedAt": 1791476519,
-        "tag": "3.0.9-noble"
-      },
-      {
-        "digest": "sha256:c817051aa895a88c4bf28a14f47140db1fe88037c45604c3fe025d66d246200f",
-        "pushedAt": 1791476382,
-        "tag": "2.2.2-debian12"
-      },
-      {
-        "digest": "sha256:c817051aa895a88c4bf28a14f47140db1fe88037c45604c3fe025d66d246200f",
-        "pushedAt": 1791476381,
-        "tag": "2.2.2-bookworm"
-      },
-      {
-        "digest": "sha256:2223762a15ec00bdbc28cce3cf9a6d4dcb44ad575cadba267e89c3799cb07ed7",
-        "pushedAt": 1791476360,
-        "tag": "4.0.6-alpine"
-      },
-      {
-        "digest": "sha256:2223762a15ec00bdbc28cce3cf9a6d4dcb44ad575cadba267e89c3799cb07ed7",
-        "pushedAt": 1791476359,
-        "tag": "4.0.6-alpine3.23"
-      },
-      {
-        "digest": "sha256:1ef0ebdafb1f0cb9069cb5a3a9469efec98a4419684a0d12d75c01408326581f",
-        "pushedAt": 1791476290,
-        "tag": "4.0.6-alpine3.21"
-      },
-      {
-        "digest": "sha256:ad6f27f72516dc83ae2e93f66f8272cc10f3f838d3363eac5c014b9774259173",
-        "pushedAt": 1791476257,
-        "tag": "4.0.6-alpine3.22"
-      },
-      {
-        "digest": "sha256:eeb99970a2751e1f7095e72f0aefb8d026901bb45bf60b8e5ba5c007bf496aba",
-        "pushedAt": 1791476256,
-        "tag": "3.0.9-ubuntu22.04"
-      },
-      {
-        "digest": "sha256:eeb99970a2751e1f7095e72f0aefb8d026901bb45bf60b8e5ba5c007bf496aba",
-        "pushedAt": 1791476255,
-        "tag": "3.0.9-jammy"
-      },
-      {
-        "digest": "sha256:0b8885364e52904d721e1ca7971a14bb274433efcf7df9736f87a433c5a32d00",
-        "pushedAt": 1789045627,
-        "tag": "4.0.5-alpine3.22"
-      },
-      {
-        "digest": "sha256:edfb983aab9c579a385dc23c57d7d3703f5ec920124d99c16204a2cac465aab4",
-        "pushedAt": 1789045310,
-        "tag": "3.0.8-ubuntu26.04"
-      },
-      {
-        "digest": "sha256:edfb983aab9c579a385dc23c57d7d3703f5ec920124d99c16204a2cac465aab4",
-        "pushedAt": 1789045307,
-        "tag": "3.0.8-resolute"
-      },
-      {
-        "digest": "sha256:edfb983aab9c579a385dc23c57d7d3703f5ec920124d99c16204a2cac465aab4",
-        "pushedAt": 1789045262,
-        "tag": "3.0.8-ubuntu"
-      },
-      {
-        "digest": "sha256:1f851004adcd3dff3776b4a1da86727cf52280b0fdc9d5b0568c9c7d74274286",
-        "pushedAt": 1789045188,
-        "tag": "2.2.1-debian13"
-      },
-      {
-        "digest": "sha256:1f851004adcd3dff3776b4a1da86727cf52280b0fdc9d5b0568c9c7d74274286",
-        "pushedAt": 1789045186,
-        "tag": "2.2.1-trixie"
-      },
-      {
-        "digest": "sha256:1f851004adcd3dff3776b4a1da86727cf52280b0fdc9d5b0568c9c7d74274286",
-        "pushedAt": 1789045139,
-        "tag": "2.2.1"
-      },
-      {
-        "digest": "sha256:1f851004adcd3dff3776b4a1da86727cf52280b0fdc9d5b0568c9c7d74274286",
-        "pushedAt": 1789045137,
-        "tag": "2.2.1-debian"
-      },
-      {
-        "digest": "sha256:d7c468679f45a52ad3673d06656b5bf16e488990b17216a1fa295d9e1f89d724",
-        "pushedAt": 1789045080,
-        "tag": "3.0.8-noble"
-      },
-      {
-        "digest": "sha256:d7c468679f45a52ad3673d06656b5bf16e488990b17216a1fa295d9e1f89d724",
-        "pushedAt": 1789045080,
-        "tag": "3.0.8-ubuntu24.04"
-      },
-      {
-        "digest": "sha256:833a9eb9b48b57160531c9ea552d942d4d428ec58d76305d43f4976419b32173",
-        "pushedAt": 1789045014,
-        "tag": "3.0.8-jammy"
-      },
-      {
-        "digest": "sha256:833a9eb9b48b57160531c9ea552d942d4d428ec58d76305d43f4976419b32173",
-        "pushedAt": 1789045014,
-        "tag": "3.0.8-ubuntu22.04"
-      },
-      {
-        "digest": "sha256:3aacff4130e6cf04709f9cab1d7a6d3e1cc4bff6202bc61611831a18d3755673",
-        "pushedAt": 1789044929,
-        "tag": "2.2.1-debian12"
-      },
-      {
-        "digest": "sha256:3aacff4130e6cf04709f9cab1d7a6d3e1cc4bff6202bc61611831a18d3755673",
-        "pushedAt": 1789044928,
-        "tag": "2.2.1-bookworm"
-      },
-      {
-        "digest": "sha256:58a3892c74ef97187eec99ac4da7b75ebe72d5e33bc67197cda66b17b987729f",
-        "pushedAt": 1789044900,
-        "tag": "4.0.5-alpine"
-      },
-      {
-        "digest": "sha256:58a3892c74ef97187eec99ac4da7b75ebe72d5e33bc67197cda66b17b987729f",
-        "pushedAt": 1789044899,
-        "tag": "4.0.5-alpine3.23"
       }
     ],
     "mcr.microsoft.com/dotnet/aspnet": [
@@ -10842,26 +10308,6 @@
         "digest": "sha256:47de8754d1f72fadb61523247c897fdf673f9a9689503c64ca8384472d232c5c",
         "pushedAt": 1744316851,
         "tag": "v18.2.5"
-      },
-      {
-        "digest": "sha256:8214ebff6133ac27d20659038df6962dbf9d77da21c9438a296b2e2059a56af6",
-        "pushedAt": 1744313305,
-        "tag": "v19.2.2-20250409"
-      },
-      {
-        "digest": "sha256:8214ebff6133ac27d20659038df6962dbf9d77da21c9438a296b2e2059a56af6",
-        "pushedAt": 1744313292,
-        "tag": "v19.2.2"
-      },
-      {
-        "digest": "sha256:41d3f5e46ff7de28544cc8869fdea13fca824dcef83936cb3288ed9de935e4de",
-        "pushedAt": 1738881124,
-        "tag": "v19.2.1-20250202"
-      },
-      {
-        "digest": "sha256:41d3f5e46ff7de28544cc8869fdea13fca824dcef83936cb3288ed9de935e4de",
-        "pushedAt": 1738881119,
-        "tag": "v19.2.1"
       }
     ],
     "quay.io/csiaddons/k8s-controller": [
