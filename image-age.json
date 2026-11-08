@@ -2,38 +2,56 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "description": "image-age: gcr.io/distroless/static could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: gcr.io/distroless/static could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "gcr.io/distroless/static"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/berriai/litellm-non_root could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/berriai/litellm-non_root could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/berriai/litellm-non_root"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/bjw-s-labs/helm/app-template could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/bjw-s-labs/helm/app-template could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/bjw-s-labs/helm/app-template"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
       "allowedVersions": "/^(17|18)$/",
-      "description": "image-age: ghcr.io/cloudnative-pg/postgresql tags built at least 7 days ago, dated 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/cloudnative-pg/postgresql tags built at least 7 days ago, dated 2026-11-08T23:26:33Z",
       "matchDatasources": [
         "docker"
       ],
@@ -42,7 +60,7 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/cloudnative-pg/postgresql rebuilds younger than 7 days wait, dated 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/cloudnative-pg/postgresql rebuilds younger than 7 days wait, dated 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -61,397 +79,631 @@
       ]
     },
     {
-      "description": "image-age: ghcr.io/coder/envbuilder could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/coder/envbuilder could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/coder/envbuilder"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-instance could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-instance could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/controlplaneio-fluxcd/charts/flux-instance"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-operator could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/charts/flux-operator could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/controlplaneio-fluxcd/charts/flux-operator"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/controlplaneio-fluxcd/flux-operator-manifests could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/controlplaneio-fluxcd/flux-operator-manifests could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/controlplaneio-fluxcd/flux-operator-manifests"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/coredns/charts/coredns could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/coredns/charts/coredns could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/coredns/charts/coredns"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/czlonkowski/n8n-mcp could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/czlonkowski/n8n-mcp could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/czlonkowski/n8n-mcp"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/devcontainers/features/github-cli could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/devcontainers/features/github-cli could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/devcontainers/features/github-cli"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/devcontainers/features/node could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/devcontainers/features/node could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/devcontainers/features/node"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/devcontainers/features/python could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/devcontainers/features/python could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/devcontainers/features/python"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/gohugoio/hugo could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/gohugoio/hugo could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/gohugoio/hugo"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/home-operations/drm-exporter could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/home-operations/drm-exporter could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/home-operations/drm-exporter"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/home-operations/irqbalance could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/home-operations/irqbalance could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/home-operations/irqbalance"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/kyverno/charts/kyverno could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/kyverno/charts/kyverno could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/kyverno/charts/kyverno"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/mcxboxbroadcast/standalone could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/mcxboxbroadcast/standalone could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/mcxboxbroadcast/standalone"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/oxsecurity/megalinter-ci_light could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/oxsecurity/megalinter-ci_light could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/oxsecurity/megalinter-ci_light"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/oxsecurity/megalinter-go could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/oxsecurity/megalinter-go could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/oxsecurity/megalinter-go"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/rook/rook-ceph could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/rook/rook-ceph could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/rook/rook-ceph"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/rook/rook-ceph-cluster could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/rook/rook-ceph-cluster could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/rook/rook-ceph-cluster"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/siderolabs/kubelet could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/siderolabs/kubelet could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/siderolabs/kubelet"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/sirkirby/unifi-network-mcp could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/sirkirby/unifi-network-mcp could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/sirkirby/unifi-network-mcp"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/spegel-org/helm-charts/spegel could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/spegel-org/helm-charts/spegel could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/spegel-org/helm-charts/spegel"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics-community/mcp-victoriatraces could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/victoriametrics-community/mcp-victoriatraces could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/victoriametrics-community/mcp-victoriatraces"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-logs-single could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-logs-single could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/victoriametrics/helm-charts/victoria-logs-single"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-traces-single could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/victoriametrics/helm-charts/victoria-traces-single could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/victoriametrics/helm-charts/victoria-traces-single"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/mcp-victorialogs could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/victoriametrics/mcp-victorialogs could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/victoriametrics/mcp-victorialogs"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: ghcr.io/victoriametrics/mcp-victoriametrics could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: ghcr.io/victoriametrics/mcp-victoriametrics could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "ghcr.io/victoriametrics/mcp-victoriametrics"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/devcontainers/base could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: mcr.microsoft.com/devcontainers/base could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "mcr.microsoft.com/devcontainers/base"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/dotnet/aspnet could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: mcr.microsoft.com/dotnet/aspnet could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "mcr.microsoft.com/dotnet/aspnet"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/dotnet/sdk could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: mcr.microsoft.com/dotnet/sdk could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "mcr.microsoft.com/dotnet/sdk"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/presidio-analyzer could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: mcr.microsoft.com/presidio-analyzer could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "mcr.microsoft.com/presidio-analyzer"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: mcr.microsoft.com/presidio-anonymizer could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: mcr.microsoft.com/presidio-anonymizer could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "mcr.microsoft.com/presidio-anonymizer"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: quay.io/ceph/ceph could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: quay.io/ceph/ceph could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "quay.io/ceph/ceph"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: quay.io/csiaddons/k8s-controller could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: quay.io/csiaddons/k8s-controller could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "quay.io/csiaddons/k8s-controller"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: quay.io/csiaddons/k8s-sidecar could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: quay.io/csiaddons/k8s-sidecar could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "quay.io/csiaddons/k8s-sidecar"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: registry.k8s.io/coredns/coredns could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: registry.k8s.io/coredns/coredns could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "registry.k8s.io/coredns/coredns"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: registry.k8s.io/sig-storage/csi-snapshotter could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: registry.k8s.io/sig-storage/csi-snapshotter could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "registry.k8s.io/sig-storage/csi-snapshotter"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: registry.k8s.io/sig-storage/snapshot-controller could not be dated, updates held back, 2026-11-08T22:20:19Z",
+      "description": "image-age: registry.k8s.io/sig-storage/snapshot-controller could not be dated, updates held back, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchPackageNames": [
         "registry.k8s.io/sig-storage/snapshot-controller"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "digest"
       ]
     },
     {
-      "description": "image-age: registry image not yet dated, picked up on its next run, 2026-11-08T22:20:19Z",
+      "description": "image-age: registry image not yet dated, picked up on its next run, 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
@@ -515,13 +767,13 @@
       ]
     },
     {
-      "description": "image-age: data older than 36h, see the image-age workflow in repo-operator, generated 2026-11-08T22:20:19Z",
+      "description": "image-age: data older than 36h, see the image-age workflow in repo-operator, generated 2026-11-08T23:26:33Z",
       "enabled": false,
       "matchDatasources": [
         "docker"
       ],
       "matchJsonata": [
-        "$toMillis($now()) > 1794306019000"
+        "$toMillis($now()) > 1794309993000"
       ],
       "matchPackageNames": [
         "/^[^/]+\\.[^/]+\\//",
