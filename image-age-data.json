@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T23:53:56Z",
+  "generatedAt": "2026-11-09T06:58:01Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -3737,6 +3737,24 @@
     ],
     "ghcr.io/czlonkowski/n8n-mcp": [
       {
+        "digest": "sha256:0330999f924dbb7790aed63d568a47e40f60c636481285c2f7277225b2ff279c",
+        "firstSeen": 1794207481,
+        "pushedAt": 1794201136,
+        "tag": "sha-7bc0c1c"
+      },
+      {
+        "digest": "sha256:0330999f924dbb7790aed63d568a47e40f60c636481285c2f7277225b2ff279c",
+        "firstSeen": 1794207481,
+        "pushedAt": 1794201136,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:0330999f924dbb7790aed63d568a47e40f60c636481285c2f7277225b2ff279c",
+        "firstSeen": 1794207481,
+        "pushedAt": 1794201136,
+        "tag": "main"
+      },
+      {
         "digest": "sha256:7f788e5f189d2db674206d2dc1e87b07475a4b962c4f73a5b53680a568d250ac",
         "firstSeen": 1794089203,
         "pushedAt": 1794076937,
@@ -3753,24 +3771,6 @@
         "firstSeen": 1794089203,
         "pushedAt": 1794076937,
         "tag": "2"
-      },
-      {
-        "digest": "sha256:7f788e5f189d2db674206d2dc1e87b07475a4b962c4f73a5b53680a568d250ac",
-        "firstSeen": 1794089203,
-        "pushedAt": 1794076937,
-        "tag": "latest"
-      },
-      {
-        "digest": "sha256:bf11808f74081cb2e6cfaf33670eb7140152b70037c2be06a3a29062c4eb239e",
-        "firstSeen": 1794089203,
-        "pushedAt": 1794076326,
-        "tag": "sha-7bc0c1c"
-      },
-      {
-        "digest": "sha256:bf11808f74081cb2e6cfaf33670eb7140152b70037c2be06a3a29062c4eb239e",
-        "firstSeen": 1794089203,
-        "pushedAt": 1794076326,
-        "tag": "main"
       },
       {
         "digest": "sha256:7014fc5fd3c8bf12a135174f2cd970c7a7addfbbd172bd5002b946190d847b5b",
@@ -4160,12 +4160,6 @@
         "digest": "sha256:6e852750079f073cb34513b0d86829e166075c6c3802a66fbdf9d6e6ce4d70c7",
         "firstSeen": 1793853272,
         "pushedAt": 1790166031,
-        "tag": "2.89"
-      },
-      {
-        "digest": "sha256:6e852750079f073cb34513b0d86829e166075c6c3802a66fbdf9d6e6ce4d70c7",
-        "firstSeen": 1793853272,
-        "pushedAt": 1790166031,
         "tag": "2.89.0"
       },
       {
@@ -4215,12 +4209,6 @@
         "firstSeen": 1794057749,
         "pushedAt": 1788988417,
         "tag": "2.84.0"
-      },
-      {
-        "digest": "sha256:f31b6fdf3e2216930386f57394ee6409aa3cb5c6e742361559f8a9ae2a2ce1aa",
-        "firstSeen": 1794057749,
-        "pushedAt": 1788987141,
-        "tag": "2.83.0"
       }
     ],
     "ghcr.io/devcontainers/features/github-cli": [
@@ -5271,9 +5259,9 @@
     ],
     "ghcr.io/home-operations/drm-exporter": [
       {
-        "digest": "sha256:375194f2b496b1ab9fadad9d7f3090e2b236869f9f75fa61c9bb0004ea17853a",
-        "firstSeen": 1794176419,
-        "pushedAt": 1794163729,
+        "digest": "sha256:d13c38b799f8ef04e97a901ff6ffa822980e7ee4998c2d36110486a258564cd4",
+        "firstSeen": 1794207481,
+        "pushedAt": 1794196579,
         "tag": "main"
       },
       {
@@ -7503,40 +7491,10 @@
         "tag": "sha-beec04e"
       },
       {
-        "digest": "sha256:179473b67c63e77425edb35fc84eb517e8fa2880dce0f4819c1f479722b5d2ff",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792882987,
-        "tag": "sha-1a4d453"
-      },
-      {
-        "digest": "sha256:5482a399af43b79227d19b56863b07c466558e0a182c0a75be0e188a70b2b0ef",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792882004,
-        "tag": "sha-6043114"
-      },
-      {
-        "digest": "sha256:2a9c7e8d0ee72ebd359c79aa9e2c4619e640e258956287ffe4a7eea5cdfb731b",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792881671,
-        "tag": "sha-043071b"
-      },
-      {
         "digest": "sha256:e1830abb0ddc7a51f2dfd07ccb19ef61d361460e3225bc51baf796cfb8ac71ed",
         "firstSeen": 1793853272,
         "pushedAt": 1792869415,
         "tag": "0.40.0"
-      },
-      {
-        "digest": "sha256:371166d9cc4bb6461ffb71e17e4d09d63fcd7f3cd6cc476f923f24c7354350d5",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792869378,
-        "tag": "sha-f4cc951"
-      },
-      {
-        "digest": "sha256:ab7aabb4b8d4f542f1c4ca49c0ce7079791f6deb44b90b73f74c008aa8517df6",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792869132,
-        "tag": "sha-53bbec1"
       },
       {
         "digest": "sha256:46dd60f81049480fdd0238df6bdd8846f9263f5f7f95bbbdd86cc71989428314",
@@ -16671,13 +16629,13 @@
       {
         "digest": "sha256:0a9d8c8ddf34347eb59aad9a8784f0710de88d6d112726d11d271f9bc6daca26",
         "firstSeen": 1793853272,
-        "pushedAt": 1793189914,
+        "pushedAt": 1793189915,
         "tag": "v1.15.0"
       },
       {
         "digest": "sha256:7efd3c635b03efd68c4e8398fc45f0d993d0e9ab016f72c1cefb0fd6d01aa286",
         "firstSeen": 1793853272,
-        "pushedAt": 1787149950,
+        "pushedAt": 1787149951,
         "tag": "v1.14.7"
       },
       {
@@ -16695,181 +16653,181 @@
       {
         "digest": "sha256:884b72dd6d2f7d367902af420605e0288dffedb0516ce29330423ae3f8f5c6fa",
         "firstSeen": 1793853272,
-        "pushedAt": 1777400557,
+        "pushedAt": 1777400558,
         "tag": "v1.14.3"
       },
       {
         "digest": "sha256:e7e6440cfd1e919280958f5b5a6ab2b184d385bba774c12ad2a9e1e4183f90d9",
         "firstSeen": 1793853272,
-        "pushedAt": 1773228664,
+        "pushedAt": 1773228672,
         "tag": "v1.14.2"
-      },
-      {
-        "digest": "sha256:4fbdd8fb53c5d1748aeb98f0799798fb073bb11128c13e8415aa254ad1ae0203",
-        "firstSeen": 1793853272,
-        "pushedAt": 1769503483,
-        "tag": "v1.14.0"
       },
       {
         "digest": "sha256:82b57287b29beb757c740dbbe68f2d4723da94715b563fffad5c13438b71b14a",
         "firstSeen": 1793853272,
-        "pushedAt": 1769503447,
+        "pushedAt": 1769503458,
         "tag": "v1.14.1"
+      },
+      {
+        "digest": "sha256:4fbdd8fb53c5d1748aeb98f0799798fb073bb11128c13e8415aa254ad1ae0203",
+        "firstSeen": 1793853272,
+        "pushedAt": 1769503440,
+        "tag": "v1.14.0"
       },
       {
         "digest": "sha256:94caebb89dcfb9d2c4be45bfda34410a3e1092458fbbbc0284365c9e4c9a7818",
         "firstSeen": 1793853272,
-        "pushedAt": 1765823226,
+        "pushedAt": 1765823255,
         "tag": "v1.13.2"
       },
       {
         "digest": "sha256:9b9128672209474da07c91439bf15ed704ae05ad918dd6454e5b6ae14e35fee6",
         "firstSeen": 1793853272,
-        "pushedAt": 1761544521,
+        "pushedAt": 1761544514,
         "tag": "v1.13.1"
       },
       {
         "digest": "sha256:da282c1983a1a330240e6e84eaec9b6120b0de0e7e29e92c44a6acd25f9e0238",
         "firstSeen": 1793853272,
-        "pushedAt": 1760597540,
+        "pushedAt": 1760597532,
         "tag": "v1.13.0"
       },
       {
         "digest": "sha256:986f04c2e15e147d00bdd51e8c51bcef3644b13ff806be7d2ff1b261d6dfbae1",
         "firstSeen": 1793853272,
-        "pushedAt": 1757487189,
+        "pushedAt": 1757487177,
         "tag": "v1.12.4"
       },
       {
         "digest": "sha256:1391544c978029fcddc65068f6ad67f396e55585b664ecccd7fefba029b9b706",
         "firstSeen": 1793853272,
-        "pushedAt": 1756370402,
+        "pushedAt": 1756370401,
         "tag": "v1.12.3"
       },
       {
         "digest": "sha256:af8c8d35a5d184b386c4a6d1a012c8b218d40d1376474c7d071bb6c07201f47d",
         "firstSeen": 1793853272,
-        "pushedAt": 1750062648,
+        "pushedAt": 1750062662,
         "tag": "v1.12.2"
       },
       {
         "digest": "sha256:e8c262566636e6bc340ece6473b0eed193cad045384401529721ddbe6463d31c",
         "firstSeen": 1793853272,
-        "pushedAt": 1744140859,
+        "pushedAt": 1744140861,
         "tag": "v1.12.1"
       },
       {
         "digest": "sha256:40384aa1f5ea6bfdc77997d243aec73da05f27aed0c5e9d65bfa98933c519d97",
         "firstSeen": 1793853272,
-        "pushedAt": 1732477160,
+        "pushedAt": 1732477171,
         "tag": "v1.12.0"
       },
       {
         "digest": "sha256:4190b960ea90e017631e3e1a38eea28e98e057ab60d57d47b3db6e5cf77436f7",
         "firstSeen": 1793853272,
-        "pushedAt": 1731588623,
+        "pushedAt": 1731588607,
         "tag": "v1.11.4"
       },
       {
         "digest": "sha256:9caabbf6238b189a65d0d6e6ac138de60d6a1c419e5a341fbbb7c78382559c6e",
         "firstSeen": 1793853272,
-        "pushedAt": 1722282039,
+        "pushedAt": 1722282027,
         "tag": "v1.11.3"
       },
       {
         "digest": "sha256:1eeb4c7316bacb1d4c8ead65571cd92dd21e27359f0d4917f1a5822a73b75db1",
         "firstSeen": 1793853272,
-        "pushedAt": 1692814351,
+        "pushedAt": 1692814352,
         "tag": "v1.11.1"
       },
       {
         "digest": "sha256:cc3ebb05fbdba439d2d69813f162aa204b027098c8244fb3156e6e7c0f31c548",
         "firstSeen": 1793853272,
-        "pushedAt": 1692177341,
+        "pushedAt": 1692177324,
         "tag": "v1.11.0"
       },
       {
         "digest": "sha256:a0ead06651cf580044aeb0a0feba63591858fb2e43ade8c9dea45a6a89ae7e5e",
         "firstSeen": 1793853272,
-        "pushedAt": 1676028134,
+        "pushedAt": 1676028137,
         "tag": "v1.10.1"
       },
       {
         "digest": "sha256:017727efcfeb7d053af68e51436ce8e65edbc6ca573720afb4f79c8594036955",
         "firstSeen": 1793853272,
-        "pushedAt": 1670345369,
+        "pushedAt": 1670345409,
         "tag": "v1.10.0"
       },
       {
         "digest": "sha256:b82e294de6be763f73ae71266c8f5466e7e03c69f3a1de96efd570284d35bb18",
         "firstSeen": 1793853272,
-        "pushedAt": 1670345334,
+        "pushedAt": 1670345400,
         "tag": "v1.9.4"
-      },
-      {
-        "digest": "sha256:642ff9910da6ea9a8624b0234eef52af9ca75ecbec474c5507cb096bdfbae4e5",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660684562,
-        "tag": "v1.8.3"
-      },
-      {
-        "digest": "sha256:cc8fb77bc2a0541949d1d9320a641b82fd392b0d3d8145469ca4709ae769980e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660684561,
-        "tag": "v1.8.0"
-      },
-      {
-        "digest": "sha256:43a9f52f5dce39bf1816afe6141724cc2d08811e466dd46e6628c925e2419bdc",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660684560,
-        "tag": "v1.8.5"
-      },
-      {
-        "digest": "sha256:4a6e0769130686518325b21b0c1d0688b54e7c79244d48e1b15634e98e40c6ef",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660684560,
-        "tag": "v1.7.1"
-      },
-      {
-        "digest": "sha256:5b6ec0d6de9baaf3e92d0f66cd96a25b9edbce8716f5f15dcd1a616b3abd590e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660684560,
-        "tag": "v1.8.6"
       },
       {
         "digest": "sha256:6e5a02c21641597998b4be7cb5eb1e7b02c0d8d23cce4dd09f4682d463798890",
         "firstSeen": 1793853272,
-        "pushedAt": 1660684560,
+        "pushedAt": 1660696590,
         "tag": "v1.8.4"
       },
       {
-        "digest": "sha256:8e352a029d304ca7431c6507b56800636c321cb52289686a581ab70aaa8a2e2a",
+        "digest": "sha256:43a9f52f5dce39bf1816afe6141724cc2d08811e466dd46e6628c925e2419bdc",
         "firstSeen": 1793853272,
-        "pushedAt": 1660684559,
-        "tag": "v1.9.3"
+        "pushedAt": 1660696589,
+        "tag": "v1.8.5"
+      },
+      {
+        "digest": "sha256:cc8fb77bc2a0541949d1d9320a641b82fd392b0d3d8145469ca4709ae769980e",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696589,
+        "tag": "v1.8.0"
       },
       {
         "digest": "sha256:40ee1b708e20e3a6b8e04ccd8b6b3dd8fd25343eab27c37154946f232649ae21",
         "firstSeen": 1793853272,
-        "pushedAt": 1660684558,
+        "pushedAt": 1660696587,
         "tag": "v1.6.9"
       },
       {
         "digest": "sha256:73ca82b4ce829766d4f1f10947c3a338888f876fbed0540dc849c89ff256e90c",
         "firstSeen": 1793853272,
-        "pushedAt": 1660684558,
+        "pushedAt": 1660696587,
         "tag": "v1.7.0"
+      },
+      {
+        "digest": "sha256:8e352a029d304ca7431c6507b56800636c321cb52289686a581ab70aaa8a2e2a",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696587,
+        "tag": "v1.9.3"
+      },
+      {
+        "digest": "sha256:5b6ec0d6de9baaf3e92d0f66cd96a25b9edbce8716f5f15dcd1a616b3abd590e",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696586,
+        "tag": "v1.8.6"
+      },
+      {
+        "digest": "sha256:4a6e0769130686518325b21b0c1d0688b54e7c79244d48e1b15634e98e40c6ef",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696585,
+        "tag": "v1.7.1"
+      },
+      {
+        "digest": "sha256:642ff9910da6ea9a8624b0234eef52af9ca75ecbec474c5507cb096bdfbae4e5",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696585,
+        "tag": "v1.8.3"
       },
       {
         "digest": "sha256:46b237764fee52288a7ab075353c77d4e0de55e374c87474409091bd94e442af",
         "firstSeen": 1793853272,
-        "pushedAt": 1660684557,
+        "pushedAt": 1660696582,
         "tag": "v1.6.6"
       },
       {
         "digest": "sha256:2c8d61c46f484d881db43b34d13ca47a269336e576c81cf007ca740fa9ec0800",
         "firstSeen": 1793853272,
-        "pushedAt": 1660684555,
+        "pushedAt": 1660696579,
         "tag": "v1.6.7"
       }
     ],
