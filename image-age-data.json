@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:35:13Z",
+  "generatedAt": "2026-11-10T07:33:59Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -823,6 +823,36 @@
     ],
     "ghcr.io/berriai/litellm-non_root": [
       {
+        "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794265099,
+        "tag": "v1.108.4-lts"
+      },
+      {
+        "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794265099,
+        "tag": "1.108.4-lts"
+      },
+      {
+        "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794265099,
+        "tag": "v1.108.4"
+      },
+      {
+        "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794265099,
+        "tag": "1.108.4"
+      },
+      {
+        "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794265099,
+        "tag": "lts"
+      },
+      {
         "digest": "sha256:64bc631b432673b2f283764da66abac4e4fee681669c8c9f7a37bf6b65aaf9a4",
         "firstSeen": 1794118996,
         "pushedAt": 1794104614,
@@ -869,12 +899,6 @@
         "firstSeen": 1794118996,
         "pushedAt": 1794090460,
         "tag": "1.108.3"
-      },
-      {
-        "digest": "sha256:36e4ec234cf279efa525f229417d8443499464f796d25f19ac5847cd7f16d316",
-        "firstSeen": 1794118996,
-        "pushedAt": 1794090460,
-        "tag": "lts"
       },
       {
         "digest": "sha256:87c9fe7b07bcc95dc272438a7671a23c2cdf1b7d0c4093c74a3746f708d2ee77",
@@ -4208,19 +4232,7 @@
         "digest": "sha256:5015cb75cc129894af1b05152d589966c5b135097b6a877086458a213b0f1faf",
         "firstSeen": 1793853272,
         "pushedAt": 1790522307,
-        "tag": "2.90"
-      },
-      {
-        "digest": "sha256:5015cb75cc129894af1b05152d589966c5b135097b6a877086458a213b0f1faf",
-        "firstSeen": 1793853272,
-        "pushedAt": 1790522307,
         "tag": "2.90.0"
-      },
-      {
-        "digest": "sha256:b8a5aaaf2ee38b1c027b264f1bae9e02ef670416930ecac014ab4315761479cc",
-        "firstSeen": 1793853272,
-        "pushedAt": 1790521531,
-        "tag": "sha-1284c9f"
       },
       {
         "digest": "sha256:6e852750079f073cb34513b0d86829e166075c6c3802a66fbdf9d6e6ce4d70c7",
@@ -5331,9 +5343,9 @@
     ],
     "ghcr.io/home-operations/drm-exporter": [
       {
-        "digest": "sha256:d13c38b799f8ef04e97a901ff6ffa822980e7ee4998c2d36110486a258564cd4",
-        "firstSeen": 1794207481,
-        "pushedAt": 1794196579,
+        "digest": "sha256:ab105d32d22023d083dcfa61141346478c261499cf5a41f75d23f414f01a9632",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794267730,
         "tag": "main"
       },
       {
@@ -7537,30 +7549,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1792886186,
         "tag": "sha-04b0b7b"
-      },
-      {
-        "digest": "sha256:ffd53105fb71e101b4ead8a99d949ef7c94d328cf9c5f03b227693f79b8a9dce",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792885346,
-        "tag": "sha-d7d91f1"
-      },
-      {
-        "digest": "sha256:6fea015c59c5dc23a2278e3a70b14995297eb0e7c1b95adb81bfecb4fd794d4b",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792883749,
-        "tag": "sha-2c7d3cc"
-      },
-      {
-        "digest": "sha256:6a5a00d414ac32e30cceb5e9765e2576754676f4b0d87c2fd6e9fb7fe20bc4df",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792883558,
-        "tag": "sha-4d0b103"
-      },
-      {
-        "digest": "sha256:8401407d71656db0a02035544e90e11defbf3849cb49cde6726c2f494754db1f",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792883242,
-        "tag": "sha-beec04e"
       },
       {
         "digest": "sha256:e1830abb0ddc7a51f2dfd07ccb19ef61d361460e3225bc51baf796cfb8ac71ed",
@@ -16455,9 +16443,9 @@
     ],
     "quay.io/csiaddons/k8s-controller": [
       {
-        "digest": "sha256:fdbb2e889e7e4f68314e4e4ec25d7e7346e9977273470ead9bc0ded8e440a1b3",
-        "firstSeen": 1793993852,
-        "pushedAt": 1793958189,
+        "digest": "sha256:78b1c68bd1b6b6f0f68466d6b8ea145bc7871f499e2f62653f8c850ac23c416e",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794289503,
         "tag": "latest"
       },
       {
@@ -16577,9 +16565,9 @@
     ],
     "quay.io/csiaddons/k8s-sidecar": [
       {
-        "digest": "sha256:2c7eb96ca47e62311457185fecf4179120a64aee46c0ced0d24e2e7249e70062",
-        "firstSeen": 1793993852,
-        "pushedAt": 1793958231,
+        "digest": "sha256:dcd300d780f9dc262480c6b9b3faf3d0458a982c53ff81e77dfad0221113e67a",
+        "firstSeen": 1794296039,
+        "pushedAt": 1794289555,
         "tag": "latest"
       },
       {
