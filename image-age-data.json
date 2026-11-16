@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T06:53:39Z",
+  "generatedAt": "2026-11-16T22:25:25Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -129,13 +129,13 @@
       "ghcr.io/czlonkowski/n8n-mcp": {
         "pins": [
           {
-            "digest": "sha256:b623723ab84d96c07dfb78629ba5f302f29eb59e2b3ace0a84f376e897d235ce",
+            "digest": "sha256:7f788e5f189d2db674206d2dc1e87b07475a4b962c4f73a5b53680a568d250ac",
             "repo": "anthony-spruyt/spruyt-labs",
-            "tag": "2.101.1"
+            "tag": "2.101.4"
           }
         ],
         "tags": [
-          "2.101.1"
+          "2.101.4"
         ]
       },
       "ghcr.io/devcontainers/features/github-cli": {
@@ -1159,6 +1159,36 @@
     ],
     "ghcr.io/berriai/litellm-non_root": [
       {
+        "digest": "sha256:7a76c86a6735d87d455295d48a13d0cc3d0a32c127b73e5644d88dbeae0d8532",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794866130,
+        "tag": "v1.108.10-lts"
+      },
+      {
+        "digest": "sha256:7a76c86a6735d87d455295d48a13d0cc3d0a32c127b73e5644d88dbeae0d8532",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794866130,
+        "tag": "1.108.10-lts"
+      },
+      {
+        "digest": "sha256:7a76c86a6735d87d455295d48a13d0cc3d0a32c127b73e5644d88dbeae0d8532",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794866130,
+        "tag": "1.108.10"
+      },
+      {
+        "digest": "sha256:7a76c86a6735d87d455295d48a13d0cc3d0a32c127b73e5644d88dbeae0d8532",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794866130,
+        "tag": "v1.108.10"
+      },
+      {
+        "digest": "sha256:7a76c86a6735d87d455295d48a13d0cc3d0a32c127b73e5644d88dbeae0d8532",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794866130,
+        "tag": "lts"
+      },
+      {
         "digest": "sha256:241f42b5f09a52c6ccc186d590ee6dbc2d030a597bdd8853566f97a8ff21da32",
         "firstSeen": 1794725579,
         "pushedAt": 1794704898,
@@ -1211,12 +1241,6 @@
         "firstSeen": 1794695962,
         "pushedAt": 1794693453,
         "tag": "1.108.9"
-      },
-      {
-        "digest": "sha256:49164609b06c4c579ea2f277177061a3339c10f26268ec7baf27ce104c1bce13",
-        "firstSeen": 1794695962,
-        "pushedAt": 1794693453,
-        "tag": "lts"
       },
       {
         "digest": "sha256:541bea9333ad89c44fe8995ad2c241f265cc16f606aed20c2ecb3c6e00ad5c0c",
@@ -1811,18 +1835,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1792830918,
         "tag": "1.104.6"
-      },
-      {
-        "digest": "sha256:1a00c0e3e1e9867a14775b790b286741d6d53ec155f65367bd9f0ce5e36f0f45",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792828660,
-        "tag": "v1.103.8"
-      },
-      {
-        "digest": "sha256:1a00c0e3e1e9867a14775b790b286741d6d53ec155f65367bd9f0ce5e36f0f45",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792828660,
-        "tag": "1.103.8"
       }
     ],
     "ghcr.io/bjw-s-labs/helm/app-template": [
@@ -1943,22 +1955,622 @@
     ],
     "ghcr.io/cloudnative-pg/postgresql": [
       {
+        "digest": "sha256:1b22dd7e54123ff4fab01fb926aca4ebb2cb1e86b2344c8b4d19a2316056f4a9",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818187,
+        "tag": "14.25-202611160820-system-trixie"
+      },
+      {
+        "digest": "sha256:1b22dd7e54123ff4fab01fb926aca4ebb2cb1e86b2344c8b4d19a2316056f4a9",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818187,
+        "tag": "14.25-system-trixie"
+      },
+      {
+        "digest": "sha256:1b22dd7e54123ff4fab01fb926aca4ebb2cb1e86b2344c8b4d19a2316056f4a9",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818187,
+        "tag": "14-system-trixie"
+      },
+      {
+        "digest": "sha256:2496b8213f5f8bf7acdc96125dafbaa202a46fc38abe28cbad18c745c5ff28bc",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818152,
+        "tag": "14.25-202611160820-system-bookworm"
+      },
+      {
+        "digest": "sha256:2496b8213f5f8bf7acdc96125dafbaa202a46fc38abe28cbad18c745c5ff28bc",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818152,
+        "tag": "14.25-system-bookworm"
+      },
+      {
+        "digest": "sha256:2496b8213f5f8bf7acdc96125dafbaa202a46fc38abe28cbad18c745c5ff28bc",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818152,
+        "tag": "14-system-bookworm"
+      },
+      {
+        "digest": "sha256:4e3658bb37f357cd29a5846cfeb72cb033b8a86e9845bd35cd912dbc56b892a7",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818140,
+        "tag": "19rc2-202611160820-system-trixie"
+      },
+      {
+        "digest": "sha256:4e3658bb37f357cd29a5846cfeb72cb033b8a86e9845bd35cd912dbc56b892a7",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818140,
+        "tag": "19rc2-system-trixie"
+      },
+      {
+        "digest": "sha256:13f5dc1b42c5d96233724be976740df031136ca013f98a56a2877a62b362b453",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818131,
+        "tag": "18.7-202611160820-system-trixie"
+      },
+      {
+        "digest": "sha256:13f5dc1b42c5d96233724be976740df031136ca013f98a56a2877a62b362b453",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818131,
+        "tag": "18.7-system-trixie"
+      },
+      {
+        "digest": "sha256:13f5dc1b42c5d96233724be976740df031136ca013f98a56a2877a62b362b453",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818131,
+        "tag": "18-system-trixie"
+      },
+      {
+        "digest": "sha256:76363c0e030b71114e9f4265b2cf1a35ea493715c9c6ad4d28f02af70c898bcd",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818117,
+        "tag": "14.25-202611160820-standard-trixie"
+      },
+      {
+        "digest": "sha256:76363c0e030b71114e9f4265b2cf1a35ea493715c9c6ad4d28f02af70c898bcd",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818117,
+        "tag": "14.25-standard-trixie"
+      },
+      {
+        "digest": "sha256:76363c0e030b71114e9f4265b2cf1a35ea493715c9c6ad4d28f02af70c898bcd",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818117,
+        "tag": "14-standard-trixie"
+      },
+      {
+        "digest": "sha256:572d258efeac8c0381710b2023b65dd4887d04b1e0471b7acc5ad6934a6fc80c",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818113,
+        "tag": "19rc2-202611160820-system-bookworm"
+      },
+      {
+        "digest": "sha256:572d258efeac8c0381710b2023b65dd4887d04b1e0471b7acc5ad6934a6fc80c",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818113,
+        "tag": "19rc2-system-bookworm"
+      },
+      {
+        "digest": "sha256:63a3c8ba02199ccd2fae4b75df5d197366905d41d792354a6eec3bec27eb05ce",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818106,
+        "tag": "17.12-202611160820-system-trixie"
+      },
+      {
+        "digest": "sha256:63a3c8ba02199ccd2fae4b75df5d197366905d41d792354a6eec3bec27eb05ce",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818106,
+        "tag": "17.12-system-trixie"
+      },
+      {
+        "digest": "sha256:63a3c8ba02199ccd2fae4b75df5d197366905d41d792354a6eec3bec27eb05ce",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818106,
+        "tag": "17-system-trixie"
+      },
+      {
+        "digest": "sha256:5774670ec4a849c08d14f9db34320dff32a1a5f4ad6d41601ac492966ded3ad9",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818103,
+        "tag": "18.7-202611160820-system-bookworm"
+      },
+      {
+        "digest": "sha256:5774670ec4a849c08d14f9db34320dff32a1a5f4ad6d41601ac492966ded3ad9",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818103,
+        "tag": "18.7-system-bookworm"
+      },
+      {
+        "digest": "sha256:5774670ec4a849c08d14f9db34320dff32a1a5f4ad6d41601ac492966ded3ad9",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818103,
+        "tag": "18-system-bookworm"
+      },
+      {
+        "digest": "sha256:b86b98e19c0460e018cedbecfa6db53cbccbdd4dca9e35a9d65310b162a24cfb",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818088,
+        "tag": "19rc2-202611160820-standard-trixie"
+      },
+      {
+        "digest": "sha256:b86b98e19c0460e018cedbecfa6db53cbccbdd4dca9e35a9d65310b162a24cfb",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818088,
+        "tag": "19rc2-standard-trixie"
+      },
+      {
+        "digest": "sha256:3c9f54a443b89aa38204049a955bb8e53aa3e9b76954b80e80c5205dd0b7a746",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818083,
+        "tag": "14.25-202611160820-standard-bookworm"
+      },
+      {
+        "digest": "sha256:3c9f54a443b89aa38204049a955bb8e53aa3e9b76954b80e80c5205dd0b7a746",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818083,
+        "tag": "14.25-standard-bookworm"
+      },
+      {
+        "digest": "sha256:3c9f54a443b89aa38204049a955bb8e53aa3e9b76954b80e80c5205dd0b7a746",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818083,
+        "tag": "14-standard-bookworm"
+      },
+      {
+        "digest": "sha256:2b71f805acb6744c3d8d82c29256ee6e0580ea49e7a14e8e99b321a21c674439",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818080,
+        "tag": "17.12-202611160820-system-bookworm"
+      },
+      {
+        "digest": "sha256:2b71f805acb6744c3d8d82c29256ee6e0580ea49e7a14e8e99b321a21c674439",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818080,
+        "tag": "17.12-system-bookworm"
+      },
+      {
+        "digest": "sha256:2b71f805acb6744c3d8d82c29256ee6e0580ea49e7a14e8e99b321a21c674439",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818080,
+        "tag": "17-system-bookworm"
+      },
+      {
+        "digest": "sha256:37fdeea29a4d3ed14570f719488ba55bd21e8975eaea864be5ce74d25a9a13de",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818076,
+        "tag": "18.7-202611160820-standard-trixie"
+      },
+      {
+        "digest": "sha256:37fdeea29a4d3ed14570f719488ba55bd21e8975eaea864be5ce74d25a9a13de",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818076,
+        "tag": "18.7-standard-trixie"
+      },
+      {
+        "digest": "sha256:37fdeea29a4d3ed14570f719488ba55bd21e8975eaea864be5ce74d25a9a13de",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818076,
+        "tag": "18-standard-trixie"
+      },
+      {
+        "digest": "sha256:34b7177fa560ef42dfa8556f54b976838547be29cf71e9cb6d71cd0f2ce42412",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818062,
+        "tag": "19rc2-202611160820-standard-bookworm"
+      },
+      {
+        "digest": "sha256:34b7177fa560ef42dfa8556f54b976838547be29cf71e9cb6d71cd0f2ce42412",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818062,
+        "tag": "19rc2-standard-bookworm"
+      },
+      {
+        "digest": "sha256:b6d31545fc2c500cc56af2cff91bbc37408deff6815b84446da0a2c9a54b3d1c",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818053,
+        "tag": "17.12-202611160820-standard-trixie"
+      },
+      {
+        "digest": "sha256:b6d31545fc2c500cc56af2cff91bbc37408deff6815b84446da0a2c9a54b3d1c",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818053,
+        "tag": "17.12-standard-trixie"
+      },
+      {
+        "digest": "sha256:b6d31545fc2c500cc56af2cff91bbc37408deff6815b84446da0a2c9a54b3d1c",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818053,
+        "tag": "17-standard-trixie"
+      },
+      {
+        "digest": "sha256:f0ad956917f02d10a9fa74584f6a7f189f7da9b54d63571af85238c361080a28",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818044,
+        "tag": "14.25-202611160820-minimal-trixie"
+      },
+      {
+        "digest": "sha256:f0ad956917f02d10a9fa74584f6a7f189f7da9b54d63571af85238c361080a28",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818044,
+        "tag": "14.25-minimal-trixie"
+      },
+      {
+        "digest": "sha256:f0ad956917f02d10a9fa74584f6a7f189f7da9b54d63571af85238c361080a28",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818044,
+        "tag": "14-minimal-trixie"
+      },
+      {
+        "digest": "sha256:6669f2fdbc344beb60d307e7aa0a343c510183ac49fd13db8d161d294ed5e141",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818044,
+        "tag": "18.7-202611160820-standard-bookworm"
+      },
+      {
+        "digest": "sha256:6669f2fdbc344beb60d307e7aa0a343c510183ac49fd13db8d161d294ed5e141",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818044,
+        "tag": "18.7-standard-bookworm"
+      },
+      {
+        "digest": "sha256:6669f2fdbc344beb60d307e7aa0a343c510183ac49fd13db8d161d294ed5e141",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818044,
+        "tag": "18-standard-bookworm"
+      },
+      {
+        "digest": "sha256:d7289505a60b6cc996da0d514d5a4e3217b8051725a42346090f5d7f15db1be6",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818033,
+        "tag": "16.16-202611160820-system-trixie"
+      },
+      {
+        "digest": "sha256:d7289505a60b6cc996da0d514d5a4e3217b8051725a42346090f5d7f15db1be6",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818033,
+        "tag": "16.16-system-trixie"
+      },
+      {
+        "digest": "sha256:d7289505a60b6cc996da0d514d5a4e3217b8051725a42346090f5d7f15db1be6",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818033,
+        "tag": "16-system-trixie"
+      },
+      {
+        "digest": "sha256:10af2ae69d08caa5870d431b542fa0acd4fdfa5abef061885a352f7280a8aa34",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818029,
+        "tag": "19rc2-202611160820-minimal-trixie"
+      },
+      {
+        "digest": "sha256:10af2ae69d08caa5870d431b542fa0acd4fdfa5abef061885a352f7280a8aa34",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818029,
+        "tag": "19rc2-minimal-trixie"
+      },
+      {
+        "digest": "sha256:c2c7d1fe966bf40178504ca282f2ee17e9512115e10144d5a394af5656cccbc2",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818026,
+        "tag": "17.12-202611160820-standard-bookworm"
+      },
+      {
+        "digest": "sha256:c2c7d1fe966bf40178504ca282f2ee17e9512115e10144d5a394af5656cccbc2",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818026,
+        "tag": "17.12-standard-bookworm"
+      },
+      {
+        "digest": "sha256:c2c7d1fe966bf40178504ca282f2ee17e9512115e10144d5a394af5656cccbc2",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818026,
+        "tag": "17-standard-bookworm"
+      },
+      {
+        "digest": "sha256:452a15584e2aa1ce658c4ae8538b5dc157eb031d41b82fd19882e0c03bcec01d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818014,
+        "tag": "18.7-202611160820-minimal-trixie"
+      },
+      {
+        "digest": "sha256:452a15584e2aa1ce658c4ae8538b5dc157eb031d41b82fd19882e0c03bcec01d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818014,
+        "tag": "18.7-minimal-trixie"
+      },
+      {
+        "digest": "sha256:452a15584e2aa1ce658c4ae8538b5dc157eb031d41b82fd19882e0c03bcec01d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818014,
+        "tag": "18-minimal-trixie"
+      },
+      {
+        "digest": "sha256:450974fd15ae45b8e0401f19675edce4b085e4980e7a5a8978e3b9773663f597",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818004,
+        "tag": "19rc2-202611160820-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:450974fd15ae45b8e0401f19675edce4b085e4980e7a5a8978e3b9773663f597",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818004,
+        "tag": "19rc2-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:f8e727e663ecffc14b906abb40000b7a00b31f3d546f4efe78f8e1c4839d8645",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818003,
+        "tag": "16.16-202611160820-system-bookworm"
+      },
+      {
+        "digest": "sha256:f8e727e663ecffc14b906abb40000b7a00b31f3d546f4efe78f8e1c4839d8645",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818003,
+        "tag": "16.16-system-bookworm"
+      },
+      {
+        "digest": "sha256:f8e727e663ecffc14b906abb40000b7a00b31f3d546f4efe78f8e1c4839d8645",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818003,
+        "tag": "16-system-bookworm"
+      },
+      {
+        "digest": "sha256:4143b80db43b42adb397edcb93e51ae788ee61ffb285123fc8a9ecbf6e0511d3",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818003,
+        "tag": "14.25-202611160820-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:4143b80db43b42adb397edcb93e51ae788ee61ffb285123fc8a9ecbf6e0511d3",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818003,
+        "tag": "14.25-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:4143b80db43b42adb397edcb93e51ae788ee61ffb285123fc8a9ecbf6e0511d3",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794818003,
+        "tag": "14-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:67faf4bab0efe261d48975eaa4719e9807bbeeefb75b8d25b6543fe7c3539575",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817998,
+        "tag": "17.12-202611160820-minimal-trixie"
+      },
+      {
+        "digest": "sha256:67faf4bab0efe261d48975eaa4719e9807bbeeefb75b8d25b6543fe7c3539575",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817998,
+        "tag": "17.12-minimal-trixie"
+      },
+      {
+        "digest": "sha256:67faf4bab0efe261d48975eaa4719e9807bbeeefb75b8d25b6543fe7c3539575",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817998,
+        "tag": "17-minimal-trixie"
+      },
+      {
+        "digest": "sha256:bbcad8f65bc456162c036e01541e5c3c7afda7d66aacb5af349493a17dc72fcc",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817989,
+        "tag": "15.20-202611160820-system-trixie"
+      },
+      {
+        "digest": "sha256:bbcad8f65bc456162c036e01541e5c3c7afda7d66aacb5af349493a17dc72fcc",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817989,
+        "tag": "15.20-system-trixie"
+      },
+      {
+        "digest": "sha256:bbcad8f65bc456162c036e01541e5c3c7afda7d66aacb5af349493a17dc72fcc",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817989,
+        "tag": "15-system-trixie"
+      },
+      {
+        "digest": "sha256:447d86c0f35e232f88c91dc397cbaa72b1a42c8fb12172bc6e4413095c8310c2",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817986,
+        "tag": "18.7-202611160820-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:447d86c0f35e232f88c91dc397cbaa72b1a42c8fb12172bc6e4413095c8310c2",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817986,
+        "tag": "18.7-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:447d86c0f35e232f88c91dc397cbaa72b1a42c8fb12172bc6e4413095c8310c2",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817986,
+        "tag": "18-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:0848a2f80eb48d9bff76857ce988a6053b4120e7ecbdc4414e24cb1cd2df0754",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817973,
+        "tag": "16.16-202611160820-standard-trixie"
+      },
+      {
+        "digest": "sha256:0848a2f80eb48d9bff76857ce988a6053b4120e7ecbdc4414e24cb1cd2df0754",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817973,
+        "tag": "16.16-standard-trixie"
+      },
+      {
+        "digest": "sha256:0848a2f80eb48d9bff76857ce988a6053b4120e7ecbdc4414e24cb1cd2df0754",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817973,
+        "tag": "16-standard-trixie"
+      },
+      {
+        "digest": "sha256:49f777eeea1d50f9f477cc9283e91928238abee8be021ba8d2ca84ef41780c65",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817968,
+        "tag": "17.12-202611160820-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:49f777eeea1d50f9f477cc9283e91928238abee8be021ba8d2ca84ef41780c65",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817968,
+        "tag": "17.12-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:49f777eeea1d50f9f477cc9283e91928238abee8be021ba8d2ca84ef41780c65",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817968,
+        "tag": "17-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:457b7cb2a7e7a3004ea14f6903673aea49cc336635ed43e082fbbbafb0b3804d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817963,
+        "tag": "15.20-202611160820-system-bookworm"
+      },
+      {
+        "digest": "sha256:457b7cb2a7e7a3004ea14f6903673aea49cc336635ed43e082fbbbafb0b3804d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817963,
+        "tag": "15.20-system-bookworm"
+      },
+      {
+        "digest": "sha256:457b7cb2a7e7a3004ea14f6903673aea49cc336635ed43e082fbbbafb0b3804d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817963,
+        "tag": "15-system-bookworm"
+      },
+      {
+        "digest": "sha256:69b02d259c6fe5d0ef53fe67ecb000e9c0cee4d3b9e173b58bb13e722b17ba4e",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817941,
+        "tag": "16.16-202611160820-standard-bookworm"
+      },
+      {
+        "digest": "sha256:69b02d259c6fe5d0ef53fe67ecb000e9c0cee4d3b9e173b58bb13e722b17ba4e",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817941,
+        "tag": "16.16-standard-bookworm"
+      },
+      {
+        "digest": "sha256:69b02d259c6fe5d0ef53fe67ecb000e9c0cee4d3b9e173b58bb13e722b17ba4e",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817941,
+        "tag": "16-standard-bookworm"
+      },
+      {
+        "digest": "sha256:811ff8a5a3d5c56bc0b6a3ff78792927d559277eccf724c25eff9853e5144b4f",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817937,
+        "tag": "15.20-202611160820-standard-trixie"
+      },
+      {
+        "digest": "sha256:811ff8a5a3d5c56bc0b6a3ff78792927d559277eccf724c25eff9853e5144b4f",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817937,
+        "tag": "15.20-standard-trixie"
+      },
+      {
+        "digest": "sha256:811ff8a5a3d5c56bc0b6a3ff78792927d559277eccf724c25eff9853e5144b4f",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817937,
+        "tag": "15-standard-trixie"
+      },
+      {
+        "digest": "sha256:f1c37a29821a6b8d045d5669cc078334acd9cf0041198b2e702c95ab5d359886",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817911,
+        "tag": "15.20-202611160820-standard-bookworm"
+      },
+      {
+        "digest": "sha256:f1c37a29821a6b8d045d5669cc078334acd9cf0041198b2e702c95ab5d359886",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817911,
+        "tag": "15.20-standard-bookworm"
+      },
+      {
+        "digest": "sha256:f1c37a29821a6b8d045d5669cc078334acd9cf0041198b2e702c95ab5d359886",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817911,
+        "tag": "15-standard-bookworm"
+      },
+      {
+        "digest": "sha256:836a4d140b80af5fb0fb9b43d7aea97304d3eb4d05a422e9d38e7f6b7dd67aae",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817909,
+        "tag": "16.16-202611160820-minimal-trixie"
+      },
+      {
+        "digest": "sha256:836a4d140b80af5fb0fb9b43d7aea97304d3eb4d05a422e9d38e7f6b7dd67aae",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817909,
+        "tag": "16.16-minimal-trixie"
+      },
+      {
+        "digest": "sha256:836a4d140b80af5fb0fb9b43d7aea97304d3eb4d05a422e9d38e7f6b7dd67aae",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817909,
+        "tag": "16-minimal-trixie"
+      },
+      {
+        "digest": "sha256:ff7c478ba69b1be28eba481250d777521bab8c2ac85798a4568aeedcbeaa4cd0",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817885,
+        "tag": "15.20-202611160820-minimal-trixie"
+      },
+      {
+        "digest": "sha256:ff7c478ba69b1be28eba481250d777521bab8c2ac85798a4568aeedcbeaa4cd0",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817885,
+        "tag": "15.20-minimal-trixie"
+      },
+      {
+        "digest": "sha256:ff7c478ba69b1be28eba481250d777521bab8c2ac85798a4568aeedcbeaa4cd0",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817885,
+        "tag": "15-minimal-trixie"
+      },
+      {
+        "digest": "sha256:699d9c5dde8405029f0a54eea074e45d34ade36ac83f1f30bd8ce57102f71568",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817871,
+        "tag": "16.16-202611160820-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:699d9c5dde8405029f0a54eea074e45d34ade36ac83f1f30bd8ce57102f71568",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817871,
+        "tag": "16.16-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:699d9c5dde8405029f0a54eea074e45d34ade36ac83f1f30bd8ce57102f71568",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817871,
+        "tag": "16-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:d4db608413d2c467ed7da19c11cb0a6c21688cec0367aeb73eff2a327f61742f",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817857,
+        "tag": "15.20-202611160820-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:d4db608413d2c467ed7da19c11cb0a6c21688cec0367aeb73eff2a327f61742f",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817857,
+        "tag": "15.20-minimal-bookworm"
+      },
+      {
+        "digest": "sha256:d4db608413d2c467ed7da19c11cb0a6c21688cec0367aeb73eff2a327f61742f",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794817857,
+        "tag": "15-minimal-bookworm"
+      },
+      {
         "digest": "sha256:629f887c290fef0a17830b9d76925d4d67e1e6d45a0c8f596ee2570746c491a5",
         "firstSeen": 1794553668,
         "pushedAt": 1794525605,
         "tag": "15.20-202611122305-system-trixie"
-      },
-      {
-        "digest": "sha256:629f887c290fef0a17830b9d76925d4d67e1e6d45a0c8f596ee2570746c491a5",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525605,
-        "tag": "15.20-system-trixie"
-      },
-      {
-        "digest": "sha256:629f887c290fef0a17830b9d76925d4d67e1e6d45a0c8f596ee2570746c491a5",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525605,
-        "tag": "15-system-trixie"
       },
       {
         "digest": "sha256:6b8f23131e02fb4f2765fd1c7f9bca1c09a0b8b5aa90d69a3c5e8e5c60fa3d76",
@@ -1967,34 +2579,10 @@
         "tag": "17.12-202611122305-system-trixie"
       },
       {
-        "digest": "sha256:6b8f23131e02fb4f2765fd1c7f9bca1c09a0b8b5aa90d69a3c5e8e5c60fa3d76",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525588,
-        "tag": "17.12-system-trixie"
-      },
-      {
-        "digest": "sha256:6b8f23131e02fb4f2765fd1c7f9bca1c09a0b8b5aa90d69a3c5e8e5c60fa3d76",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525588,
-        "tag": "17-system-trixie"
-      },
-      {
         "digest": "sha256:017d5ebbdc3769d2946c0b9856febaadeb80bf74ca28d3e7958346d696925bf2",
         "firstSeen": 1794553668,
         "pushedAt": 1794525585,
         "tag": "16.16-202611122305-system-trixie"
-      },
-      {
-        "digest": "sha256:017d5ebbdc3769d2946c0b9856febaadeb80bf74ca28d3e7958346d696925bf2",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525585,
-        "tag": "16.16-system-trixie"
-      },
-      {
-        "digest": "sha256:017d5ebbdc3769d2946c0b9856febaadeb80bf74ca28d3e7958346d696925bf2",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525585,
-        "tag": "16-system-trixie"
       },
       {
         "digest": "sha256:24c58a7026676fd140e03b720a527d7bcf1837c042d4ea0ee50d5165d43d8c83",
@@ -2003,34 +2591,10 @@
         "tag": "15.20-202611122305-system-bookworm"
       },
       {
-        "digest": "sha256:24c58a7026676fd140e03b720a527d7bcf1837c042d4ea0ee50d5165d43d8c83",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525570,
-        "tag": "15.20-system-bookworm"
-      },
-      {
-        "digest": "sha256:24c58a7026676fd140e03b720a527d7bcf1837c042d4ea0ee50d5165d43d8c83",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525570,
-        "tag": "15-system-bookworm"
-      },
-      {
         "digest": "sha256:896cf8ed0d1f5825091f9f6760c5c0f88d8e9477658eada7dac7929c4f395476",
         "firstSeen": 1794553668,
         "pushedAt": 1794525553,
         "tag": "17.12-202611122305-system-bookworm"
-      },
-      {
-        "digest": "sha256:896cf8ed0d1f5825091f9f6760c5c0f88d8e9477658eada7dac7929c4f395476",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525553,
-        "tag": "17.12-system-bookworm"
-      },
-      {
-        "digest": "sha256:896cf8ed0d1f5825091f9f6760c5c0f88d8e9477658eada7dac7929c4f395476",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525553,
-        "tag": "17-system-bookworm"
       },
       {
         "digest": "sha256:0acc198c1ee2a17a52a2ec9d774ed21e8a8e3020e34818f802e87536bc312138",
@@ -2039,34 +2603,10 @@
         "tag": "16.16-202611122305-system-bookworm"
       },
       {
-        "digest": "sha256:0acc198c1ee2a17a52a2ec9d774ed21e8a8e3020e34818f802e87536bc312138",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525551,
-        "tag": "16.16-system-bookworm"
-      },
-      {
-        "digest": "sha256:0acc198c1ee2a17a52a2ec9d774ed21e8a8e3020e34818f802e87536bc312138",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525551,
-        "tag": "16-system-bookworm"
-      },
-      {
         "digest": "sha256:75f812674d86aa2ed05205f90f797f9e258b32a2866c50342821f169e4f0e716",
         "firstSeen": 1794553668,
         "pushedAt": 1794525534,
         "tag": "15.20-202611122305-standard-trixie"
-      },
-      {
-        "digest": "sha256:75f812674d86aa2ed05205f90f797f9e258b32a2866c50342821f169e4f0e716",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525534,
-        "tag": "15.20-standard-trixie"
-      },
-      {
-        "digest": "sha256:75f812674d86aa2ed05205f90f797f9e258b32a2866c50342821f169e4f0e716",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525534,
-        "tag": "15-standard-trixie"
       },
       {
         "digest": "sha256:56ff6dee0ae923d9b796fe645f7d39c46e109952dbecdf560db4d2a9c243e02a",
@@ -2075,34 +2615,10 @@
         "tag": "16.16-202611122305-standard-trixie"
       },
       {
-        "digest": "sha256:56ff6dee0ae923d9b796fe645f7d39c46e109952dbecdf560db4d2a9c243e02a",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525516,
-        "tag": "16.16-standard-trixie"
-      },
-      {
-        "digest": "sha256:56ff6dee0ae923d9b796fe645f7d39c46e109952dbecdf560db4d2a9c243e02a",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525516,
-        "tag": "16-standard-trixie"
-      },
-      {
         "digest": "sha256:2a2fe731f3b421d1a1c1f84e70e95ef0658bf198b6c8dbbfe53d51f24c3275b8",
         "firstSeen": 1794553668,
         "pushedAt": 1794525516,
         "tag": "17.12-202611122305-standard-trixie"
-      },
-      {
-        "digest": "sha256:2a2fe731f3b421d1a1c1f84e70e95ef0658bf198b6c8dbbfe53d51f24c3275b8",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525516,
-        "tag": "17.12-standard-trixie"
-      },
-      {
-        "digest": "sha256:2a2fe731f3b421d1a1c1f84e70e95ef0658bf198b6c8dbbfe53d51f24c3275b8",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525516,
-        "tag": "17-standard-trixie"
       },
       {
         "digest": "sha256:70e28ca15b5e5adadeb6e01eded196ae55bbaa35750cce6a8afbb8e39b802e0c",
@@ -2111,34 +2627,10 @@
         "tag": "15.20-202611122305-standard-bookworm"
       },
       {
-        "digest": "sha256:70e28ca15b5e5adadeb6e01eded196ae55bbaa35750cce6a8afbb8e39b802e0c",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525498,
-        "tag": "15.20-standard-bookworm"
-      },
-      {
-        "digest": "sha256:70e28ca15b5e5adadeb6e01eded196ae55bbaa35750cce6a8afbb8e39b802e0c",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525498,
-        "tag": "15-standard-bookworm"
-      },
-      {
         "digest": "sha256:2c67c494d664301367b027976d02f1e2aca372b01f8051d15d1e8c6c68bb616e",
         "firstSeen": 1794553668,
         "pushedAt": 1794525479,
         "tag": "16.16-202611122305-standard-bookworm"
-      },
-      {
-        "digest": "sha256:2c67c494d664301367b027976d02f1e2aca372b01f8051d15d1e8c6c68bb616e",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525479,
-        "tag": "16.16-standard-bookworm"
-      },
-      {
-        "digest": "sha256:2c67c494d664301367b027976d02f1e2aca372b01f8051d15d1e8c6c68bb616e",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525479,
-        "tag": "16-standard-bookworm"
       },
       {
         "digest": "sha256:0639bd0d131295e149a6ab187dd0b3818ec12d6a32c83159b830d5c5bbf29949",
@@ -2147,34 +2639,10 @@
         "tag": "17.12-202611122305-standard-bookworm"
       },
       {
-        "digest": "sha256:0639bd0d131295e149a6ab187dd0b3818ec12d6a32c83159b830d5c5bbf29949",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525479,
-        "tag": "17.12-standard-bookworm"
-      },
-      {
-        "digest": "sha256:0639bd0d131295e149a6ab187dd0b3818ec12d6a32c83159b830d5c5bbf29949",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525479,
-        "tag": "17-standard-bookworm"
-      },
-      {
         "digest": "sha256:8b00131cea7769e387c66b3bd9fdad43e0474c10b3d43d414a0d93b78a754ed0",
         "firstSeen": 1794553668,
         "pushedAt": 1794525464,
         "tag": "15.20-202611122305-minimal-trixie"
-      },
-      {
-        "digest": "sha256:8b00131cea7769e387c66b3bd9fdad43e0474c10b3d43d414a0d93b78a754ed0",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525464,
-        "tag": "15.20-minimal-trixie"
-      },
-      {
-        "digest": "sha256:8b00131cea7769e387c66b3bd9fdad43e0474c10b3d43d414a0d93b78a754ed0",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525464,
-        "tag": "15-minimal-trixie"
       },
       {
         "digest": "sha256:4ae89311e5031155a139a5c6d31a80f6deb135443711e61ff7df41cb549fdcaa",
@@ -2183,34 +2651,10 @@
         "tag": "17.12-202611122305-minimal-trixie"
       },
       {
-        "digest": "sha256:4ae89311e5031155a139a5c6d31a80f6deb135443711e61ff7df41cb549fdcaa",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525443,
-        "tag": "17.12-minimal-trixie"
-      },
-      {
-        "digest": "sha256:4ae89311e5031155a139a5c6d31a80f6deb135443711e61ff7df41cb549fdcaa",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525443,
-        "tag": "17-minimal-trixie"
-      },
-      {
         "digest": "sha256:b51a1204a6978da0eeea8273181c002ce1f6da3001323ca80f74b054e3cb3d4a",
         "firstSeen": 1794553668,
         "pushedAt": 1794525443,
         "tag": "16.16-202611122305-minimal-trixie"
-      },
-      {
-        "digest": "sha256:b51a1204a6978da0eeea8273181c002ce1f6da3001323ca80f74b054e3cb3d4a",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525443,
-        "tag": "16.16-minimal-trixie"
-      },
-      {
-        "digest": "sha256:b51a1204a6978da0eeea8273181c002ce1f6da3001323ca80f74b054e3cb3d4a",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525443,
-        "tag": "16-minimal-trixie"
       },
       {
         "digest": "sha256:7d7eef29a18d75c44ce783f09e0277689ec77e934711b827f8fef3e00e6113f3",
@@ -2219,28 +2663,10 @@
         "tag": "14.25-202611122305-system-trixie"
       },
       {
-        "digest": "sha256:7d7eef29a18d75c44ce783f09e0277689ec77e934711b827f8fef3e00e6113f3",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525432,
-        "tag": "14.25-system-trixie"
-      },
-      {
-        "digest": "sha256:7d7eef29a18d75c44ce783f09e0277689ec77e934711b827f8fef3e00e6113f3",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525432,
-        "tag": "14-system-trixie"
-      },
-      {
         "digest": "sha256:746dc7513adfc2d7d1312bfdfc9b26efabc960f0c731cba563148165aea26421",
         "firstSeen": 1794553668,
         "pushedAt": 1794525432,
         "tag": "19rc2-202611122305-system-trixie"
-      },
-      {
-        "digest": "sha256:746dc7513adfc2d7d1312bfdfc9b26efabc960f0c731cba563148165aea26421",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525432,
-        "tag": "19rc2-system-trixie"
       },
       {
         "digest": "sha256:936f5db28034837d6283354da3eeb367fcb3bc32ba9fb6025464b32292ac36e7",
@@ -2249,28 +2675,10 @@
         "tag": "15.20-202611122305-minimal-bookworm"
       },
       {
-        "digest": "sha256:936f5db28034837d6283354da3eeb367fcb3bc32ba9fb6025464b32292ac36e7",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525425,
-        "tag": "15.20-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:936f5db28034837d6283354da3eeb367fcb3bc32ba9fb6025464b32292ac36e7",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525425,
-        "tag": "15-minimal-bookworm"
-      },
-      {
         "digest": "sha256:74f3b02a40da2852cc26f9b918d1f181345247361f8401d8b00195319e1fc0df",
         "firstSeen": 1794553668,
         "pushedAt": 1794525410,
         "tag": "19rc2-202611122305-system-bookworm"
-      },
-      {
-        "digest": "sha256:74f3b02a40da2852cc26f9b918d1f181345247361f8401d8b00195319e1fc0df",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525410,
-        "tag": "19rc2-system-bookworm"
       },
       {
         "digest": "sha256:2740776dbfed3d8329e935ca42288c027b2864966db31b87ea74421350da2e0d",
@@ -2279,34 +2687,10 @@
         "tag": "14.25-202611122305-system-bookworm"
       },
       {
-        "digest": "sha256:2740776dbfed3d8329e935ca42288c027b2864966db31b87ea74421350da2e0d",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525407,
-        "tag": "14.25-system-bookworm"
-      },
-      {
-        "digest": "sha256:2740776dbfed3d8329e935ca42288c027b2864966db31b87ea74421350da2e0d",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525407,
-        "tag": "14-system-bookworm"
-      },
-      {
         "digest": "sha256:3b31e85d0f0e42057faad111181e4bb3cb7a4e1c38d32cbf35d6efcd5a1185c1",
         "firstSeen": 1794553668,
         "pushedAt": 1794525404,
         "tag": "16.16-202611122305-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:3b31e85d0f0e42057faad111181e4bb3cb7a4e1c38d32cbf35d6efcd5a1185c1",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525404,
-        "tag": "16.16-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:3b31e85d0f0e42057faad111181e4bb3cb7a4e1c38d32cbf35d6efcd5a1185c1",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525404,
-        "tag": "16-minimal-bookworm"
       },
       {
         "digest": "sha256:a98d12254368403c9be1f7a665d50db7d8ff33ad42343c3d4f84a8cf358c209e",
@@ -2315,28 +2699,10 @@
         "tag": "17.12-202611122305-minimal-bookworm"
       },
       {
-        "digest": "sha256:a98d12254368403c9be1f7a665d50db7d8ff33ad42343c3d4f84a8cf358c209e",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525402,
-        "tag": "17.12-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:a98d12254368403c9be1f7a665d50db7d8ff33ad42343c3d4f84a8cf358c209e",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525402,
-        "tag": "17-minimal-bookworm"
-      },
-      {
         "digest": "sha256:b8bd512601de07c70267113e561676f770b9c6598fdea5043a8af2ca21c653d8",
         "firstSeen": 1794553668,
         "pushedAt": 1794525388,
         "tag": "19rc2-202611122305-standard-trixie"
-      },
-      {
-        "digest": "sha256:b8bd512601de07c70267113e561676f770b9c6598fdea5043a8af2ca21c653d8",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525388,
-        "tag": "19rc2-standard-trixie"
       },
       {
         "digest": "sha256:1c6400e89a6f16732c3fcda3ea2011255fe9b3e92d39c009177c4fb94f6fa206",
@@ -2345,28 +2711,10 @@
         "tag": "14.25-202611122305-standard-trixie"
       },
       {
-        "digest": "sha256:1c6400e89a6f16732c3fcda3ea2011255fe9b3e92d39c009177c4fb94f6fa206",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525380,
-        "tag": "14.25-standard-trixie"
-      },
-      {
-        "digest": "sha256:1c6400e89a6f16732c3fcda3ea2011255fe9b3e92d39c009177c4fb94f6fa206",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525380,
-        "tag": "14-standard-trixie"
-      },
-      {
         "digest": "sha256:335857abea95e55b0815cbc10053f78cb516966668a55fbcd7141483a7e577e3",
         "firstSeen": 1794553668,
         "pushedAt": 1794525362,
         "tag": "19rc2-202611122305-standard-bookworm"
-      },
-      {
-        "digest": "sha256:335857abea95e55b0815cbc10053f78cb516966668a55fbcd7141483a7e577e3",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525362,
-        "tag": "19rc2-standard-bookworm"
       },
       {
         "digest": "sha256:5a5dfbde88d5909fd4938189c141f53fb153f53c519f14907dce9e7c04baa153",
@@ -2375,34 +2723,10 @@
         "tag": "18.7-202611122305-system-trixie"
       },
       {
-        "digest": "sha256:5a5dfbde88d5909fd4938189c141f53fb153f53c519f14907dce9e7c04baa153",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525356,
-        "tag": "18.7-system-trixie"
-      },
-      {
-        "digest": "sha256:5a5dfbde88d5909fd4938189c141f53fb153f53c519f14907dce9e7c04baa153",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525356,
-        "tag": "18-system-trixie"
-      },
-      {
         "digest": "sha256:f0775abe46ca73acb58d10dfeb1dada7c4eec93f6ec497b790dd54179593518f",
         "firstSeen": 1794553668,
         "pushedAt": 1794525353,
         "tag": "14.25-202611122305-standard-bookworm"
-      },
-      {
-        "digest": "sha256:f0775abe46ca73acb58d10dfeb1dada7c4eec93f6ec497b790dd54179593518f",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525353,
-        "tag": "14.25-standard-bookworm"
-      },
-      {
-        "digest": "sha256:f0775abe46ca73acb58d10dfeb1dada7c4eec93f6ec497b790dd54179593518f",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525353,
-        "tag": "14-standard-bookworm"
       },
       {
         "digest": "sha256:c218773d33f8b692153cc31165a1582f554d4665822e1cb8f8fc8207f2bdb051",
@@ -2411,28 +2735,10 @@
         "tag": "19rc2-202611122305-minimal-trixie"
       },
       {
-        "digest": "sha256:c218773d33f8b692153cc31165a1582f554d4665822e1cb8f8fc8207f2bdb051",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525336,
-        "tag": "19rc2-minimal-trixie"
-      },
-      {
         "digest": "sha256:4b6c13e807656537a424b29fd4265da331d9869578007dd34faf810f0ed8cb9a",
         "firstSeen": 1794553668,
         "pushedAt": 1794525330,
         "tag": "18.7-202611122305-system-bookworm"
-      },
-      {
-        "digest": "sha256:4b6c13e807656537a424b29fd4265da331d9869578007dd34faf810f0ed8cb9a",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525330,
-        "tag": "18.7-system-bookworm"
-      },
-      {
-        "digest": "sha256:4b6c13e807656537a424b29fd4265da331d9869578007dd34faf810f0ed8cb9a",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525330,
-        "tag": "18-system-bookworm"
       },
       {
         "digest": "sha256:c3c62fb81ef26f60ad0a04e374aca6c5ae58f76d788c9786d3e19fe8013ea69b",
@@ -2441,28 +2747,10 @@
         "tag": "14.25-202611122305-minimal-trixie"
       },
       {
-        "digest": "sha256:c3c62fb81ef26f60ad0a04e374aca6c5ae58f76d788c9786d3e19fe8013ea69b",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525325,
-        "tag": "14.25-minimal-trixie"
-      },
-      {
-        "digest": "sha256:c3c62fb81ef26f60ad0a04e374aca6c5ae58f76d788c9786d3e19fe8013ea69b",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525325,
-        "tag": "14-minimal-trixie"
-      },
-      {
         "digest": "sha256:a538c4ba683b73a5826fe5b3ac765b1c592fe64d170df1b31d8df34ba828efe7",
         "firstSeen": 1794553668,
         "pushedAt": 1794525313,
         "tag": "19rc2-202611122305-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:a538c4ba683b73a5826fe5b3ac765b1c592fe64d170df1b31d8df34ba828efe7",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525313,
-        "tag": "19rc2-minimal-bookworm"
       },
       {
         "digest": "sha256:23719505c7cc417b043ffd9998b44ab8d57fec1d92f0bf11b231a1754a5962f2",
@@ -2471,34 +2759,10 @@
         "tag": "18.7-202611122305-standard-trixie"
       },
       {
-        "digest": "sha256:23719505c7cc417b043ffd9998b44ab8d57fec1d92f0bf11b231a1754a5962f2",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525304,
-        "tag": "18.7-standard-trixie"
-      },
-      {
-        "digest": "sha256:23719505c7cc417b043ffd9998b44ab8d57fec1d92f0bf11b231a1754a5962f2",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525304,
-        "tag": "18-standard-trixie"
-      },
-      {
         "digest": "sha256:0ff3a8e0bc7c152ec9402386382b941d652fe36e0d2e38aba78345f414c3a5d7",
         "firstSeen": 1794553668,
         "pushedAt": 1794525295,
         "tag": "14.25-202611122305-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:0ff3a8e0bc7c152ec9402386382b941d652fe36e0d2e38aba78345f414c3a5d7",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525295,
-        "tag": "14.25-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:0ff3a8e0bc7c152ec9402386382b941d652fe36e0d2e38aba78345f414c3a5d7",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525295,
-        "tag": "14-minimal-bookworm"
       },
       {
         "digest": "sha256:2643d7a683334dea20ba3171634f303eaf023605e709aa0f60ccc6aebf9fda18",
@@ -2507,52 +2771,16 @@
         "tag": "18.7-202611122305-standard-bookworm"
       },
       {
-        "digest": "sha256:2643d7a683334dea20ba3171634f303eaf023605e709aa0f60ccc6aebf9fda18",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525274,
-        "tag": "18.7-standard-bookworm"
-      },
-      {
-        "digest": "sha256:2643d7a683334dea20ba3171634f303eaf023605e709aa0f60ccc6aebf9fda18",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525274,
-        "tag": "18-standard-bookworm"
-      },
-      {
         "digest": "sha256:b98ae0b74a12f20ccff32219be0e33fdd35c7e2e8e73c8bff9173f1128e167d1",
         "firstSeen": 1794553668,
         "pushedAt": 1794525245,
         "tag": "18.7-202611122305-minimal-trixie"
       },
       {
-        "digest": "sha256:b98ae0b74a12f20ccff32219be0e33fdd35c7e2e8e73c8bff9173f1128e167d1",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525245,
-        "tag": "18.7-minimal-trixie"
-      },
-      {
-        "digest": "sha256:b98ae0b74a12f20ccff32219be0e33fdd35c7e2e8e73c8bff9173f1128e167d1",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525245,
-        "tag": "18-minimal-trixie"
-      },
-      {
         "digest": "sha256:683ceb5b4d1045f7544bef9fe4e729b729b5ea7c5cdb4088d502c23e69ce9553",
         "firstSeen": 1794553668,
         "pushedAt": 1794525219,
         "tag": "18.7-202611122305-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:683ceb5b4d1045f7544bef9fe4e729b729b5ea7c5cdb4088d502c23e69ce9553",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525219,
-        "tag": "18.7-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:683ceb5b4d1045f7544bef9fe4e729b729b5ea7c5cdb4088d502c23e69ce9553",
-        "firstSeen": 1794553668,
-        "pushedAt": 1794525219,
-        "tag": "18-minimal-bookworm"
       },
       {
         "digest": "sha256:1546be7d23066aaf9eb75b07df17c843c98483cede7afdbaf01dca785fb3bf60",
@@ -2853,438 +3081,6 @@
         "firstSeen": 1794263713,
         "pushedAt": 1794212384,
         "tag": "15.19-standard-bookworm"
-      },
-      {
-        "digest": "sha256:21ef56eab57a359cef4e8b646c9c017328a57349adb12708982ccd4e6663662e",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212372,
-        "tag": "14.24-202611090810-standard-trixie"
-      },
-      {
-        "digest": "sha256:21ef56eab57a359cef4e8b646c9c017328a57349adb12708982ccd4e6663662e",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212372,
-        "tag": "14.24-standard-trixie"
-      },
-      {
-        "digest": "sha256:68b520280153de84b294740b8a96d47918e31e4640cfa93cfb8131289aae3b88",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212370,
-        "tag": "17.11-202611090810-standard-bookworm"
-      },
-      {
-        "digest": "sha256:68b520280153de84b294740b8a96d47918e31e4640cfa93cfb8131289aae3b88",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212370,
-        "tag": "17.11-standard-bookworm"
-      },
-      {
-        "digest": "sha256:c765aec78593a00b48cdda336fd1c4d0518a723d1bd13552efc20c6c3f0adf7b",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212358,
-        "tag": "15.19-202611090810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:c765aec78593a00b48cdda336fd1c4d0518a723d1bd13552efc20c6c3f0adf7b",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212358,
-        "tag": "15.19-minimal-trixie"
-      },
-      {
-        "digest": "sha256:121ffe781935f9f62dafd19966ffa0fb74853c5be292e6bdf81368e71f9e64be",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212351,
-        "tag": "14.24-202611090810-standard-bookworm"
-      },
-      {
-        "digest": "sha256:121ffe781935f9f62dafd19966ffa0fb74853c5be292e6bdf81368e71f9e64be",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212351,
-        "tag": "14.24-standard-bookworm"
-      },
-      {
-        "digest": "sha256:e5969954ebdb15fecc4b24929d8eb0e6c75764a0e590ef1eff79dac44229f466",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212341,
-        "tag": "19rc1-202611090810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:e5969954ebdb15fecc4b24929d8eb0e6c75764a0e590ef1eff79dac44229f466",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212341,
-        "tag": "19rc1-minimal-trixie"
-      },
-      {
-        "digest": "sha256:eb06deb9dab3706c9dc8dce4b24677f0b55a8887918cd26d2a3cc59b2c12c3ee",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212341,
-        "tag": "17.11-202611090810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:eb06deb9dab3706c9dc8dce4b24677f0b55a8887918cd26d2a3cc59b2c12c3ee",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212341,
-        "tag": "17.11-minimal-trixie"
-      },
-      {
-        "digest": "sha256:948f314b0d3ee54842f63ac58235c87beaa80b26b59b7b09b0034358e2df9c8b",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212330,
-        "tag": "14.24-202611090810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:948f314b0d3ee54842f63ac58235c87beaa80b26b59b7b09b0034358e2df9c8b",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212330,
-        "tag": "14.24-minimal-trixie"
-      },
-      {
-        "digest": "sha256:c9617002f5b5ff6463143b15708f80b1c03a3730d8914724443bf513f6d9fbea",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212328,
-        "tag": "15.19-202611090810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:c9617002f5b5ff6463143b15708f80b1c03a3730d8914724443bf513f6d9fbea",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212328,
-        "tag": "15.19-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:c52cea0aa0aac7079e7e1643c27d58ea230d6ef858a3da757f59b76fc2aab4c1",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212319,
-        "tag": "19rc1-202611090810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:c52cea0aa0aac7079e7e1643c27d58ea230d6ef858a3da757f59b76fc2aab4c1",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212319,
-        "tag": "19rc1-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:7f46c7b31bee3cd641d84ad0887cf35a968141fbd9b75d8d29897b08379b0842",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212310,
-        "tag": "17.11-202611090810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:7f46c7b31bee3cd641d84ad0887cf35a968141fbd9b75d8d29897b08379b0842",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212310,
-        "tag": "17.11-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:159634517daf63cb159bf97ba44cb6de075b49cb2339473347622e15672908e5",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212309,
-        "tag": "14.24-202611090810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:159634517daf63cb159bf97ba44cb6de075b49cb2339473347622e15672908e5",
-        "firstSeen": 1794263713,
-        "pushedAt": 1794212309,
-        "tag": "14.24-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:44d17e8570dc25055376148a2918840def5bef0193969be3e79101afa25eafc2",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793695719,
-        "tag": "18.6-202611030838-system-trixie"
-      },
-      {
-        "digest": "sha256:605c6e45e733ce0e908505e9ac3c441637d6794d330ec0e9d8d6f631b6918b1e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793695692,
-        "tag": "18.6-202611030838-system-bookworm"
-      },
-      {
-        "digest": "sha256:5bf4a23aa13fb560903fba932676773ba4ba2729c162e587b09bf539a2e3df56",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793695666,
-        "tag": "18.6-202611030838-standard-trixie"
-      },
-      {
-        "digest": "sha256:fedcc3ff1abb4024997e065f449c2201d92cbf093dca238efbc9147004023ab9",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793695634,
-        "tag": "18.6-202611030838-standard-bookworm"
-      },
-      {
-        "digest": "sha256:26d15a12723510b0b416e8aec2bc65f2da7ac9b77ef3182a0911e4b8b991420a",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793695602,
-        "tag": "18.6-202611030838-minimal-trixie"
-      },
-      {
-        "digest": "sha256:fe6fae9baefd10996c8c02af5d3d2231cb38cd614f5fb8e68a4d404a0623a378",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793695577,
-        "tag": "18.6-202611030838-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:248790c88c089efa63c02ef0f26de127eebc899672626c47a6bbfcfcdba5ba19",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607788,
-        "tag": "14.24-202611020810-system-trixie"
-      },
-      {
-        "digest": "sha256:6730f130a70ed6642d6c4eb7d697e9b755728e9c820cb561b3898330fffd0d35",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607766,
-        "tag": "14.24-202611020810-system-bookworm"
-      },
-      {
-        "digest": "sha256:03a1c6a62b27e8ad31cae5c085131b5ac706b09403d6fcb6c58d16c8daa257cd",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607752,
-        "tag": "17.11-202611020810-system-trixie"
-      },
-      {
-        "digest": "sha256:bd7510f13d0f900a2cc8cc4780457d1ee1f1c4673524fdeb171caab021ddd2c1",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607744,
-        "tag": "14.24-202611020810-standard-trixie"
-      },
-      {
-        "digest": "sha256:b548f1bdfaff8c6a5b44646355502435be2beb28ae1bbb3520b8d6c44e6fbc5f",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607723,
-        "tag": "17.11-202611020810-system-bookworm"
-      },
-      {
-        "digest": "sha256:a6d010bd412ca693d3db5a5d68afcca1d21232c983ef89b5589f144f21adf91b",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607723,
-        "tag": "14.24-202611020810-standard-bookworm"
-      },
-      {
-        "digest": "sha256:c19eac3ed7d86b0261ef5551c4daf9c61fba554a51664abe7c4f689f5b478993",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607715,
-        "tag": "16.15-202611020810-system-trixie"
-      },
-      {
-        "digest": "sha256:c9d35a3bd57565e4cacbc608bd45ca8aceb040d489a87078874e501cc810f2ff",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607706,
-        "tag": "19rc1-202611020810-system-trixie"
-      },
-      {
-        "digest": "sha256:93063d1ffbe67a99dabd0ac1442b44b3995eab751a2bb2dd0b715fd7ad826178",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607701,
-        "tag": "14.24-202611020810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:4d0aac315c4d8c3202252bd06fea83b16951cc57234a7b610eeaa382ff4482d0",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607696,
-        "tag": "17.11-202611020810-standard-trixie"
-      },
-      {
-        "digest": "sha256:639ef58e1ecca2ecb91ba6aa52f55a25fc59dd1792df99f2e99d81d85043a8d6",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607693,
-        "tag": "16.15-202611020810-system-bookworm"
-      },
-      {
-        "digest": "sha256:c8a519fd25db377ebfbfc0ed0a3a8d51d9706a5ba010f866a1f4ccb7ab1faa64",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607687,
-        "tag": "19rc1-202611020810-system-bookworm"
-      },
-      {
-        "digest": "sha256:06dfba7dec1927675984d35aeb10902cf7706d1007f49296b8ed97788a3172fa",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607678,
-        "tag": "14.24-202611020810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:b67681006859e6572798d498fc1755016fe4808efecc9fa8bd48059de4efaaeb",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607673,
-        "tag": "16.15-202611020810-standard-trixie"
-      },
-      {
-        "digest": "sha256:e644949d3d14f66c4b4430db1cb7db939b78f727ae3d5590fb59c019dede0d75",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607668,
-        "tag": "17.11-202611020810-standard-bookworm"
-      },
-      {
-        "digest": "sha256:e527cc2374d007b8c9c52045b6fa129a63e61468bf10d08b07368a94d4da67cc",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607667,
-        "tag": "19rc1-202611020810-standard-trixie"
-      },
-      {
-        "digest": "sha256:ecfe694f3c0273a6b94875b04fda96c8d0a09d7d3bb5a5c7446175a5d17ea489",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607664,
-        "tag": "15.19-202611020810-system-trixie"
-      },
-      {
-        "digest": "sha256:0c19f66e28154922681fdd316d5a5bf4bfae4799d8943708e25f6fa1676fe300",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607651,
-        "tag": "16.15-202611020810-standard-bookworm"
-      },
-      {
-        "digest": "sha256:224624c57832f7f3498628ffe3d20a6f58b0b137983759fd4fc34882528db24f",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607645,
-        "tag": "19rc1-202611020810-standard-bookworm"
-      },
-      {
-        "digest": "sha256:7c680fc840a9ea6bd04399f1aeea06bb3180df3f0969f18833925b6df3d7dc87",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607641,
-        "tag": "17.11-202611020810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:6c859b243e64ff135cf4768064bc722919a630b3ccc3d01eded9f1f4e18bafa0",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607636,
-        "tag": "15.19-202611020810-system-bookworm"
-      },
-      {
-        "digest": "sha256:1549a11f6f17d6402dd266af10fbcd6a63e2686979d767682667b469f53a2cb6",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607629,
-        "tag": "16.15-202611020810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:73f62aa07ddab70dce2f3df71abf652918d87171a347782e9f6425f8f7f54c06",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607622,
-        "tag": "19rc1-202611020810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:994fa6017fcdc88ce3f4a86bdc45ed719b78380f1e6c60f7cefea2679e63d6cc",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607610,
-        "tag": "15.19-202611020810-standard-trixie"
-      },
-      {
-        "digest": "sha256:a0e0102f166e7aee0d461ef9edf64bc98c851bbff5bd4a75447cd0e634608709",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607607,
-        "tag": "17.11-202611020810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:e4f8038d44377c1126cde9b20de49e5bb4c920ff9fc3cf0c66f1381d0bce902c",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607605,
-        "tag": "19rc1-202611020810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:edc22fbc8e3eef2dd6ca5a72b1d0aca8b6d05874e3c423d6bc0d6c744a2144ce",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607603,
-        "tag": "16.15-202611020810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:51fc01d5c3d0064d1504ae102747ec4437a52929290f825f4374d034a1d8ff39",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607582,
-        "tag": "15.19-202611020810-standard-bookworm"
-      },
-      {
-        "digest": "sha256:dbfac3fea4498e987258cb1ef02a3902d6475c01a66a93041c9ccd3e887e201e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607552,
-        "tag": "15.19-202611020810-minimal-trixie"
-      },
-      {
-        "digest": "sha256:2cb69ad2175a13ce88c7b9e42f788fc74a0890a21440159ba9eda2a2958cfbd8",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793607517,
-        "tag": "15.19-202611020810-minimal-bookworm"
-      },
-      {
-        "digest": "sha256:5553acb5e533012e4e161e7d6a274c37d0d2376b64fdabd0963be2a9407cba5f",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003587,
-        "tag": "14.24-202610260820-system-trixie"
-      },
-      {
-        "digest": "sha256:348997438269fddc0e2825e00594367ad61751adb08a7698a0a14f793b0dc2ce",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003575,
-        "tag": "18.6-202610260820-system-trixie"
-      },
-      {
-        "digest": "sha256:d1c54f9247cb0f82e52a36fb328c0d6c5fb77debccdf113f8605af7a7d8753da",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003558,
-        "tag": "14.24-202610260820-system-bookworm"
-      },
-      {
-        "digest": "sha256:4ab49dc4f4bf4bcf583b6443e58bd410af3a69fd04c5e34e657edc7181e95086",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003550,
-        "tag": "18.6-202610260820-system-bookworm"
-      },
-      {
-        "digest": "sha256:f18a7a4fcadf5874ba89b183ec4a2c4ed010605c900564c916066b353a90797d",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003545,
-        "tag": "16.15-202610260820-system-trixie"
-      },
-      {
-        "digest": "sha256:84a876e5f15a58f837ecd84ae2f2db43781992ce3ef8eb73619902e0ff7f1fbe",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003530,
-        "tag": "14.24-202610260820-standard-trixie"
-      },
-      {
-        "digest": "sha256:39add80f5b1e573e2f6b641c66fd1a2f8dede67ca0330e870285bc1078551390",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003525,
-        "tag": "18.6-202610260820-standard-trixie"
-      },
-      {
-        "digest": "sha256:f797dac9e79b5580b0ad58dcbb4bd6c2b7a837a718a4f3b587037e39dca1dcac",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003522,
-        "tag": "19rc1-202610260820-system-trixie"
-      },
-      {
-        "digest": "sha256:ca1ca2e092bdc01d28d558a20d9ce71360aacb501608e7efea1a63fb9ce5c9a7",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003518,
-        "tag": "16.15-202610260820-system-bookworm"
-      },
-      {
-        "digest": "sha256:1be6f52d03e49a73ae3a1ce122e31d0dc562d835924bf1c1ff12662eee9ec09d",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003506,
-        "tag": "19rc1-202610260820-system-bookworm"
-      },
-      {
-        "digest": "sha256:3c51dc303c523df57cf5e74b1ba63fb7ca298d2da980260ca456c9dbcaced8c3",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003501,
-        "tag": "14.24-202610260820-standard-bookworm"
-      },
-      {
-        "digest": "sha256:9ccef16de58c1738aaee16ecd192a145bdcd7af8b533472461037b620ad0aad4",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003498,
-        "tag": "17.11-202610260819-system-trixie"
-      },
-      {
-        "digest": "sha256:82fda86b8454c6e5a5870c4c6e51b0a00178ed347248f64a2c9b4bb73682e19b",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003492,
-        "tag": "15.19-202610260819-system-trixie"
-      },
-      {
-        "digest": "sha256:ff50547e391c0df0ff64726962e816effcfd85b4ea42040a70cc502e8ff45d49",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793003491,
-        "tag": "18.6-202610260820-standard-bookworm"
       }
     ],
     "ghcr.io/coder/envbuilder": [
@@ -4147,16 +3943,22 @@
     ],
     "ghcr.io/controlplaneio-fluxcd/flux-operator-manifests": [
       {
-        "digest": "sha256:fb12f26562027585e74c83e44a58be6744739d9f39edb28d89422da3cf806c24",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794482314,
-        "tag": "v0.62.1-1794482301"
+        "digest": "sha256:457995e0ef1b3079809fbf8cb110daf4ea2f0185ab098834d870aa2bf92cee74",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794828078,
+        "tag": "v0.62.1-1794828060"
+      },
+      {
+        "digest": "sha256:457995e0ef1b3079809fbf8cb110daf4ea2f0185ab098834d870aa2bf92cee74",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794828078,
+        "tag": "latest"
       },
       {
         "digest": "sha256:fb12f26562027585e74c83e44a58be6744739d9f39edb28d89422da3cf806c24",
         "firstSeen": 1794514352,
         "pushedAt": 1794482314,
-        "tag": "latest"
+        "tag": "v0.62.1-1794482301"
       },
       {
         "digest": "sha256:ac153aea44c2caf55537ed1cc6fe1ed289c12134253299ae75519150fe6341f7",
@@ -4457,15 +4259,15 @@
         "firstSeen": 1793853272,
         "pushedAt": 1779272676,
         "tag": "v0.49.0-1779272666"
-      },
-      {
-        "digest": "sha256:e3bda75bbc3b820909fb46e66ccf37ce6c4e6f613f6241d505d6adf1872a19ab",
-        "firstSeen": 1793853272,
-        "pushedAt": 1779095003,
-        "tag": "v0.49.0-1779094994"
       }
     ],
     "ghcr.io/coredns/charts/coredns": [
+      {
+        "digest": "sha256:0e61458f6ee07675e90a98604e7a4936e0d2a8195244351b8379de3367da8c7d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794819273,
+        "tag": "1.50.8"
+      },
       {
         "digest": "sha256:7688172cfee7bdd19c2ce98ea2de21694decfa58eebcb4af5878c076b98b7fe5",
         "firstSeen": 1794680528,
@@ -5003,22 +4805,10 @@
         "tag": "sha-19b09f5"
       },
       {
-        "digest": "sha256:b43bed28537760b2e91637a1235e76a8f88ae77ffda156ef468f56cebd9dc2cd",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792316484,
-        "tag": "sha-26d79a4"
-      },
-      {
         "digest": "sha256:878c8f420c694f47c0e6c1e7562991763318ef7d5b1e8a9e1da3683d5d0e2bcc",
         "firstSeen": 1793853272,
         "pushedAt": 1792316097,
         "tag": "2.94.2"
-      },
-      {
-        "digest": "sha256:4d10dab50cda24734b1cbf025fd918dd0dc0bff16e031b61f569690064e4571b",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792313731,
-        "tag": "sha-6b57694"
       },
       {
         "digest": "sha256:17af9324a4c3e821b8ee4f74cf7345d88b43dfa2e6988b08a1470106d077bbaa",
@@ -6105,9 +5895,9 @@
     ],
     "ghcr.io/home-operations/drm-exporter": [
       {
-        "digest": "sha256:a4b281601df70e30429c952dfa95a422b2b408999bb899f77baecb9ddba55966",
-        "firstSeen": 1794812019,
-        "pushedAt": 1794769889,
+        "digest": "sha256:5b259e2e0ce9a1c9abc14e2b90081a9974b820342c79b718a0691821648b0c5e",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794864150,
         "tag": "main"
       },
       {
@@ -6669,15 +6459,15 @@
     ],
     "ghcr.io/mcxboxbroadcast/standalone": [
       {
-        "digest": "sha256:6393f71cea7eaae193041423138d351aa4b368b1a0dd0d57207165d1b3f1744e",
-        "firstSeen": 1794680528,
-        "pushedAt": 1794672692,
+        "digest": "sha256:6a8c8ad0442f12b6d7cfcafd948c116cd6471429d8ad2254344ec313d9518462",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794835630,
         "tag": "master"
       },
       {
-        "digest": "sha256:6393f71cea7eaae193041423138d351aa4b368b1a0dd0d57207165d1b3f1744e",
-        "firstSeen": 1794680528,
-        "pushedAt": 1794672692,
+        "digest": "sha256:6a8c8ad0442f12b6d7cfcafd948c116cd6471429d8ad2254344ec313d9518462",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794835630,
         "tag": "latest"
       }
     ],
@@ -9109,12 +8899,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1748930709,
         "tag": "0.11.2"
-      },
-      {
-        "digest": "sha256:ee7bc50d6c81ca0d5542ffbd8aa70eb677d3abd136c18eb264bd6844e998a84e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1748497940,
-        "tag": "0.11.1"
       }
     ],
     "ghcr.io/victoriametrics/helm-charts/victoria-metrics-k8s-stack": [
@@ -9417,18 +9201,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1776075426,
         "tag": "0.73.0"
-      },
-      {
-        "digest": "sha256:d1deea43b9bec379794ed484c12e93860d114615d930fca8f04785141b3409d5",
-        "firstSeen": 1793853272,
-        "pushedAt": 1775156574,
-        "tag": "0.72.6"
-      },
-      {
-        "digest": "sha256:76367638537ec35219e0f0dfdc5846694959ffc1fd4903b5f59f1aa62f67f1a1",
-        "firstSeen": 1793853272,
-        "pushedAt": 1773682889,
-        "tag": "0.72.5"
       }
     ],
     "ghcr.io/victoriametrics/helm-charts/victoria-metrics-operator": [
@@ -9975,6 +9747,108 @@
     ],
     "mcr.microsoft.com/devcontainers/base": [
       {
+        "digest": "sha256:56a63c8231012900e8a4d7993eea91dd4a2337727a9e18f58761cfcdf686fe11",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794845278,
+        "tag": "dev-ubuntu26.04"
+      },
+      {
+        "digest": "sha256:56a63c8231012900e8a4d7993eea91dd4a2337727a9e18f58761cfcdf686fe11",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794845276,
+        "tag": "dev-resolute"
+      },
+      {
+        "digest": "sha256:56a63c8231012900e8a4d7993eea91dd4a2337727a9e18f58761cfcdf686fe11",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794845229,
+        "tag": "dev-ubuntu"
+      },
+      {
+        "digest": "sha256:e55c8bff16c3a80a3bed808d6af5a3e11c5fd01b18c99bb9f2c1c23bcf455c94",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794844415,
+        "tag": "dev-alpine3.22"
+      },
+      {
+        "digest": "sha256:87fcc866ea7161594eb87aa8b82ba4a6983c5f21109f4626c5308786a62a1a4d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794843229,
+        "tag": "dev-noble"
+      },
+      {
+        "digest": "sha256:87fcc866ea7161594eb87aa8b82ba4a6983c5f21109f4626c5308786a62a1a4d",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794843168,
+        "tag": "dev-ubuntu24.04"
+      },
+      {
+        "digest": "sha256:07a282669852efd800b0944e328be3725ba761ac335cef00a0f208be3491d9f4",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842768,
+        "tag": "dev-alpine"
+      },
+      {
+        "digest": "sha256:07a282669852efd800b0944e328be3725ba761ac335cef00a0f208be3491d9f4",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842766,
+        "tag": "dev-alpine3.23"
+      },
+      {
+        "digest": "sha256:21f13992ecd8720f24f3774b83eae27bf3573b0348ce700e00a6d973b97cc832",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842654,
+        "tag": "dev-ubuntu22.04"
+      },
+      {
+        "digest": "sha256:21f13992ecd8720f24f3774b83eae27bf3573b0348ce700e00a6d973b97cc832",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842645,
+        "tag": "dev-jammy"
+      },
+      {
+        "digest": "sha256:d5d0266bce7f14ce9cbc258ae0bf4898f9d3c1e187bfe51f29c091b700cdcc62",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842557,
+        "tag": "dev"
+      },
+      {
+        "digest": "sha256:d5d0266bce7f14ce9cbc258ae0bf4898f9d3c1e187bfe51f29c091b700cdcc62",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842554,
+        "tag": "dev-debian"
+      },
+      {
+        "digest": "sha256:d5d0266bce7f14ce9cbc258ae0bf4898f9d3c1e187bfe51f29c091b700cdcc62",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842553,
+        "tag": "dev-debian13"
+      },
+      {
+        "digest": "sha256:d5d0266bce7f14ce9cbc258ae0bf4898f9d3c1e187bfe51f29c091b700cdcc62",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842551,
+        "tag": "dev-trixie"
+      },
+      {
+        "digest": "sha256:0986494c5c92b518889908018a388f8d17bf7da30468c558514764425676b0db",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842527,
+        "tag": "dev-alpine3.21"
+      },
+      {
+        "digest": "sha256:814814fb442b493c15dc5ffb31438d4327eef9c7fb55d5d2964a85da637a7ce6",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842114,
+        "tag": "dev-bookworm"
+      },
+      {
+        "digest": "sha256:814814fb442b493c15dc5ffb31438d4327eef9c7fb55d5d2964a85da637a7ce6",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794842106,
+        "tag": "dev-debian12"
+      },
+      {
         "digest": "sha256:b377a08d19467bcc08180cb95098448cac31c1a8423e287ce709a9eb09e14762",
         "firstSeen": 1794599766,
         "pushedAt": 1794568663,
@@ -10381,108 +10255,6 @@
         "firstSeen": 1794599766,
         "pushedAt": 1794566093,
         "tag": "4-alpine3.21"
-      },
-      {
-        "digest": "sha256:7497ff71180f9d781c59907fcf5be7f3e5dda6a84359ccd384ca9fe277356fbc",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494774,
-        "tag": "dev-ubuntu26.04"
-      },
-      {
-        "digest": "sha256:7497ff71180f9d781c59907fcf5be7f3e5dda6a84359ccd384ca9fe277356fbc",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494772,
-        "tag": "dev-resolute"
-      },
-      {
-        "digest": "sha256:7497ff71180f9d781c59907fcf5be7f3e5dda6a84359ccd384ca9fe277356fbc",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494724,
-        "tag": "dev-ubuntu"
-      },
-      {
-        "digest": "sha256:83045df8d7c124f05705fcc6173bd5322001244f394e92d930eb43dd0c24b214",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494547,
-        "tag": "dev-debian13"
-      },
-      {
-        "digest": "sha256:83045df8d7c124f05705fcc6173bd5322001244f394e92d930eb43dd0c24b214",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494544,
-        "tag": "dev-trixie"
-      },
-      {
-        "digest": "sha256:83045df8d7c124f05705fcc6173bd5322001244f394e92d930eb43dd0c24b214",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494498,
-        "tag": "dev-debian"
-      },
-      {
-        "digest": "sha256:83045df8d7c124f05705fcc6173bd5322001244f394e92d930eb43dd0c24b214",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494497,
-        "tag": "dev"
-      },
-      {
-        "digest": "sha256:1e1cbd198e7ed3aacf219f612c6b4b3097e5e05d7becfefcd22aa41732991702",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494363,
-        "tag": "dev-bookworm"
-      },
-      {
-        "digest": "sha256:1e1cbd198e7ed3aacf219f612c6b4b3097e5e05d7becfefcd22aa41732991702",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494363,
-        "tag": "dev-debian12"
-      },
-      {
-        "digest": "sha256:8f36d4f8c05bc7a0d3e1fbb36381e8a9fe54cae4c94841b21eddab543488079a",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494302,
-        "tag": "dev-ubuntu22.04"
-      },
-      {
-        "digest": "sha256:8f36d4f8c05bc7a0d3e1fbb36381e8a9fe54cae4c94841b21eddab543488079a",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494299,
-        "tag": "dev-jammy"
-      },
-      {
-        "digest": "sha256:45f320df86c8c654a99fcddeac0ead24933b4bc2efa22525ffd76f86239d5e5b",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794494267,
-        "tag": "dev-alpine3.22"
-      },
-      {
-        "digest": "sha256:7b3e64c388cab1ddff61a34959741ffde8884d2ca2ffc038c6f06672b4161e1b",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493984,
-        "tag": "dev-alpine3.21"
-      },
-      {
-        "digest": "sha256:5e8f8e82b83ea2fb8d6519d21ef9349122a43beb3e75220cd4b1c45e118d101d",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493808,
-        "tag": "dev-ubuntu24.04"
-      },
-      {
-        "digest": "sha256:5e8f8e82b83ea2fb8d6519d21ef9349122a43beb3e75220cd4b1c45e118d101d",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493807,
-        "tag": "dev-noble"
-      },
-      {
-        "digest": "sha256:4f2a55491cfc61d5a25b6806473e8930c72a3528a9ef720658307c700b5958be",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493642,
-        "tag": "dev-alpine3.23"
-      },
-      {
-        "digest": "sha256:4f2a55491cfc61d5a25b6806473e8930c72a3528a9ef720658307c700b5958be",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493641,
-        "tag": "dev-alpine"
       },
       {
         "digest": "sha256:b1e3b08610ae0b2599f57c3a492eebc93d1d26dbaefb4a0bad0caa7149e4ec95",
@@ -18171,9 +17943,9 @@
     ],
     "quay.io/csiaddons/k8s-controller": [
       {
-        "digest": "sha256:78b1c68bd1b6b6f0f68466d6b8ea145bc7871f499e2f62653f8c850ac23c416e",
-        "firstSeen": 1794296039,
-        "pushedAt": 1794289503,
+        "digest": "sha256:9abafa6d15bd6dd0864279d0da01cd9aac82fb8654b7449900083962ea6381c5",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794814951,
         "tag": "latest"
       },
       {
@@ -18293,9 +18065,9 @@
     ],
     "quay.io/csiaddons/k8s-sidecar": [
       {
-        "digest": "sha256:dcd300d780f9dc262480c6b9b3faf3d0458a982c53ff81e77dfad0221113e67a",
-        "firstSeen": 1794296039,
-        "pushedAt": 1794289555,
+        "digest": "sha256:03310f6bb92c31ea158a6763295ea9c64cce171664ea618c66060224eac88f61",
+        "firstSeen": 1794867925,
+        "pushedAt": 1794814996,
         "tag": "latest"
       },
       {
