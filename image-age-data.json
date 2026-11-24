@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T10:11:28Z",
+  "generatedAt": "2026-11-24T22:40:57Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -117,13 +117,13 @@
       "ghcr.io/coredns/charts/coredns": {
         "pins": [
           {
-            "digest": "sha256:7688172cfee7bdd19c2ce98ea2de21694decfa58eebcb4af5878c076b98b7fe5",
+            "digest": "sha256:0e61458f6ee07675e90a98604e7a4936e0d2a8195244351b8379de3367da8c7d",
             "repo": "anthony-spruyt/spruyt-labs",
-            "tag": "1.50.7"
+            "tag": "1.50.8"
           }
         ],
         "tags": [
-          "1.50.7"
+          "1.50.8"
         ]
       },
       "ghcr.io/czlonkowski/n8n-mcp": {
@@ -528,6 +528,18 @@
       },
       {
         "digest": "sha256:4c2cd1dee442c9a99924a378c7c126fac8fef14771579ef567c3f2bdd7a5122a",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381810,
+        "tag": "53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:4c2cd1dee442c9a99924a378c7c126fac8fef14771579ef567c3f2bdd7a5122a",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381810,
+        "tag": "a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:4c2cd1dee442c9a99924a378c7c126fac8fef14771579ef567c3f2bdd7a5122a",
         "firstSeen": 1795420654,
         "pushedAt": 1795381810,
         "tag": "latest"
@@ -545,6 +557,18 @@
         "tag": "debug-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:a97e59debfbb00f104068c1de7d9c6d4163abc117d437d97797ba31b14e9ce9f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381810,
+        "tag": "debug-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:a97e59debfbb00f104068c1de7d9c6d4163abc117d437d97797ba31b14e9ce9f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381810,
+        "tag": "debug-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:2f33c8c531739ebec6c39b0d652638c7f238cfac0f9638eede485b08f5beca79",
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
@@ -555,6 +579,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
         "tag": "riscv64-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:2f33c8c531739ebec6c39b0d652638c7f238cfac0f9638eede485b08f5beca79",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "riscv64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:2f33c8c531739ebec6c39b0d652638c7f238cfac0f9638eede485b08f5beca79",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:3e7f48d714a3298b4df1a69fbc8809dd6fadd16c306838862fffc2895b168158",
@@ -569,6 +605,18 @@
         "tag": "debug-nonroot-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:3e7f48d714a3298b4df1a69fbc8809dd6fadd16c306838862fffc2895b168158",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "debug-nonroot-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:3e7f48d714a3298b4df1a69fbc8809dd6fadd16c306838862fffc2895b168158",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "debug-nonroot-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:85bf22e23ae5e437aedb1e34ce55fceb6c1ca778855cbf9d43159f3dc941a17f",
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
@@ -579,6 +627,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
         "tag": "debug-riscv64-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:85bf22e23ae5e437aedb1e34ce55fceb6c1ca778855cbf9d43159f3dc941a17f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "debug-riscv64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:85bf22e23ae5e437aedb1e34ce55fceb6c1ca778855cbf9d43159f3dc941a17f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "debug-riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:8ce6dd87e9823c5b48dcfb2c8604714ccb351ce59607327bcc4957448da279b5",
@@ -593,6 +653,18 @@
         "tag": "nonroot-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:8ce6dd87e9823c5b48dcfb2c8604714ccb351ce59607327bcc4957448da279b5",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "nonroot-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:8ce6dd87e9823c5b48dcfb2c8604714ccb351ce59607327bcc4957448da279b5",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "nonroot-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:ef87708cde5acf030858c0fd8dbe7e5156fb22aa5a8cf2ad7e24ba2163a23d09",
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
@@ -603,6 +675,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
         "tag": "debug-nonroot-ppc64le-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:ef87708cde5acf030858c0fd8dbe7e5156fb22aa5a8cf2ad7e24ba2163a23d09",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "debug-nonroot-ppc64le-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:ef87708cde5acf030858c0fd8dbe7e5156fb22aa5a8cf2ad7e24ba2163a23d09",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381809,
+        "tag": "debug-nonroot-ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:2b32ad2d4c9b1c83161404aea9fc3d09a8bc693a0badcc92f8f0744e878da5df",
@@ -617,6 +701,18 @@
         "tag": "ppc64le-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:2b32ad2d4c9b1c83161404aea9fc3d09a8bc693a0badcc92f8f0744e878da5df",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "ppc64le-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:2b32ad2d4c9b1c83161404aea9fc3d09a8bc693a0badcc92f8f0744e878da5df",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:386bfe2cab84771be3f1cbc110a926a09bb12d9a21c992f5864d30a6c10e6162",
         "firstSeen": 1795420654,
         "pushedAt": 1795381808,
@@ -627,6 +723,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381808,
         "tag": "nonroot-ppc64le-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:386bfe2cab84771be3f1cbc110a926a09bb12d9a21c992f5864d30a6c10e6162",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "nonroot-ppc64le-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:386bfe2cab84771be3f1cbc110a926a09bb12d9a21c992f5864d30a6c10e6162",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "nonroot-ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:8ee3476ef70702e4a1f5b0b1aadf4be132e031f6954498787a83b98474179747",
@@ -641,6 +749,18 @@
         "tag": "nonroot-riscv64-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:8ee3476ef70702e4a1f5b0b1aadf4be132e031f6954498787a83b98474179747",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "nonroot-riscv64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:8ee3476ef70702e4a1f5b0b1aadf4be132e031f6954498787a83b98474179747",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "nonroot-riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:a0489734cf67667e6422609977e0ab1688fe64b616315b9f9ee7ff88b45d2bb7",
         "firstSeen": 1795420654,
         "pushedAt": 1795381808,
@@ -651,6 +771,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381808,
         "tag": "debug-ppc64le-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:a0489734cf67667e6422609977e0ab1688fe64b616315b9f9ee7ff88b45d2bb7",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "debug-ppc64le-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:a0489734cf67667e6422609977e0ab1688fe64b616315b9f9ee7ff88b45d2bb7",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "debug-ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:d18f516a892a657248ea4faa866baecc09437cc2ba2a86e9c7f3817fa9370810",
@@ -665,6 +797,18 @@
         "tag": "debug-nonroot-riscv64-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:d18f516a892a657248ea4faa866baecc09437cc2ba2a86e9c7f3817fa9370810",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "debug-nonroot-riscv64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:d18f516a892a657248ea4faa866baecc09437cc2ba2a86e9c7f3817fa9370810",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381808,
+        "tag": "debug-nonroot-riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:a22a16eecec05eee695f37212eb880ad932e35a817913106bf0c6ba9883b4b46",
         "firstSeen": 1795420654,
         "pushedAt": 1795381806,
@@ -675,6 +819,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381806,
         "tag": "debug-nonroot-s390x-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:a22a16eecec05eee695f37212eb880ad932e35a817913106bf0c6ba9883b4b46",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381806,
+        "tag": "debug-nonroot-s390x-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:a22a16eecec05eee695f37212eb880ad932e35a817913106bf0c6ba9883b4b46",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381806,
+        "tag": "debug-nonroot-s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:28b14495190ac1335236405f95367f50488437a8bf9c44b7b2cfb66488b0cea9",
@@ -689,6 +845,18 @@
         "tag": "nonroot-s390x-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:28b14495190ac1335236405f95367f50488437a8bf9c44b7b2cfb66488b0cea9",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "nonroot-s390x-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:28b14495190ac1335236405f95367f50488437a8bf9c44b7b2cfb66488b0cea9",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "nonroot-s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:39687a04408999f4dee12aa84fab89cc1bbe03c0983fbcd6e3199ffe18dc5571",
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
@@ -699,6 +867,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
         "tag": "debug-arm-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:39687a04408999f4dee12aa84fab89cc1bbe03c0983fbcd6e3199ffe18dc5571",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "debug-arm-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:39687a04408999f4dee12aa84fab89cc1bbe03c0983fbcd6e3199ffe18dc5571",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "debug-arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:46d6fcc6caa3794ed1863627b34d9750e8ae8f4ea680f3796330c170730c4b21",
@@ -713,10 +893,34 @@
         "tag": "debug-s390x-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:46d6fcc6caa3794ed1863627b34d9750e8ae8f4ea680f3796330c170730c4b21",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "debug-s390x-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:46d6fcc6caa3794ed1863627b34d9750e8ae8f4ea680f3796330c170730c4b21",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "debug-s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:738c2118be1d0386ea6487131fbc7963564b49a7ea249f117c9bf8858267efc8",
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
         "tag": "arm-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:738c2118be1d0386ea6487131fbc7963564b49a7ea249f117c9bf8858267efc8",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "arm-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:738c2118be1d0386ea6487131fbc7963564b49a7ea249f117c9bf8858267efc8",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:738c2118be1d0386ea6487131fbc7963564b49a7ea249f117c9bf8858267efc8",
@@ -737,6 +941,18 @@
         "tag": "s390x-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:9b2d414c868f1ccd44046b9f0324abaa1f1941586a9d985c6d59532d68b8aae9",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "s390x-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:9b2d414c868f1ccd44046b9f0324abaa1f1941586a9d985c6d59532d68b8aae9",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:ac284a84804c7216dde6b1e8d5fb3c293f0c3e4fa6cdeecd5798cbc749b0a8ec",
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
@@ -747,6 +963,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
         "tag": "nonroot-arm-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:ac284a84804c7216dde6b1e8d5fb3c293f0c3e4fa6cdeecd5798cbc749b0a8ec",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "nonroot-arm-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:ac284a84804c7216dde6b1e8d5fb3c293f0c3e4fa6cdeecd5798cbc749b0a8ec",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "nonroot-arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:b872ee516e8ef056ed07edb672c4e30cb01c38f9aa434b414f2dcc13ca1049cc",
@@ -761,6 +989,18 @@
         "tag": "debug-nonroot-arm-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:b872ee516e8ef056ed07edb672c4e30cb01c38f9aa434b414f2dcc13ca1049cc",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "debug-nonroot-arm-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:b872ee516e8ef056ed07edb672c4e30cb01c38f9aa434b414f2dcc13ca1049cc",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381805,
+        "tag": "debug-nonroot-arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:086e2a767844216db68f86aa272d3311c138a0d690021f6e2affd81278f3372b",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -771,6 +1011,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
         "tag": "debug-nonroot-arm64-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:086e2a767844216db68f86aa272d3311c138a0d690021f6e2affd81278f3372b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-nonroot-arm64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:086e2a767844216db68f86aa272d3311c138a0d690021f6e2affd81278f3372b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-nonroot-arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:1bc76f0b74a48a40fc9856f2d412d6dded9c796c5bd36d7a3f4381f24b5f6bd3",
@@ -785,6 +1037,18 @@
         "tag": "nonroot-arm64-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:1bc76f0b74a48a40fc9856f2d412d6dded9c796c5bd36d7a3f4381f24b5f6bd3",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "nonroot-arm64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:1bc76f0b74a48a40fc9856f2d412d6dded9c796c5bd36d7a3f4381f24b5f6bd3",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "nonroot-arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:22fec5604926368cbbdc935020fffa93a1d018f14b38f3e86d21b55658f87c47",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -795,6 +1059,18 @@
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
         "tag": "debug-arm64-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:22fec5604926368cbbdc935020fffa93a1d018f14b38f3e86d21b55658f87c47",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-arm64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:22fec5604926368cbbdc935020fffa93a1d018f14b38f3e86d21b55658f87c47",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:73c338d8fab4df74b5be0aeff3264f74047ee9277d569ed3f1f2c1bd74c1ab07",
@@ -809,10 +1085,34 @@
         "tag": "debug-amd64-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:73c338d8fab4df74b5be0aeff3264f74047ee9277d569ed3f1f2c1bd74c1ab07",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-amd64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:73c338d8fab4df74b5be0aeff3264f74047ee9277d569ed3f1f2c1bd74c1ab07",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:7f8dc7b7524fd10b4b855490a1837aacb4fb0be153f80e181c56902210f6a94f",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
         "tag": "amd64-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:7f8dc7b7524fd10b4b855490a1837aacb4fb0be153f80e181c56902210f6a94f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "amd64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:7f8dc7b7524fd10b4b855490a1837aacb4fb0be153f80e181c56902210f6a94f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:7f8dc7b7524fd10b4b855490a1837aacb4fb0be153f80e181c56902210f6a94f",
@@ -833,6 +1133,18 @@
         "tag": "nonroot-amd64-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:89e00a7e78df216bcbf495e7f43135f03ddbd3e98024a4104731872d6c8cf3c6",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "nonroot-amd64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:89e00a7e78df216bcbf495e7f43135f03ddbd3e98024a4104731872d6c8cf3c6",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "nonroot-amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:c6799131767e8bfcfc85590c5fd926e9a8ef6d5ab3f309c4fc5bc11dd89e05c5",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -845,10 +1157,34 @@
         "tag": "debug-nonroot-amd64-130048d94000cec18d16cc44cc561e1e81052304"
       },
       {
+        "digest": "sha256:c6799131767e8bfcfc85590c5fd926e9a8ef6d5ab3f309c4fc5bc11dd89e05c5",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-nonroot-amd64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:c6799131767e8bfcfc85590c5fd926e9a8ef6d5ab3f309c4fc5bc11dd89e05c5",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "debug-nonroot-amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
         "digest": "sha256:e6874d2522d7d12082deb06432ce49484e8ef7c12e848971ee74dfbff973db1d",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
         "tag": "arm64-130048d94000cec18d16cc44cc561e1e81052304"
+      },
+      {
+        "digest": "sha256:e6874d2522d7d12082deb06432ce49484e8ef7c12e848971ee74dfbff973db1d",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "arm64-53ddfa6bdb968a812ee0dcac5d92c79fb385dc04"
+      },
+      {
+        "digest": "sha256:e6874d2522d7d12082deb06432ce49484e8ef7c12e848971ee74dfbff973db1d",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795381803,
+        "tag": "arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
         "digest": "sha256:e6874d2522d7d12082deb06432ce49484e8ef7c12e848971ee74dfbff973db1d",
@@ -1715,18 +2051,6 @@
         "firstSeen": 1794379936,
         "pushedAt": 1794342102,
         "tag": "1.103.11"
-      },
-      {
-        "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
-        "firstSeen": 1794296039,
-        "pushedAt": 1794265099,
-        "tag": "v1.108.4-lts"
-      },
-      {
-        "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
-        "firstSeen": 1794296039,
-        "pushedAt": 1794265099,
-        "tag": "1.108.4-lts"
       },
       {
         "digest": "sha256:f14a4cd90546d56a673a3a4240199da54f1912138444c3b7ab9705e01df17cdf",
@@ -4145,12 +4469,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1780403850,
         "tag": "v0.50.0-1780403835"
-      },
-      {
-        "digest": "sha256:043b1a27f6de9f2517e1c6e8c1950f337770eaf8a71cec81616b7ca4397cbbe1",
-        "firstSeen": 1793853272,
-        "pushedAt": 1779443925,
-        "tag": "v0.50.0-1779443915"
       }
     ],
     "ghcr.io/coredns/charts/coredns": [
@@ -4725,18 +5043,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1792390887,
         "tag": "2.94.3"
-      },
-      {
-        "digest": "sha256:b23767667690ff51318ede6b16d321b2f966c6be9897d3f0b777426d03dff88b",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792390887,
-        "tag": "2.94"
-      },
-      {
-        "digest": "sha256:af9de83b004e4af87ea194ee60e5a31157b57a3c9ca6bc3ab7e680635834987d",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792390347,
-        "tag": "sha-19b09f5"
       }
     ],
     "ghcr.io/devcontainers/features/github-cli": [
@@ -5795,19 +6101,13 @@
         "firstSeen": 1793853272,
         "pushedAt": 1753622385,
         "tag": "v0.148.2"
-      },
-      {
-        "digest": "sha256:d6fcead2c77a8fe9b1ef94dbdff5053317e972c2325128237ea66d605c77a486",
-        "firstSeen": 1793853272,
-        "pushedAt": 1752240592,
-        "tag": "v0.148.1"
       }
     ],
     "ghcr.io/home-operations/drm-exporter": [
       {
-        "digest": "sha256:578751066b6d35e4b8c66632e6e56f8007a4dd45f9a52ec78bc1064dac2aca91",
-        "firstSeen": 1795515088,
-        "pushedAt": 1795484690,
+        "digest": "sha256:f493c254d0cf9436e7432edcb53129fe7619604d95ab531e20a2086063f215d0",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795517821,
         "tag": "main"
       },
       {
@@ -6591,6 +6891,12 @@
     ],
     "ghcr.io/rook/rook-ceph": [
       {
+        "digest": "sha256:ffc5eb1170123bcf9deea103b183cc1de49e0f11516e6e5aebfb356ee600b014",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795544890,
+        "tag": "1.21.3"
+      },
+      {
         "digest": "sha256:57e04865cd2b34c2b099edcba7048d312fee0477b58f5f90a20c084ee44991df",
         "firstSeen": 1793948720,
         "pushedAt": 1793919822,
@@ -6934,6 +7240,12 @@
       }
     ],
     "ghcr.io/rook/rook-ceph-cluster": [
+      {
+        "digest": "sha256:c4e1a8533f3e3a3cc355aef8cfab8ade144926d29068f9977bf90a04e3c3b1b6",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795544899,
+        "tag": "1.21.3"
+      },
       {
         "digest": "sha256:f5f666c77cfb5bdd45b2d3cebad7b44dc4b3e01bf4b162cd3abf53fe9aaf2447",
         "firstSeen": 1793948720,
@@ -7599,16 +7911,82 @@
     ],
     "ghcr.io/sirkirby/unifi-network-mcp": [
       {
-        "digest": "sha256:e9c8380efecfa1ff3f56ced9c8e2f56d476f481b84eab8316aa6c630ead2c53d",
-        "firstSeen": 1795478934,
-        "pushedAt": 1795451624,
-        "tag": "sha-cf89c83"
+        "digest": "sha256:13701e5117e1d2288850c5eed5a753e9335f1b4fe5123236523da14227c8bdc7",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795556046,
+        "tag": "sha-afb3b01"
+      },
+      {
+        "digest": "sha256:13701e5117e1d2288850c5eed5a753e9335f1b4fe5123236523da14227c8bdc7",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795556046,
+        "tag": "main"
+      },
+      {
+        "digest": "sha256:cee365bd11d2dc5c9a62d7d9680755f8297c2c5ee8b29daa9e3c520d057fcb12",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795552185,
+        "tag": "sha-12ec460"
+      },
+      {
+        "digest": "sha256:33ceb50cf878b80250d56f259ea73b08de54e689a217a0ae780c7c1441fd02a2",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795552165,
+        "tag": "0.50.3"
+      },
+      {
+        "digest": "sha256:33ceb50cf878b80250d56f259ea73b08de54e689a217a0ae780c7c1441fd02a2",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795552165,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:2beb8a91b6787c04a91d86350cff5e004566fc6e9c22bb486f2e9bb6db2199fd",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795551875,
+        "tag": "sha-11354d5"
+      },
+      {
+        "digest": "sha256:f4f087d62b7fbc1d916a1c8873bb11e474922f1d80f6de35c1f73c66508e5728",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795550370,
+        "tag": "sha-f82a110"
+      },
+      {
+        "digest": "sha256:3180868bfd0a9e00dff42796d56170ca93157fd0e64666da93918a6f840d7277",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795550288,
+        "tag": "sha-98964f8"
+      },
+      {
+        "digest": "sha256:7e02841c12883e756b6ec72eceaf001599677a3da4966bcba6778806053cc582",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795550188,
+        "tag": "sha-e665063"
+      },
+      {
+        "digest": "sha256:066bed490a93247427caff702347b8d58600eef40e26b7bed864dcbd9d67740b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795529845,
+        "tag": "sha-4cce9c8"
+      },
+      {
+        "digest": "sha256:41b1af6461fbe8a9e2a2211cd9be470e57ca3b88011297c53257082a678e97ad",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795529766,
+        "tag": "sha-705899b"
+      },
+      {
+        "digest": "sha256:fe0c7947f85921d888bef5e5e9a814bd4c6c777e21494d5e0f2f5976fd4af60a",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795529700,
+        "tag": "sha-b448e16"
       },
       {
         "digest": "sha256:e9c8380efecfa1ff3f56ced9c8e2f56d476f481b84eab8316aa6c630ead2c53d",
         "firstSeen": 1795478934,
         "pushedAt": 1795451624,
-        "tag": "main"
+        "tag": "sha-cf89c83"
       },
       {
         "digest": "sha256:f7650f00f2d5e58cd160abc63446eee43633679418860397511f29c22be2466b",
@@ -7657,12 +8035,6 @@
         "firstSeen": 1795377277,
         "pushedAt": 1795366457,
         "tag": "0.50.2"
-      },
-      {
-        "digest": "sha256:998a13aca929db477158fd4efb94a6189ec8cc200f2fb391a61e8d888797c2a3",
-        "firstSeen": 1795377277,
-        "pushedAt": 1795366457,
-        "tag": "latest"
       },
       {
         "digest": "sha256:07b82fd4485e63233a131ddacf224d7207fc5095ccdd7c5f9e2d5b7afcd1eb6d",
@@ -8335,72 +8707,6 @@
         "firstSeen": 1794514352,
         "pushedAt": 1794493793,
         "tag": "0.45.1"
-      },
-      {
-        "digest": "sha256:3cd98defc05f03d45efec0462a49410479f24e1a6296e8e192f79128a0a4d121",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493764,
-        "tag": "sha-aa4052f"
-      },
-      {
-        "digest": "sha256:b922c30d3bd1b2a60154ac0e3e62d2e0e6035add72cde9a93ca29c1d210ba9d3",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493512,
-        "tag": "sha-663ae14"
-      },
-      {
-        "digest": "sha256:0d2ab0bf776e1451b62e6bd2d7a97ad4a2dba08ca947f3f1f2d1b706464605ab",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794493094,
-        "tag": "sha-93b0e3e"
-      },
-      {
-        "digest": "sha256:8977c8d73c23ab6531f766fe3e17791dfac529ec4d0c1b8cbf45ad5b096c1d98",
-        "firstSeen": 1794468579,
-        "pushedAt": 1794464079,
-        "tag": "sha-70e1e58"
-      },
-      {
-        "digest": "sha256:ba88eb8243c32af63bfd18662aac847ea22d186f5bf6e684a39c2d096cf3b285",
-        "firstSeen": 1794468579,
-        "pushedAt": 1794463949,
-        "tag": "sha-01eb8b9"
-      },
-      {
-        "digest": "sha256:208a88fcd63c24834547cc76f68f745e1a2e1f5fc3d9c1ac7e930d8b26ca29e8",
-        "firstSeen": 1794468579,
-        "pushedAt": 1794461838,
-        "tag": "sha-a5822eb"
-      },
-      {
-        "digest": "sha256:4377371b17d4b06e05e064c6579a5a80bde74d570bf9f6f3c270bb5363db2e4f",
-        "firstSeen": 1794468579,
-        "pushedAt": 1794461723,
-        "tag": "sha-c0b8f2b"
-      },
-      {
-        "digest": "sha256:d2e23fe68d8ed2247752b4d2da3eca15e89fc2b9db25f7c1781cf7b2ff3e262a",
-        "firstSeen": 1794089203,
-        "pushedAt": 1794082615,
-        "tag": "sha-8c35df5"
-      },
-      {
-        "digest": "sha256:5c14d804e23b714850b58c4b45b722aeed9159d0acf47b182a3bfa92d2d17e7c",
-        "firstSeen": 1793948720,
-        "pushedAt": 1793925237,
-        "tag": "0.45.0"
-      },
-      {
-        "digest": "sha256:20a44738b09a326d92acb001d10114256c15e524a73a6bb9b203140103ce32ca",
-        "firstSeen": 1793948720,
-        "pushedAt": 1793920193,
-        "tag": "0.44.1"
-      },
-      {
-        "digest": "sha256:de690e741b5713f45c811defd443964bdb6f02ba3c44e6777dbc5fe093e28a92",
-        "firstSeen": 1793853272,
-        "pushedAt": 1793686474,
-        "tag": "0.44.0"
       }
     ],
     "ghcr.io/spegel-org/helm-charts/spegel": [
@@ -9809,6 +10115,24 @@
     ],
     "ghcr.io/victoriametrics/mcp-victorialogs": [
       {
+        "digest": "sha256:0b3acd058159adc196ace66b2168895d4fbe6cb2ed75bbad49799863ac4dc56e",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795522832,
+        "tag": "v1.11.0"
+      },
+      {
+        "digest": "sha256:0b3acd058159adc196ace66b2168895d4fbe6cb2ed75bbad49799863ac4dc56e",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795522832,
+        "tag": "1.11.0"
+      },
+      {
+        "digest": "sha256:0b3acd058159adc196ace66b2168895d4fbe6cb2ed75bbad49799863ac4dc56e",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795522832,
+        "tag": "latest"
+      },
+      {
         "digest": "sha256:e4b1f38f708a5c99606395ba2de514eab6730ec67440f929c6e3b6f261945d4b",
         "firstSeen": 1795206992,
         "pushedAt": 1795173622,
@@ -9819,12 +10143,6 @@
         "firstSeen": 1795206992,
         "pushedAt": 1795173622,
         "tag": "1.10.0"
-      },
-      {
-        "digest": "sha256:e4b1f38f708a5c99606395ba2de514eab6730ec67440f929c6e3b6f261945d4b",
-        "firstSeen": 1795206992,
-        "pushedAt": 1795173622,
-        "tag": "latest"
       },
       {
         "digest": "sha256:753bb4fbe402ca1a782842f44636830f9895736f11d7fe783b924f8a0daf083d",
@@ -9841,6 +10159,24 @@
     ],
     "ghcr.io/victoriametrics/mcp-victoriametrics": [
       {
+        "digest": "sha256:d304060eaf2e104e6c90e6b68c71a0cac668b7c6aa9fedaa5b35023eaabbaa99",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795515844,
+        "tag": "v1.22.0"
+      },
+      {
+        "digest": "sha256:d304060eaf2e104e6c90e6b68c71a0cac668b7c6aa9fedaa5b35023eaabbaa99",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795515844,
+        "tag": "1.22.0"
+      },
+      {
+        "digest": "sha256:d304060eaf2e104e6c90e6b68c71a0cac668b7c6aa9fedaa5b35023eaabbaa99",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795515844,
+        "tag": "latest"
+      },
+      {
         "digest": "sha256:c03d2a0160871d0870cf082c39c04046fb7951b3cd9ac459f4e1daebc1599e44",
         "firstSeen": 1794514352,
         "pushedAt": 1794482745,
@@ -9851,12 +10187,6 @@
         "firstSeen": 1794514352,
         "pushedAt": 1794482745,
         "tag": "1.21.0"
-      },
-      {
-        "digest": "sha256:c03d2a0160871d0870cf082c39c04046fb7951b3cd9ac459f4e1daebc1599e44",
-        "firstSeen": 1794514352,
-        "pushedAt": 1794482745,
-        "tag": "latest"
       },
       {
         "digest": "sha256:bcbf84f945d6efb03fb8b2d2ccc3294420dccdc0b445752dce96f02619416dfe",
@@ -9881,18 +10211,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1773913056,
         "tag": "1.20.1"
-      },
-      {
-        "digest": "sha256:16d9a30a6629319a8e84a73b9b54e1e9b9e5bf229bc40a7f1717c8602b0c1c09",
-        "firstSeen": 1793853272,
-        "pushedAt": 1773912511,
-        "tag": "v1.120.1"
-      },
-      {
-        "digest": "sha256:16d9a30a6629319a8e84a73b9b54e1e9b9e5bf229bc40a7f1717c8602b0c1c09",
-        "firstSeen": 1793853272,
-        "pushedAt": 1773912511,
-        "tag": "1.120.1"
       },
       {
         "digest": "sha256:30e5aec0eed3412d4a769204074deaccd02343be53def041a96d85c593a487cc",
@@ -9920,6 +10238,42 @@
       }
     ],
     "mcr.microsoft.com/devcontainers/base": [
+      {
+        "digest": "sha256:696efd67a481ca325946bbbb56ca5fe600355894ef93e11dd856e23c8cdb7165",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795532069,
+        "tag": "dev-bookworm"
+      },
+      {
+        "digest": "sha256:696efd67a481ca325946bbbb56ca5fe600355894ef93e11dd856e23c8cdb7165",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795532060,
+        "tag": "dev-debian12"
+      },
+      {
+        "digest": "sha256:17434528b2e38972b250b4388b6d54ed6d22912487158343e447782df6fd7579",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795531005,
+        "tag": "dev-debian"
+      },
+      {
+        "digest": "sha256:17434528b2e38972b250b4388b6d54ed6d22912487158343e447782df6fd7579",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795531005,
+        "tag": "dev-debian13"
+      },
+      {
+        "digest": "sha256:17434528b2e38972b250b4388b6d54ed6d22912487158343e447782df6fd7579",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795531003,
+        "tag": "dev-trixie"
+      },
+      {
+        "digest": "sha256:17434528b2e38972b250b4388b6d54ed6d22912487158343e447782df6fd7579",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795530954,
+        "tag": "dev"
+      },
       {
         "digest": "sha256:d909c1f2f6eb93cebc70e87b7ab704b3bc927eddb39cdfd06a0071ea0000f394",
         "firstSeen": 1795478934,
@@ -9951,18 +10305,6 @@
         "tag": "dev-alpine"
       },
       {
-        "digest": "sha256:3676b057b7c61f573e71432b934657a41f3672af1156e7e0167b687560b11215",
-        "firstSeen": 1795478934,
-        "pushedAt": 1795444908,
-        "tag": "dev-debian12"
-      },
-      {
-        "digest": "sha256:3676b057b7c61f573e71432b934657a41f3672af1156e7e0167b687560b11215",
-        "firstSeen": 1795478934,
-        "pushedAt": 1795444899,
-        "tag": "dev-bookworm"
-      },
-      {
         "digest": "sha256:a9f9c4e4ba5b1395a5ee0fa5e0d57aae6d52b4c76e6c8a3711630c6997e71c4b",
         "firstSeen": 1795478934,
         "pushedAt": 1795444859,
@@ -9979,30 +10321,6 @@
         "firstSeen": 1795478934,
         "pushedAt": 1795444810,
         "tag": "dev-ubuntu"
-      },
-      {
-        "digest": "sha256:3e099b96df1da95db124d615ccb5149c05953aa87db9f613e9b841bcb1dd7c04",
-        "firstSeen": 1795478934,
-        "pushedAt": 1795444782,
-        "tag": "dev-debian13"
-      },
-      {
-        "digest": "sha256:3e099b96df1da95db124d615ccb5149c05953aa87db9f613e9b841bcb1dd7c04",
-        "firstSeen": 1795478934,
-        "pushedAt": 1795444781,
-        "tag": "dev-trixie"
-      },
-      {
-        "digest": "sha256:3e099b96df1da95db124d615ccb5149c05953aa87db9f613e9b841bcb1dd7c04",
-        "firstSeen": 1795478934,
-        "pushedAt": 1795444775,
-        "tag": "dev"
-      },
-      {
-        "digest": "sha256:3e099b96df1da95db124d615ccb5149c05953aa87db9f613e9b841bcb1dd7c04",
-        "firstSeen": 1795478934,
-        "pushedAt": 1795444773,
-        "tag": "dev-debian"
       },
       {
         "digest": "sha256:662439f02c79805e2920418a21057172cbbf81eb046deb86444caaf988b2f101",
@@ -10732,6 +11050,582 @@
       }
     ],
     "mcr.microsoft.com/dotnet/aspnet": [
+      {
+        "digest": "sha256:bcdfe6b8e923ad3d05f01dfa805ab97c99d742823ce030856002a6db38122712",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549370,
+        "tag": "10.0.15-noble-chiseled"
+      },
+      {
+        "digest": "sha256:56b3acde7a00adf79205b7561bb43d23c90cc7b2e93fde18c32e231c893dbcba",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549329,
+        "tag": "10.0-noble-chiseled-composite"
+      },
+      {
+        "digest": "sha256:66a5babac3e19605d07fa2a1cfbe5c88f9300ea870216c061de7f039e92ac56b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549292,
+        "tag": "10.0-noble-chiseled-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:cdda106f3f50e107c45dfedd7ff2231f034e03870139ae8e1e66b5e93d29ae4e",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549287,
+        "tag": "11.0-resolute-chiseled-amd64"
+      },
+      {
+        "digest": "sha256:4864f330997257fbbaa99caf39612af247b0ec415759947160eee226924c662b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549286,
+        "tag": "11.0.0-resolute-chiseled-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:c8dd08a50d8ffd19bd8da72edee05a7ac15b486a5b1869cf46fdb370bf1fbc76",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549285,
+        "tag": "10.0-noble-chiseled-extra"
+      },
+      {
+        "digest": "sha256:1dff6997a135dca7dcbb59f02d928e48f320a268a73c21671bbea57eae43da4c",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549285,
+        "tag": "10.0.15-noble-chiseled-amd64"
+      },
+      {
+        "digest": "sha256:d67cf0382c50a57eb65890e0fb7c4bb8eb598ed151afc656e8700a37e49f87c0",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549285,
+        "tag": "10.0.15-resolute-chiseled-composite-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:d1a9f230df2af8f6503f3c2be139d5f4d323fbd7055697a2c722710cbea08d6a",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549285,
+        "tag": "11.0-resolute-chiseled-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:b092c9cbd1c0bca3931e17710847ac3ecbe0efa8f2490ddcfab53d5f3d449b5f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549284,
+        "tag": "10.0.15-noble-chiseled-composite-amd64"
+      },
+      {
+        "digest": "sha256:b9864ff57866e673b30266d1f4545ce57670773ff19b0337d070e7a91dc5c479",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549284,
+        "tag": "11.0-resolute-chiseled-composite"
+      },
+      {
+        "digest": "sha256:d67cf0382c50a57eb65890e0fb7c4bb8eb598ed151afc656e8700a37e49f87c0",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549283,
+        "tag": "10.0-resolute-chiseled-composite-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:b1d68b25429e33b00d4e66f21b063790047e5ac6ca4c3f88739d167937238d16",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549283,
+        "tag": "10.0-resolute-chiseled-extra-amd64"
+      },
+      {
+        "digest": "sha256:975e8e4ad58f2063c0e8eb29fa7f7905ebda3f38fe3eefec385ad7542e20f023",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549283,
+        "tag": "10.0.15-resolute-chiseled-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:c0f5f6b2790cb2e9dc0e26eceac33d2c2bfa6c5bf91ab37cdea746019084d3b6",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549283,
+        "tag": "11.0.0-resolute-chiseled-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:bcdfe6b8e923ad3d05f01dfa805ab97c99d742823ce030856002a6db38122712",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549282,
+        "tag": "10.0-noble-chiseled"
+      },
+      {
+        "digest": "sha256:56b3acde7a00adf79205b7561bb43d23c90cc7b2e93fde18c32e231c893dbcba",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549282,
+        "tag": "10.0.15-noble-chiseled-composite"
+      },
+      {
+        "digest": "sha256:d1a9f230df2af8f6503f3c2be139d5f4d323fbd7055697a2c722710cbea08d6a",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549282,
+        "tag": "11.0.0-resolute-chiseled-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:3eff099b29c48952b86c10a3202808cfe863547b83601f17029be273452a7e61",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549281,
+        "tag": "10.0-noble-chiseled-composite-extra"
+      },
+      {
+        "digest": "sha256:3218d155e772ee36d4461d00043f2c7adc3b88c74c18adfa6b2f1e091a0e7c66",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549281,
+        "tag": "10.0.15-noble-chiseled-arm64v8"
+      },
+      {
+        "digest": "sha256:b092c9cbd1c0bca3931e17710847ac3ecbe0efa8f2490ddcfab53d5f3d449b5f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549280,
+        "tag": "10.0-noble-chiseled-composite-amd64"
+      },
+      {
+        "digest": "sha256:6660462ba8b1769d211188c2f37941062b41fc49291788476bb30e1965380abf",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549280,
+        "tag": "10.0-resolute-chiseled-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:ee5545ffaf719bdbd1b264bba801a9d785f3bed0db4665f8b174460588f59791",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549280,
+        "tag": "10.0.15-noble-chiseled-composite-arm32v7"
+      },
+      {
+        "digest": "sha256:66a5babac3e19605d07fa2a1cfbe5c88f9300ea870216c061de7f039e92ac56b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549280,
+        "tag": "10.0.15-noble-chiseled-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:b1dc92bedddc159dd9a6d49b4d842e3573bdc02e1b3e101ba46c93e11e1a7353",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549280,
+        "tag": "11.0.0-resolute-chiseled-composite-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:52b98cfee835e77cf8cbaeceb229839df2c937e0f93020756654572067a5ff11",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549279,
+        "tag": "10.0-noble-chiseled-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:975e8e4ad58f2063c0e8eb29fa7f7905ebda3f38fe3eefec385ad7542e20f023",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549279,
+        "tag": "10.0-resolute-chiseled-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:6660462ba8b1769d211188c2f37941062b41fc49291788476bb30e1965380abf",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549279,
+        "tag": "10.0.15-resolute-chiseled-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:1494209b38c8ca2efe7af98136393fc3eac9f1585f5d4900f934ee777895e38f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549279,
+        "tag": "11.0-resolute-chiseled-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:303bf956b4e6805156485b6e6577a35126522e2b15095fae1c38f545104c5498",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549278,
+        "tag": "10.0.15-noble-chiseled-arm32v7"
+      },
+      {
+        "digest": "sha256:9f91f768ba4f77799705351b9c63a31c09f5776e2e11b25e61f32606fc1da478",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549278,
+        "tag": "10.0.15-resolute-chiseled-composite-arm32v7"
+      },
+      {
+        "digest": "sha256:6a308d18b4af97e1fd59451993c1c150b17ca971c97815f28f943e8288fe5165",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549277,
+        "tag": "10.0-resolute-chiseled-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:6a308d18b4af97e1fd59451993c1c150b17ca971c97815f28f943e8288fe5165",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549277,
+        "tag": "10.0.15-resolute-chiseled-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:c0f5f6b2790cb2e9dc0e26eceac33d2c2bfa6c5bf91ab37cdea746019084d3b6",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549277,
+        "tag": "11.0-resolute-chiseled-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:d2a58722ab3746857583a9e755b05a1d55b66cbd3a76b41312c23162559ea4aa",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549276,
+        "tag": "11.0-resolute-chiseled-composite-amd64"
+      },
+      {
+        "digest": "sha256:189c36e1f84ef8d92c09f74253c25ea091d810ecb8473b3f8caa3aadb6c25652",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549276,
+        "tag": "11.0-resolute-chiseled-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:1f1fd6140c01c37ff6787cfc248cde1e85782a2c2c6a445d80bb3a607bc4f9f6",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549275,
+        "tag": "10.0-resolute-chiseled-composite-amd64"
+      },
+      {
+        "digest": "sha256:1f1fd6140c01c37ff6787cfc248cde1e85782a2c2c6a445d80bb3a607bc4f9f6",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549274,
+        "tag": "10.0.15-resolute-chiseled-composite-amd64"
+      },
+      {
+        "digest": "sha256:f89ec083c1f2d43ce6d50eeee1408cf35f17560fb7f46dcefbffd128ff0e8f59",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549274,
+        "tag": "11.0-resolute-chiseled-composite-arm32v7"
+      },
+      {
+        "digest": "sha256:935cab426e6a0cf12ae555b76cc7abaae26ec4efe5da57d17c1d211008495aaf",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549267,
+        "tag": "10.0-resolute-chiseled-composite"
+      },
+      {
+        "digest": "sha256:1dff6997a135dca7dcbb59f02d928e48f320a268a73c21671bbea57eae43da4c",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549266,
+        "tag": "10.0-noble-chiseled-amd64"
+      },
+      {
+        "digest": "sha256:1494209b38c8ca2efe7af98136393fc3eac9f1585f5d4900f934ee777895e38f",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549265,
+        "tag": "11.0.0-resolute-chiseled-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:c2c78c876ca9f3762c762b2024f4ea8696d73d911cb6ac32162877f3bc6547ce",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549263,
+        "tag": "10.0-resolute-chiseled-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:045ba65412b8edcc2f70a779163bf4353d450f72535a0dddf6188d6d945bfaef",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549262,
+        "tag": "11.0.0-resolute-chiseled"
+      },
+      {
+        "digest": "sha256:a51fc7ff693899b28aba438ad7badb503ad8bef4eefcd07c3a86f0e2dd91b6ea",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549260,
+        "tag": "10.0-resolute-chiseled-extra"
+      },
+      {
+        "digest": "sha256:21da837b7b26a3df896a275da04e59cf166b9fd59c1eaee1001a279a79df4d83",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549251,
+        "tag": "10.0.15-resolute-chiseled-amd64"
+      },
+      {
+        "digest": "sha256:cfc34b5a36117b25aa0d101912bb86932a4f74166455e07daa799eafb34bd9d1",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549250,
+        "tag": "10.0-noble-chiseled-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:4f2b9809c1974acd91dc04777bf464808fb5d22a3455c6657a97847077878936",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549250,
+        "tag": "11.0.0-resolute-chiseled-extra"
+      },
+      {
+        "digest": "sha256:cb130174958f7fa1266f7e379da959a199b38f579a69988a08ed2edc3babfb0c",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549249,
+        "tag": "10.0-resolute-chiseled-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:f4791c768ba2761b826da0ff1806b0547ce437fd70687c4607020b000ee126cc",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549249,
+        "tag": "11.0-resolute-chiseled-arm64v8"
+      },
+      {
+        "digest": "sha256:b1d68b25429e33b00d4e66f21b063790047e5ac6ca4c3f88739d167937238d16",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549248,
+        "tag": "10.0.15-resolute-chiseled-extra-amd64"
+      },
+      {
+        "digest": "sha256:d6c4fd3ad0e533484280ba9c337a8b2adca3698a46c1bb191dad810ec1015e3b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549248,
+        "tag": "11.0.0-resolute-chiseled-arm32v7"
+      },
+      {
+        "digest": "sha256:d2a58722ab3746857583a9e755b05a1d55b66cbd3a76b41312c23162559ea4aa",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549247,
+        "tag": "11.0.0-resolute-chiseled-composite-amd64"
+      },
+      {
+        "digest": "sha256:42b64e9b137e1fe99f9158418cb4430a18922f8a2b404eeaa296b8d61f4782cb",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549246,
+        "tag": "10.0-noble-chiseled-extra-amd64"
+      },
+      {
+        "digest": "sha256:4df553feed882190fe5b6a976be4109fb75153588590678d105c20a74e67d8c1",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549246,
+        "tag": "10.0.15-noble-chiseled-composite-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:851d053520f9f4724e36e86e26f58b8c55d47d7d72f30aa5616d99c89c485ffe",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549245,
+        "tag": "10.0.15-resolute-chiseled-composite-extra"
+      },
+      {
+        "digest": "sha256:045ba65412b8edcc2f70a779163bf4353d450f72535a0dddf6188d6d945bfaef",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549244,
+        "tag": "11.0-resolute-chiseled"
+      },
+      {
+        "digest": "sha256:4b2bf3394d68b9ca2100cc3a31c66f6ae6d422fe4cbb795115c14acfe2f52cb0",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549243,
+        "tag": "10.0-noble-chiseled-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:8e8e67f5b1ebd76df254d5e106a2f3b5c66169f32f434fd8254781102d541f7c",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549243,
+        "tag": "10.0.15-noble-chiseled-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:52b98cfee835e77cf8cbaeceb229839df2c937e0f93020756654572067a5ff11",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549237,
+        "tag": "10.0.15-noble-chiseled-composite-extra-amd64"
+      },
+      {
+        "digest": "sha256:c8dd08a50d8ffd19bd8da72edee05a7ac15b486a5b1869cf46fdb370bf1fbc76",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549237,
+        "tag": "10.0.15-noble-chiseled-extra"
+      },
+      {
+        "digest": "sha256:c2c78c876ca9f3762c762b2024f4ea8696d73d911cb6ac32162877f3bc6547ce",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549237,
+        "tag": "10.0.15-resolute-chiseled-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:ee5545ffaf719bdbd1b264bba801a9d785f3bed0db4665f8b174460588f59791",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549236,
+        "tag": "10.0-noble-chiseled-composite-arm32v7"
+      },
+      {
+        "digest": "sha256:4df553feed882190fe5b6a976be4109fb75153588590678d105c20a74e67d8c1",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549236,
+        "tag": "10.0-noble-chiseled-composite-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:f6d92a31d106361f256ff3a61b870d0a12cd7fe5d57f074548e192d907902e9d",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549236,
+        "tag": "10.0.15-resolute-chiseled-arm32v7"
+      },
+      {
+        "digest": "sha256:4f2b9809c1974acd91dc04777bf464808fb5d22a3455c6657a97847077878936",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549236,
+        "tag": "11.0-resolute-chiseled-extra"
+      },
+      {
+        "digest": "sha256:3eff099b29c48952b86c10a3202808cfe863547b83601f17029be273452a7e61",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549235,
+        "tag": "10.0.15-noble-chiseled-composite-extra"
+      },
+      {
+        "digest": "sha256:0d949896e70bde2a686489afef9348d91f207e73c973f96e524f27c73b1d4571",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549235,
+        "tag": "10.0.15-resolute-chiseled-arm64v8"
+      },
+      {
+        "digest": "sha256:303bf956b4e6805156485b6e6577a35126522e2b15095fae1c38f545104c5498",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549234,
+        "tag": "10.0-noble-chiseled-arm32v7"
+      },
+      {
+        "digest": "sha256:cfc34b5a36117b25aa0d101912bb86932a4f74166455e07daa799eafb34bd9d1",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549234,
+        "tag": "10.0.15-noble-chiseled-composite-arm64v8"
+      },
+      {
+        "digest": "sha256:cb130174958f7fa1266f7e379da959a199b38f579a69988a08ed2edc3babfb0c",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549234,
+        "tag": "10.0.15-resolute-chiseled-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:189c36e1f84ef8d92c09f74253c25ea091d810ecb8473b3f8caa3aadb6c25652",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549234,
+        "tag": "11.0.0-resolute-chiseled-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:3218d155e772ee36d4461d00043f2c7adc3b88c74c18adfa6b2f1e091a0e7c66",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549233,
+        "tag": "10.0-noble-chiseled-arm64v8"
+      },
+      {
+        "digest": "sha256:9f91f768ba4f77799705351b9c63a31c09f5776e2e11b25e61f32606fc1da478",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549233,
+        "tag": "10.0-resolute-chiseled-composite-arm32v7"
+      },
+      {
+        "digest": "sha256:4b2bf3394d68b9ca2100cc3a31c66f6ae6d422fe4cbb795115c14acfe2f52cb0",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549233,
+        "tag": "10.0.15-noble-chiseled-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:d6c4fd3ad0e533484280ba9c337a8b2adca3698a46c1bb191dad810ec1015e3b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549233,
+        "tag": "11.0-resolute-chiseled-arm32v7"
+      },
+      {
+        "digest": "sha256:4864f330997257fbbaa99caf39612af247b0ec415759947160eee226924c662b",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549233,
+        "tag": "11.0-resolute-chiseled-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:b9864ff57866e673b30266d1f4545ce57670773ff19b0337d070e7a91dc5c479",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549232,
+        "tag": "11.0.0-resolute-chiseled-composite"
+      },
+      {
+        "digest": "sha256:f3a8c4f53ae202c882d772166d89570ba2268ac4ec898288516b97481434d172",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549232,
+        "tag": "11.0.0-resolute-chiseled-extra-amd64"
+      },
+      {
+        "digest": "sha256:cdda106f3f50e107c45dfedd7ff2231f034e03870139ae8e1e66b5e93d29ae4e",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549231,
+        "tag": "11.0.0-resolute-chiseled-amd64"
+      },
+      {
+        "digest": "sha256:0d949896e70bde2a686489afef9348d91f207e73c973f96e524f27c73b1d4571",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549228,
+        "tag": "10.0-resolute-chiseled-arm64v8"
+      },
+      {
+        "digest": "sha256:851d053520f9f4724e36e86e26f58b8c55d47d7d72f30aa5616d99c89c485ffe",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549228,
+        "tag": "10.0-resolute-chiseled-composite-extra"
+      },
+      {
+        "digest": "sha256:be1e76777da91adb1d2709308f34e3beb7237cc4705dfdbbb0cb30f1fa41f484",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549228,
+        "tag": "11.0-resolute-chiseled-composite-extra"
+      },
+      {
+        "digest": "sha256:b1dc92bedddc159dd9a6d49b4d842e3573bdc02e1b3e101ba46c93e11e1a7353",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549228,
+        "tag": "11.0-resolute-chiseled-composite-extra-arm32v7"
+      },
+      {
+        "digest": "sha256:42b64e9b137e1fe99f9158418cb4430a18922f8a2b404eeaa296b8d61f4782cb",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549227,
+        "tag": "10.0.15-noble-chiseled-extra-amd64"
+      },
+      {
+        "digest": "sha256:d70c784fef20c2427f9620d75a0951b4b73e0c48dcef03ab25d34929a175b394",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549225,
+        "tag": "10.0-resolute-chiseled"
+      },
+      {
+        "digest": "sha256:f6d92a31d106361f256ff3a61b870d0a12cd7fe5d57f074548e192d907902e9d",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549225,
+        "tag": "10.0-resolute-chiseled-arm32v7"
+      },
+      {
+        "digest": "sha256:be1e76777da91adb1d2709308f34e3beb7237cc4705dfdbbb0cb30f1fa41f484",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549225,
+        "tag": "11.0.0-resolute-chiseled-composite-extra"
+      },
+      {
+        "digest": "sha256:935cab426e6a0cf12ae555b76cc7abaae26ec4efe5da57d17c1d211008495aaf",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549224,
+        "tag": "10.0.15-resolute-chiseled-composite"
+      },
+      {
+        "digest": "sha256:f3a8c4f53ae202c882d772166d89570ba2268ac4ec898288516b97481434d172",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549224,
+        "tag": "11.0-resolute-chiseled-extra-amd64"
+      },
+      {
+        "digest": "sha256:d70c784fef20c2427f9620d75a0951b4b73e0c48dcef03ab25d34929a175b394",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549223,
+        "tag": "10.0.15-resolute-chiseled"
+      },
+      {
+        "digest": "sha256:a51fc7ff693899b28aba438ad7badb503ad8bef4eefcd07c3a86f0e2dd91b6ea",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549223,
+        "tag": "10.0.15-resolute-chiseled-extra"
+      },
+      {
+        "digest": "sha256:21da837b7b26a3df896a275da04e59cf166b9fd59c1eaee1001a279a79df4d83",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549220,
+        "tag": "10.0-resolute-chiseled-amd64"
+      },
+      {
+        "digest": "sha256:8e8e67f5b1ebd76df254d5e106a2f3b5c66169f32f434fd8254781102d541f7c",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549219,
+        "tag": "10.0-noble-chiseled-composite-extra-arm64v8"
+      },
+      {
+        "digest": "sha256:f4791c768ba2761b826da0ff1806b0547ce437fd70687c4607020b000ee126cc",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549219,
+        "tag": "11.0.0-resolute-chiseled-arm64v8"
+      },
+      {
+        "digest": "sha256:f89ec083c1f2d43ce6d50eeee1408cf35f17560fb7f46dcefbffd128ff0e8f59",
+        "firstSeen": 1795560057,
+        "pushedAt": 1795549219,
+        "tag": "11.0.0-resolute-chiseled-composite-arm32v7"
+      },
       {
         "digest": "sha256:e9a5dced673a829e57bfcaaa8e3b9ab693cade2ba5a37fa582116cd3f6175c38",
         "firstSeen": 1795515088,
@@ -11717,12 +12611,6 @@
         "tag": "8.0.34-noble-chiseled"
       },
       {
-        "digest": "sha256:7c625e44e5d588b4d7b2a913e94ca4bd5098ce47442da404829e4c7936a764e1",
-        "firstSeen": 1794340523,
-        "pushedAt": 1794336293,
-        "tag": "10.0.15-noble-chiseled"
-      },
-      {
         "digest": "sha256:06caf0e18ebd929e8fb7013b5514e097b62958335dd421b54ecf957dffa48758",
         "firstSeen": 1794340523,
         "pushedAt": 1794336293,
@@ -12009,6 +12897,12 @@
         "firstSeen": 1793853272,
         "pushedAt": 1752009769,
         "tag": "9.0.7-noble-chiseled"
+      },
+      {
+        "digest": "sha256:147773733206bf80a4e28adaaa8802bca4fdcef9adb6412e26de9fa248dd7a0a",
+        "firstSeen": 1795560057,
+        "pushedAt": 1749586469,
+        "tag": "8.0.17-noble-chiseled"
       }
     ],
     "mcr.microsoft.com/dotnet/sdk": [
