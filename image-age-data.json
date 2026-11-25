@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T08:55:15Z",
+  "generatedAt": "2026-11-25T21:53:39Z",
   "inventory": {
     "failedRepos": [],
     "images": {
@@ -28,18 +28,17 @@
       "ghcr.io/berriai/litellm-non_root": {
         "pins": [
           {
-            "digest": "sha256:36e4ec234cf279efa525f229417d8443499464f796d25f19ac5847cd7f16d316",
-            "repo": "anthony-spruyt/spruyt-labs",
-            "tag": "v1.108.3"
+            "digest": "sha256:e9e15fe17b66fc8cda6ff7e18914e1d452785ca404fa20336ec447152f86daba",
+            "repo": "anthony-spruyt/litellm-middleware",
+            "tag": "v1.109.1"
           },
           {
             "digest": "sha256:e9e15fe17b66fc8cda6ff7e18914e1d452785ca404fa20336ec447152f86daba",
-            "repo": "anthony-spruyt/litellm-middleware",
+            "repo": "anthony-spruyt/spruyt-labs",
             "tag": "v1.109.1"
           }
         ],
         "tags": [
-          "v1.108.3",
           "v1.109.1"
         ]
       },
@@ -541,6 +540,12 @@
       },
       {
         "digest": "sha256:4c2cd1dee442c9a99924a378c7c126fac8fef14771579ef567c3f2bdd7a5122a",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381810,
+        "tag": "d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
+        "digest": "sha256:4c2cd1dee442c9a99924a378c7c126fac8fef14771579ef567c3f2bdd7a5122a",
         "firstSeen": 1795420654,
         "pushedAt": 1795381810,
         "tag": "latest"
@@ -570,6 +575,12 @@
         "tag": "debug-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:a97e59debfbb00f104068c1de7d9c6d4163abc117d437d97797ba31b14e9ce9f",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381810,
+        "tag": "debug-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:2f33c8c531739ebec6c39b0d652638c7f238cfac0f9638eede485b08f5beca79",
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
@@ -592,6 +603,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381809,
         "tag": "riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:2f33c8c531739ebec6c39b0d652638c7f238cfac0f9638eede485b08f5beca79",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381809,
+        "tag": "riscv64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:3e7f48d714a3298b4df1a69fbc8809dd6fadd16c306838862fffc2895b168158",
@@ -618,6 +635,12 @@
         "tag": "debug-nonroot-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:3e7f48d714a3298b4df1a69fbc8809dd6fadd16c306838862fffc2895b168158",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381809,
+        "tag": "debug-nonroot-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:85bf22e23ae5e437aedb1e34ce55fceb6c1ca778855cbf9d43159f3dc941a17f",
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
@@ -640,6 +663,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381809,
         "tag": "debug-riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:85bf22e23ae5e437aedb1e34ce55fceb6c1ca778855cbf9d43159f3dc941a17f",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381809,
+        "tag": "debug-riscv64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:8ce6dd87e9823c5b48dcfb2c8604714ccb351ce59607327bcc4957448da279b5",
@@ -666,6 +695,12 @@
         "tag": "nonroot-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:8ce6dd87e9823c5b48dcfb2c8604714ccb351ce59607327bcc4957448da279b5",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381809,
+        "tag": "nonroot-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:ef87708cde5acf030858c0fd8dbe7e5156fb22aa5a8cf2ad7e24ba2163a23d09",
         "firstSeen": 1795420654,
         "pushedAt": 1795381809,
@@ -688,6 +723,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381809,
         "tag": "debug-nonroot-ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:ef87708cde5acf030858c0fd8dbe7e5156fb22aa5a8cf2ad7e24ba2163a23d09",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381809,
+        "tag": "debug-nonroot-ppc64le-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:2b32ad2d4c9b1c83161404aea9fc3d09a8bc693a0badcc92f8f0744e878da5df",
@@ -714,6 +755,12 @@
         "tag": "ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:2b32ad2d4c9b1c83161404aea9fc3d09a8bc693a0badcc92f8f0744e878da5df",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381808,
+        "tag": "ppc64le-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:386bfe2cab84771be3f1cbc110a926a09bb12d9a21c992f5864d30a6c10e6162",
         "firstSeen": 1795420654,
         "pushedAt": 1795381808,
@@ -736,6 +783,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381808,
         "tag": "nonroot-ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:386bfe2cab84771be3f1cbc110a926a09bb12d9a21c992f5864d30a6c10e6162",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381808,
+        "tag": "nonroot-ppc64le-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:8ee3476ef70702e4a1f5b0b1aadf4be132e031f6954498787a83b98474179747",
@@ -762,6 +815,12 @@
         "tag": "nonroot-riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:8ee3476ef70702e4a1f5b0b1aadf4be132e031f6954498787a83b98474179747",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381808,
+        "tag": "nonroot-riscv64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:a0489734cf67667e6422609977e0ab1688fe64b616315b9f9ee7ff88b45d2bb7",
         "firstSeen": 1795420654,
         "pushedAt": 1795381808,
@@ -784,6 +843,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381808,
         "tag": "debug-ppc64le-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:a0489734cf67667e6422609977e0ab1688fe64b616315b9f9ee7ff88b45d2bb7",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381808,
+        "tag": "debug-ppc64le-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:d18f516a892a657248ea4faa866baecc09437cc2ba2a86e9c7f3817fa9370810",
@@ -810,6 +875,12 @@
         "tag": "debug-nonroot-riscv64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:d18f516a892a657248ea4faa866baecc09437cc2ba2a86e9c7f3817fa9370810",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381808,
+        "tag": "debug-nonroot-riscv64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:a22a16eecec05eee695f37212eb880ad932e35a817913106bf0c6ba9883b4b46",
         "firstSeen": 1795420654,
         "pushedAt": 1795381806,
@@ -832,6 +903,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381806,
         "tag": "debug-nonroot-s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:a22a16eecec05eee695f37212eb880ad932e35a817913106bf0c6ba9883b4b46",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381806,
+        "tag": "debug-nonroot-s390x-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:28b14495190ac1335236405f95367f50488437a8bf9c44b7b2cfb66488b0cea9",
@@ -858,6 +935,12 @@
         "tag": "nonroot-s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:28b14495190ac1335236405f95367f50488437a8bf9c44b7b2cfb66488b0cea9",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381805,
+        "tag": "nonroot-s390x-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:39687a04408999f4dee12aa84fab89cc1bbe03c0983fbcd6e3199ffe18dc5571",
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
@@ -880,6 +963,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381805,
         "tag": "debug-arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:39687a04408999f4dee12aa84fab89cc1bbe03c0983fbcd6e3199ffe18dc5571",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381805,
+        "tag": "debug-arm-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:46d6fcc6caa3794ed1863627b34d9750e8ae8f4ea680f3796330c170730c4b21",
@@ -906,6 +995,12 @@
         "tag": "debug-s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:46d6fcc6caa3794ed1863627b34d9750e8ae8f4ea680f3796330c170730c4b21",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381805,
+        "tag": "debug-s390x-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:738c2118be1d0386ea6487131fbc7963564b49a7ea249f117c9bf8858267efc8",
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
@@ -922,6 +1017,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381805,
         "tag": "arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:738c2118be1d0386ea6487131fbc7963564b49a7ea249f117c9bf8858267efc8",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381805,
+        "tag": "arm-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:738c2118be1d0386ea6487131fbc7963564b49a7ea249f117c9bf8858267efc8",
@@ -954,6 +1055,12 @@
         "tag": "s390x-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:9b2d414c868f1ccd44046b9f0324abaa1f1941586a9d985c6d59532d68b8aae9",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381805,
+        "tag": "s390x-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:ac284a84804c7216dde6b1e8d5fb3c293f0c3e4fa6cdeecd5798cbc749b0a8ec",
         "firstSeen": 1795420654,
         "pushedAt": 1795381805,
@@ -976,6 +1083,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381805,
         "tag": "nonroot-arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:ac284a84804c7216dde6b1e8d5fb3c293f0c3e4fa6cdeecd5798cbc749b0a8ec",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381805,
+        "tag": "nonroot-arm-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:b872ee516e8ef056ed07edb672c4e30cb01c38f9aa434b414f2dcc13ca1049cc",
@@ -1002,6 +1115,12 @@
         "tag": "debug-nonroot-arm-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:b872ee516e8ef056ed07edb672c4e30cb01c38f9aa434b414f2dcc13ca1049cc",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381805,
+        "tag": "debug-nonroot-arm-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:086e2a767844216db68f86aa272d3311c138a0d690021f6e2affd81278f3372b",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -1024,6 +1143,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381803,
         "tag": "debug-nonroot-arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:086e2a767844216db68f86aa272d3311c138a0d690021f6e2affd81278f3372b",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "debug-nonroot-arm64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:1bc76f0b74a48a40fc9856f2d412d6dded9c796c5bd36d7a3f4381f24b5f6bd3",
@@ -1050,6 +1175,12 @@
         "tag": "nonroot-arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:1bc76f0b74a48a40fc9856f2d412d6dded9c796c5bd36d7a3f4381f24b5f6bd3",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "nonroot-arm64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:22fec5604926368cbbdc935020fffa93a1d018f14b38f3e86d21b55658f87c47",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -1072,6 +1203,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381803,
         "tag": "debug-arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:22fec5604926368cbbdc935020fffa93a1d018f14b38f3e86d21b55658f87c47",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "debug-arm64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:73c338d8fab4df74b5be0aeff3264f74047ee9277d569ed3f1f2c1bd74c1ab07",
@@ -1098,6 +1235,12 @@
         "tag": "debug-amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:73c338d8fab4df74b5be0aeff3264f74047ee9277d569ed3f1f2c1bd74c1ab07",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "debug-amd64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:7f8dc7b7524fd10b4b855490a1837aacb4fb0be153f80e181c56902210f6a94f",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -1114,6 +1257,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381803,
         "tag": "amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:7f8dc7b7524fd10b4b855490a1837aacb4fb0be153f80e181c56902210f6a94f",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "amd64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:7f8dc7b7524fd10b4b855490a1837aacb4fb0be153f80e181c56902210f6a94f",
@@ -1146,6 +1295,12 @@
         "tag": "nonroot-amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:89e00a7e78df216bcbf495e7f43135f03ddbd3e98024a4104731872d6c8cf3c6",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "nonroot-amd64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:c6799131767e8bfcfc85590c5fd926e9a8ef6d5ab3f309c4fc5bc11dd89e05c5",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -1170,6 +1325,12 @@
         "tag": "debug-nonroot-amd64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
       },
       {
+        "digest": "sha256:c6799131767e8bfcfc85590c5fd926e9a8ef6d5ab3f309c4fc5bc11dd89e05c5",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "debug-nonroot-amd64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
+      },
+      {
         "digest": "sha256:e6874d2522d7d12082deb06432ce49484e8ef7c12e848971ee74dfbff973db1d",
         "firstSeen": 1795420654,
         "pushedAt": 1795381803,
@@ -1186,6 +1347,12 @@
         "firstSeen": 1795560057,
         "pushedAt": 1795381803,
         "tag": "arm64-a6bbb69247f530d1151cbf5c5a6878a15521abe6"
+      },
+      {
+        "digest": "sha256:e6874d2522d7d12082deb06432ce49484e8ef7c12e848971ee74dfbff973db1d",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795381803,
+        "tag": "arm64-d80a5ba65a6abbacd7f441962bdba2ab57e81379"
       },
       {
         "digest": "sha256:e6874d2522d7d12082deb06432ce49484e8ef7c12e848971ee74dfbff973db1d",
@@ -1496,6 +1663,36 @@
     ],
     "ghcr.io/berriai/litellm-non_root": [
       {
+        "digest": "sha256:e06eff3ef3585ad68af69b7fde887fdaabb8b94ead0c6e008081411b5644ad16",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795640802,
+        "tag": "v1.108.18-lts"
+      },
+      {
+        "digest": "sha256:e06eff3ef3585ad68af69b7fde887fdaabb8b94ead0c6e008081411b5644ad16",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795640802,
+        "tag": "1.108.18-lts"
+      },
+      {
+        "digest": "sha256:e06eff3ef3585ad68af69b7fde887fdaabb8b94ead0c6e008081411b5644ad16",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795640802,
+        "tag": "1.108.18"
+      },
+      {
+        "digest": "sha256:e06eff3ef3585ad68af69b7fde887fdaabb8b94ead0c6e008081411b5644ad16",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795640802,
+        "tag": "v1.108.18"
+      },
+      {
+        "digest": "sha256:e06eff3ef3585ad68af69b7fde887fdaabb8b94ead0c6e008081411b5644ad16",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795640802,
+        "tag": "lts"
+      },
+      {
         "digest": "sha256:93c210c79fd963c18fe04e105a0afc90c65d5ec8ae5d25ee947ce89906e225e5",
         "firstSeen": 1795596915,
         "pushedAt": 1795568263,
@@ -1554,12 +1751,6 @@
         "firstSeen": 1795596915,
         "pushedAt": 1795560845,
         "tag": "v1.108.17"
-      },
-      {
-        "digest": "sha256:006449517dc64b89d8e62d55cbddc34cb99cf3daa6b44c70d7fc0eb8bad824a2",
-        "firstSeen": 1795596915,
-        "pushedAt": 1795560845,
-        "tag": "lts"
       },
       {
         "digest": "sha256:f7f1097d400ad97cf840afc313d562d12b54980903b195d8c3c2c2cce3a981c7",
@@ -2124,18 +2315,6 @@
         "firstSeen": 1794118996,
         "pushedAt": 1794090460,
         "tag": "1.108.3"
-      },
-      {
-        "digest": "sha256:c1e177d3c081bcc752b1be423c59d586ed97236d5f8b6b15e649b6d871e11c65",
-        "firstSeen": 1794032254,
-        "pushedAt": 1794002700,
-        "tag": "v1.108.2"
-      },
-      {
-        "digest": "sha256:c1e177d3c081bcc752b1be423c59d586ed97236d5f8b6b15e649b6d871e11c65",
-        "firstSeen": 1794032254,
-        "pushedAt": 1794002700,
-        "tag": "1.108.2"
       }
     ],
     "ghcr.io/bjw-s-labs/helm/app-template": [
@@ -4160,16 +4339,22 @@
     ],
     "ghcr.io/controlplaneio-fluxcd/flux-operator-manifests": [
       {
-        "digest": "sha256:e2ac6173a70f433374fdbd7847ecc90502c850658d5662ec6c4f85245820fc68",
-        "firstSeen": 1795420654,
-        "pushedAt": 1795420521,
-        "tag": "v0.63.1-1795420506"
+        "digest": "sha256:07799b00f3706aea5ff56b29b7c008d73951e126e8574c199a7abbfadd7e58d7",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795616369,
+        "tag": "v0.63.1-1795616356"
+      },
+      {
+        "digest": "sha256:07799b00f3706aea5ff56b29b7c008d73951e126e8574c199a7abbfadd7e58d7",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795616369,
+        "tag": "latest"
       },
       {
         "digest": "sha256:e2ac6173a70f433374fdbd7847ecc90502c850658d5662ec6c4f85245820fc68",
         "firstSeen": 1795420654,
         "pushedAt": 1795420521,
-        "tag": "latest"
+        "tag": "v0.63.1-1795420506"
       },
       {
         "digest": "sha256:ebd2713d7fadee294ee9e77e4d56364929a8998089b1d5f905a32e26e472fe5b",
@@ -4710,22 +4895,28 @@
     ],
     "ghcr.io/czlonkowski/n8n-mcp": [
       {
+        "digest": "sha256:e9f8225316cead4406009fe704e6f222c4ace7c52fec25ae7cd80be1babdcc59",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795643336,
+        "tag": "sha-cad5283"
+      },
+      {
+        "digest": "sha256:e9f8225316cead4406009fe704e6f222c4ace7c52fec25ae7cd80be1babdcc59",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795643336,
+        "tag": "latest"
+      },
+      {
+        "digest": "sha256:e9f8225316cead4406009fe704e6f222c4ace7c52fec25ae7cd80be1babdcc59",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795643336,
+        "tag": "main"
+      },
+      {
         "digest": "sha256:4e4ce914cd982dacfce330fe72f1479a9b6f444b7deb6bfa52c5dd33dff782e8",
         "firstSeen": 1795420654,
         "pushedAt": 1795410757,
         "tag": "sha-a816db8"
-      },
-      {
-        "digest": "sha256:4e4ce914cd982dacfce330fe72f1479a9b6f444b7deb6bfa52c5dd33dff782e8",
-        "firstSeen": 1795420654,
-        "pushedAt": 1795410757,
-        "tag": "latest"
-      },
-      {
-        "digest": "sha256:4e4ce914cd982dacfce330fe72f1479a9b6f444b7deb6bfa52c5dd33dff782e8",
-        "firstSeen": 1795420654,
-        "pushedAt": 1795410757,
-        "tag": "main"
       },
       {
         "digest": "sha256:e7e8377e8bcb683abbe56e6ced70d142bbd4c607cf0fbea438a9365de14ddef1",
@@ -5044,12 +5235,6 @@
         "firstSeen": 1793853272,
         "pushedAt": 1792618971,
         "tag": "2.95.0"
-      },
-      {
-        "digest": "sha256:e3d236f2d350cef85070c08547775e28c3d14efc8d57f1c6e1222f21a5ab35c5",
-        "firstSeen": 1793853272,
-        "pushedAt": 1792618434,
-        "tag": "sha-d8ebc29"
       },
       {
         "digest": "sha256:b23767667690ff51318ede6b16d321b2f966c6be9897d3f0b777426d03dff88b",
@@ -7604,6 +7789,42 @@
     ],
     "ghcr.io/siderolabs/kubelet": [
       {
+        "digest": "sha256:d837231da0e02845b07752a2d12d9bba5086afb8dc4850926862015dcdef8eea",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795624086,
+        "tag": "v1.37.3"
+      },
+      {
+        "digest": "sha256:38eefbf4f4f8fcb2c0f096094a1fd651a98656dec5da147870143df323c8c083",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795624080,
+        "tag": "v1.37.3-fat"
+      },
+      {
+        "digest": "sha256:c74fa6d375294e322905f092247c9f43fc4d99c49792fc96f04f25d1976138ff",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795623990,
+        "tag": "v1.36.7"
+      },
+      {
+        "digest": "sha256:a33569ce1b62db8cc4f8f372204efc4199e097348c86bd6a08f8de43a6df7668",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795623983,
+        "tag": "v1.36.7-fat"
+      },
+      {
+        "digest": "sha256:8467beb8edf10e5172a89e1c2d53264dca782fe62ccbcb6bf18614b103caea82",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795622544,
+        "tag": "v1.35.11"
+      },
+      {
+        "digest": "sha256:c4d6713a95ff3b1fd99be37f000fee9f3484c056a452a03a6a413e9b86a654f2",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795622537,
+        "tag": "v1.35.11-fat"
+      },
+      {
         "digest": "sha256:d23113e940e8997396b8ea73d1ff06a11c0fdb7ea0ab25b549f3f8386748002e",
         "firstSeen": 1793993852,
         "pushedAt": 1793954119,
@@ -7908,32 +8129,104 @@
         "firstSeen": 1793853272,
         "pushedAt": 1781268419,
         "tag": "v1.34.9"
-      },
-      {
-        "digest": "sha256:4d693dd2ae8115ea106828ed3fd4049487f3490adb1318b84020b9c9dad3879e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1781268259,
-        "tag": "v1.33.13"
-      },
-      {
-        "digest": "sha256:9177daacd26a3ad9727280760864ee4cb3de586287457dfe6a1d8b6a33c91ce3",
-        "firstSeen": 1793853272,
-        "pushedAt": 1778666507,
-        "tag": "v1.36.1"
       }
     ],
     "ghcr.io/sirkirby/unifi-network-mcp": [
+      {
+        "digest": "sha256:3ae6569a07f80274d48dec786440f3692e7a45b6d2a53d8d15081f76282eed34",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795639296,
+        "tag": "sha-f676785"
+      },
+      {
+        "digest": "sha256:3ae6569a07f80274d48dec786440f3692e7a45b6d2a53d8d15081f76282eed34",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795639296,
+        "tag": "main"
+      },
+      {
+        "digest": "sha256:c0ff41921060ffa061629661b7d7def61c939b0f83bc224df89572c832fdfe3d",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795638646,
+        "tag": "sha-4a717f8"
+      },
+      {
+        "digest": "sha256:9d1322c7191e97e6cab55d253c51832c47f581c4ac285e0ac1240767d73503a8",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795638372,
+        "tag": "sha-6e8bb77"
+      },
+      {
+        "digest": "sha256:69a1449e4a672371717c40824a842dfea6e38fb844fcf2438caf56cc5aa8c158",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795635813,
+        "tag": "sha-a3d3a07"
+      },
+      {
+        "digest": "sha256:558c51148c7f75c484381c3402e531560dbb6c9956e578bce81c305ac35595b5",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795635802,
+        "tag": "sha-59f4483"
+      },
+      {
+        "digest": "sha256:e84d8c4e0337f20d7aec26d40b9447a0e50018b1e3abf84985b2662169ce01d7",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795635762,
+        "tag": "sha-543013a"
+      },
+      {
+        "digest": "sha256:929e817ed50e31c705aa471abf164fa9388aca8b5c0d9649d69ad175cee5ca4f",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795634282,
+        "tag": "sha-dc64c78"
+      },
+      {
+        "digest": "sha256:8779766314793854b305846a7f58115607ae8bab2f03cff4fe35d425839ade30",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795634090,
+        "tag": "sha-aeef305"
+      },
+      {
+        "digest": "sha256:35bb11a383d7083865f56151d674c9c62087602a9a81065196c7d710bc62f31d",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795627672,
+        "tag": "sha-9d77a66"
+      },
+      {
+        "digest": "sha256:9949e1fca8625129d1156219d9fcbe21a3b86360d05a104dd08f3fa7b78752a9",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795627263,
+        "tag": "sha-fc6ce0d"
+      },
+      {
+        "digest": "sha256:74c389f39f2462c1d92fc94e8aca3ec4a0a3b4ccd730459d55ca5c7179dcea04",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795621605,
+        "tag": "sha-3b3329d"
+      },
+      {
+        "digest": "sha256:2e6e3709f524653a4f381581d699795348a2fc5a4324e6d1d54f15764d018e6b",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795621287,
+        "tag": "sha-093afa5"
+      },
+      {
+        "digest": "sha256:a4a6eab2a03e418a549b9d1659d9641ee12dcceba7a915634399cd0b7a1d3071",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795620128,
+        "tag": "sha-8574a3e"
+      },
+      {
+        "digest": "sha256:a848977c4f0f1c0347e07bccc34dfc1314bc76ec2c5ae1a302a9d318ec9b11c8",
+        "firstSeen": 1795643619,
+        "pushedAt": 1795618693,
+        "tag": "sha-a901b0b"
+      },
       {
         "digest": "sha256:13701e5117e1d2288850c5eed5a753e9335f1b4fe5123236523da14227c8bdc7",
         "firstSeen": 1795560057,
         "pushedAt": 1795556046,
         "tag": "sha-afb3b01"
-      },
-      {
-        "digest": "sha256:13701e5117e1d2288850c5eed5a753e9335f1b4fe5123236523da14227c8bdc7",
-        "firstSeen": 1795560057,
-        "pushedAt": 1795556046,
-        "tag": "main"
       },
       {
         "digest": "sha256:cee365bd11d2dc5c9a62d7d9680755f8297c2c5ee8b29daa9e3c520d057fcb12",
@@ -8720,6 +9013,18 @@
         "firstSeen": 1794514352,
         "pushedAt": 1794493793,
         "tag": "0.45.1"
+      },
+      {
+        "digest": "sha256:5c14d804e23b714850b58c4b45b722aeed9159d0acf47b182a3bfa92d2d17e7c",
+        "firstSeen": 1795643619,
+        "pushedAt": 1793925237,
+        "tag": "0.45.0"
+      },
+      {
+        "digest": "sha256:20a44738b09a326d92acb001d10114256c15e524a73a6bb9b203140103ce32ca",
+        "firstSeen": 1795643619,
+        "pushedAt": 1793920193,
+        "tag": "0.44.1"
       }
     ],
     "ghcr.io/spegel-org/helm-charts/spegel": [
@@ -12192,438 +12497,6 @@
         "tag": "11.0-azurelinux4.0-distroless-composite-extra"
       },
       {
-        "digest": "sha256:c4f7c694b21d77afe150ca0d93b117331c48d5ea1b5d32efd8937e83f3b44a51",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023742,
-        "tag": "10.0.15-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:a66b8a224b8a99caaa3569a53b0b923f35595b924267a0e211a01feea51078ab",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023742,
-        "tag": "11.0-azurelinux4.0-distroless"
-      },
-      {
-        "digest": "sha256:894b797fca2748c9c1f30a4a8ee1134699a0e3c81e60e9e8aad528306e4bf026",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023740,
-        "tag": "11.0-azurelinux4.0-distroless-amd64"
-      },
-      {
-        "digest": "sha256:6a23084820e87b15901b88627faa2331cc0ee78f45bc2fa052127cb864e735a9",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023740,
-        "tag": "11.0-azurelinux4.0-distroless-composite-amd64"
-      },
-      {
-        "digest": "sha256:c43908f19b4e19dd6c7281f7c90e72bbdec6a47acb3967969cc95d7e4878d2c6",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023740,
-        "tag": "11.0.0-azurelinux4.0"
-      },
-      {
-        "digest": "sha256:eb0b927f4ae5ef7de070b3cd463e5705d73b3b74a64781233c63869c0f1c8262",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023739,
-        "tag": "10.0-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:bdef8f3a7282db4ef359acd48f28f350d88872f137a5190bd55b331e17e2557f",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023739,
-        "tag": "11.0-azurelinux4.0-arm64v8"
-      },
-      {
-        "digest": "sha256:894b797fca2748c9c1f30a4a8ee1134699a0e3c81e60e9e8aad528306e4bf026",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023738,
-        "tag": "11.0.0-azurelinux4.0-distroless-amd64"
-      },
-      {
-        "digest": "sha256:eb0b927f4ae5ef7de070b3cd463e5705d73b3b74a64781233c63869c0f1c8262",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023737,
-        "tag": "10.0.15-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:41693bd2d3717c6051b7e5dafb5b00ffcd28fa33dee88856a5761f89f5e59dfd",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023737,
-        "tag": "11.0-azurelinux4.0-amd64"
-      },
-      {
-        "digest": "sha256:eb967f550b247cfd2f66a13d57b5a2180199648de9df63b2b95d94cab7854768",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023736,
-        "tag": "11.0-azurelinux4.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:eb967f550b247cfd2f66a13d57b5a2180199648de9df63b2b95d94cab7854768",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023736,
-        "tag": "11.0.0-azurelinux4.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:a453393f8cf9f0f38568169eb544b62cbc523f3fa18f64f39b337cfca90f84cd",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023736,
-        "tag": "11.0.0-windowsservercore-ltsc2025"
-      },
-      {
-        "digest": "sha256:5ff8b2c055968f3b74fad4a292a4004735f52e83484b19c10836a50d880b23d2",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023735,
-        "tag": "11.0-azurelinux4.0-distroless-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:b3cd7eaf75490fd1fa8c61b9e906f1fa11c15a4d1e4690902ec6540178963be3",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023735,
-        "tag": "11.0.0-azurelinux4.0-distroless-composite-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:b3cd7eaf75490fd1fa8c61b9e906f1fa11c15a4d1e4690902ec6540178963be3",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023734,
-        "tag": "11.0-azurelinux4.0-distroless-composite-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:6a23084820e87b15901b88627faa2331cc0ee78f45bc2fa052127cb864e735a9",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023734,
-        "tag": "11.0.0-azurelinux4.0-distroless-composite-amd64"
-      },
-      {
-        "digest": "sha256:6f8829c5df4da75c6e9cd279d08ec71477582e67b1263bb8ad08510211575e77",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023733,
-        "tag": "11.0-azurelinux4.0-distroless-arm64v8"
-      },
-      {
-        "digest": "sha256:4ce745cd205b4903440cc4501e794271b3f5d3c11bb1fd2747345f33588bea77",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023733,
-        "tag": "11.0-nanoserver-ltsc2025"
-      },
-      {
-        "digest": "sha256:fdab1f7944a647533f586a1909580b7793d4848d82244ef5f91d783521973375",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023732,
-        "tag": "11.0-azurelinux4.0-distroless-composite"
-      },
-      {
-        "digest": "sha256:22c39cca278856250041b47eeb5a4e4049c78c98ea7d97803c235ef5e9259a65",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023730,
-        "tag": "11.0-azurelinux4.0-distroless-extra"
-      },
-      {
-        "digest": "sha256:22c39cca278856250041b47eeb5a4e4049c78c98ea7d97803c235ef5e9259a65",
-        "firstSeen": 1795034824,
-        "pushedAt": 1795023726,
-        "tag": "11.0.0-azurelinux4.0-distroless-extra"
-      },
-      {
-        "digest": "sha256:f1a645cf12d4be6bece729b6e86a52503472dfa9f83289e96cc0efac1340243e",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895236,
-        "tag": "10.0-azurelinux3.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:cc2e4c0529cc00c759f38f51b9bf6a529cd8ab4e27ded14c428f5f60ef9cea3e",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895235,
-        "tag": "11.0.0-azurelinux3.0-distroless-arm64v8"
-      },
-      {
-        "digest": "sha256:cc2e4c0529cc00c759f38f51b9bf6a529cd8ab4e27ded14c428f5f60ef9cea3e",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895234,
-        "tag": "11.0-azurelinux3.0-distroless-arm64v8"
-      },
-      {
-        "digest": "sha256:43c98e2f9bd90d8668026fc094ea04ddbd9c5450d8dc433b682709de01d882cc",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895234,
-        "tag": "11.0.0-azurelinux3.0-distroless-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:f5a8792aa02d355e5d340b70d08d08a82b002a3ae96c70be25d23e5ac3c1b34f",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895232,
-        "tag": "10.0.15-azurelinux3.0-distroless-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:ead3a03f8ab1ca9417c310a8771129c12f21a3cda430421710841ef7d6581cbb",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895231,
-        "tag": "11.0.0-azurelinux3.0-distroless-amd64"
-      },
-      {
-        "digest": "sha256:64f001a2597b07e31aac333bc8cf41d155d776a0e5a4b363724cb17984fdf19b",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895229,
-        "tag": "10.0-azurelinux3.0-distroless-composite"
-      },
-      {
-        "digest": "sha256:00d3417f9604fcc0f2c97311d49921cbd02073666a215640b92c6573d4a28787",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895229,
-        "tag": "11.0-azurelinux3.0-distroless-composite-amd64"
-      },
-      {
-        "digest": "sha256:3264fc1292209fb208bc632aba218f1e7e9db4fa3b30603e25e8e7d507d9cdbe",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895227,
-        "tag": "10.0.15-azurelinux3.0-distroless-composite-amd64"
-      },
-      {
-        "digest": "sha256:b96a1c25c6e37eda02837dca992f369e30f685dd035e336833af867e09534198",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895226,
-        "tag": "10.0-azurelinux3.0-distroless-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:82916d61d8449694c4d58cb9efa69007d14933af8782c24f5b2306aee0764956",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895226,
-        "tag": "10.0.15-azurelinux3.0-distroless-composite-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:f005d839ec07b667c081954b74d0039b3ecca61b53373080728d55f82b8716bd",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895226,
-        "tag": "11.0-azurelinux3.0-distroless-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:39e1d310f141addba18e95ac244050890419bbf6bacd662fe58ece73afbae21e",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895225,
-        "tag": "10.0-azurelinux3.0-distroless-amd64"
-      },
-      {
-        "digest": "sha256:3264fc1292209fb208bc632aba218f1e7e9db4fa3b30603e25e8e7d507d9cdbe",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895224,
-        "tag": "10.0-azurelinux3.0-distroless-composite-amd64"
-      },
-      {
-        "digest": "sha256:0842da65662fd1ab5f6e074e6a37f03f2950c18ea581eb146ab5912b6e8a66a3",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895224,
-        "tag": "11.0.0-azurelinux3.0-distroless-composite-extra"
-      },
-      {
-        "digest": "sha256:f005d839ec07b667c081954b74d0039b3ecca61b53373080728d55f82b8716bd",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895224,
-        "tag": "11.0.0-azurelinux3.0-distroless-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:aab314e9381a1e79ad9a372073410d45db2e444daa451a4cbc19481a7f4eacab",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895224,
-        "tag": "11.0.0-azurelinux3.0-distroless-extra"
-      },
-      {
-        "digest": "sha256:a9c0f8f5e021ef0323ca20d103828bc8361a2ec5bc5b3039302cef31c7b97eea",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895223,
-        "tag": "11.0-azurelinux3.0-distroless-composite"
-      },
-      {
-        "digest": "sha256:b96a1c25c6e37eda02837dca992f369e30f685dd035e336833af867e09534198",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895222,
-        "tag": "10.0.15-azurelinux3.0-distroless-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:00d3417f9604fcc0f2c97311d49921cbd02073666a215640b92c6573d4a28787",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895222,
-        "tag": "11.0.0-azurelinux3.0-distroless-composite-amd64"
-      },
-      {
-        "digest": "sha256:eb9c8b095e9389220e8d9405d1b2a054d9c4139cccf0297d059a102d27b46f49",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895219,
-        "tag": "10.0.15-azurelinux3.0-distroless-composite-extra"
-      },
-      {
-        "digest": "sha256:0842da65662fd1ab5f6e074e6a37f03f2950c18ea581eb146ab5912b6e8a66a3",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895219,
-        "tag": "11.0-azurelinux3.0-distroless-composite-extra"
-      },
-      {
-        "digest": "sha256:205454766cd513937d12bd9692f966007182312f2ee2da01b36fee8eb13f19fe",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895218,
-        "tag": "11.0-azurelinux3.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:f5a8792aa02d355e5d340b70d08d08a82b002a3ae96c70be25d23e5ac3c1b34f",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895216,
-        "tag": "10.0-azurelinux3.0-distroless-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:aab314e9381a1e79ad9a372073410d45db2e444daa451a4cbc19481a7f4eacab",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895213,
-        "tag": "11.0-azurelinux3.0-distroless-extra"
-      },
-      {
-        "digest": "sha256:205454766cd513937d12bd9692f966007182312f2ee2da01b36fee8eb13f19fe",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895213,
-        "tag": "11.0.0-azurelinux3.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:43c98e2f9bd90d8668026fc094ea04ddbd9c5450d8dc433b682709de01d882cc",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895212,
-        "tag": "11.0-azurelinux3.0-distroless-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:b6dbf7ea30a494c53fdfc000e0435db1cf1d6f74245e67b9e28ae097f9ab99d9",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895211,
-        "tag": "11.0.0-azurelinux3.0-distroless"
-      },
-      {
-        "digest": "sha256:eb9c8b095e9389220e8d9405d1b2a054d9c4139cccf0297d059a102d27b46f49",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895202,
-        "tag": "10.0-azurelinux3.0-distroless-composite-extra"
-      },
-      {
-        "digest": "sha256:ead3a03f8ab1ca9417c310a8771129c12f21a3cda430421710841ef7d6581cbb",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895181,
-        "tag": "11.0-azurelinux3.0-distroless-amd64"
-      },
-      {
-        "digest": "sha256:7fd97939f13697623c28bbbc64c50f5978bfc3fdf1409336f246aec940ed343a",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895178,
-        "tag": "11.0.0-azurelinux3.0-distroless-composite-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:7fd97939f13697623c28bbbc64c50f5978bfc3fdf1409336f246aec940ed343a",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895177,
-        "tag": "11.0-azurelinux3.0-distroless-composite-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:27628cb79388540fcbdaaf1bd58ed7a6058794fbf14563f4b68c36ad2910546d",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895175,
-        "tag": "11.0.0-azurelinux3.0-distroless-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:b6dbf7ea30a494c53fdfc000e0435db1cf1d6f74245e67b9e28ae097f9ab99d9",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895172,
-        "tag": "11.0-azurelinux3.0-distroless"
-      },
-      {
-        "digest": "sha256:74beeeaa6c913d19fde119911ba2fc0ffb183752cea28bf3b106d53de8c91ade",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895169,
-        "tag": "10.0-azurelinux3.0-distroless"
-      },
-      {
-        "digest": "sha256:12330ac325425aa4f64d60527c7c87efcb537e92bdb1f079bf041c0c2fc32042",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895168,
-        "tag": "10.0-azurelinux3.0-distroless-arm64v8"
-      },
-      {
-        "digest": "sha256:1ca584d7c7140ee1380555374eb8cd47b4ca7170affa07eb873111a4a10ce325",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895160,
-        "tag": "10.0-azurelinux3.0-distroless-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:82916d61d8449694c4d58cb9efa69007d14933af8782c24f5b2306aee0764956",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895160,
-        "tag": "10.0-azurelinux3.0-distroless-composite-extra-arm64v8"
-      },
-      {
-        "digest": "sha256:12330ac325425aa4f64d60527c7c87efcb537e92bdb1f079bf041c0c2fc32042",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895160,
-        "tag": "10.0.15-azurelinux3.0-distroless-arm64v8"
-      },
-      {
-        "digest": "sha256:da893b71661abc2dad782fac22d084db80a86dd7916e60d3e8fea3ffbdbbcee4",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895160,
-        "tag": "10.0.15-azurelinux3.0-distroless-extra"
-      },
-      {
-        "digest": "sha256:f1a645cf12d4be6bece729b6e86a52503472dfa9f83289e96cc0efac1340243e",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895160,
-        "tag": "10.0.15-azurelinux3.0-distroless-extra-amd64"
-      },
-      {
-        "digest": "sha256:74beeeaa6c913d19fde119911ba2fc0ffb183752cea28bf3b106d53de8c91ade",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895159,
-        "tag": "10.0.15-azurelinux3.0-distroless"
-      },
-      {
-        "digest": "sha256:1ca584d7c7140ee1380555374eb8cd47b4ca7170affa07eb873111a4a10ce325",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895159,
-        "tag": "10.0.15-azurelinux3.0-distroless-composite-extra-amd64"
-      },
-      {
-        "digest": "sha256:39e1d310f141addba18e95ac244050890419bbf6bacd662fe58ece73afbae21e",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895158,
-        "tag": "10.0.15-azurelinux3.0-distroless-amd64"
-      },
-      {
-        "digest": "sha256:a9c0f8f5e021ef0323ca20d103828bc8361a2ec5bc5b3039302cef31c7b97eea",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895156,
-        "tag": "11.0.0-azurelinux3.0-distroless-composite"
-      },
-      {
-        "digest": "sha256:da893b71661abc2dad782fac22d084db80a86dd7916e60d3e8fea3ffbdbbcee4",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895155,
-        "tag": "10.0-azurelinux3.0-distroless-extra"
-      },
-      {
-        "digest": "sha256:64f001a2597b07e31aac333bc8cf41d155d776a0e5a4b363724cb17984fdf19b",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895155,
-        "tag": "10.0.15-azurelinux3.0-distroless-composite"
-      },
-      {
-        "digest": "sha256:27628cb79388540fcbdaaf1bd58ed7a6058794fbf14563f4b68c36ad2910546d",
-        "firstSeen": 1794920911,
-        "pushedAt": 1794895155,
-        "tag": "11.0-azurelinux3.0-distroless-composite-arm64v8"
-      },
-      {
-        "digest": "sha256:e04bd5f372a57f836876c0b2f9a8df0a39f55a1548ddd2c7a287346635fbb189",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361660,
-        "tag": "9.0.23-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:0ba0dbd7186da5246d9abcc413d89401f96c994d1a10f594cc9105236d837de5",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361658,
-        "tag": "9.0-nanoserver-1809"
-      },
-      {
         "digest": "sha256:d71357e76fc64ab5bd62a9d98ba335f746402e08004acad6561fd337ff83c0a4",
         "firstSeen": 1794340523,
         "pushedAt": 1794336325,
@@ -13676,220 +13549,16 @@
         "tag": "9.0-nanoserver-ltsc2022"
       },
       {
-        "digest": "sha256:92e46706e5d38ea0b9b5130bfed33370a7bdc37eefc7d52663b61b28526faecb",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361658,
-        "tag": "9.0-windowsservercore-ltsc2022"
-      },
-      {
-        "digest": "sha256:ac992d27214616d3831b17fec3382ed49e1958af0a82bbd01384c657c5efa3fd",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361658,
-        "tag": "9.0-windowsservercore-ltsc2025"
-      },
-      {
-        "digest": "sha256:3c8ddd59fe87cf0cfb6f06037dbd66afaa4c4e7aadbd77663420a3c80e001e7c",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361657,
-        "tag": "8.0-nanoserver-ltsc2022"
-      },
-      {
-        "digest": "sha256:40a86b7ae0995079d901dddd3162928e66eb07601c58d3025ab30ea69b10100f",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361655,
-        "tag": "8.0-windowsservercore-ltsc2025"
-      },
-      {
-        "digest": "sha256:61f3b251771144a8ce1c0def4fff0e4d71348fbf973f575701a848ecc0b05208",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361654,
-        "tag": "9.0.321-windowsservercore-ltsc2019"
-      },
-      {
-        "digest": "sha256:1adc28f53f010ab4bd2fbba74b16d96a8f2faa689c8ead970e23771348750ee5",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361652,
-        "tag": "8.0-windowsservercore-ltsc2019"
-      },
-      {
-        "digest": "sha256:61f3b251771144a8ce1c0def4fff0e4d71348fbf973f575701a848ecc0b05208",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361616,
-        "tag": "9.0-windowsservercore-ltsc2019"
-      },
-      {
-        "digest": "sha256:ac992d27214616d3831b17fec3382ed49e1958af0a82bbd01384c657c5efa3fd",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361614,
-        "tag": "9.0.321-windowsservercore-ltsc2025"
-      },
-      {
-        "digest": "sha256:1adc28f53f010ab4bd2fbba74b16d96a8f2faa689c8ead970e23771348750ee5",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361604,
-        "tag": "8.0.428-windowsservercore-ltsc2019"
-      },
-      {
-        "digest": "sha256:40a86b7ae0995079d901dddd3162928e66eb07601c58d3025ab30ea69b10100f",
-        "firstSeen": 1794379936,
-        "pushedAt": 1794361603,
-        "tag": "8.0.428-windowsservercore-ltsc2025"
-      },
-      {
-        "digest": "sha256:a6a89666d050f5d4806aa03edbc677291c7fb92191b5b2a8f3bccdec869ab87a",
-        "firstSeen": 1794340523,
-        "pushedAt": 1794336447,
-        "tag": "11.0.100-alpine3.24-aot"
-      },
-      {
-        "digest": "sha256:1b955f179b02df4f0eb5fadedaa898cbe44d620a64aab52eec72c8e91d1355b5",
-        "firstSeen": 1794340523,
-        "pushedAt": 1794336382,
-        "tag": "8.0"
-      },
-      {
-        "digest": "sha256:4f4992f8f302150e4adb5e78c324731e968493a30c0638985ba29cb42a858cd6",
-        "firstSeen": 1794340523,
-        "pushedAt": 1794336379,
-        "tag": "8.0-alpine"
-      },
-      {
-        "digest": "sha256:5ed7382e3590cc1d320860f6230961b9c4d654eb7b9392f5b82038b3fd8aa780",
-        "firstSeen": 1794340523,
-        "pushedAt": 1794336374,
-        "tag": "8.0.428-jammy"
-      },
-      {
-        "digest": "sha256:7bfcc502abdb2483b9b8d0ada3ac2b77fb888aa1824ffe0bb2ad400bc6a9b339",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336370,
-        "tag": "9.0-alpine3.24"
-      },
-      {
-        "digest": "sha256:1b955f179b02df4f0eb5fadedaa898cbe44d620a64aab52eec72c8e91d1355b5",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336368,
-        "tag": "8.0-bookworm-slim"
-      },
-      {
-        "digest": "sha256:4f4992f8f302150e4adb5e78c324731e968493a30c0638985ba29cb42a858cd6",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336365,
-        "tag": "8.0.428-alpine3.24"
-      },
-      {
-        "digest": "sha256:0294f285d062afacc8b5f6d7febb0cd4ee879320e5585fa15f2f4ebf1feb9ba7",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336359,
-        "tag": "10.0.404-alpine3.24"
-      },
-      {
-        "digest": "sha256:c785479263b326cbb43a64940eb16dc0e07f3adf67e2508500242b80d64a17f7",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336359,
-        "tag": "9.0.321-azurelinux3.0"
-      },
-      {
         "digest": "sha256:eeaa543fc683baaae7389e83786f749add545f68cd2fecff19212f23a3bec58f",
         "firstSeen": 1794340523,
         "pushedAt": 1794336358,
         "tag": "9.0.321-noble"
       },
       {
-        "digest": "sha256:1dfdb27e9c2c345cb598925ccf6b13719ecfebea8467bd4745c23a3c108cdf84",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336354,
-        "tag": "9.0-bookworm-slim"
-      },
-      {
-        "digest": "sha256:4f4992f8f302150e4adb5e78c324731e968493a30c0638985ba29cb42a858cd6",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336353,
-        "tag": "8.0-alpine3.24"
-      },
-      {
-        "digest": "sha256:d925a0008079bdde6e19a8d73c0b91d77654b1df20a2eabb3d72ccc6fa36a56e",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336353,
-        "tag": "8.0-azurelinux3.0"
-      },
-      {
-        "digest": "sha256:85991a5d9f61414223b52fa0e343fd4418acd2d71fe00b99253cf974b8a2e117",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336342,
-        "tag": "10.0-alpine3.24-aot"
-      },
-      {
-        "digest": "sha256:1dfdb27e9c2c345cb598925ccf6b13719ecfebea8467bd4745c23a3c108cdf84",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336338,
-        "tag": "9.0"
-      },
-      {
-        "digest": "sha256:7bfcc502abdb2483b9b8d0ada3ac2b77fb888aa1824ffe0bb2ad400bc6a9b339",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336338,
-        "tag": "9.0.321-alpine3.24"
-      },
-      {
-        "digest": "sha256:5ed7382e3590cc1d320860f6230961b9c4d654eb7b9392f5b82038b3fd8aa780",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336325,
-        "tag": "8.0-jammy"
-      },
-      {
-        "digest": "sha256:7bfcc502abdb2483b9b8d0ada3ac2b77fb888aa1824ffe0bb2ad400bc6a9b339",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336322,
-        "tag": "9.0-alpine"
-      },
-      {
-        "digest": "sha256:c785479263b326cbb43a64940eb16dc0e07f3adf67e2508500242b80d64a17f7",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336322,
-        "tag": "9.0-azurelinux3.0"
-      },
-      {
-        "digest": "sha256:a6a89666d050f5d4806aa03edbc677291c7fb92191b5b2a8f3bccdec869ab87a",
-        "firstSeen": 1795034824,
-        "pushedAt": 1794336321,
-        "tag": "11.0-alpine-aot"
-      },
-      {
-        "digest": "sha256:3d5cad4bb76fd0130aefd6c629f7267c4aad40cccc86f7fbd1c81e277b58493b",
-        "firstSeen": 1795515088,
-        "pushedAt": 1794336317,
-        "tag": "8.0-noble"
-      },
-      {
-        "digest": "sha256:52556c0fb9d0f609ae9aeab9efeeba96f4acc2f7038f7696f2235ccbdbb8e290",
-        "firstSeen": 1795515088,
-        "pushedAt": 1794336315,
-        "tag": "11.0-alpine"
-      },
-      {
-        "digest": "sha256:a6a89666d050f5d4806aa03edbc677291c7fb92191b5b2a8f3bccdec869ab87a",
-        "firstSeen": 1795515088,
-        "pushedAt": 1794336314,
-        "tag": "11.0-alpine3.24-aot"
-      },
-      {
         "digest": "sha256:3d5cad4bb76fd0130aefd6c629f7267c4aad40cccc86f7fbd1c81e277b58493b",
         "firstSeen": 1794340523,
         "pushedAt": 1794336313,
         "tag": "8.0.428-noble"
-      },
-      {
-        "digest": "sha256:85991a5d9f61414223b52fa0e343fd4418acd2d71fe00b99253cf974b8a2e117",
-        "firstSeen": 1795515088,
-        "pushedAt": 1794336306,
-        "tag": "10.0-alpine-aot"
-      },
-      {
-        "digest": "sha256:85991a5d9f61414223b52fa0e343fd4418acd2d71fe00b99253cf974b8a2e117",
-        "firstSeen": 1795515088,
-        "pushedAt": 1794336306,
-        "tag": "10.0.404-alpine3.24-aot"
       },
       {
         "digest": "sha256:212fe4cb74627d5adf9817a4088906ae3edff1bd853bb27565d4b46731efe61e",
@@ -15370,7 +15039,7 @@
       {
         "digest": "sha256:0a9d8c8ddf34347eb59aad9a8784f0710de88d6d112726d11d271f9bc6daca26",
         "firstSeen": 1793853272,
-        "pushedAt": 1793189914,
+        "pushedAt": 1793189915,
         "tag": "v1.15.0"
       },
       {
@@ -15382,13 +15051,13 @@
       {
         "digest": "sha256:900f9c109f7a33545d3c811516e8376df9019147b750f5ce3e254468769176ea",
         "firstSeen": 1793853272,
-        "pushedAt": 1784184154,
+        "pushedAt": 1784184152,
         "tag": "v1.14.6"
       },
       {
         "digest": "sha256:3e98f280fd601b37411c5fb7075fd9f337833c480f1644970b727ae0af067782",
         "firstSeen": 1793853272,
-        "pushedAt": 1781973648,
+        "pushedAt": 1781973647,
         "tag": "v1.14.4"
       },
       {
@@ -15400,183 +15069,183 @@
       {
         "digest": "sha256:e7e6440cfd1e919280958f5b5a6ab2b184d385bba774c12ad2a9e1e4183f90d9",
         "firstSeen": 1793853272,
-        "pushedAt": 1773228664,
+        "pushedAt": 1773228672,
         "tag": "v1.14.2"
-      },
-      {
-        "digest": "sha256:4fbdd8fb53c5d1748aeb98f0799798fb073bb11128c13e8415aa254ad1ae0203",
-        "firstSeen": 1793853272,
-        "pushedAt": 1769503455,
-        "tag": "v1.14.0"
       },
       {
         "digest": "sha256:82b57287b29beb757c740dbbe68f2d4723da94715b563fffad5c13438b71b14a",
         "firstSeen": 1793853272,
-        "pushedAt": 1769503436,
+        "pushedAt": 1769503458,
         "tag": "v1.14.1"
+      },
+      {
+        "digest": "sha256:4fbdd8fb53c5d1748aeb98f0799798fb073bb11128c13e8415aa254ad1ae0203",
+        "firstSeen": 1793853272,
+        "pushedAt": 1769503440,
+        "tag": "v1.14.0"
       },
       {
         "digest": "sha256:94caebb89dcfb9d2c4be45bfda34410a3e1092458fbbbc0284365c9e4c9a7818",
         "firstSeen": 1793853272,
-        "pushedAt": 1765823240,
+        "pushedAt": 1765823255,
         "tag": "v1.13.2"
       },
       {
         "digest": "sha256:9b9128672209474da07c91439bf15ed704ae05ad918dd6454e5b6ae14e35fee6",
         "firstSeen": 1793853272,
-        "pushedAt": 1761544501,
+        "pushedAt": 1761544514,
         "tag": "v1.13.1"
       },
       {
         "digest": "sha256:da282c1983a1a330240e6e84eaec9b6120b0de0e7e29e92c44a6acd25f9e0238",
         "firstSeen": 1793853272,
-        "pushedAt": 1760597549,
+        "pushedAt": 1760597532,
         "tag": "v1.13.0"
       },
       {
         "digest": "sha256:986f04c2e15e147d00bdd51e8c51bcef3644b13ff806be7d2ff1b261d6dfbae1",
         "firstSeen": 1793853272,
-        "pushedAt": 1757487159,
+        "pushedAt": 1757487177,
         "tag": "v1.12.4"
       },
       {
         "digest": "sha256:1391544c978029fcddc65068f6ad67f396e55585b664ecccd7fefba029b9b706",
         "firstSeen": 1793853272,
-        "pushedAt": 1756370425,
+        "pushedAt": 1756370401,
         "tag": "v1.12.3"
       },
       {
         "digest": "sha256:af8c8d35a5d184b386c4a6d1a012c8b218d40d1376474c7d071bb6c07201f47d",
         "firstSeen": 1793853272,
-        "pushedAt": 1750062644,
+        "pushedAt": 1750062662,
         "tag": "v1.12.2"
       },
       {
         "digest": "sha256:e8c262566636e6bc340ece6473b0eed193cad045384401529721ddbe6463d31c",
         "firstSeen": 1793853272,
-        "pushedAt": 1744140867,
+        "pushedAt": 1744140861,
         "tag": "v1.12.1"
       },
       {
         "digest": "sha256:40384aa1f5ea6bfdc77997d243aec73da05f27aed0c5e9d65bfa98933c519d97",
         "firstSeen": 1793853272,
-        "pushedAt": 1732477177,
+        "pushedAt": 1732477171,
         "tag": "v1.12.0"
       },
       {
         "digest": "sha256:4190b960ea90e017631e3e1a38eea28e98e057ab60d57d47b3db6e5cf77436f7",
         "firstSeen": 1793853272,
-        "pushedAt": 1731588606,
+        "pushedAt": 1731588607,
         "tag": "v1.11.4"
       },
       {
         "digest": "sha256:9caabbf6238b189a65d0d6e6ac138de60d6a1c419e5a341fbbb7c78382559c6e",
         "firstSeen": 1793853272,
-        "pushedAt": 1722282022,
+        "pushedAt": 1722282027,
         "tag": "v1.11.3"
       },
       {
         "digest": "sha256:1eeb4c7316bacb1d4c8ead65571cd92dd21e27359f0d4917f1a5822a73b75db1",
         "firstSeen": 1793853272,
-        "pushedAt": 1692814385,
+        "pushedAt": 1692814352,
         "tag": "v1.11.1"
       },
       {
         "digest": "sha256:cc3ebb05fbdba439d2d69813f162aa204b027098c8244fb3156e6e7c0f31c548",
         "firstSeen": 1793853272,
-        "pushedAt": 1692177329,
+        "pushedAt": 1692177324,
         "tag": "v1.11.0"
       },
       {
         "digest": "sha256:a0ead06651cf580044aeb0a0feba63591858fb2e43ade8c9dea45a6a89ae7e5e",
         "firstSeen": 1793853272,
-        "pushedAt": 1676028119,
+        "pushedAt": 1676028137,
         "tag": "v1.10.1"
-      },
-      {
-        "digest": "sha256:b82e294de6be763f73ae71266c8f5466e7e03c69f3a1de96efd570284d35bb18",
-        "firstSeen": 1793853272,
-        "pushedAt": 1670345396,
-        "tag": "v1.9.4"
       },
       {
         "digest": "sha256:017727efcfeb7d053af68e51436ce8e65edbc6ca573720afb4f79c8594036955",
         "firstSeen": 1793853272,
-        "pushedAt": 1670345366,
+        "pushedAt": 1670345409,
         "tag": "v1.10.0"
       },
       {
-        "digest": "sha256:8e352a029d304ca7431c6507b56800636c321cb52289686a581ab70aaa8a2e2a",
+        "digest": "sha256:b82e294de6be763f73ae71266c8f5466e7e03c69f3a1de96efd570284d35bb18",
         "firstSeen": 1793853272,
-        "pushedAt": 1660706753,
-        "tag": "v1.9.3"
+        "pushedAt": 1670345400,
+        "tag": "v1.9.4"
       },
       {
-        "digest": "sha256:40ee1b708e20e3a6b8e04ccd8b6b3dd8fd25343eab27c37154946f232649ae21",
+        "digest": "sha256:6e5a02c21641597998b4be7cb5eb1e7b02c0d8d23cce4dd09f4682d463798890",
         "firstSeen": 1793853272,
-        "pushedAt": 1660706752,
-        "tag": "v1.6.9"
-      },
-      {
-        "digest": "sha256:4a6e0769130686518325b21b0c1d0688b54e7c79244d48e1b15634e98e40c6ef",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660706752,
-        "tag": "v1.7.1"
+        "pushedAt": 1660696590,
+        "tag": "v1.8.4"
       },
       {
         "digest": "sha256:43a9f52f5dce39bf1816afe6141724cc2d08811e466dd46e6628c925e2419bdc",
         "firstSeen": 1793853272,
-        "pushedAt": 1660706750,
+        "pushedAt": 1660696589,
         "tag": "v1.8.5"
       },
       {
         "digest": "sha256:cc8fb77bc2a0541949d1d9320a641b82fd392b0d3d8145469ca4709ae769980e",
         "firstSeen": 1793853272,
-        "pushedAt": 1660706749,
+        "pushedAt": 1660696589,
         "tag": "v1.8.0"
       },
       {
-        "digest": "sha256:5b6ec0d6de9baaf3e92d0f66cd96a25b9edbce8716f5f15dcd1a616b3abd590e",
+        "digest": "sha256:40ee1b708e20e3a6b8e04ccd8b6b3dd8fd25343eab27c37154946f232649ae21",
         "firstSeen": 1793853272,
-        "pushedAt": 1660706748,
-        "tag": "v1.8.6"
-      },
-      {
-        "digest": "sha256:642ff9910da6ea9a8624b0234eef52af9ca75ecbec474c5507cb096bdfbae4e5",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660706746,
-        "tag": "v1.8.3"
-      },
-      {
-        "digest": "sha256:6e5a02c21641597998b4be7cb5eb1e7b02c0d8d23cce4dd09f4682d463798890",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660706745,
-        "tag": "v1.8.4"
-      },
-      {
-        "digest": "sha256:2c8d61c46f484d881db43b34d13ca47a269336e576c81cf007ca740fa9ec0800",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660706743,
-        "tag": "v1.6.7"
-      },
-      {
-        "digest": "sha256:46b237764fee52288a7ab075353c77d4e0de55e374c87474409091bd94e442af",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660706742,
-        "tag": "v1.6.6"
+        "pushedAt": 1660696587,
+        "tag": "v1.6.9"
       },
       {
         "digest": "sha256:73ca82b4ce829766d4f1f10947c3a338888f876fbed0540dc849c89ff256e90c",
         "firstSeen": 1793853272,
-        "pushedAt": 1660706739,
+        "pushedAt": 1660696587,
         "tag": "v1.7.0"
+      },
+      {
+        "digest": "sha256:8e352a029d304ca7431c6507b56800636c321cb52289686a581ab70aaa8a2e2a",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696587,
+        "tag": "v1.9.3"
+      },
+      {
+        "digest": "sha256:5b6ec0d6de9baaf3e92d0f66cd96a25b9edbce8716f5f15dcd1a616b3abd590e",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696586,
+        "tag": "v1.8.6"
+      },
+      {
+        "digest": "sha256:4a6e0769130686518325b21b0c1d0688b54e7c79244d48e1b15634e98e40c6ef",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696585,
+        "tag": "v1.7.1"
+      },
+      {
+        "digest": "sha256:642ff9910da6ea9a8624b0234eef52af9ca75ecbec474c5507cb096bdfbae4e5",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696585,
+        "tag": "v1.8.3"
+      },
+      {
+        "digest": "sha256:46b237764fee52288a7ab075353c77d4e0de55e374c87474409091bd94e442af",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696582,
+        "tag": "v1.6.6"
+      },
+      {
+        "digest": "sha256:2c8d61c46f484d881db43b34d13ca47a269336e576c81cf007ca740fa9ec0800",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660696579,
+        "tag": "v1.6.7"
       }
     ],
     "registry.k8s.io/sig-storage/csi-snapshotter": [
       {
         "digest": "sha256:b534b99edb61a5f95e297da8e2a133d36e27ad098e2f643393986e86f093d425",
         "firstSeen": 1795478934,
-        "pushedAt": 1795470117,
+        "pushedAt": 1795470308,
         "tag": "v8.7.1"
       },
       {
@@ -15588,562 +15257,562 @@
       {
         "digest": "sha256:42af0929bcd60a43499825c078a60ff0534e08af8fbeb283aa391be40feb9f3e",
         "firstSeen": 1793853272,
-        "pushedAt": 1780934780,
+        "pushedAt": 1780934622,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:da081c27e8a6d91f36042c1942362d0515ced8d06e18c11b8f893e58c4d6d797",
         "firstSeen": 1793853272,
-        "pushedAt": 1770993541,
+        "pushedAt": 1770993611,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:c7e0a3718832b6197ce8b29fefb3fed3d84f4fbcdf08f4606140dbec2566501d",
         "firstSeen": 1793853272,
-        "pushedAt": 1761600980,
+        "pushedAt": 1761600982,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:bc7be893ecc3ad524194aa6573b2f5c06cd469bdf21a500ab6c99c2ba1c4d64d",
         "firstSeen": 1793853272,
-        "pushedAt": 1750321653,
+        "pushedAt": 1750321660,
         "tag": "v8.3.0"
       },
       {
         "digest": "sha256:5f4bb469fec51147ce157329dab598c758da1b018bad6dad26f0ff469326d769",
         "firstSeen": 1793853272,
-        "pushedAt": 1740731759,
+        "pushedAt": 1740731801,
         "tag": "v8.2.1"
       },
       {
         "digest": "sha256:68d76ee2618d63de1bf9697850a32cb581e3df4c54f677320ccf900dec378b2f",
         "firstSeen": 1793853272,
-        "pushedAt": 1734473141,
+        "pushedAt": 1734473176,
         "tag": "v8.1.1"
-      },
-      {
-        "digest": "sha256:dd788d79cf4c1b8edee6d9b80b8a1ebfc51a38a365c5be656986b129be9ac784",
-        "firstSeen": 1793853272,
-        "pushedAt": 1733851234,
-        "tag": "v8.2.0"
       },
       {
         "digest": "sha256:5f051159c95fd13b0b518436cb20808862d2f7f95f45e036da4242f3416befe4",
         "firstSeen": 1793853272,
-        "pushedAt": 1733851202,
+        "pushedAt": 1733851129,
         "tag": "v8.0.2"
+      },
+      {
+        "digest": "sha256:dd788d79cf4c1b8edee6d9b80b8a1ebfc51a38a365c5be656986b129be9ac784",
+        "firstSeen": 1793853272,
+        "pushedAt": 1733851105,
+        "tag": "v8.2.0"
       },
       {
         "digest": "sha256:b3e90b33781670ac050c22c9e88b9e876493dca248966b9da6f7a90cc412ab86",
         "firstSeen": 1793853272,
-        "pushedAt": 1725048883,
+        "pushedAt": 1725048778,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:2e04046334baf9be425bb0fa1d04c2d1720d770825eedbdbcdb10d430da4ad8c",
         "firstSeen": 1793853272,
-        "pushedAt": 1717520537,
+        "pushedAt": 1717520366,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:6d4a90d6e164db684684295e28ad4b012d7c8a29ee4103cfb7611ce2e9c884bb",
         "firstSeen": 1793853272,
-        "pushedAt": 1716574441,
+        "pushedAt": 1716574252,
         "tag": "v8.0.0"
       },
       {
         "digest": "sha256:bb66be8355958e600e32026e6a1742c86d0cc54401ca53b98a0234bf32636e36",
         "firstSeen": 1793853272,
-        "pushedAt": 1711041727,
+        "pushedAt": 1711041597,
         "tag": "v6.3.4"
       },
       {
         "digest": "sha256:c4b6b02737bc24906fcce57fe6626d1a36cb2b91baa971af2a5e5a919093c34e",
         "firstSeen": 1793853272,
-        "pushedAt": 1711041427,
+        "pushedAt": 1711041398,
         "tag": "v7.0.2"
       },
       {
         "digest": "sha256:1a29ab1e4ecdc33a84062cec757620d9787c28b28793202c5b78ae097c3dee27",
         "firstSeen": 1793853272,
-        "pushedAt": 1707839287,
+        "pushedAt": 1707839273,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:682d5015146de0f922def125a3be1e2a29c43a3eb45700600e4e0733ec3f5752",
         "firstSeen": 1793853272,
-        "pushedAt": 1706742851,
+        "pushedAt": 1706742767,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:f1bd6ee18c4021c1c94f29edfab89b49b6a4d1b800936c19dbef2d75f8202f2d",
         "firstSeen": 1793853272,
-        "pushedAt": 1703632914,
+        "pushedAt": 1703632841,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:4c5a1b57e685b2631909b958487f65af7746361346fcd82a8635bea3ef14509d",
         "firstSeen": 1793853272,
-        "pushedAt": 1699578022,
+        "pushedAt": 1699578179,
         "tag": "v6.3.2"
       },
       {
         "digest": "sha256:65c5ffde8fe6f68a2f19310cfd789befe7bdd16eedda219d9a0024f8fc68b802",
         "firstSeen": 1793853272,
-        "pushedAt": 1697819440,
+        "pushedAt": 1697819435,
         "tag": "v6.3.1"
       },
       {
         "digest": "sha256:5ff5392cb762a41ee9bc4767e3a693249ae08b46a4322f623f24ad6b63dd06b5",
         "firstSeen": 1793853272,
-        "pushedAt": 1697730648,
+        "pushedAt": 1697730604,
         "tag": "v6.2.3"
       },
       {
         "digest": "sha256:93fbf54dd67f586428ea339743160e1a5110c058afde3c2e824f11fbc6efae53",
         "firstSeen": 1793853272,
-        "pushedAt": 1694719086,
+        "pushedAt": 1694719015,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:becc53e25b96573f61f7469923a92fb3e9d3a3781732159954ce0d9da07233a2",
         "firstSeen": 1793853272,
-        "pushedAt": 1685328595,
+        "pushedAt": 1685328644,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:714aa06ccdd3781f1a76487e2dc7592ece9a12ae9e0b726e4f93d1639129b771",
         "firstSeen": 1793853272,
-        "pushedAt": 1672944766,
+        "pushedAt": 1672944778,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:0d8d81948af4897bd07b86046424f022f79634ee0315e9f1d4cdb5c1c8d51c90",
         "firstSeen": 1793853272,
-        "pushedAt": 1672209288,
+        "pushedAt": 1672209451,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:291334908ddf71a4661fd7f6d9d97274de8a5378a2b6fdfeb2ce73414a34f82f",
         "firstSeen": 1793853272,
-        "pushedAt": 1664282953,
+        "pushedAt": 1664282905,
         "tag": "v6.1.0"
-      },
-      {
-        "digest": "sha256:ece29e2217e0faf87973565c062c8508c2b78039169e855032bb357acefa3c98",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997280,
-        "tag": "v3.0.0"
-      },
-      {
-        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997279,
-        "tag": "v4.2.0"
-      },
-      {
-        "digest": "sha256:ac845016480ce5eb18a04c1e4e7a4613900e662367dd1771db1e4ccfcedda5e2",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997279,
-        "tag": "v5.0.0"
-      },
-      {
-        "digest": "sha256:ad16874e2140256a809cada2b4ac3d931d5b73b0bee23ed0f8d60bdd778cfec2",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997279,
-        "tag": "v6.0.1"
-      },
-      {
-        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997279,
-        "tag": "v4.1.1"
-      },
-      {
-        "digest": "sha256:2d719cc8f5f1d3794ee6ae9bc2f93820e78ff34908ab05ed94293e5b7ddebfb0",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997278,
-        "tag": "v2.1.4"
-      },
-      {
-        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997278,
-        "tag": "v1.2.2"
-      },
-      {
-        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997278,
-        "tag": "v4.2.1"
-      },
-      {
-        "digest": "sha256:e27ad21f007bae28eef68934a4834ca0a5c669e4c246c4900378e7ed1680c37e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997278,
-        "tag": "v4.1.0"
-      },
-      {
-        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997276,
-        "tag": "v4.0.0"
-      },
-      {
-        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997276,
-        "tag": "v3.0.1"
       },
       {
         "digest": "sha256:26e327b018c21a49523b759d7787e99553181ae9ef90b6bdc13abe362a43ced0",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997275,
+        "pushedAt": 1660946049,
         "tag": "v3.0.2"
-      },
-      {
-        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997274,
-        "tag": "v4.0.1"
-      },
-      {
-        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997274,
-        "tag": "v1.2.0"
-      },
-      {
-        "digest": "sha256:89e900a160a986a1a7a4eba7f5259e510398fa87ca9b8a729e7dec59e04c7709",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997274,
-        "tag": "v5.0.1"
-      },
-      {
-        "digest": "sha256:9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997273,
-        "tag": "v3.0.3"
-      },
-      {
-        "digest": "sha256:de94e695fc27ee421da8b9932c3d42699fe7b848bc34717f67f4350946bc46c9",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997272,
-        "tag": "v2.1.1"
-      },
-      {
-        "digest": "sha256:1530db9fd380ecee86b48a7b3540568c46adb5a64b7fe718c51d9260c4834fd8",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997271,
-        "tag": "v2.0.1"
-      },
-      {
-        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997269,
-        "tag": "v6.0.0"
-      },
-      {
-        "digest": "sha256:74e5a1c97b0c558fb0c59ea002b6ddc98a236676221030306355ed1423df667e",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997264,
-        "tag": "v2.1.5"
-      },
-      {
-        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997264,
-        "tag": "v2.1.3"
       },
       {
         "digest": "sha256:7f93019f399454598370aab2cc1a652a3b8ff722ab92ec4ca9db0eed53acc4b4",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997263,
+        "pushedAt": 1660946049,
         "tag": "v1.1.0"
       },
       {
-        "digest": "sha256:f0673197110ba3c38a94b42fc0037d0c209b9d17c0b796072d26df72195a7ecd",
+        "digest": "sha256:46ec7b441027cb6db9f7a5b3355623c18fe7da9d4095c2816f48ffc8ad47c170",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997263,
-        "tag": "v2.1.2"
+        "pushedAt": 1660946048,
+        "tag": "v1.2.2"
+      },
+      {
+        "digest": "sha256:51f2dfde5bccac7854b3704689506aeecfb793328427b91115ba253a93e60782",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946048,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:1530db9fd380ecee86b48a7b3540568c46adb5a64b7fe718c51d9260c4834fd8",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946047,
+        "tag": "v2.0.1"
       },
       {
         "digest": "sha256:35ead85dd09aa8cc612fdb598d4e0e2f048bef816f1b74df5eeab67cd21b10aa",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997262,
+        "pushedAt": 1660946047,
         "tag": "v2.1.0"
+      },
+      {
+        "digest": "sha256:89e900a160a986a1a7a4eba7f5259e510398fa87ca9b8a729e7dec59e04c7709",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946047,
+        "tag": "v5.0.1"
+      },
+      {
+        "digest": "sha256:ac845016480ce5eb18a04c1e4e7a4613900e662367dd1771db1e4ccfcedda5e2",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946047,
+        "tag": "v5.0.0"
+      },
+      {
+        "digest": "sha256:ece29e2217e0faf87973565c062c8508c2b78039169e855032bb357acefa3c98",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946047,
+        "tag": "v3.0.0"
+      },
+      {
+        "digest": "sha256:e27ad21f007bae28eef68934a4834ca0a5c669e4c246c4900378e7ed1680c37e",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946046,
+        "tag": "v4.1.0"
+      },
+      {
+        "digest": "sha256:ed98431376c9e944e19a465fe8ea944806714dd95416a0821096c78d66b579bd",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946046,
+        "tag": "v4.1.1"
+      },
+      {
+        "digest": "sha256:ad9ebd1db27bc64e0d9ccac3d945fa598b7e5213aa6def217a10d6a4ae6a9770",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946045,
+        "tag": "v2.1.3"
+      },
+      {
+        "digest": "sha256:19063babf32ef0ddde9253e703be469d5ca390700e8302095bad9e9de7f2438b",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946044,
+        "tag": "v4.2.0"
+      },
+      {
+        "digest": "sha256:74e5a1c97b0c558fb0c59ea002b6ddc98a236676221030306355ed1423df667e",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946044,
+        "tag": "v2.1.5"
+      },
+      {
+        "digest": "sha256:de94e695fc27ee421da8b9932c3d42699fe7b848bc34717f67f4350946bc46c9",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946044,
+        "tag": "v2.1.1"
+      },
+      {
+        "digest": "sha256:e5ce22ddc2a6fbc9b5729dbcfaf1159c4b0d48dad62ddd1b93503c1348e4a406",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946044,
+        "tag": "v3.0.1"
+      },
+      {
+        "digest": "sha256:ad16874e2140256a809cada2b4ac3d931d5b73b0bee23ed0f8d60bdd778cfec2",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946043,
+        "tag": "v6.0.1"
+      },
+      {
+        "digest": "sha256:780754d371551de7f3c7f24b3250f70ee0b1d57bdcba022ec4526f302927cacf",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946042,
+        "tag": "v6.0.0"
+      },
+      {
+        "digest": "sha256:818f35653f2e214db81d655063e81995de9073328a3430498624c140881026a3",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946042,
+        "tag": "v4.2.1"
+      },
+      {
+        "digest": "sha256:40c2be23259f1f9661d94214b9f98fd76ccff2b0659f5ccbca0e1a4529a29fa2",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946039,
+        "tag": "v4.0.1"
+      },
+      {
+        "digest": "sha256:9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946038,
+        "tag": "v3.0.3"
+      },
+      {
+        "digest": "sha256:2d719cc8f5f1d3794ee6ae9bc2f93820e78ff34908ab05ed94293e5b7ddebfb0",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946035,
+        "tag": "v2.1.4"
+      },
+      {
+        "digest": "sha256:4e78bb0116555a10ef59c1cdf0648b06b483903a1919def5e3c7ba68b9fa08cb",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946035,
+        "tag": "v1.2.0"
+      },
+      {
+        "digest": "sha256:f0673197110ba3c38a94b42fc0037d0c209b9d17c0b796072d26df72195a7ecd",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660946034,
+        "tag": "v2.1.2"
       }
     ],
     "registry.k8s.io/sig-storage/snapshot-controller": [
       {
         "digest": "sha256:d3c3893704c86f0fe428a6429c705b7103a653bea151db0fc5ab0fdb25bb2290",
         "firstSeen": 1795478934,
-        "pushedAt": 1795470362,
+        "pushedAt": 1795470350,
         "tag": "v8.7.1"
       },
       {
         "digest": "sha256:8511f417d0072efcd937aedd7cc79a937d5066e64ee17beb6097301c92742f19",
         "firstSeen": 1793853272,
-        "pushedAt": 1791969126,
+        "pushedAt": 1791969227,
         "tag": "v8.7.0"
       },
       {
         "digest": "sha256:81e79f205083f105e573ba2ebfe5964ede7f69a154e8627f53ebbbccd3ed9f70",
         "firstSeen": 1793853272,
-        "pushedAt": 1780934612,
+        "pushedAt": 1780934624,
         "tag": "v8.6.0"
       },
       {
         "digest": "sha256:74ca61ab13e978f03cf0f336a607281d15f04cda0a38a881306365473b28a3d8",
         "firstSeen": 1793853272,
-        "pushedAt": 1770993607,
+        "pushedAt": 1770993505,
         "tag": "v8.5.0"
       },
       {
         "digest": "sha256:b845f4bbc34d70bd84e92f8021f47704df1de3dbabbd8289969651360b39d605",
         "firstSeen": 1793853272,
-        "pushedAt": 1761601018,
+        "pushedAt": 1761601024,
         "tag": "v8.4.0"
       },
       {
         "digest": "sha256:12c2da094b02ffa8fa249e17b943b755b464604880cc2cfd85977088c1a2c458",
         "firstSeen": 1793853272,
-        "pushedAt": 1750321676,
+        "pushedAt": 1750321743,
         "tag": "v8.3.0"
       },
       {
         "digest": "sha256:472fa35a89dadb5a715454fad576ec11aa6f2e8378fc09ae26473d139b77c437",
         "firstSeen": 1793853272,
-        "pushedAt": 1740731716,
+        "pushedAt": 1740731781,
         "tag": "v8.2.1"
       },
       {
         "digest": "sha256:0b7c1b2937151dde2eb31eba1ddbd8b59bae0e268f2e1d1f2b4ee5313e45f26d",
         "firstSeen": 1793853272,
-        "pushedAt": 1734473188,
+        "pushedAt": 1734473133,
         "tag": "v8.1.1"
-      },
-      {
-        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
-        "firstSeen": 1793853272,
-        "pushedAt": 1733851264,
-        "tag": "v8.2.0"
       },
       {
         "digest": "sha256:bb68b81c708f1ab07e3fde2ea5fe19719ec8343956f74971146020418193b42e",
         "firstSeen": 1793853272,
-        "pushedAt": 1733851253,
+        "pushedAt": 1733851162,
         "tag": "v8.0.2"
+      },
+      {
+        "digest": "sha256:9dade8f2f3ab29e3919c41b343f8d77b12178ac51f25574d7ed2d45a3e3ef69d",
+        "firstSeen": 1793853272,
+        "pushedAt": 1733851139,
+        "tag": "v8.2.0"
       },
       {
         "digest": "sha256:a8a6749641849a6d7e560d26647e88dbd605a75cbff1823568ab90287ea29038",
         "firstSeen": 1793853272,
-        "pushedAt": 1725048766,
+        "pushedAt": 1725048922,
         "tag": "v8.1.0"
       },
       {
         "digest": "sha256:32b8e4254751c9935c796e6e5c07fe804250bd5032ab78f7133a00f75d504596",
         "firstSeen": 1793853272,
-        "pushedAt": 1717520430,
+        "pushedAt": 1717520466,
         "tag": "v8.0.1"
       },
       {
         "digest": "sha256:d60a4f302a80f7effa0c9c3f6da7de6a49afede590abc39e30e959e844e46a41",
         "firstSeen": 1793853272,
-        "pushedAt": 1716574280,
+        "pushedAt": 1716574340,
         "tag": "v8.0.0"
-      },
-      {
-        "digest": "sha256:a03550d7b25d0d24c6c313a27fcade0065f0cee159805ed0b0083700dcb52b76",
-        "firstSeen": 1793853272,
-        "pushedAt": 1711041632,
-        "tag": "v7.0.2"
       },
       {
         "digest": "sha256:8f12551e3eca417490cfab20945394fc65a0a0de85c36f3012bc872b96d5e1b0",
         "firstSeen": 1793853272,
-        "pushedAt": 1711041452,
+        "pushedAt": 1711041775,
         "tag": "v6.3.4"
+      },
+      {
+        "digest": "sha256:a03550d7b25d0d24c6c313a27fcade0065f0cee159805ed0b0083700dcb52b76",
+        "firstSeen": 1793853272,
+        "pushedAt": 1711041612,
+        "tag": "v7.0.2"
       },
       {
         "digest": "sha256:87a44fa28a10d00968be71deec75883ed6d48132779f798572f2fb49d3b30d95",
         "firstSeen": 1793853272,
-        "pushedAt": 1707839289,
+        "pushedAt": 1707839329,
         "tag": "v7.0.1"
       },
       {
         "digest": "sha256:2084f69694f0fae24d1a3039e02102beaef3ae912c10e59094449196a63ffb7e",
         "firstSeen": 1793853272,
-        "pushedAt": 1706742775,
+        "pushedAt": 1706742870,
         "tag": "v7.0.0"
       },
       {
         "digest": "sha256:00c36f9f73152a878802abef04d52a836ad1f2c1b3bff24ddb470f7a82ba1587",
         "firstSeen": 1793853272,
-        "pushedAt": 1703633089,
+        "pushedAt": 1703633061,
         "tag": "v6.3.3"
       },
       {
         "digest": "sha256:73b4160cb0154c0acbafe7ae6acd4091a4289e8f300867e84522b0ae66660876",
         "firstSeen": 1793853272,
-        "pushedAt": 1700488295,
+        "pushedAt": 1700488281,
         "tag": "v6.3.2"
-      },
-      {
-        "digest": "sha256:c6f972cf23fd437237fdc0e0beb97755d62a9ad4a21564766e2e125952acbc24",
-        "firstSeen": 1793853272,
-        "pushedAt": 1698075353,
-        "tag": "v6.2.3"
       },
       {
         "digest": "sha256:ce6ca3c0e30b19477896dafff55f9f4b18ea59dfb683da85c62700e215e8107b",
         "firstSeen": 1793853272,
-        "pushedAt": 1698075311,
+        "pushedAt": 1698075287,
         "tag": "v6.3.1"
+      },
+      {
+        "digest": "sha256:c6f972cf23fd437237fdc0e0beb97755d62a9ad4a21564766e2e125952acbc24",
+        "firstSeen": 1793853272,
+        "pushedAt": 1698075242,
+        "tag": "v6.2.3"
       },
       {
         "digest": "sha256:0576eac2184b2bca88f30ada56dfec1e98fa8045e27ecb6aedff23c48534a3ca",
         "firstSeen": 1793853272,
-        "pushedAt": 1694719045,
+        "pushedAt": 1694719026,
         "tag": "v6.3.0"
       },
       {
         "digest": "sha256:fb95b65bb88f319f0f7d5397c401a654164f11a191f466b4026fa36085c7141b",
         "firstSeen": 1793853272,
-        "pushedAt": 1685328640,
+        "pushedAt": 1685328633,
         "tag": "v6.2.2"
       },
       {
         "digest": "sha256:98bab4eaf23c5bf75ada9deb7f8c55bd5fc13a48fbb3e658079fc37693375957",
         "firstSeen": 1793853272,
-        "pushedAt": 1672944922,
+        "pushedAt": 1672944902,
         "tag": "v6.2.1"
       },
       {
         "digest": "sha256:2fdd2e646bdda56c9e728d4758c037088f69275815ee10d0b45ae3f4e3cac314",
         "firstSeen": 1793853272,
-        "pushedAt": 1672209356,
+        "pushedAt": 1672209215,
         "tag": "v6.2.0"
       },
       {
         "digest": "sha256:823c75d0c45d1427f6d850070956d9ca657140a7bbf828381541d1d808475280",
         "firstSeen": 1793853272,
-        "pushedAt": 1664282954,
+        "pushedAt": 1664282908,
         "tag": "v6.1.0"
-      },
-      {
-        "digest": "sha256:d5d49bede340a36d29397b8941f26852a08a3d81c5d3bea72d9677774085032c",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997372,
-        "tag": "v3.0.1"
-      },
-      {
-        "digest": "sha256:36ca32433c069246ea8988a7b3dbdf0aabf8345be9122b8a25426e6c487878de",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997371,
-        "tag": "v3.0.0"
-      },
-      {
-        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997371,
-        "tag": "v5.0.0"
-      },
-      {
-        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997369,
-        "tag": "v4.1.1"
-      },
-      {
-        "digest": "sha256:83a49df295ec243d14302509d5b8a9b7522aaf754cbc5fa4fb3701ca60fca65d",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997369,
-        "tag": "v2.1.4"
-      },
-      {
-        "digest": "sha256:95587f8777d77612788f751da79f34f1e2c003f05320d8ffb005baa06bd8a676",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997369,
-        "tag": "v4.2.1"
-      },
-      {
-        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997367,
-        "tag": "v4.0.0"
-      },
-      {
-        "digest": "sha256:7092470172782a926e819a75344aff15cfbdb603f7ec75c117ba499dd93c2cd8",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997367,
-        "tag": "v3.0.3"
       },
       {
         "digest": "sha256:e879ec46a9ba2a99c7e352b8ec8ac63ec0bc7f8dcfab27e92fba5474ab9e8cb4",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997367,
+        "pushedAt": 1660952803,
         "tag": "v2.1.3"
       },
       {
-        "digest": "sha256:247fa8ea236de54e387da3185fadc2bab5e6b3a9ce5a1b6efc93db508e426827",
+        "digest": "sha256:36ca32433c069246ea8988a7b3dbdf0aabf8345be9122b8a25426e6c487878de",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997366,
-        "tag": "v2.1.5"
+        "pushedAt": 1660952802,
+        "tag": "v3.0.0"
       },
       {
-        "digest": "sha256:c20dd675dea1160a7b71bd568fa699220dccaaac5f75e70fc291ea9434bf24dc",
+        "digest": "sha256:7092470172782a926e819a75344aff15cfbdb603f7ec75c117ba499dd93c2cd8",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997365,
-        "tag": "v6.0.0"
+        "pushedAt": 1660952802,
+        "tag": "v3.0.3"
       },
       {
-        "digest": "sha256:a494ff6ec10e05a454458fbf44247d93c9b3a0d983a00b538e442f353b7030c8",
+        "digest": "sha256:83a49df295ec243d14302509d5b8a9b7522aaf754cbc5fa4fb3701ca60fca65d",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997364,
-        "tag": "v3.0.2"
+        "pushedAt": 1660952802,
+        "tag": "v2.1.4"
       },
       {
         "digest": "sha256:a49993c3325b4bb010e52b8e661ebc62b9d45ebceae6e432d3ee637a4833bae7",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997364,
+        "pushedAt": 1660952801,
         "tag": "v6.0.1"
       },
       {
-        "digest": "sha256:c39d470f04a167f2e84e5b21b730e2c0bc7865da3a717448814fffbed541d858",
+        "digest": "sha256:a873679c40a7861816cec621e836a2ff01b2f61bf2de8b8961de64fab3914efb",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997364,
-        "tag": "v4.0.1"
-      },
-      {
-        "digest": "sha256:cc9f25f394a50acd54df580458e0470b1b804dfc8ada59924d51667da9efb165",
-        "firstSeen": 1793853272,
-        "pushedAt": 1660997363,
-        "tag": "v5.0.1"
+        "pushedAt": 1660952801,
+        "tag": "v5.0.0"
       },
       {
         "digest": "sha256:ae335399175b47a47f04db0317d5c0ce4b4e073ab61f5b784326625278009107",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997360,
+        "pushedAt": 1660952801,
         "tag": "v4.1.0"
       },
       {
-        "digest": "sha256:2bde7d7f9d73c4309d67e9d7f94df52110295ef06c9488ca76c40da32b65f05e",
+        "digest": "sha256:d5d49bede340a36d29397b8941f26852a08a3d81c5d3bea72d9677774085032c",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997359,
-        "tag": "v2.1.1"
+        "pushedAt": 1660952801,
+        "tag": "v3.0.1"
       },
       {
-        "digest": "sha256:283803ac94cca42eeb89d2a5264bde14505e0a4fc98f75274cff7c026ba471ab",
+        "digest": "sha256:cc9f25f394a50acd54df580458e0470b1b804dfc8ada59924d51667da9efb165",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997358,
-        "tag": "v4.2.0"
+        "pushedAt": 1660952800,
+        "tag": "v5.0.1"
+      },
+      {
+        "digest": "sha256:a494ff6ec10e05a454458fbf44247d93c9b3a0d983a00b538e442f353b7030c8",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952799,
+        "tag": "v3.0.2"
       },
       {
         "digest": "sha256:253283746365bbd183151b21b1c0b54d0d9f838ca11cda3e9a86780fb01db994",
         "firstSeen": 1793853272,
-        "pushedAt": 1660997355,
+        "pushedAt": 1660952798,
         "tag": "v2.1.2"
+      },
+      {
+        "digest": "sha256:4adf85fc27e72a054494dfcd1d43d5ef9518fe302cf8b3246c03b90cfa9f92a9",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952798,
+        "tag": "v4.1.1"
+      },
+      {
+        "digest": "sha256:2bde7d7f9d73c4309d67e9d7f94df52110295ef06c9488ca76c40da32b65f05e",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952796,
+        "tag": "v2.1.1"
+      },
+      {
+        "digest": "sha256:c20dd675dea1160a7b71bd568fa699220dccaaac5f75e70fc291ea9434bf24dc",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952796,
+        "tag": "v6.0.0"
+      },
+      {
+        "digest": "sha256:00fcc441ea9f72899c25eed61d602272a2a58c5f0014332bdcb5ac24acef08e4",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952794,
+        "tag": "v4.0.0"
+      },
+      {
+        "digest": "sha256:95587f8777d77612788f751da79f34f1e2c003f05320d8ffb005baa06bd8a676",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952794,
+        "tag": "v4.2.1"
+      },
+      {
+        "digest": "sha256:c39d470f04a167f2e84e5b21b730e2c0bc7865da3a717448814fffbed541d858",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952794,
+        "tag": "v4.0.1"
+      },
+      {
+        "digest": "sha256:283803ac94cca42eeb89d2a5264bde14505e0a4fc98f75274cff7c026ba471ab",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952793,
+        "tag": "v4.2.0"
+      },
+      {
+        "digest": "sha256:247fa8ea236de54e387da3185fadc2bab5e6b3a9ce5a1b6efc93db508e426827",
+        "firstSeen": 1793853272,
+        "pushedAt": 1660952790,
+        "tag": "v2.1.5"
       }
     ]
   },
